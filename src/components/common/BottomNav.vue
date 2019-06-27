@@ -16,10 +16,15 @@
         <v-icon>group</v-icon>
       </v-btn>
 
-      <v-btn color="#518FF5" flat value="about" router to="/about">
+      <v-btn color="#518FF5" flat value="devfest" router to="/devfest2019">
+        <span>DevFest</span>
+        <v-icon>favorite</v-icon>
+      </v-btn>
+
+      <!-- <v-btn color="#518FF5" flat value="about" router to="/about">
         <span>About</span>
         <v-icon>toc</v-icon>
-      </v-btn>
+      </v-btn> -->
 
       <!-- <v-btn color="#518FF5" flat value="contact" router to="/contact">
         <span>Contact</span>
