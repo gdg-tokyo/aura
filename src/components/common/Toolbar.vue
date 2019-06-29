@@ -22,6 +22,7 @@
         class="ml-0 google-font hidden-sm-and-down"
         style="text-transform: capitalize;" 
         flat
+        :color="link.color"
         @click="onClick($event, link)"
       >
         {{ link.text }}

@@ -7,8 +7,8 @@ export default new Vuex.Store({
   state: {
     drawer: false,
     items: [ 
+      { text: 'DevFest', to: '/devfest2019', icon: 'favorite', color: 'red'},
       { text: 'Home', to: '/', icon:'home'},
-      { text: 'DevFest', to: '/devfest2019', icon: 'favorite'},
       { text: 'Events', to: '/events', icon: 'rounded_corner'},
       { text: 'Team', to: '/team', icon:'group'},
       { text: 'About', to: '/about', icon: 'toc'},

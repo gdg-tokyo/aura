@@ -12,6 +12,7 @@
           :lazy-src="require('@/assets/img/devfest/and_icon.png')"
           class
           width="80"
+          style="margin:0 auto;"
         ></v-img>
       </v-flex>
       <v-flex xs12 sm6 md6 lg6 class="pa-2 my-0 text-xs-center">
@@ -23,6 +24,7 @@
           :lazy-src="require('@/assets/img/devfest/go_icon.png')"
           class
           width="80"
+          style="margin:0 auto;"
         ></v-img>
       </v-flex>
     </v-layout>

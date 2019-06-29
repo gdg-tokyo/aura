@@ -6,6 +6,7 @@
           :src="require('@/assets/img/devfest/image02.png')"
           :lazy-src="require('@/assets/img/devfest/image02.png')"
           width="250"
+          style="margin:0 auto;"
         ></v-img>
       </v-flex>
       <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
@@ -16,6 +17,7 @@
           :src="require('@/assets/img/devfest/image03.png')"
           :lazy-src="require('@/assets/img/devfest/image03.png')"
           width="250"
+          style="margin:0 auto;"
         ></v-img>
       </v-flex>
     </v-layout>
