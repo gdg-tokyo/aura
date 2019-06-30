@@ -10,17 +10,17 @@
           <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
         </v-layout>
       </v-img>
-      <!-- <v-btn :href="chapterDetails.ChapterMeetupLink" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">スポンサーになる</v-btn> -->
+      <v-btn :href="devfestDetails.SponsorFormUrl" target="_blank" class="ma-0 google-font elevation-1" color="#1a73e8" style="text-transform: capitalize;border-radius:5px;color:white">スポンサーになる</v-btn>
     </v-layout>
   </v-container>
 </template>
 
 <script>
-import ChapterDetails from "@/assets/data/chapterDetails.json";
+import DevFestDetails from "@/assets/data/devfest2019.json";
 export default {
   data() {
     return {
-      chapterDetails: ChapterDetails
+      devfestDetails: DevFestDetails
     };
   }
 };
