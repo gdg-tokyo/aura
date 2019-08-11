@@ -23,8 +23,8 @@
     </v-layout>
     <v-divider></v-divider>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs1 sm1 md1 lg1 class="pa-2 text-xs-left"></v-flex>
-      <v-flex xs3 sm3 md3 lg3 class="pa-2 text-xs-left">
+      <v-flex xs0 sm1 md1 lg1 class="pa-2 text-xs-left"></v-flex>
+      <v-flex xs4 sm3 md3 lg3 class="pa-2 text-xs-left">
         <p class="google-font" style="font-size:150%;">名称</p>
       </v-flex>
       <v-flex xs7 sm7 md7 lg7 class="pa-2 text-xs-left">
@@ -33,8 +33,8 @@
     </v-layout>
     <v-divider></v-divider>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs1 sm1 md1 lg1 class="pa-2 text-xs-left"></v-flex>
-      <v-flex xs3 sm3 md3 lg3 class="pa-2 text-xs-left">
+      <v-flex xs0 sm1 md1 lg1 class="pa-2 text-xs-left"></v-flex>
+      <v-flex xs4 sm3 md3 lg3 class="pa-2 text-xs-left">
         <p
           class="google-font"
           style="font-size:200%; font-weight: bold; color: #fabb01;"
@@ -55,8 +55,8 @@
     </v-layout>
     <v-divider></v-divider>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs1 sm1 md1 lg1 class="pa-2 text-xs-left"></v-flex>
-      <v-flex xs3 sm3 md3 lg3 class="pa-2 text-xs-left">
+      <v-flex xs0 sm1 md1 lg1 class="pa-2 text-xs-left"></v-flex>
+      <v-flex xs4 sm3 md3 lg3 class="pa-2 text-xs-left">
         <p
           class="google-font"
           style="font-size:200%; font-weight: bold; color: #fabb01;"

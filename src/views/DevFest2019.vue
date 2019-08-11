@@ -1,11 +1,11 @@
 <template>
   <v-content class="pa-0">
-    <v-container fluid class="my-4">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10>
-          <DevFestTop />
-        </v-flex>
-      </v-layout>
+    <v-container fluid style="padding: 0">
+      <!-- <v-layout wrap align-center justify-center row fill-height> -->
+      <!-- <v-flex xs12 md10> -->
+      <DevFestTop />
+      <!-- </v-flex> -->
+      <!-- </v-layout> -->
     </v-container>
 
     <v-container fluid style="background-color:#F9F9F9">
@@ -20,6 +20,14 @@
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <DevFestAbout />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="my-4">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10>
+          <DevFestOrganizer />
         </v-flex>
       </v-layout>
     </v-container>
@@ -40,6 +48,7 @@ import DevFestTogether from "@/components/devfest2019/DevFestTogether";
 import DevFestAbout from "@/components/devfest2019/DevFestAbout";
 import DevFestPhoto from "@/components/devfest2019/DevFestPhoto";
 import DevFestJoin from "@/components/devfest2019/DevFestJoin";
+import DevFestOrganizer from "@/components/devfest2019/DevFestOrganizer";
 
 export default {
   components: {
@@ -47,7 +56,8 @@ export default {
     DevFestTogether,
     DevFestAbout,
     DevFestPhoto,
-    DevFestJoin
+    DevFestJoin,
+    DevFestOrganizer
   }
 };
 </script>
