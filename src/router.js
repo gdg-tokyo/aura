@@ -49,7 +49,7 @@ export default new Router({
     {
       path: '/devfest2019',
       name: 'devfest',
-      component: () => import('./views/DevFest.vue')
+      component: () => import('./views/DevFest2019.vue')
     }
   ]
 })

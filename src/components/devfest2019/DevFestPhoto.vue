@@ -1,8 +1,8 @@
 <template>
   <v-layout wrap align-center justify-center row fill-height>
     <v-img
-      :src="require('@/assets/img/devfest/image04.png')"
-      :lazy-src="require('@/assets/img/devfest/image04.png')"
+      :src="require('@/assets/img/devfest2019/image04.png')"
+      :lazy-src="require('@/assets/img/devfest2019/image04.png')"
       width="100%"
     >
       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
