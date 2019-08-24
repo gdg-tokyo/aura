@@ -1,3 +1,57 @@
 {
-    "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A"
+    "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
+    "Partners": [
+        {
+            "name": "Google Developers",
+            "designation": "協力",
+            "logo": "/img/devfest2019/logo/google_developers.png"
+        },
+        {
+            "name": "Peatix",
+            "designation": "メディアパートナー",
+            "logo": "/img/devfest2019/logo/peatix.png"
+        }
+    ],
+    "Organizers": [
+        {
+            "name": "Shoco Sato",
+            "profileImage": "/img/devfest2019/organizers/shoco310.png",
+            "twitter": "https://twitter.com/satoshoco"
+        },
+        {
+            "name": "katsu.t",
+            "profileImage": "/img/devfest2019/organizers/katsu_t.png",
+            "twitter": "https://twitter.com/chiino58"
+        },
+        {
+            "name": "kappa0923",
+            "profileImage": "/img/devfest2019/organizers/kappa0923.png",
+            "twitter": "https://twitter.com/tom_kappa0923"
+        },
+        {
+            "name": "okohs",
+            "profileImage": "/img/devfest2019/organizers/okohs.png",
+            "twitter": "https://twitter.com/_okohs"
+        },
+        {
+            "name": "tokida",
+            "profileImage": "/img/devfest2019/organizers/avatar.png",
+            "twitter": ""
+        },
+        {
+            "name": "wady",
+            "profileImage": "/img/devfest2019/organizers/avatar.png",
+            "twitter": ""
+        },
+        {
+            "name": "Ai Naito",
+            "profileImage": "/img/devfest2019/organizers/avatar.png",
+            "twitter": ""
+        },
+        {
+            "name": "grouB",
+            "profileImage": "/img/devfest2019/organizers/avatar.png",
+            "twitter": ""
+        }
+    ]
 }
