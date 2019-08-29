@@ -59,7 +59,7 @@
     </v-layout>
     <!-- パートナー本体 -->
     <v-flex v-for="(item, i) in partners" :key="i">
-      <v-layout wrap align-center justify-center row fill-height class="my-3">
+      <v-layout wrap align-center justify-center row fill-height class="my-3" v-if="(item.designation).length>0">
         <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
           <p class="google-font display-1">{{ item.designation }}</p>
         </v-flex>

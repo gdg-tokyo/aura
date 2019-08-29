@@ -2,14 +2,24 @@
     "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
     "Partners": [
         {
-            "name": "Google Developers",
-            "designation": "協力",
-            "logo": "/img/devfest2019/logo/google_developers.png"
+            "name": "国立大学法人電気通信大学",
+            "designation": "協賛",
+            "logo": "/img/devfest2019/logo/uec.png"
         },
         {
             "name": "Peatix",
             "designation": "メディアパートナー",
             "logo": "/img/devfest2019/logo/peatix.png"
+        },
+        {
+            "name": "Google Developers",
+            "designation": "協力",
+            "logo": "/img/devfest2019/logo/google_developers.png"
+        },
+        {
+            "name": "grouB",
+            "designation": "",
+            "logo": "/img/devfest2019/logo/grouB.png"
         }
     ],
     "Organizers": [
@@ -35,23 +45,45 @@
         },
         {
             "name": "tokida",
-            "profileImage": "/img/devfest2019/organizers/avatar.png",
+            "profileImage": "/img/devfest2019/organizers/avatar_green.png",
             "twitter": ""
         },
         {
             "name": "wady",
-            "profileImage": "/img/devfest2019/organizers/avatar.png",
+            "profileImage": "/img/devfest2019/organizers/avatar_yellow.png",
             "twitter": ""
         },
         {
             "name": "Ai Naito",
-            "profileImage": "/img/devfest2019/organizers/avatar.png",
+            "profileImage": "/img/devfest2019/organizers/avatar_blue.png",
             "twitter": ""
+        }
+    ],
+    "Sponsors": [
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "gold"
         },
         {
-            "name": "grouB",
-            "profileImage": "/img/devfest2019/organizers/avatar.png",
-            "twitter": ""
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "gold"
+        },
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "silver"
+        },
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "silver"
+        },
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "silver"
         }
     ]
 }
