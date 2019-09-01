@@ -1,3 +1,74 @@
 {
-    "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A"
+    "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
+    "Partners": [
+        {
+            "name": "国立大学法人電気通信大学",
+            "designation": "協賛",
+            "logo": "/img/devfest2019/logo/uec.png"
+        },
+        {
+            "name": "Peatix",
+            "designation": "メディアパートナー",
+            "logo": "/img/devfest2019/logo/peatix.png"
+        },
+        {
+            "name": "Google Developers",
+            "designation": "協力",
+            "logo": "/img/devfest2019/logo/google_developers.png"
+        },
+        {
+            "name": "grouB",
+            "designation": "",
+            "logo": "/img/devfest2019/logo/grouB.png"
+        }
+    ],
+    "Organizers": [
+        {
+            "name": "Shoco Sato",
+            "profileImage": "/img/devfest2019/organizers/shoco310.png",
+            "twitter": "https://twitter.com/satoshoco"
+        },
+        {
+            "name": "katsu.t",
+            "profileImage": "/img/devfest2019/organizers/katsu_t.png",
+            "twitter": "https://twitter.com/chiino58"
+        },
+        {
+            "name": "kappa0923",
+            "profileImage": "/img/devfest2019/organizers/kappa0923.png",
+            "twitter": "https://twitter.com/tom_kappa0923"
+        },
+        {
+            "name": "okohs",
+            "profileImage": "/img/devfest2019/organizers/okohs.png",
+            "twitter": "https://twitter.com/_okohs"
+        }
+    ],
+    "Sponsors": [
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "gold"
+        },
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "gold"
+        },
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "silver"
+        },
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "silver"
+        },
+        {
+            "name": "Circle CI",
+            "logo": "",
+            "designation": "silver"
+        }
+    ]
 }

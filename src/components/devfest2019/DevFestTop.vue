@@ -12,10 +12,10 @@
     </v-img>
     <v-btn
       :href="devfestDetails.SponsorFormUrl"
-      class="pa-4 ma-0 google-font elevation-1"
+      class="pa-8 ma-0 google-font elevation-1"
       target="_blank"
       color="#1a73e8"
-      style="font-size:200%; text-transform: capitalize; border-radius:5px; color:white"
+      style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
     >スポンサーになる</v-btn>
   </v-layout>
   <!-- </v-container> -->
