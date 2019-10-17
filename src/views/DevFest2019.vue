@@ -20,13 +20,13 @@
       </v-layout>
     </v-container>
 
-    <!-- <v-container fluid style="background-color:#F9F9F9">
+    <v-container fluid style="background-color:#F9F9F9">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <DevFestSponsor />
+          <DevFestSpeaker />
         </v-flex>
       </v-layout>
-    </v-container> -->
+    </v-container>
 
     <v-container fluid class="my-4">
       <v-layout wrap align-center justify-center row fill-height>
@@ -54,6 +54,7 @@ import DevFestPhoto from "@/components/devfest2019/DevFestPhoto";
 import DevFestJoin from "@/components/devfest2019/DevFestJoin";
 import DevFestOrganizer from "@/components/devfest2019/DevFestOrganizer";
 // import DevFestSponsor from "@/components/devfest2019/DevFestSponsor";
+import DevFestSpeaker from '@/components/devfest2019/DevFestSpeaker';
 
 export default {
   components: {
@@ -63,6 +64,7 @@ export default {
     DevFestPhoto,
     DevFestJoin,
     DevFestOrganizer,
+    DevFestSpeaker,
     // DevFestSponsor
   }
 };
