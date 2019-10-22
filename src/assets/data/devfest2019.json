@@ -52,28 +52,15 @@
     "Sponsors": [
         {
             "name": "Circle CI",
-            "logo": "",
-            "designation": "gold"
+            "logo": "/img/devfest2019/logo/circleci.png",
+            "designation": "gold",
+            "link": "https://circleci.com/"
         },
         {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "gold"
-        },
-        {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "silver"
-        },
-        {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "silver"
-        },
-        {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "silver"
+            "name": "DeNA",
+            "logo": "/img/devfest2019/logo/circleci.png",
+            "designation": "platinum",
+            "link": "https://circleci.com/"
         }
     ],
     "Speakers": [
