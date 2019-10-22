@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+<url>
+  <loc>https://tokyo.gdgjapan.org/</loc>
+  <priority>0.5</priority>
+  <loc>https://tokyo.gdgjapan.org/home</loc>
+  <priority>0.5</priority>
+  <loc>https://tokyo.gdgjapan.org/devfest2019</loc>
+  <priority>0.5</priority>
+  <loc>https://tokyo.gdgjapan.org/events</loc>
+  <priority>0.5</priority>
+  <loc>https://tokyo.gdgjapan.org/team</loc>
+  <priority>0.5</priority>
+  <loc>https://tokyo.gdgjapan.org/about</loc>
+  <priority>0.5</priority>
+  <loc>https://tokyo.gdgjapan.org/contact</loc>
+  <priority>0.5</priority>
+</url>
+
+</urlset>
