@@ -1,6 +1,6 @@
 module.exports = {
   pwa: {
-    name: 'GDG Web App',
+    name: 'GDG Tokyo Web App',
     themeColor: '#4A90E2'
   }
 }
