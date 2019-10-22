@@ -4,6 +4,9 @@ import Home from './views/Home.vue'
 
 Vue.use(Router)
 
+const metaTitle = "GDG Tokyo";
+const metaDescription = "Google Developer Group（GDG）Tokyoは、Googleのテクノロジーを学ぶことができるコミュニティとして勉強会やカンファレンスを主催・運営しています。";
+
 const router = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
@@ -60,9 +63,15 @@ const router = new Router({
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
     document.title = to.meta.title
+  } else {
+    document.title = metaTitle
   }
   if (to.meta && to.meta.description) {
-    document.description = to.meta.description
+    document.querySelector("meta[name='description']").setAttribute('content', to.meta.description)
+    document.querySelector("meta[name='og:description']").setAttribute('content', to.meta.description)
+  } else {
+    document.querySelector("meta[name='description']").setAttribute('content', metaDescription)
+    document.querySelector("meta[name='og:description']").setAttribute('content', metaDescription)
   }
 })
 
