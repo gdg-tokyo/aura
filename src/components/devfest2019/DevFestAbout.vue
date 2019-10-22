@@ -66,7 +66,7 @@
       <v-flex xs7 sm7 md7 lg7 class="pa-2 text-xs-left">
         <p style="font-size:130%; font-weight: bold; color: #34a851;">Special Hands-on、Office Tour</p>
         <p class="google-font">
-          11:00 〜 17:00予定
+          14:00 〜 17:00予定
           <br />※14日にご参加いただいた方の中から抽選で100名様ご招待
         </p>
         <p class="google-font">

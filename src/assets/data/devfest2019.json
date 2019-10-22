@@ -1,25 +1,30 @@
 {
     "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
+    "EntryPageUrl": "https://connpass.com/event/137666/",
     "Partners": [
         {
             "name": "国立大学法人電気通信大学",
             "designation": "協賛",
-            "logo": "/img/devfest2019/logo/uec.png"
+            "logo": "/img/devfest2019/logo/uec.png",
+            "link": "https://www.uec.ac.jp/"
         },
         {
             "name": "Peatix",
             "designation": "メディアパートナー",
-            "logo": "/img/devfest2019/logo/peatix.png"
+            "logo": "/img/devfest2019/logo/peatix.png",
+            "link": "https://peatix.com/"
         },
         {
             "name": "Google Developers",
             "designation": "協力",
-            "logo": "/img/devfest2019/logo/google_developers.png"
+            "logo": "/img/devfest2019/logo/google_developers.png",
+            "link": "https://developers.google.com/"
         },
         {
             "name": "grouB",
             "designation": "",
-            "logo": "/img/devfest2019/logo/grouB.png"
+            "logo": "/img/devfest2019/logo/grouB.png",
+            "link": "https://www.growb.co.jp/"
         }
     ],
     "Organizers": [
@@ -47,28 +52,66 @@
     "Sponsors": [
         {
             "name": "Circle CI",
-            "logo": "",
-            "designation": "gold"
+            "logo": "/img/devfest2019/logo/circleci.png",
+            "designation": "gold",
+            "link": "https://circleci.com/"
         },
         {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "gold"
+            "name": "DeNA",
+            "logo": "/img/devfest2019/logo/circleci.png",
+            "designation": "platinum",
+            "link": "https://circleci.com/"
+        }
+    ],
+    "Speakers": [
+        {
+            "name": "松館 大輝",
+            "position": "Google Developers Expert for Firebase",
+            "profileImage": "/img/devfest2019/speakers/d_date.png",
+            "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。著者: iOSアプリ設計パターン入門。",
+            "twitter": "https://twitter.com/d_date"
         },
         {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "silver"
+            "name": "荒木佑一",
+            "position": "Google Japan Developer Program Engineer",
+            "profileImage": "/img/devfest2019/speakers/araki.png",
+            "profile": "AndroidX の Transition や Room を開発しています。developer.android.com のサンプル コードやコードラボも作っています。以前は Material Design ライブラリ (現 Material Components) の開発も行っていました。",
+            "twitter": "https://twitter.com/yuichi_araki"
         },
         {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "silver"
+            "name": "稲富 駿",
+            "position": "Google Developers Expert for Angular",
+            "profileImage": "/img/devfest2019/speakers/laco.png",
+            "profile": "オープンコミュニティを愛するフロントエンド開発者。2016年よりAngular日本ユーザー会の代表を務める。 2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
+            "twitter": "https://twitter.com/laco2net"
         },
         {
-            "name": "Circle CI",
-            "logo": "",
-            "designation": "silver"
+            "name": "上田哲広",
+            "position": "Google Developers Expert for GCP and Flutter",
+            "profileImage": "/img/devfest2019/speakers/ueda.png",
+            "profile": "ソフトウェアエンジニア。マイケル株式会社CTO。App EngineとFlutterのGoogle Developers Expert。好きな言語はGo。最近はFlutter/Dart。",
+            "twitter": "https://twitter.com/najeira"
+        },
+        {
+            "name": "足立　昌彦",
+            "position": "Google Developers Expert for ML",
+            "profileImage": "/img/devfest2019/speakers/adachi.png",
+            "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ\n「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを協同設立。Google Developers Expert（Machine Learning）に認定され、執筆、講演多数。",
+            "twitter": "https://twitter.com/adamrocker"
+        },
+        {
+            "name": "太田 満久",
+            "position": "TensorFlow User Group Organizer, Google Developers Expert for Machine Learning",
+            "profileImage": "/img/devfest2019/speakers/oota.png",
+            "profile": "1983年東京都生まれ。名古屋育ち。京都大学基礎物理学研究所にて素粒子論を専攻し、2010年に博士号を取得。同年データ分析専業のブレインパッド社に新卒として入社。入社後は数学的なバックグラウンドを生かし、自然言語処理エンジンやレコメンドアルゴリズムの開発を担当。現在は Chief Data Technology Officer として最新技術の調査・検証を担当。 TensorFlow UserGroup Tokyo オーガナイザ。Google Developers Expert (Machine Learning)。 ",
+            "twitter": "https://twitter.com/ohtaman"
+        },
+        {
+            "name": "Jun Sakata",
+            "position": "Google Developers Expert for GCP",
+            "profileImage": "/img/devfest2019/organizers/avatar_blue.png",
+            "profile": "Google Developers Expert specialized in cloud technologies. I also work as SWE at Ubie Inc, a healthcare startup in Tokyo. I am responsible for designing, developing and running services on GCP.",
+            "twitter": "https://twitter.com/sakajunquality"
         }
     ]
 }
