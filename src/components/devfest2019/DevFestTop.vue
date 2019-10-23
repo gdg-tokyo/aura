@@ -2,8 +2,8 @@
   <!-- <v-container class="pa-0"> -->
   <v-layout wrap align-center justify-center row fill-height class="pb-4">
     <v-img
-      :src="require('@/assets/img/devfest2019/image05.gif')"
-      :lazy-src="require('@/assets/img/devfest2019/image05.gif')"
+      src="/img/devfest2019/kit/image05.gif"
+      lazy-src="/img/devfest2019/kit/image05.gif"
       width="100%"
     >
       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
