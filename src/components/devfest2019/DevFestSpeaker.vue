@@ -4,8 +4,8 @@
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex xs12 sm2 md2 lg2 class="pa-2">
         <v-img
-          :src="require('@/assets/img/devfest2019/image08.png')"
-          :lazy-src="require('@/assets/img/devfest2019/image08.png')"
+          src="/img/devfest2019/kit/image08.png"
+          lazy-src="/img/devfest2019/kit/image08.png"
           width="250"
           style="margin:0 auto;"
         ></v-img>
@@ -15,8 +15,8 @@
       </v-flex>
       <v-flex xs12 sm2 md2 lg2 class="pa-2">
         <v-img
-          :src="require('@/assets/img/devfest2019/image09.png')"
-          :lazy-src="require('@/assets/img/devfest2019/image09.png')"
+          src="/img/devfest2019/kit/image09.png"
+          lazy-src="/img/devfest2019/kit/image09.png"
           width="250"
           style="margin:0 auto;"
         ></v-img>
