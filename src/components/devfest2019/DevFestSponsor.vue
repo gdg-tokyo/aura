@@ -1,13 +1,29 @@
 <template>
   <v-container class="pa-0">
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs12 md9 lg9 class="pa-2 text-xs-center">
+      <v-flex xs12 sm2 md2 lg2 class="pa-2">
+        <v-img
+          src="/img/devfest2019/kit/image02.png"
+          lazy-src="/img/devfest2019/kit/image02.png"
+          width="250"
+          style="margin:0 auto;"
+        ></v-img>
+      </v-flex>
+      <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
         <p class="google-font display-2">Sponsors</p>
+      </v-flex>
+      <v-flex xs12 sm2 md2 lg2 class="pa-2">
+        <v-img
+          src="/img/devfest2019/kit/image03.png"
+          lazy-src="/img/devfest2019/kit/image03.png"
+          width="250"
+          style="margin:0 auto;"
+        ></v-img>
       </v-flex>
     </v-layout>
     <!-- Platinumスポンサー -->
-    <!-- <v-layout wrap align-center justify-center row fill-height class="my-0">
-      <v-flex xs12 sm6 md6 lg6 class="pt-5 text-xs-center">
+    <v-layout wrap align-center justify-center row fill-height class="my-0">
+      <v-flex xs12 sm6 md6 lg6 class="text-xs-center">
         <p class="google-font display-1">Platinum</p>
       </v-flex>
     </v-layout>
@@ -35,7 +51,7 @@
           </a>
         </div>
       </v-flex>
-    </v-layout> -->
+    </v-layout>
     <!-- Goldスポンサー -->
     <v-layout wrap align-center justify-center row fill-height class="my-0">
       <v-flex xs12 sm6 md6 lg6 class="pt-5 text-xs-center">

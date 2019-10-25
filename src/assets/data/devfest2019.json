@@ -1,6 +1,6 @@
 {
     "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
-    "EntryPageUrl": "https://connpass.com/event/137666/",
+    "EntryPageUrl": "https://gdg-tokyo.connpass.com/event/137666/",
     "Partners": [
         {
             "name": "国立大学法人電気通信大学",
@@ -60,7 +60,7 @@
             "name": "DeNA",
             "logo": "/img/devfest2019/logo/DeNA.png",
             "designation": "platinum",
-            "link": "https://circleci.com/"
+            "link": "https://dena.com/"
         }
     ],
     "Speakers": [
@@ -119,6 +119,20 @@
             "profileImage": "/img/devfest2019/speakers/furiya.png",
             "profile": "Google Developers Expert for Android",
             "twitter": "https://twitter.com/wasabeef_jp"
+        },
+        {
+            "name": "青山 真也",
+            "position": "Infrastructure Engineer",
+            "profileImage": "/img/devfest2019/speakers/aoyama.png",
+            "profile": "OpenStackを使ったプライベートクラウドやGKE互換なコンテナプラットフォームをゼロから構築。国内カンファレンスでの基調講演や海外カンファレンス等、登壇経験多数。世界で2番目にKubernetesの認定資格を取得。著書に『Kubernetes完全ガイド』『みんなのDocker/Kubernetes』。現在はOSSへの Contribute 活動をはじめ、Cloud Native Days Tokyoの共同実行委員長、CNCF公式のCloud Native Meetup TokyoやKubernetes Meetup TokyoのOrganizerなどコミュニティ活動にも従事。",
+            "twitter": ""
+        },
+        {
+            "name": "あんざいゆき",
+            "position": "株式会社ウフィカ代表取締役, Google Developer Expert for Android",
+            "profileImage": "/img/devfest2019/speakers/anzai.png",
+            "profile": "株式会社ウフィカ代表取締役社長。Google Developer Expert for Android。「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
+            "twitter": "https://twitter.com/yanzm"
         }
     ]
 }
