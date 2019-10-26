@@ -3,7 +3,7 @@ executors:
   default:
     working_directory: ~/workspace
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:8
 jobs:
   setup:
     executor:
@@ -23,7 +23,7 @@ jobs:
           name: Cache npm dependencies
           key: npm-{{ checksum "package-lock.json" }}
           paths:
-            - ~/workspace/node_modules
+            - node_modules
   build:
     parameters:
       env:
