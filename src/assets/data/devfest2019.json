@@ -5,60 +5,60 @@
         {
             "name": "国立大学法人電気通信大学",
             "designation": "協賛",
-            "logo": "/img/devfest2019/logo/uec.png",
+            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/uec.png",
             "link": "https://www.uec.ac.jp/"
         },
         {
             "name": "Peatix",
             "designation": "メディアパートナー",
-            "logo": "/img/devfest2019/logo/peatix.png",
+            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/peatix.png",
             "link": "https://peatix.com/"
         },
         {
             "name": "Google Developers",
             "designation": "協力",
-            "logo": "/img/devfest2019/logo/google_developers.png",
+            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/google_developers.png",
             "link": "https://developers.google.com/"
         },
         {
             "name": "grouB",
             "designation": "",
-            "logo": "/img/devfest2019/logo/grouB.png",
+            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/grouB.png",
             "link": "https://www.growb.co.jp/"
         }
     ],
     "Organizers": [
         {
             "name": "Shoco Sato",
-            "profileImage": "/img/devfest2019/organizers/shoco310.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/shoco310.png",
             "twitter": "https://twitter.com/satoshoco"
         },
         {
             "name": "katsu.t",
-            "profileImage": "/img/devfest2019/organizers/katsu_t.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/katsu_t.png",
             "twitter": "https://twitter.com/chiino58"
         },
         {
             "name": "kappa0923",
-            "profileImage": "/img/devfest2019/organizers/kappa0923.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/kappa0923.png",
             "twitter": "https://twitter.com/tom_kappa0923"
         },
         {
             "name": "okohs",
-            "profileImage": "/img/devfest2019/organizers/okohs.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/okohs.png",
             "twitter": "https://twitter.com/_okohs"
         }
     ],
     "Sponsors": [
         {
             "name": "Circle CI",
-            "logo": "/img/devfest2019/logo/circleci.png",
+            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/circleci.png",
             "designation": "gold",
             "link": "https://circleci.com/"
         },
         {
             "name": "DeNA",
-            "logo": "/img/devfest2019/logo/DeNA.png",
+            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/DeNA.png",
             "designation": "platinum",
             "link": "https://dena.com/"
         }
@@ -67,71 +67,71 @@
         {
             "name": "松館 大輝",
             "position": "Google Developers Expert for Firebase",
-            "profileImage": "/img/devfest2019/speakers/d_date.png",
-            "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。著者: iOSアプリ設計パターン入門。",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/d_date.png",
+            "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。\n著者: iOSアプリ設計パターン入門。",
             "twitter": "https://twitter.com/d_date"
         },
         {
-            "name": "荒木佑一",
+            "name": "荒木 佑一",
             "position": "Google Japan Developer Program Engineer",
-            "profileImage": "/img/devfest2019/speakers/araki.png",
-            "profile": "AndroidX の Transition や Room を開発しています。developer.android.com のサンプル コードやコードラボも作っています。以前は Material Design ライブラリ (現 Material Components) の開発も行っていました。",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/araki.png",
+            "profile": "AndroidX の Transition や Room を開発しています。developer.android.com のサンプル コードやコードラボも作っています。\n以前は Material Design ライブラリ (現 Material Components) の開発も行っていました。",
             "twitter": "https://twitter.com/yuichi_araki"
         },
         {
             "name": "稲富 駿",
             "position": "Google Developers Expert for Angular",
-            "profileImage": "/img/devfest2019/speakers/laco.png",
-            "profile": "オープンコミュニティを愛するフロントエンド開発者。2016年よりAngular日本ユーザー会の代表を務める。 2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/laco.png",
+            "profile": "オープンコミュニティを愛するフロントエンド開発者。\n2016年よりAngular日本ユーザー会の代表を務める。 \n2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
             "twitter": "https://twitter.com/laco2net"
         },
         {
-            "name": "上田哲広",
+            "name": "上田 哲広",
             "position": "Google Developers Expert for GCP and Flutter",
-            "profileImage": "/img/devfest2019/speakers/ueda.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/ueda.png",
             "profile": "ソフトウェアエンジニア。マイケル株式会社CTO。App EngineとFlutterのGoogle Developers Expert。好きな言語はGo。最近はFlutter/Dart。",
             "twitter": "https://twitter.com/najeira"
         },
         {
-            "name": "足立　昌彦",
+            "name": "足立 昌彦",
             "position": "Google Developers Expert for ML",
-            "profileImage": "/img/devfest2019/speakers/adachi.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/adachi.png",
             "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを協同設立。Google Developers Expert（ML）に認定され、執筆、講演多数。",
             "twitter": "https://twitter.com/adamrocker"
         },
         {
             "name": "太田 満久",
             "position": "TensorFlow User Group Organizer, Google Developers Expert for ML",
-            "profileImage": "/img/devfest2019/speakers/oota.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/oota.png",
             "profile": "1983年東京都生まれ。名古屋育ち。京都大学基礎物理学研究所にて素粒子論を専攻し、2010年に博士号を取得。同年データ分析専業のブレインパッド社に新卒として入社。入社後は数学的なバックグラウンドを生かし、自然言語処理エンジンやレコメンドアルゴリズムの開発を担当。現在は Chief Data Technology Officer として最新技術の調査・検証を担当。 TensorFlow UserGroup Tokyo オーガナイザ。Google Developers Expert (Machine Learning)。 ",
             "twitter": "https://twitter.com/ohtaman"
         },
         {
             "name": "Jun Sakata",
             "position": "Google Developers Expert for GCP",
-            "profileImage": "/img/devfest2019/speakers/sakata.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/sakata.png",
             "profile": "Google Developers Expert specialized in cloud technologies. I also work as SWE at Ubie Inc, a healthcare startup in Tokyo. I am responsible for designing, developing and running services on GCP.",
             "twitter": "https://twitter.com/sakajunquality"
         },
         {
             "name": "降矢 大地",
-            "position": "Software Engineer",
-            "profileImage": "/img/devfest2019/speakers/furiya.png",
+            "position": "Google Developers Expert for Android<br>Software Engineer",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/furiya.png",
             "profile": "Google Developers Expert for Android",
             "twitter": "https://twitter.com/wasabeef_jp"
         },
         {
             "name": "青山 真也",
             "position": "Infrastructure Engineer",
-            "profileImage": "/img/devfest2019/speakers/aoyama.png",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/aoyama.png",
             "profile": "OpenStackを使ったプライベートクラウドやGKE互換なコンテナプラットフォームをゼロから構築。国内カンファレンスでの基調講演や海外カンファレンス等、登壇経験多数。世界で2番目にKubernetesの認定資格を取得。著書に『Kubernetes完全ガイド』『みんなのDocker/Kubernetes』。現在はOSSへの Contribute 活動をはじめ、Cloud Native Days Tokyoの共同実行委員長、CNCF公式のCloud Native Meetup TokyoやKubernetes Meetup TokyoのOrganizerなどコミュニティ活動にも従事。",
-            "twitter": ""
+            "twitter": "https://twitter.com/amsy810"
         },
         {
             "name": "あんざいゆき",
-            "position": "株式会社ウフィカ代表取締役, Google Developer Expert for Android",
-            "profileImage": "/img/devfest2019/speakers/anzai.png",
-            "profile": "株式会社ウフィカ代表取締役社長。Google Developer Expert for Android。「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
+            "position": "株式会社ウフィカ代表取締役<br>Google Developer Expert for Android",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/anzai.png",
+            "profile": "株式会社ウフィカ代表取締役社長。\nGoogle Developer Expert for Android。\n「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
             "twitter": "https://twitter.com/yanzm"
         }
     ]
