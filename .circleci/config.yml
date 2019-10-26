@@ -53,7 +53,12 @@ jobs:
 workflows:
   setup_and_build:
     jobs:
-      - setup
+      - setup:
+          filters:
+            branches:
+              only: 
+                - staging
+                - master
       - build:
           name: deploy_stg
           env: staging
