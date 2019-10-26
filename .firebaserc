@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "gdg-tokyo-website"
+    "default": "gdg-tokyo-website",
+    "staging": "gdg-tokyo-website-stg"
   }
 }
