@@ -44,7 +44,7 @@
                   </v-layout>
                 </v-img>
               </v-avatar>
-              <p class="mt-3 mb-0 google-font" style="font-size:100%">{{item.position}}</p>
+              <p class="mt-3 mb-0 google-font" style="font-size:100%; white-space:pre-wrap; word-wrap:break-word;">{{item.position}}</p>
               <p class="mt-3 mb-0 google-font" style="font-size:130%">
                 {{item.name}}
                 <v-btn
@@ -76,7 +76,7 @@
               <v-flex xs12 sm10 md10 lg10 class="pa-2">
                 <v-card-text>
                   <p>Profile</p>
-                  <p>{{item.profile}}</p>
+                  <p style="white-space:pre-wrap; word-wrap:break-word;">{{item.profile}}</p>
                 </v-card-text>
                 <!-- <v-divider></v-divider>
             <v-card-actions>
