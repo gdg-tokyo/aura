@@ -3,8 +3,31 @@ executors:
   default:
     working_directory: ~/workspace
     docker:
-      - image: circleci/node:8
+      - image: circleci/node:10
+commands:
+  restore_npm:
+    steps:
+      - restore_cache:
+          name: Restore npm dependencies
+          key: npm-{{ checksum "package-lock.json" }}
+  save_npm:
+    steps:
+      - save_cache:
+          name: Cache npm dependencies
+          key: npm-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
 jobs:
+  setup:
+    executor:
+      name: default
+    steps:
+      - checkout
+      - restore_npm
+      - run:
+          name: Install dependencies
+          command: sudo npm install
+      - save_npm
   build:
     parameters:
       env:
@@ -14,9 +37,7 @@ jobs:
       name: default
     steps:
       - checkout
-      - run:
-          name: Install dependencies
-          command: sudo npm install
+      - restore_npm
       - run:
           name: Install firebase-tools
           command: sudo npm install -g firebase-tools
@@ -32,15 +53,20 @@ jobs:
 workflows:
   setup_and_build:
     jobs:
+      - setup
       - build:
           name: deploy_stg
           env: staging
+          requires:
+            - setup
           filters:
             branches:
               only: staging
       - build:
           name: deploy_prod
           env: default
+          requires:
+            - setup
           filters:
             branches:
               only: master
