@@ -72,11 +72,18 @@
             "twitter": "https://twitter.com/Yuryu"
         },
         {
-            "name": "松館 大輝",
-            "position": "Google Developers Expert for Firebase",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/d_date.png",
-            "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。\n著者: iOSアプリ設計パターン入門。",
-            "twitter": "https://twitter.com/d_date"
+            "name": "青山 真也",
+            "position": "Infrastructure Engineer",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/aoyama.png",
+            "profile": "OpenStackを使ったプライベートクラウドやGKE互換なコンテナプラットフォームをゼロから構築。国内カンファレンスでの基調講演や海外カンファレンス等、登壇経験多数。世界で2番目にKubernetesの認定資格を取得。著書に『Kubernetes完全ガイド』『みんなのDocker/Kubernetes』。現在はOSSへの Contribute 活動をはじめ、Cloud Native Days Tokyoの共同実行委員長、CNCF公式のCloud Native Meetup TokyoやKubernetes Meetup TokyoのOrganizerなどコミュニティ活動にも従事。",
+            "twitter": "https://twitter.com/amsy810"
+        },
+        {
+            "name": "足立 昌彦",
+            "position": "Google Developers Expert for ML",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/adachi.png",
+            "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを協同設立。Google Developers Expert（ML）に認定され、執筆、講演多数。",
+            "twitter": "https://twitter.com/adamrocker"
         },
         {
             "name": "荒木 佑一",
@@ -84,6 +91,13 @@
             "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/araki.png",
             "profile": "AndroidX の Transition や Room を開発しています。developer.android.com のサンプル コードやコードラボも作っています。\n以前は Material Design ライブラリ (現 Material Components) の開発も行っていました。",
             "twitter": "https://twitter.com/yuichi_araki"
+        },
+        {
+            "name": "あんざいゆき",
+            "position": "株式会社ウフィカ代表取締役\nGoogle Developer Expert for Android",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/anzai.png",
+            "profile": "株式会社ウフィカ代表取締役社長。\nGoogle Developer Expert for Android。\n「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
+            "twitter": "https://twitter.com/yanzm"
         },
         {
             "name": "稲富 駿",
@@ -100,13 +114,6 @@
             "twitter": "https://twitter.com/najeira"
         },
         {
-            "name": "足立 昌彦",
-            "position": "Google Developers Expert for ML",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/adachi.png",
-            "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを協同設立。Google Developers Expert（ML）に認定され、執筆、講演多数。",
-            "twitter": "https://twitter.com/adamrocker"
-        },
-        {
             "name": "太田 満久",
             "position": "TensorFlow User Group Organizer, Google Developers Expert for ML",
             "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/oota.png",
@@ -121,6 +128,13 @@
             "twitter": "https://twitter.com/sakajunquality"
         },
         {
+            "name": "田中 洋一郎",
+            "position": "Google Developers Expert for Assistant",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka.png",
+            "profile": "Google Developers Expert (Assistant, Web Technologies)",
+            "twitter": "https://twitter.com/yoichiro"
+        },
+        {
             "name": "降矢 大地",
             "position": "Google Developers Expert for Android\nSoftware Engineer",
             "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/furiya.png",
@@ -128,18 +142,11 @@
             "twitter": "https://twitter.com/wasabeef_jp"
         },
         {
-            "name": "青山 真也",
-            "position": "Infrastructure Engineer",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/aoyama.png",
-            "profile": "OpenStackを使ったプライベートクラウドやGKE互換なコンテナプラットフォームをゼロから構築。国内カンファレンスでの基調講演や海外カンファレンス等、登壇経験多数。世界で2番目にKubernetesの認定資格を取得。著書に『Kubernetes完全ガイド』『みんなのDocker/Kubernetes』。現在はOSSへの Contribute 活動をはじめ、Cloud Native Days Tokyoの共同実行委員長、CNCF公式のCloud Native Meetup TokyoやKubernetes Meetup TokyoのOrganizerなどコミュニティ活動にも従事。",
-            "twitter": "https://twitter.com/amsy810"
-        },
-        {
-            "name": "あんざいゆき",
-            "position": "株式会社ウフィカ代表取締役\nGoogle Developer Expert for Android",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/anzai.png",
-            "profile": "株式会社ウフィカ代表取締役社長。\nGoogle Developer Expert for Android。\n「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
-            "twitter": "https://twitter.com/yanzm"
+            "name": "松館 大輝",
+            "position": "Google Developers Expert for Firebase",
+            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/d_date.png",
+            "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。\n著者: iOSアプリ設計パターン入門。",
+            "twitter": "https://twitter.com/d_date"
         },
         {
             "name": "矢倉 眞隆",
@@ -147,13 +154,6 @@
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masataka_yakura.png",
             "profile": "ウェブ開発者。ブラウザーまわりの技術が好き。",
             "twitter": "https://twitter.com/myakura"
-        },
-        {
-            "name": "田中 洋一郎",
-            "position": "Google Developers Expert for Assistant",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka.png",
-            "profile": "Google Developers Expert (Assistant, Web Technologies)",
-            "twitter": "https://twitter.com/yoichiro"
         },
         {
             "name": "山口 能迪",
