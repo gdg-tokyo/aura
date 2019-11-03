@@ -27,28 +27,6 @@
             "link": "https://www.growb.co.jp/"
         }
     ],
-    "Organizers": [
-        {
-            "name": "Shoco Sato",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/shoco310.png",
-            "twitter": "https://twitter.com/satoshoco"
-        },
-        {
-            "name": "katsu.t",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/katsu_t.png",
-            "twitter": "https://twitter.com/chiino58"
-        },
-        {
-            "name": "kappa0923",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/kappa0923.png",
-            "twitter": "https://twitter.com/tom_kappa0923"
-        },
-        {
-            "name": "okohs",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/okohs.png",
-            "twitter": "https://twitter.com/_okohs"
-        }
-    ],
     "Sponsors": [
         {
             "name": "CircleCI",
