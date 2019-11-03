@@ -56,6 +56,7 @@
                 >
                   <v-icon small style="color:#1da1f2">fab fa-twitter</v-icon>
                 </v-btn>
+                <br>{{item.englishName}}
               </p>
             </div>
           </template>
