@@ -24,9 +24,7 @@
     </v-layout>
     <!-- Speaker本体 -->
     <!-- Keynote -->
-    <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
-      <p class="google-font display-2">Keynote Speaker</p>
-    </v-flex>
+    <v-layout justify-center class="google-font display-2"><p>Keynote Speaker</p></v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
         xs6
@@ -95,9 +93,7 @@
       </v-flex>
     </v-layout>
     <!-- Session Speaker -->
-    <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
-      <p class="google-font display-2">Speakers (五十音順)</p>
-    </v-flex>
+    <v-layout justify-center class="google-font display-2"><p>Speakers (五十音順)</p></v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
         xs6
