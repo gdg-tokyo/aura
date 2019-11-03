@@ -63,7 +63,7 @@
             "link": "https://dena.com/"
         }
     ],
-    "Speakers": [
+    "Keynotes": [
         {
             "name": "岩尾 エマ はるか",
             "position": "Developer Advocate",
@@ -71,7 +71,9 @@
             "profile": "組み込みソフトウェア開発者、Site Reliability Engineerなどを経て2015年より現職。現在はGoogleのシアトルオフィスにて、Google Cloud PlatformのDeveloper Advocateとしてアプリケーション開発者に技術の魅力を伝える仕事をしている。大学では高性能計算および分散ファイルシステムを研究し、その経験を元にクラウド環境上での高性能計算を専門にしている。趣味は旅行とゲーム。",
             "twitter": "https://twitter.com/Yuryu",
             "englishName": "Emma Haruka Iwao"
-        },
+        }
+    ],
+    "Speakers": [
         {
             "name": "青山 真也",
             "position": "Infrastructure Engineer",
