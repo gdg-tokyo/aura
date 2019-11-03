@@ -65,6 +65,13 @@
     ],
     "Speakers": [
         {
+            "name": "岩尾 エマ はるか",
+            "position": "Developer Advocate",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/emma_haruka_iwao.png",
+            "profile": "組み込みソフトウェア開発者、Site Reliability Engineerなどを経て2015年より現職。現在はGoogleのシアトルオフィスにて、Google Cloud PlatformのDeveloper Advocateとしてアプリケーション開発者に技術の魅力を伝える仕事をしている。大学では高性能計算および分散ファイルシステムを研究し、その経験を元にクラウド環境上での高性能計算を専門にしている。趣味は旅行とゲーム。",
+            "twitter": "https://twitter.com/Yuryu"
+        },
+        {
             "name": "松館 大輝",
             "position": "Google Developers Expert for Firebase",
             "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/d_date.png",
@@ -133,6 +140,27 @@
             "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/anzai.png",
             "profile": "株式会社ウフィカ代表取締役社長。\nGoogle Developer Expert for Android。\n「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
             "twitter": "https://twitter.com/yanzm"
+        },
+        {
+            "name": "矢倉 眞隆",
+            "position": "Google Developers Expert for Web Technologies",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masataka_yakura.png",
+            "profile": "ウェブ開発者。ブラウザーまわりの技術が好き。",
+            "twitter": "https://twitter.com/myakura"
+        },
+        {
+            "name": "田中 洋一郎",
+            "position": "Google Developers Expert for Assistant",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka.png",
+            "profile": "Google Developers Expert (Assistant, Web Technologies)",
+            "twitter": "https://twitter.com/yoichiro"
+        },
+        {
+            "name": "山口 能迪",
+            "position": "Developer Advocate",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoshifumi_yamaguchi.png",
+            "profile": "Google合同会社デベロッパーアドボケイト。クラウド製品の普及と技術支援を担当し、特にオブザーバビリティ領域を担当。またGoコミュニティの支援も活発に行っている。以前はウェブ、Android、Googleアシスタントと各種新規製品・新規機能のリリースと普及に関わり、多くの公開事例の技術支援を担当。好きなプログラミング言語の傾向は、実用指向で標準の必要十分に重きを置くもので、特にPythonとGoを好んでいる。",
+            "twitter": "https://twitter.com/ymotongpoo"
         }
     ]
 }
