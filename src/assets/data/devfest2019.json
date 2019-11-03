@@ -61,6 +61,12 @@
             "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/DeNA.png",
             "designation": "platinum",
             "link": "https://dena.com/"
+        },
+        {
+            "name": "LINE株式会社",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/line.png",
+            "designation": "platinum",
+            "link": "https://engineering.linecorp.com/ja/"
         }
     ],
     "Speakers": [
