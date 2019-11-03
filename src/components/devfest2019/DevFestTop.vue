@@ -18,7 +18,7 @@
           target="_blank"
           color="#34a851"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
-        >参加申込</v-btn>
+        >参加申込 (Registration)</v-btn>
       </div>
       <br />
       <div>
@@ -28,7 +28,7 @@
           target="_blank"
           color="#1a73e8"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
-        >スポンサーになる</v-btn>
+        >スポンサーになる (Call for Sponsor)</v-btn>
       </div>
     </v-flex>
   </v-layout>
