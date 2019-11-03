@@ -5,25 +5,25 @@
         {
             "name": "国立大学法人電気通信大学",
             "designation": "協賛",
-            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/uec.png",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec.png",
             "link": "https://www.uec.ac.jp/"
         },
         {
-            "name": "Peatix",
+            "name": "Peatix Japan株式会社",
             "designation": "メディアパートナー",
-            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/peatix.png",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix.png",
             "link": "https://peatix.com/"
         },
         {
             "name": "Google Developers",
             "designation": "協力",
-            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/google_developers.png",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers.png",
             "link": "https://developers.google.com/"
         },
         {
-            "name": "grouB",
+            "name": "グローブ・エモーションズ株式会社",
             "designation": "",
-            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/grouB.png",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB.png",
             "link": "https://www.growb.co.jp/"
         }
     ],
@@ -51,14 +51,14 @@
     ],
     "Sponsors": [
         {
-            "name": "Circle CI",
-            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/circleci.png",
+            "name": "CircleCI",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/circleci.png",
             "designation": "gold",
             "link": "https://circleci.com/"
         },
         {
-            "name": "DeNA",
-            "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/DeNA.png",
+            "name": "株式会社ディー・エヌ・エー",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/DeNA.png",
             "designation": "platinum",
             "link": "https://dena.com/"
         }
