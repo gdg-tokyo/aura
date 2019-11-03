@@ -9,7 +9,7 @@
             "link": "https://www.uec.ac.jp/"
         },
         {
-            "name": "Peatix",
+            "name": "Peatix Japan株式会社",
             "designation": "メディアパートナー",
             "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/peatix.png",
             "link": "https://peatix.com/"
@@ -21,7 +21,7 @@
             "link": "https://developers.google.com/"
         },
         {
-            "name": "grouB",
+            "name": "グローブ・エモーションズ株式会社",
             "designation": "",
             "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/grouB.png",
             "link": "https://www.growb.co.jp/"
@@ -51,13 +51,13 @@
     ],
     "Sponsors": [
         {
-            "name": "Circle CI",
+            "name": "CircleCI",
             "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/circleci.png",
             "designation": "gold",
             "link": "https://circleci.com/"
         },
         {
-            "name": "DeNA",
+            "name": "株式会社ディー・エヌ・エー",
             "logo": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/sponsor/DeNA.png",
             "designation": "platinum",
             "link": "https://dena.com/"
