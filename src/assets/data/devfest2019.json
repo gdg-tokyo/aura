@@ -1,54 +1,38 @@
 {
     "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
     "EntryPageUrl": "https://gdg-tokyo.connpass.com/event/137666/",
-    "Partners": [
-        {
-            "name": "国立大学法人電気通信大学",
+    "Partners": {
+        "Cosponsorship" : {
             "designation": "協賛",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec.png",
-            "link": "https://www.uec.ac.jp/"
+            "groups": [{
+                "name": "国立大学法人電気通信大学",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec.png",
+                "link": "https://www.uec.ac.jp/"
+            }]
         },
-        {
-            "name": "Peatix Japan株式会社",
-            "designation": "メディアパートナー",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix.png",
-            "link": "https://peatix.com/"
+        "ObjectivePartner" : {
+            "designation" : "",
+            "groups" : [{
+                "name": "Peatix Japan株式会社",
+                "title": "メディアパートナー",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix.png",
+                "link": "https://peatix.com/"
+            }]
         },
-        {
-            "name": "Google Developers",
-            "designation": "協力",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers.png",
-            "link": "https://developers.google.com/"
-        },
-        {
-            "name": "グローブ・エモーションズ株式会社",
-            "designation": "",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB.png",
-            "link": "https://www.growb.co.jp/"
+        "Partnership" : {
+            "designation" : "協力",
+            "groups" : [{
+                "name": "Google Developers",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers.png",
+                "link": "https://developers.google.com/"
+            },
+            {
+                "name": "グローブ・エモーションズ株式会社",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB.png",
+                "link": "https://www.growb.co.jp/"
+            }]
         }
-    ],
-    "Organizers": [
-        {
-            "name": "Shoco Sato",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/shoco310.png",
-            "twitter": "https://twitter.com/satoshoco"
-        },
-        {
-            "name": "katsu.t",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/katsu_t.png",
-            "twitter": "https://twitter.com/chiino58"
-        },
-        {
-            "name": "kappa0923",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/kappa0923.png",
-            "twitter": "https://twitter.com/tom_kappa0923"
-        },
-        {
-            "name": "okohs",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/organizer/okohs.png",
-            "twitter": "https://twitter.com/_okohs"
-        }
-    ],
+    },
     "Sponsors": [
         {
             "name": "CircleCI",
@@ -61,9 +45,38 @@
             "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/DeNA.png",
             "designation": "platinum",
             "link": "https://dena.com/"
+        },
+        {
+            "name": "LINE株式会社",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/line.png",
+            "designation": "platinum",
+            "link": "https://engineering.linecorp.com/ja/"
         }
     ],
-    "Speakers": [
+    "Workshops": [
+        {
+            "name": "Angular日本ユーザー会",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan.png",
+            "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。\nナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
+            "link": "https://community.angular.jp",
+            "englishName": "Angular Japan User Group"
+        },
+        {
+            "name": "Women Who Go Tokyo",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt.png",
+            "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
+            "link": "https://womenwhogotokyo.github.io",
+            "englishName": ""
+        },
+        {
+            "name": "Firebase Japan User Group",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug.png",
+            "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
+            "link": "https://firebase.asia/",
+            "englishName": ""
+        }
+    ],
+    "Keynotes": [
         {
             "name": "岩尾 エマ はるか",
             "position": "Developer Advocate",
@@ -71,7 +84,9 @@
             "profile": "組み込みソフトウェア開発者、Site Reliability Engineerなどを経て2015年より現職。現在はGoogleのシアトルオフィスにて、Google Cloud PlatformのDeveloper Advocateとしてアプリケーション開発者に技術の魅力を伝える仕事をしている。大学では高性能計算および分散ファイルシステムを研究し、その経験を元にクラウド環境上での高性能計算を専門にしている。趣味は旅行とゲーム。",
             "twitter": "https://twitter.com/Yuryu",
             "englishName": "Emma Haruka Iwao"
-        },
+        }
+    ],
+    "Speakers": [
         {
             "name": "青山 真也",
             "position": "Infrastructure Engineer",

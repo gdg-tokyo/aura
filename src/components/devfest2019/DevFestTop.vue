@@ -14,21 +14,21 @@
       <div>
         <v-btn
           :href="devfestDetails.EntryPageUrl"
-          class="pa-8 ma-0 google-font elevation-1"
+          class="pa-5 ma-0 google-font elevation-1"
           target="_blank"
           color="#34a851"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
-        >参加申込</v-btn>
+        >参加申込<br />(Registration)</v-btn>
       </div>
       <br />
       <div>
         <v-btn
           :href="devfestDetails.SponsorFormUrl"
-          class="pa-8 ma-0 google-font elevation-1"
+          class="pa-5 ma-0 google-font elevation-1"
           target="_blank"
           color="#1a73e8"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
-        >スポンサーになる</v-btn>
+        >スポンサーになる<br />(Call for Sponsor)</v-btn>
       </div>
     </v-flex>
   </v-layout>

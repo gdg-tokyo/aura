@@ -29,10 +29,10 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs8
-        sm8
-        md8
-        lg8
+        xs6
+        sm6
+        md6
+        lg6
         v-for="(item, i) in platinumSponsors"
         :key="i"
         class="text-xs-center"
@@ -61,10 +61,10 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs6
-        sm6
-        md6
-        lg6
+        xs5
+        sm5
+        md5
+        lg5
         v-for="(item, i) in goldSponsors"
         :key="i"
         class="text-xs-center"
@@ -93,10 +93,10 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs4
-        sm4
-        md4
-        lg4
+        xs3
+        sm3
+        md3
+        lg3
         v-for="(item, i) in silverSponsors"
         :key="i"
         class="text-xs-center"
