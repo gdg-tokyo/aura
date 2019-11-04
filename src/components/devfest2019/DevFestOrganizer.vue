@@ -24,10 +24,10 @@
     </v-layout>
     <!-- Organizer本体 -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs12 sm7 md7 lg7 class="text-xs-center">
+      <v-flex xs12 sm6 md6 lg6 class="text-xs-center">
         <v-img src="/img/devfest2019/gdgtokyo.png"
         lazy-src="/img/devfest2019/gdgtokyo.png"
-        max-height="300"></v-img>
+        ></v-img>
       </v-flex>
       <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
         <p class="google-font"><a href="https://gdg-tokyo.connpass.com/">GDG Tokyo</a>は主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。<br></p>
