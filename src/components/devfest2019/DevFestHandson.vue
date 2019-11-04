@@ -35,7 +35,7 @@
         <v-dialog v-model="dialog" width="80%">
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-              <v-avatar size="70%">
+              <v-avatar size="70%" style="cursor: pointer">
                 <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
