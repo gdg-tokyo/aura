@@ -1,6 +1,6 @@
 <template>
   <v-container class="pa-0">
-    <!-- Speakerタイトル -->
+    <!-- Keynote Speakerタイトル -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex xs12 sm2 md2 lg2 class="pa-2">
         <v-img
@@ -11,7 +11,8 @@
         ></v-img>
       </v-flex>
       <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
-        <p class="google-font display-2">Speakers</p>
+        <p class="google-font display-2">Keynote Speaker</p>
+        <!-- <p class="google-font display-2">Keynote Speakers & Special Session</p> -->
       </v-flex>
       <v-flex xs12 sm2 md2 lg2 class="pa-2">
         <v-img
@@ -22,9 +23,7 @@
         ></v-img>
       </v-flex>
     </v-layout>
-    <!-- Speaker本体 -->
-    <!-- Keynote -->
-    <v-layout justify-center class="google-font display-2"><p>Keynote Speaker</p></v-layout>
+    <!-- Keynote Speaker本体 -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
         xs6
@@ -94,8 +93,29 @@
         </v-dialog>
       </v-flex>
     </v-layout>
+    <!-- Session Speakerタイトル -->
+    <v-layout wrap align-center justify-center row fill-height class="my-3">
+      <v-flex xs12 sm2 md2 lg2 class="pa-2">
+        <v-img
+          src="/img/devfest2019/kit/image08.png"
+          lazy-src="/img/devfest2019/kit/image08.png"
+          width="250"
+          style="margin:0 auto;"
+        ></v-img>
+      </v-flex>
+      <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
+        <p class="google-font display-2">Speakers (五十音順)</p>
+      </v-flex>
+      <v-flex xs12 sm2 md2 lg2 class="pa-2">
+        <v-img
+          src="/img/devfest2019/kit/image09.png"
+          lazy-src="/img/devfest2019/kit/image09.png"
+          width="250"
+          style="margin:0 auto;"
+        ></v-img>
+      </v-flex>
+    </v-layout>
     <!-- Session Speaker -->
-    <v-layout justify-center class="google-font display-2"><p>Speakers (五十音順)</p></v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
         xs6

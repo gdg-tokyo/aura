@@ -1,6 +1,26 @@
 <template>
   <v-container class="pa-0">
-    <v-layout justify-center class="google-font display-2"><p>Hands-on Teachers</p></v-layout>
+    <v-layout wrap align-center justify-center row fill-height class="my-3">
+      <v-flex xs12 sm2 md2 lg2 class="pa-2">
+        <v-img
+          src="/img/devfest2019/kit/image08.png"
+          lazy-src="/img/devfest2019/kit/image08.png"
+          width="250"
+          style="margin:0 auto;"
+        ></v-img>
+      </v-flex>
+      <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
+        <p class="google-font display-2">Hands-on Teachers</p>
+      </v-flex>
+      <v-flex xs12 sm2 md2 lg2 class="pa-2">
+        <v-img
+          src="/img/devfest2019/kit/image09.png"
+          lazy-src="/img/devfest2019/kit/image09.png"
+          width="250"
+          style="margin:0 auto;"
+        ></v-img>
+      </v-flex>
+    </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
         xs6
@@ -15,7 +35,7 @@
         <v-dialog v-model="dialog" width="80%">
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-              <v-avatar size="70%">
+              <v-avatar size="70%" style="cursor: pointer">
                 <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
