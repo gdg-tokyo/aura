@@ -31,25 +31,22 @@
       </v-flex>
       <v-flex xs12 sm7 md7 lg7 class="pa-2 text-xs-center">
         <p class="google-font"><a href="https://gdg-tokyo.connpass.com/">GDG Tokyo</a>は主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。<br></p>
-        <v-col cols="12" sm="3">
-          <v-btn text icon color="#1da1f2" :href="twitterLink">
-            <v-icon color="white">fab fa-twitter</v-icon>
-          </v-btn>
-          <v-btn text icon color="black" :href="mediumLink">
-            <v-icon color="white">fab fa-medium</v-icon>
-          </v-btn>
-        </v-col>
+          <v-col cols="12" sm="3">
+            <v-btn text v-for="(item, i) in socialLinks" :key="i" icon :color="item.color" :href="item.link">
+              <v-icon color="white">{{ item.icon }}</v-icon>
+            </v-btn>
+          </v-col>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 
 <script>
+import ChapterDetails from "@/assets/data/chapterDetails.json";
 export default {
   data() {
     return {
-      twitterLink : "https://twitter.com/gdgtokyo",
-      mediumLink : "https://medium.com/gdg-tokyo"
+      socialLinks:ChapterDetails.socialLinks
     };
   }
 };

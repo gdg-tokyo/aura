@@ -11,24 +11,28 @@
     "ChapterHashTags":["GDGTokyo","WTMTokyo","GDG","WTM"],
     "socialLinks":[
         {
-            "name" : "Connpass",
-            "link" : "https://gdg-tokyo.connpass.com/",
-            "icon" : "fas fa-globe"
+            "name"  : "Connpass",
+            "link"  : "https://gdg-tokyo.connpass.com/",
+            "icon"  : "fas fa-globe",
+            "color" : "red"
         },
         {
-            "name" : "Twitter",
-            "link" : "https://twitter.com/gdgtokyo",
-            "icon" : "fab fa-twitter"
+            "name"  : "Twitter",
+            "link"  : "https://twitter.com/gdgtokyo",
+            "icon"  : "fab fa-twitter",
+            "color" : "#1da1f2" 
         },
         {
-            "name" : "Meetup",
-            "link" : "https://www.meetup.com/gdg-tokyo-jp/",
-            "icon" : "fab fa-meetup"
+            "name"  : "Meetup",
+            "link"  : "https://www.meetup.com/gdg-tokyo-jp/",
+            "icon"  : "fab fa-meetup",
+            "color" : "red"
         },
         {
-            "name" : "Medium",
-            "link" : "https://medium.com/gdg-tokyo",
-            "icon" : "fab fa-medium"
+            "name"  : "Medium",
+            "link"  : "https://medium.com/gdg-tokyo",
+            "icon"  : "fab fa-medium",
+            "color" : "black"
         }
     ],
     "wtmWebsite":"https://www.womentechmakers.com/",
