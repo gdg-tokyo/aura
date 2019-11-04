@@ -171,7 +171,6 @@ export default {
     return {
       keynotes: DevFestInfo.Keynotes,
       speakers: DevFestInfo.Speakers,
-      partners: DevFestInfo.Partners
     };
   }
 };

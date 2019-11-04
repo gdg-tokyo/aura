@@ -69,6 +69,29 @@
             "link": "https://engineering.linecorp.com/ja/"
         }
     ],
+    "Workshops": [
+        {
+            "name": "Angular日本ユーザー会",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan.png",
+            "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。<br>ナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
+            "link": "https://community.angular.jp",
+            "englishName": "Angular Japan User Group"
+        },
+        {
+            "name": "Women Who Go Tokyo",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt.png",
+            "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。<br>Women Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。<br>毎月1回、みんなで集まって Go に触れて楽しんでいます。",
+            "link": "https://womenwhogotokyo.github.io",
+            "englishName": ""
+        },
+        {
+            "name": "Firebase Japan User Group",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug.png",
+            "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
+            "link": "https://firebase.asia/",
+            "englishName": ""
+        }
+    ],
     "Keynotes": [
         {
             "name": "岩尾 エマ はるか",
