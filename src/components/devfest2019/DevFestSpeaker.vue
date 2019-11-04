@@ -39,7 +39,7 @@
         <v-dialog v-model="dialog" width="80%">
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-              <v-avatar size="70%">
+              <v-avatar size="70%" style="cursor: pointer">
                 <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -66,17 +66,19 @@
             <v-card-title class="headline grey lighten-2" primary-title>{{item.name}}</v-card-title>
             <v-card-text>{{item.position}}</v-card-text>
             <v-divider></v-divider>
-            <v-layout wrap row fill-height class="pa-4">
-              <v-flex xs12 sm2 md2 lg2 class="pa-2">
-                <v-avatar size="100%">
-                  <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
-                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
-                      <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                    </v-layout>
-                  </v-img>
-                </v-avatar>
+            <v-layout wrap row fill-height align-center class="pa-4">
+              <v-flex xs12 sm4 md3 lg2 class="pa-2">
+                <v-responsive :aspect-ratio="1/1">
+                  <v-avatar size="100%">
+                    <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                      </v-layout>
+                    </v-img>
+                  </v-avatar>
+                </v-responsive>
               </v-flex>
-              <v-flex xs12 sm10 md10 lg10 class="pa-2">
+              <v-flex xs12 sm8 md9 lg10 class="pa-2">
                 <v-card-text>
                   <p>Profile</p>
                   <p style="white-space:pre-wrap; word-wrap:break-word;">{{item.profile}}</p>
@@ -108,7 +110,7 @@
         <v-dialog v-model="dialog" width="80%">
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-              <v-avatar size="70%">
+              <v-avatar size="70%"  style="cursor: pointer">
                 <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -135,17 +137,19 @@
             <v-card-title class="headline grey lighten-2" primary-title>{{item.name}}</v-card-title>
             <v-card-text>{{item.position}}</v-card-text>
             <v-divider></v-divider>
-            <v-layout wrap row fill-height class="pa-4">
-              <v-flex xs12 sm2 md2 lg2 class="pa-2">
-                <v-avatar size="100%">
-                  <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
-                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
-                      <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                    </v-layout>
-                  </v-img>
-                </v-avatar>
+            <v-layout wrap row fill-height align-center class="pa-4">
+              <v-flex xs12 sm4 md3 lg2 class="pa-2">
+                <v-responsive :aspect-ratio="1/1">
+                  <v-avatar size="100%">
+                    <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                      </v-layout>
+                    </v-img>
+                  </v-avatar>
+                </v-responsive>
               </v-flex>
-              <v-flex xs12 sm10 md10 lg10 class="pa-2">
+              <v-flex xs12 sm8 md9 lg10 class="pa-2">
                 <v-card-text>
                   <p>Profile</p>
                   <p style="white-space:pre-wrap; word-wrap:break-word;">{{item.profile}}</p>
@@ -171,7 +175,6 @@ export default {
     return {
       keynotes: DevFestInfo.Keynotes,
       speakers: DevFestInfo.Speakers,
-      partners: DevFestInfo.Partners
     };
   }
 };
