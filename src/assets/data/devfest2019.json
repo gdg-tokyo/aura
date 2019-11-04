@@ -1,32 +1,38 @@
 {
     "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
     "EntryPageUrl": "https://gdg-tokyo.connpass.com/event/137666/",
-    "Partners": [
-        {
-            "name": "国立大学法人電気通信大学",
+    "Partners": {
+        "Cosponsorship" : {
             "designation": "協賛",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec.png",
-            "link": "https://www.uec.ac.jp/"
+            "groups": [{
+                "name": "国立大学法人電気通信大学",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec.png",
+                "link": "https://www.uec.ac.jp/"
+            }]
         },
-        {
-            "name": "Peatix Japan株式会社",
-            "designation": "メディアパートナー",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix.png",
-            "link": "https://peatix.com/"
+        "ObjectivePartner" : {
+            "designation" : "",
+            "groups" : [{
+                "name": "Peatix Japan株式会社",
+                "title": "メディアパートナー",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix.png",
+                "link": "https://peatix.com/"
+            }]
         },
-        {
-            "name": "Google Developers",
-            "designation": "協力",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers.png",
-            "link": "https://developers.google.com/"
-        },
-        {
-            "name": "グローブ・エモーションズ株式会社",
-            "designation": "",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB.png",
-            "link": "https://www.growb.co.jp/"
+        "Partnership" : {
+            "designation" : "協力",
+            "groups" : [{
+                "name": "Google Developers",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers.png",
+                "link": "https://developers.google.com/"
+            },
+            {
+                "name": "グローブ・エモーションズ株式会社",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB.png",
+                "link": "https://www.growb.co.jp/"
+            }]
         }
-    ],
+    },
     "Sponsors": [
         {
             "name": "CircleCI",
