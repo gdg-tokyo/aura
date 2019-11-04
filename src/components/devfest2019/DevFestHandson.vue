@@ -27,7 +27,7 @@
                 <v-btn
                   class="mt-0 mx-0"
                   icon
-                  :href="item.twitter"
+                  :href="item.link"
                   target="_blank"
                 >
                   <v-icon small style="color:#333333">fas fa-link</v-icon>
