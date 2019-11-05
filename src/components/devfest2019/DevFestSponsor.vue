@@ -41,8 +41,8 @@
         <div class="text-xs-center ma-1 pa-1 my-0">
           <a :href="item.link" target="_blank">
           <v-img
-            :src="item.logo"
-            :lazy-src="item.logo"
+            :src="getStorageUrl(item.logo)"
+            :lazy-src="getStorageUrl(item.logo)"
             :alt="item.name"
           >
             <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -73,8 +73,8 @@
         <div class="text-xs-center ma-1 pa-1 my-0">
           <a :href="item.link" target="_blank">
           <v-img
-            :src="item.logo"
-            :lazy-src="item.logo"
+            :src="getStorageUrl(item.logo)"
+            :lazy-src="getStorageUrl(item.logo)"
             :alt="item.name"
           >
             <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -122,6 +122,7 @@
 
 <script>
 import DevFestInfo from "@/assets/data/devfest2019.json";
+import Mixin from "@/mixin.js";
 export default {
   data() {
     return {
@@ -144,6 +145,7 @@ export default {
         return item.designation == 'silver';
       }, this);
     }
-  }
+  },
+  mixins: [Mixin]
 };
 </script>
