@@ -47,7 +47,7 @@
     <v-container fluid class="background-color:#F9F9F9">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <DevFestOrganizer />
+          <DevFestPartner />
         </v-flex>
       </v-layout>
     </v-container>
@@ -55,7 +55,7 @@
     <v-container fluid class="background-color:#F9F9F9">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <DevFestPartner />
+          <DevFestOrganizer />
         </v-flex>
       </v-layout>
     </v-container>
