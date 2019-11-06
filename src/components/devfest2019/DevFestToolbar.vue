@@ -13,7 +13,22 @@
     <v-toolbar-title class="ml-0 pl-1 mr-1">
       <span class="google-font"><a href="#" style="text-decoration:none; color:black;">GDG DevFest Tokyo 2019</a></span>
     </v-toolbar-title>
+    <!--
+    FIXME:cannot link by id (#speaker, #sponsor)
     <v-spacer />
+        <v-btn
+        v-for="(link, i) in devfestLinks"
+        :key="i"
+        :to="link.to"
+        class="ml-0 google-font hidden-sm-and-down"
+        style="text-transform: capitalize;"
+        flat
+        :color="link.color"
+        @click="onClick($event, link)"
+      >
+        {{ link.text }}
+    </v-btn>
+    -->
     <v-btn text flat color="blue" :href="devfestInfo.EntryPageUrl">Registration</v-btn>
   </v-toolbar>
 </template>
