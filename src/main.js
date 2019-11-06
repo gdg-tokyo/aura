@@ -6,7 +6,7 @@ import store from './store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import './registerServiceWorker'
-import(/* webpackPreload: true */ 'roboto-fontface/css/roboto/roboto-fontface.css')
+// import(/* webpackPreload: true */ 'roboto-fontface/css/roboto/roboto-fontface.css')
 import(/* webpackPreload: true */  'material-design-icons-iconfont/dist/material-design-icons.css')
 import(/* webpackPreload: true */  './style.css')
 import './filters/truncate'

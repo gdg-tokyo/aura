@@ -39,7 +39,7 @@
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
               <v-avatar size="70%" style="cursor: pointer">
-                <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
+                <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                   </v-layout>
@@ -69,7 +69,7 @@
               <v-flex xs12 sm4 md3 lg2 class="pa-2">
                 <v-responsive :aspect-ratio="1/1">
                   <v-avatar size="100%">
-                    <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
+                    <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
                       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                         <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                       </v-layout>
@@ -131,7 +131,7 @@
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
               <v-avatar size="70%"  style="cursor: pointer">
-                <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
+                <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                   </v-layout>
@@ -161,7 +161,7 @@
               <v-flex xs12 sm4 md3 lg2 class="pa-2">
                 <v-responsive :aspect-ratio="1/1">
                   <v-avatar size="100%">
-                    <v-img :src="item.profileImage" :lazy-src="item.profileImage" v-on="on">
+                    <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
                       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                         <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                       </v-layout>
@@ -190,12 +190,14 @@
 
 <script>
 import DevFestInfo from "@/assets/data/devfest2019.json";
+import Mixin from "@/mixin.js";
 export default {
   data() {
     return {
       keynotes: DevFestInfo.Keynotes,
       speakers: DevFestInfo.Speakers,
     };
-  }
+  },
+  mixins: [Mixin]
 };
 </script>
