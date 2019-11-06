@@ -56,6 +56,11 @@ const router = new Router({
       name: 'devfest',
       component: () => import('./views/DevFest2019.vue'),
       meta: { title: 'DevFest2019 | GDG Tokyo', description: 'DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。東京では、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを一日で学べるコミュニティイベントとして開催しています。' }
+    },
+    {
+      path: '/devfest2019/schedule',
+      name: 'devfest_schedule',
+      component: () => import('./views/devfest2019/DevFest2019Schedule.vue')
     }
   ]
 })
