@@ -13,9 +13,9 @@
     <v-toolbar-title class="ml-0 pl-1 mr-1">
       <span class="google-font"><a href="#" style="text-decoration:none; color:black;">GDG DevFest Tokyo 2019</a></span>
     </v-toolbar-title>
+    <v-spacer />
     <!--
     FIXME:cannot link by id (#speaker, #sponsor)
-    <v-spacer />
         <v-btn
         v-for="(link, i) in devfestLinks"
         :key="i"
