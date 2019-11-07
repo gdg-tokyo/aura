@@ -3,7 +3,7 @@
         <v-row>
             <v-layout>
                 <v-card
-                    class="d-flex ma-2"
+                    class="d-flex ma-2 mb-4"
                     tile
                 >
                     <v-img
@@ -19,10 +19,11 @@
                 </v-card>
             </v-layout>
         </v-row>
+        <v-divider />
         <v-row>
             <v-layout v-for="(item, i) in handsonData" :key="i">
                 <v-card
-                    class="d-flex ma-2"
+                    class="d-flex ma-2 mt-4"
                     tile
                 >
                     <v-img
