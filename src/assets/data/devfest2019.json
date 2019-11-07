@@ -59,21 +59,30 @@
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan",
             "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。\nナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
             "link": "https://community.angular.jp",
-            "englishName": "Angular Japan User Group"
+            "englishName": "Angular Japan User Group",
+            "workshopTime":"13:10-13:55",
+            "workshopTitle":"はじめてのAngularアプリ作成",
+            "workshopDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
             "name": "Women Who Go Tokyo",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt",
             "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
             "link": "https://womenwhogotokyo.github.io",
-            "englishName": ""
+            "englishName": "",
+            "workshopTime":"17:00-17:40",
+            "workshopTitle":"Hogehoge",
+            "workshopDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         },
         {
             "name": "Firebase Japan User Group",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug",
             "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
             "link": "https://firebase.asia/",
-            "englishName": ""
+            "englishName": "",
+            "workshopTime":"14:10-14:50",
+            "workshopTitle":"Hogehoge",
+            "workshopDescription":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
         }
     ],
     "Keynotes": [

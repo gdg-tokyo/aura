@@ -1,24 +1,23 @@
 <template>
     <v-container class=" px-3" >
-        <v-layout wrap align-center justify-center row fill-heights>
-
-            <v-flex xs12 sm12 md12 lg12 xl12 order-xs2 order-md1 class="pa-5">
-               <p class="google-font mb-1" style="font-weight: 350;color: #616161;font-size:200%">
-                    <b>Our<span style="color: #1a73e8;">Schedule</span></b> 
-                </p>
-                <p class="google-font mt-3">
-                    (TODO)普段の業務に活かせるセッション、ちょっと気になる技術に入門するセッション、楽しんで下さい！
-                </p>
-            </v-flex> 
-        </v-layout>
+        <v-row>
+            <v-img
+                    class="pa-3"
+                    max-height="250"
+                    min-width="300"
+                    :src="getStorageUrl(scheduleImageUrl)"
+                    ></v-img>
+        </v-row>
     </v-container>
 </template>
 
 <script>
+import Mixin from "@/mixin.js";
+
 export default {
-    data() {
-        return {
-        }
-    },
+    data: () => ({
+        scheduleImageUrl: "https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/schedule",
+    }),
+    mixins: [Mixin],
 }
 </script>
