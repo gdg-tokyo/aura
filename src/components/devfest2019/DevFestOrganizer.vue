@@ -24,7 +24,7 @@
     </v-layout>
     <!-- Organizer本体 -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs12 sm6 md6 lg6 class="text-xs-center">
+      <v-flex xs6 sm6 md6 lg6 class="text-xs-center">
         <v-img src="/img/devfest2019/gdgtokyo.png"
         lazy-src="/img/devfest2019/gdgtokyo.png"
         ></v-img>

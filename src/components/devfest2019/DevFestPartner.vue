@@ -16,7 +16,7 @@
         class="my-3"
       >
         <v-layout wrap align-center justify-center row fill-height>
-          <v-flex xs12 sm8 md5 lg4>
+          <v-flex xs5 sm5 md5 lg5>
             <a :href="item.link" target="_blank">
               <v-img :src="getStorageUrl(item.logo)" :lazy-src="getStorageUrl(item.logo)" :alt="item.name" width="80%" style="margin:0 auto;"></v-img>
             </a>
@@ -34,7 +34,7 @@
         </v-flex>
       </v-layout>
       <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 sm8 md5 lg4>
+        <v-flex xs5 sm5 md5 lg5>
           <a :href="item.link" target="_blank">
             <v-img :src="getStorageUrl(item.logo)" :lazy-src="getStorageUrl(item.logo)" :alt="item.name" width="80%" style="margin:0 auto;"></v-img>
           </a>
@@ -51,7 +51,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs12 sm8 md5 lg4
+        xs5 sm5 md5 lg5
         v-for="(item, i) in partnership.groups"
         :key="i"
         class="text-xs-center"

@@ -29,7 +29,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs6
+        xs12
         sm6
         md6
         lg6
