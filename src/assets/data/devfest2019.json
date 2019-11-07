@@ -150,6 +150,16 @@
             "sessionID": "55"
         },
         {
+            "speakerID": "2xx",
+            "name": "大河内 翔子",
+            "position": "Software Engineer & Community Organizer",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_okochi",
+            "profile": "ものづくりと場所づくりが好きなエンジニア。普段はSoftware EngineerとしてGo/Vue.js/TypeScriptで開発してGCP上にデプロイしています。4年ほど前からコミュニティ運営に携わり、現在はGDG Tokyo とWomen Techmakers TokyoのOrganizerをやっています。",
+            "twitter": "https://twitter.com/_okohs",
+            "englishName": "Shoko Okochi",
+            "sessionID": "253"
+        },
+        {
             "speakerID": "207",
             "name": "太田 満久",
             "position": "TensorFlow User Group Organizer, Google Developers Expert for ML",
@@ -168,6 +178,46 @@
             "twitter": "https://twitter.com/sakajunquality",
             "englishName": "Jun Sakata",
             "sessionID": "43"
+        },
+        {
+            "speakerID": "2xx",
+            "name": "佐藤 祥子",
+            "position": "GDG Tokyo Organizer, DevRel",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_sato",
+            "profile": "GDG DevFest Tokyo 2019 実行委員長、Organizer of Google Developers Group Tokyo & Women Techmakers Tokyo。現在はエンジニアからDevRelへキャリアチェンジを経て、IT企業でエンジニア組織運営・技術広報・ブランディングや技術カンファレンス運営に携わっています。",
+            "twitter": "https://twitter.com/satoshoco",
+            "englishName": "Shoko Sato",
+            "sessionID": "10"
+        },
+        {
+            "speakerID": "2xx",
+            "name": "宍戸 俊哉",
+            "position": "Mobile Solutions Consultant",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shunya_shishido",
+            "profile": "Google合同会社モバイルソリューションズコンサルタント。2018年より現職。主にモバイルWEB領域の技術支援を担当し、PWAやAMPなどの普及を推進。サイトの速度改善が得意。",
+            "twitter": "https://twitter.com/sisidovski",
+            "englishName": "Shunya Shishido",
+            "sessionID": ""
+        },
+        {
+            "speakerID": "2xx",
+            "name": "清水 智公",
+            "position": "Developer Advocate",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/noritada_shimizu",
+            "profile": "Google 合同会社 Developer Advocate。Web を中心にフロントエンド周りの技術的な支援やコミュニケーションを担当。推しのWeb技術はWeb AssemblyとWeb Workers、Web GPU、そしてWeb Audio 。",
+            "twitter": "",
+            "englishName": "Chiko Shimizu",
+            "sessionID": ""
+        },
+        {
+            "speakerID": "2xx",
+            "name": "Jxck",
+            "position": "Google Developers Expert for Web Technologies",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jxck",
+            "profile": "https://blog.jxck.io https://mozaic.fm",
+            "twitter": "https://twitter.com/jxck_",
+            "englishName": "Jack",
+            "sessionID": "63"
         },
         {
             "speakerID": "209",

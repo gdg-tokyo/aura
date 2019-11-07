@@ -13,11 +13,19 @@ export default new Vuex.Store({
       { text: 'Team', to: '/team', icon:'group'},
       { text: 'About', to: '/about', icon: 'toc'},
       { text: 'Contact', to: '/contact', icon:'person'}
+    ],
+    devfestItems: [
+      { text: 'Speaker', to: '/devfest2019#speaker', icon: 'favorite'},
+      { text: 'Sponsor', to: '/devfest2019#sponsor', icon: 'favorite'},
+      // { text: 'Sessions', to: '/devfest2019/sessions', icon: 'favorite'},
     ]
   },
   getters:{
     links: (state) => {
       return state.items
+    },
+    devfestLinks: (state) => {
+      return state.devfestItems
     }
   },
   mutations: {
