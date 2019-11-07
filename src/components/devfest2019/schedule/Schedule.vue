@@ -20,7 +20,7 @@
                   <v-layout row wrap>
                     <v-flex xs12 class="px-3" :style="{ 'border-left':  getBorderColor(sdata.place)}" >
                       <p class="google-font mb-0" style="font-size:120%">{{sdata.title}}</p>
-                      <p style="font-size:80%">{{sdata.complexity}}</p>
+                      <p style="font-size:80%" v-if="sdata.speakerName.length>0">{{sdata.speakerName}}</p>
                       <v-chip
                         class="white--text ml-0"
                         color="pink"
@@ -109,7 +109,7 @@ export default {
       }else if(data == 'B202'){
         return '5px solid purple'
       }else{
-        return '5px solid gray'
+        return '5px solid orange'
       }
     },
     getColor(data){
@@ -128,7 +128,7 @@ export default {
       else if(data == 'B202'){
         return 'purple'
       }else{
-        return 'gray'
+        return 'orange'
       }
     }
   },
