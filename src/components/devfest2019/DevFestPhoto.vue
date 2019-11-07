@@ -9,11 +9,6 @@
         <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
       </v-layout>
     </v-img>
-    <v-img
-      src="/img/devfest2019/kit/image07.png"
-      lazy-src="/img/devfest2019/kit/image07.png"
-      width="100%"
-    ></v-img>
   </v-layout>
 </template>
 
