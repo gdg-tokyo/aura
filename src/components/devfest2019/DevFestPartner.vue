@@ -16,7 +16,7 @@
         class="my-3"
       >
         <v-layout wrap align-center justify-center row fill-height>
-          <v-flex xs5 sm5 md5 lg5>
+          <v-flex xs5 sm5 md5 lg4>
             <a :href="item.link" target="_blank">
               <v-img :src="getStorageUrl(item.logo)" :lazy-src="getStorageUrl(item.logo)" :alt="item.name" width="80%" style="margin:0 auto;"></v-img>
             </a>
