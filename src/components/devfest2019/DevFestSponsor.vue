@@ -134,6 +134,7 @@
             </v-layout>
           </v-img>
           </a>
+          <p class="google-font">{{item.name}}</p>
         </div>
       </v-flex>
     </v-layout>
