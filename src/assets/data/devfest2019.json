@@ -59,28 +59,61 @@
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan",
             "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。\nナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
             "link": "https://community.angular.jp",
-            "englishName": "Angular Japan User Group"
+            "englishName": "Angular Japan User Group",
+            "tutors": [
+                {
+                    "name": "稲富 駿",
+                    "title": "Angular日本ユーザー会 代表  / Google Developers Expert for Angular",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi"
+                }
+            ]
         },
         {
             "name": "Women Who Go Tokyo",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt",
             "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
             "link": "https://womenwhogotokyo.github.io",
-            "englishName": ""
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "白川 みちる",
+                    "title": "",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/michiru-shirakawa"
+                }
+            ]
         },
         {
             "name": "電気通信大学 情報工学工房ダンボールコミュニケーションロボットチーム",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
             "profile": "情報工学工房は，電気通信大学の特色である楽力教育を具現化した授業です．ダンボールコミュニケーションロボットチームでは，Raspberry PiとGoogle Cloud を用いたロボットを開発し，学生主体によるサービス開発を行っています．",
             "link": "",
-            "englishName": ""
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "島崎 俊介",
+                    "title": "学術技師",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/toshiyuki-shimazaki"
+                },
+                {
+                    "name": "山口 博光",
+                    "title": "学術技師",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
+                }
+            ]
         },
         {
             "name": "Firebase Japan User Group",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug",
             "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
             "link": "https://firebase.asia/",
-            "englishName": ""
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "佐藤 雅幸",
+                    "title": "FJUGハンズオン番長",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/masayuki-sato"
+                }
+            ]
         }
     ],
     "Keynotes": [
