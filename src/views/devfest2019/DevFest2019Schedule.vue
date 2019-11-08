@@ -5,8 +5,8 @@
                 <v-flex xs12 md10>
                     <ScheduleHeader />
                     <v-layout justify-center text-xs-center>
-                        <v-btn depressed color="#1A73E8" @click="changeToSchedule">Session Schedule</v-btn>
-                        <v-btn depressed color="#EA4335" @click="changeToHandson">Hands-on</v-btn>
+                        <v-btn depressed class="white--text" color="#1A73E8" @click="changeToSchedule">Session Schedule</v-btn>
+                        <v-btn depressed class="white--text" color="#EA4335" @click="changeToHandson">Hands-on</v-btn>
                     </v-layout>
                     <Schedule v-if="isTimeSchedule"/>
                     <Handson v-if="!isTimeSchedule"/>

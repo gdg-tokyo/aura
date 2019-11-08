@@ -29,7 +29,8 @@
         {{ link.text }}
     </v-btn>
     -->
-    <v-btn text flat color="blue" :href="devfestInfo.EntryPageUrl">Registration</v-btn>
+    <v-btn text flat color="blue" href="/devfest2019/schedule">Schedule</v-btn>
+    <v-btn text class="white--text" color="blue" :href="devfestInfo.EntryPageUrl">受付 / Registration</v-btn>
   </v-toolbar>
 </template>
 
