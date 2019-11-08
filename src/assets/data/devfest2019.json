@@ -51,6 +51,18 @@
             "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/line",
             "designation": "platinum",
             "link": "https://engineering.linecorp.com/ja/"
+        },
+        {
+            "name": "Subroh Nishikori",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/harunobu-sakagami",
+            "designation": "personal",
+            "link": "https://twitter.com/subroh_0508"
+        },
+        {
+            "name": "徳田祥",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/sho-tokuda",
+            "designation": "personal",
+            "link": "https://haze-page.tokyo/"
         }
     ],
     "Workshops": [
