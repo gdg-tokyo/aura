@@ -29,9 +29,9 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs6
-        sm6
-        md6
+        xs12
+        sm10
+        md8
         lg6
         v-for="(item, i) in platinumSponsors"
         :key="i"
@@ -55,7 +55,7 @@
     </v-layout>
     <!-- Goldスポンサー -->
     <v-layout wrap align-center justify-center row fill-height class="my-0">
-      <v-flex xs12 sm6 md6 lg6 class="pt-5 text-xs-center">
+      <v-flex xs10 sm8 md6 lg4 class="pt-5 text-xs-center">
         <p class="google-font display-1">Gold</p>
       </v-flex>
     </v-layout>
