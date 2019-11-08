@@ -69,6 +69,13 @@
             "englishName": ""
         },
         {
+            "name": "電気通信大学 情報工学工房ダンボールコミュニケーションロボットチーム",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
+            "profile": "情報工学工房は，電気通信大学の特色である楽力教育を具現化した授業です．ダンボールコミュニケーションロボットチームでは，Raspberry PiとGoogle Cloud を用いたロボットを開発し，学生主体によるサービス開発を行っています．",
+            "link": "",
+            "englishName": ""
+        },
+        {
             "name": "Firebase Japan User Group",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug",
             "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
