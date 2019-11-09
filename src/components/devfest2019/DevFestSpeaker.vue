@@ -254,6 +254,12 @@
         ></v-img>
       </v-flex>
     </v-layout>
+    <v-layout wrap align-center justify-center row fill-height class="my-3">
+      <v-flex xs12 sm12 md10 lg10 class="pa-2 text-xs-center">
+        <p class="google-font"><a href="https://developer.chrome.com/devsummit/">chorome dev summit 2019</a> で発表された技術や得た知見、情報などを共有します。</p>
+        <p class="google-font">We will share the technology, knowledge and information announced at <a href="https://developer.chrome.com/devsummit/">chorome dev summit 2019</a>.</p>
+      </v-flex>
+    </v-layout>
     <!-- contents -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
