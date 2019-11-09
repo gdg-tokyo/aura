@@ -154,6 +154,14 @@
         ],
         "guests": [
             {
+                "name": "Katie Hockman ",
+                "position": "Senior Software Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/Katie_Hockman",
+                "profile": "Katie Hockman works on the Go team in New York City, where she led the team that built the Go module mirror and checksum database. She's been at Google for 4 years, previously working on an accessibility team with the goal of making Google the best place to work for people with disabilities.",
+                "twitter": "",
+                "englishName": ""
+            },
+            {
                 "name": "Coming soon",
                 "position": "Special Guest",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1",
@@ -228,12 +236,28 @@
                 "englishName": "Jun Sakata"
             },
             {
+                "name": "柴田 芳樹",
+                "position": "ソフトウェアエンジニア",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/%20Yoshiki_Shibata",
+                "profile": "1959年生まれ。九州工業大学情報工学科で情報工学を学び、1984年同大学大学院で情報工学修士課程を修了。パロアルト研究所を含む米国ゼロックス社での5年間のソフトウェア開発も含め、Unix（Solaris/Linux）、C、Mesa、C++、Java、Goなどを用いたさまざまなソフトウェア開発に従事してきた。長年組み込みシステムの開発に従事してきたが、2018年6月より、株式会社メルペイにてBackendエンジニアとしてGo言語を用いたサービス開発に従事している。",
+                "twitter": "https://twitter.com/yoshiki_shibata",
+                "englishName": "Yoshiki Shibata"
+            },
+            {
                 "name": "田中 洋一郎",
                 "position": "Google Developers Expert for Assistant",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka",
                 "profile": "Google Developers Expert (Assistant, Web Technologies)",
                 "twitter": "https://twitter.com/yoichiro",
                 "englishName": "Yoichiro Tanaka"
+            },
+            {
+                "name": "なかむら さとる",
+                "position": "Google Developers Expert for GCP",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/satoru_nakamura",
+                "profile": "BigQueryで人生が変わった男。\nBigQueryを愛してやまない男。\n普段は前処理とかDWHの構築とかデータを使ったコンサルとかやってます。\nGoogle Developers Expert(GCP)",
+                "twitter": "https://twitter.com/satoluxx",
+                "englishName": "Satoru Nakamura"
             },
             {
                 "name": "降矢 大地",
