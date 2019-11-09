@@ -245,11 +245,11 @@
     <!-- Chrome Dev Summit Speaker -->
     <!-- title -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs12 sm4 md4 lg4 class="pa-2">
+      <v-flex xs12 sm5 md5 lg5 class="pa-2">
         <v-img
           :src="getStorageUrl(cdsLogoUrl)"
           :lazy-src="getStorageUrl(cdsLogoUrl)"
-          width="250"
+          width="100%"
           style="margin:0 auto;"
         ></v-img>
       </v-flex>
