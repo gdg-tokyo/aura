@@ -72,21 +72,65 @@
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan",
             "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。\nナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
             "link": "https://community.angular.jp",
-            "englishName": "Angular Japan User Group"
+            "englishName": "Angular Japan User Group",
+            "tutors": [
+                {
+                    "name": "稲富 駿",
+                    "title": "Angular日本ユーザー会 代表  / Google Developers Expert for Angular",
+                    "profile": "オープンコミュニティを愛するフロントエンド開発者。2016年よりAngular日本ユーザー会の代表を務める。 2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi"
+                }
+            ]
         },
         {
             "name": "Women Who Go Tokyo",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt",
             "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
             "link": "https://womenwhogotokyo.github.io",
-            "englishName": ""
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "白川 みちる",
+                    "title": "",
+                    "profile":"三度の飯と同じくらい Go が好きです。このすばらしい技術をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営にも携わっています。\nその他、Vim や業務設計、チームビルディング、シニアのキャリアや教育についても語ると長くなります。\n仕事では LINE でプロジェクトマネジメントと Java のエンジニアをしています。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/michiru-shirakawa"
+                }
+            ]
+        },
+        {
+            "name": "電気通信大学 情報工学工房ダンボールコミュニケーションロボットチーム",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
+            "profile": "情報工学工房は，電気通信大学の特色である楽力教育を具現化した授業です．ダンボールコミュニケーションロボットチームでは，Raspberry PiとGoogle Cloud を用いたロボットを開発し，学生主体によるサービス開発を行っています．",
+            "link": "",
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "島崎 俊介",
+                    "title": "学術技師",
+                    "profile": "電気通信大学卒業，現在，電気通信大学学術技師．情報系学科計算機実験室の学修マネジメントを通じて，学生・教職員・ステークホルダーと協働で電気通信大学をより良い大学にしていくことが仕事の目標です．週末は，電通大認定ベンチャーuecサポートのメンバーとして電気通信大学プログラミング教室の運営とプログラミング教室の研究を行っています．",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/toshiyuki-shimazaki"
+                },
+                {
+                    "name": "山口 博光",
+                    "title": "学術技師",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
+                }
+            ]
         },
         {
             "name": "Firebase Japan User Group",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug",
             "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
             "link": "https://firebase.asia/",
-            "englishName": ""
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "佐藤 雅幸",
+                    "title": "FJUGハンズオン番長",
+                    "profile": "教育業界で情報技術の普及に務めるHoliday Programmer。Firebaseのコンセプトに感銘し、Firebase Japan User GroupのHands-on会を主導したり、他コミュニティのHands-on活動に協力したり、Firebaseのブログを書いたり、薄くて高い本を書いたり書いてなかったりと暗躍中。ピクセルアートをこよなく愛する。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/masayuki-sato"
+                }
+            ]
         }
     ],
     "Speakers": {
