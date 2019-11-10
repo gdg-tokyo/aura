@@ -116,7 +116,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs1 sm1 md1 lg1
+        xs3 sm2 md1 lg1
         v-for="(item, i) in personalSponsors"
         :key="i"
         class="text-xs-center"

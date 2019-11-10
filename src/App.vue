@@ -1,11 +1,12 @@
 <template>
   <v-app class="white">
-    <CoreToolbar v-show="$route.name.indexOf('devfest') == -1"/>
-    <DevFestToolbar v-show="$route.name.indexOf('devfest') >= 0"/>
+    <CoreToolbar v-if="$route.name.indexOf('devfest') == -1"/>
+    <DevFestToolbar v-else/>
     <CoreDrawer/>
     <CoreView/>
     <CoreFooter/>
-    <BottomNav/>
+    <BottomNav v-if="$route.name.indexOf('devfest') == -1"/>
+    <DevFestBottomNav v-else/>
   </v-app>
 </template>
 
@@ -16,6 +17,7 @@ import CoreFooter from '@/components/common/Footer'
 import CoreView from '@/components/common/View'
 import BottomNav from '@/components/common/BottomNav'
 import DevFestToolbar from '@/components/devfest2019/DevFestToolbar'
+import DevFestBottomNav from '@/components/devfest2019/DevFestBottomNav'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     CoreFooter,
     CoreView,
     BottomNav,
-    DevFestToolbar
+    DevFestToolbar,
+    DevFestBottomNav
   },
   data () {
     return {

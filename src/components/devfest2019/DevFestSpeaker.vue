@@ -245,13 +245,19 @@
     <!-- Chrome Dev Summit Speaker -->
     <!-- title -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
-      <v-flex xs12 sm4 md4 lg4 class="pa-2">
+      <v-flex xs12 sm5 md5 lg5 class="pa-2">
         <v-img
           :src="getStorageUrl(cdsLogoUrl)"
           :lazy-src="getStorageUrl(cdsLogoUrl)"
-          width="250"
+          width="100%"
           style="margin:0 auto;"
         ></v-img>
+      </v-flex>
+    </v-layout>
+    <v-layout wrap align-center justify-center row fill-height class="my-3">
+      <v-flex xs12 sm12 md10 lg10 class="pa-2 text-xs-center">
+        <p class="google-font"><a href="https://developer.chrome.com/devsummit/">chorome dev summit 2019</a> で発表された技術や得た知見、情報などを共有します。</p>
+        <p class="google-font">We will share the technology, knowledge and information announced at <a href="https://developer.chrome.com/devsummit/">chorome dev summit 2019</a>.</p>
       </v-flex>
     </v-layout>
     <!-- contents -->
@@ -261,6 +267,9 @@
         sm3
         md3
         lg3
+        offset-sm1
+        offset-md1
+        offset-lg1
         v-for="(item, i) in cds"
         :key="i"
         class="text-xs-center"
