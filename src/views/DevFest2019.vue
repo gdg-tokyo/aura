@@ -23,7 +23,7 @@
     <v-container fluid style="background-color:#F9F9F9">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <DevFestSpeaker />
+          <DevFestSpeaker id="speaker"/>
         </v-flex>
       </v-layout>
     </v-container>
@@ -39,15 +39,7 @@
     <v-container fluid class="my-4">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <DevFestSponsor />
-        </v-flex>
-      </v-layout>
-    </v-container>
-
-    <v-container fluid class="background-color:#F9F9F9">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10>
-          <DevFestOrganizer />
+          <DevFestSponsor id="sponsor"/>
         </v-flex>
       </v-layout>
     </v-container>
@@ -56,6 +48,14 @@
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
           <DevFestPartner />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="background-color:#F9F9F9">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10>
+          <DevFestOrganizer />
         </v-flex>
       </v-layout>
     </v-container>

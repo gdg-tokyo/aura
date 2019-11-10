@@ -29,10 +29,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs6
-        sm6
-        md6
-        lg6
+        xs12 sm8 md6 lg6
         v-for="(item, i) in platinumSponsors"
         :key="i"
         class="text-xs-center"
@@ -41,8 +38,8 @@
         <div class="text-xs-center ma-1 pa-1 my-0">
           <a :href="item.link" target="_blank">
           <v-img
-            :src="item.logo"
-            :lazy-src="item.logo"
+            :src="getStorageUrl(item.logo)"
+            :lazy-src="getStorageUrl(item.logo)"
             :alt="item.name"
           >
             <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -61,10 +58,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs5
-        sm5
-        md5
-        lg5
+        xs10 sm7 md5 lg5
         v-for="(item, i) in goldSponsors"
         :key="i"
         class="text-xs-center"
@@ -73,8 +67,8 @@
         <div class="text-xs-center ma-1 pa-1 my-0">
           <a :href="item.link" target="_blank">
           <v-img
-            :src="item.logo"
-            :lazy-src="item.logo"
+            :src="getStorageUrl(item.logo)"
+            :lazy-src="getStorageUrl(item.logo)"
             :alt="item.name"
           >
             <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -93,10 +87,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs3
-        sm3
-        md3
-        lg3
+        xs8 sm5 md3 lg3
         v-for="(item, i) in silverSponsors"
         :key="i"
         class="text-xs-center"
@@ -117,11 +108,42 @@
         </div>
       </v-flex>
     </v-layout> -->
+    <!-- 個人スポンサー -->
+    <v-layout wrap align-center justify-center row fill-height class="my-0">
+      <v-flex xs12 sm6 md6 lg6 class="pt-5 text-xs-center">
+        <p class="google-font display-1">個人</p>
+      </v-flex>
+    </v-layout>
+    <v-layout wrap align-center justify-center row fill-height class="my-3">
+      <v-flex
+        xs3 sm2 md1 lg1
+        v-for="(item, i) in personalSponsors"
+        :key="i"
+        class="text-xs-center"
+        style="text-align:center"
+      >
+        <div class="text-xs-center ma-1 pa-1 my-0">
+          <a :href="item.link" target="_blank">
+          <v-img
+            :src="getStorageUrl(item.logo)"
+            :lazy-src="getStorageUrl(item.logo)"
+            :alt="item.name"
+          >
+            <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+              <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+            </v-layout>
+          </v-img>
+          </a>
+          <p class="google-font">{{item.name}}</p>
+        </div>
+      </v-flex>
+    </v-layout>
   </v-container>
 </template>
 
 <script>
 import DevFestInfo from "@/assets/data/devfest2019.json";
+import Mixin from "@/mixin.js";
 export default {
   data() {
     return {
@@ -143,7 +165,13 @@ export default {
       return this.sponsors.filter(item => {
         return item.designation == 'silver';
       }, this);
+    },
+    personalSponsors: function() {
+      return this.sponsors.filter(item => {
+        return item.designation == 'personal';
+      }, this);
     }
-  }
+  },
+  mixins: [Mixin]
 };
 </script>

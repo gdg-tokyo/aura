@@ -1,12 +1,13 @@
 {
     "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
     "EntryPageUrl": "https://gdg-tokyo.connpass.com/event/137666/",
+    "cdsLogoUrl": "https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/cds2019",
     "Partners": {
         "Cosponsorship" : {
             "designation": "協賛",
             "groups": [{
                 "name": "国立大学法人電気通信大学",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec.png",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
                 "link": "https://www.uec.ac.jp/"
             }]
         },
@@ -15,7 +16,7 @@
             "groups" : [{
                 "name": "Peatix Japan株式会社",
                 "title": "メディアパートナー",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix.png",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix",
                 "link": "https://peatix.com/"
             }]
         },
@@ -23,12 +24,12 @@
             "designation" : "協力",
             "groups" : [{
                 "name": "Google Developers",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers.png",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers",
                 "link": "https://developers.google.com/"
             },
             {
                 "name": "グローブ・エモーションズ株式会社",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB.png",
+                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB",
                 "link": "https://www.growb.co.jp/"
             }]
         }
@@ -36,160 +37,294 @@
     "Sponsors": [
         {
             "name": "CircleCI",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/circleci.png",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/circleci",
             "designation": "gold",
             "link": "https://circleci.com/"
         },
         {
             "name": "株式会社ディー・エヌ・エー",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/DeNA.png",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/DeNA",
             "designation": "platinum",
             "link": "https://dena.com/"
         },
         {
             "name": "LINE株式会社",
-            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/line.png",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/line",
             "designation": "platinum",
             "link": "https://engineering.linecorp.com/ja/"
+        },
+        {
+            "name": "Subroh Nishikori",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/harunobu-sakagami",
+            "designation": "personal",
+            "link": "https://twitter.com/subroh_0508"
+        },
+        {
+            "name": "徳田祥",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/sho-tokuda",
+            "designation": "personal",
+            "link": "https://haze-page.tokyo/"
         }
     ],
     "Workshops": [
         {
             "name": "Angular日本ユーザー会",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan.png",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan",
             "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。\nナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
             "link": "https://community.angular.jp",
-            "englishName": "Angular Japan User Group"
+            "englishName": "Angular Japan User Group",
+            "tutors": [
+                {
+                    "name": "稲富 駿",
+                    "title": "Angular日本ユーザー会 代表  / Google Developers Expert for Angular",
+                    "profile": "オープンコミュニティを愛するフロントエンド開発者。2016年よりAngular日本ユーザー会の代表を務める。 2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi"
+                }
+            ]
         },
         {
             "name": "Women Who Go Tokyo",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt.png",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt",
             "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
             "link": "https://womenwhogotokyo.github.io",
-            "englishName": ""
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "白川 みちる",
+                    "title": "",
+                    "profile":"三度の飯と同じくらい Go が好きです。このすばらしい技術をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営にも携わっています。\nその他、Vim や業務設計、チームビルディング、シニアのキャリアや教育についても語ると長くなります。\n仕事では LINE でプロジェクトマネジメントと Java のエンジニアをしています。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/michiru-shirakawa"
+                }
+            ]
+        },
+        {
+            "name": "電気通信大学 情報工学工房ダンボールコミュニケーションロボットチーム",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/uec_cardboard",
+            "profile": "情報工学工房は，電気通信大学の特色である楽力教育を具現化した授業です．ダンボールコミュニケーションロボットチームでは，Raspberry PiとGoogle Cloud を用いたロボットを開発し，学生主体によるサービス開発を行っています．",
+            "link": "",
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "島崎 俊介",
+                    "title": "学術技師",
+                    "profile": "電気通信大学卒業，現在，電気通信大学学術技師．情報系学科計算機実験室の学修マネジメントを通じて，学生・教職員・ステークホルダーと協働で電気通信大学をより良い大学にしていくことが仕事の目標です．週末は，電通大認定ベンチャーuecサポートのメンバーとして電気通信大学プログラミング教室の運営とプログラミング教室の研究を行っています．",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/toshiyuki-shimazaki"
+                },
+                {
+                    "name": "山口 博光",
+                    "title": "学術技師",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
+                }
+            ]
         },
         {
             "name": "Firebase Japan User Group",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug.png",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug",
             "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
             "link": "https://firebase.asia/",
-            "englishName": ""
+            "englishName": "",
+            "tutors": [
+                {
+                    "name": "佐藤 雅幸",
+                    "title": "FJUGハンズオン番長",
+                    "profile": "教育業界で情報技術の普及に務めるHoliday Programmer。Firebaseのコンセプトに感銘し、Firebase Japan User GroupのHands-on会を主導したり、他コミュニティのHands-on活動に協力したり、Firebaseのブログを書いたり、薄くて高い本を書いたり書いてなかったりと暗躍中。ピクセルアートをこよなく愛する。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/masayuki-sato"
+                }
+            ]
         }
     ],
-    "Keynotes": [
-        {
-            "name": "岩尾 エマ はるか",
-            "position": "Developer Advocate",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/emma_haruka_iwao.png",
-            "profile": "組み込みソフトウェア開発者、Site Reliability Engineerなどを経て2015年より現職。現在はGoogleのシアトルオフィスにて、Google Cloud PlatformのDeveloper Advocateとしてアプリケーション開発者に技術の魅力を伝える仕事をしている。大学では高性能計算および分散ファイルシステムを研究し、その経験を元にクラウド環境上での高性能計算を専門にしている。趣味は旅行とゲーム。",
-            "twitter": "https://twitter.com/Yuryu",
-            "englishName": "Emma Haruka Iwao"
-        }
-    ],
-    "Speakers": [
-        {
-            "name": "青山 真也",
-            "position": "Infrastructure Engineer",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/aoyama.png",
-            "profile": "OpenStackを使ったプライベートクラウドやGKE互換なコンテナプラットフォームをゼロから構築。国内カンファレンスでの基調講演や海外カンファレンス等、登壇経験多数。世界で2番目にKubernetesの認定資格を取得。著書に『Kubernetes完全ガイド』『みんなのDocker/Kubernetes』。現在はOSSへの Contribute 活動をはじめ、Cloud Native Days Tokyoの共同実行委員長、CNCF公式のCloud Native Meetup TokyoやKubernetes Meetup TokyoのOrganizerなどコミュニティ活動にも従事。",
-            "twitter": "https://twitter.com/amsy810",
-            "englishName": "Masaya Aoyama"
-        },
-        {
-            "name": "足立 昌彦",
-            "position": "Google Developers Expert for ML",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/adachi.png",
-            "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを協同設立。Google Developers Expert（ML）に認定され、執筆、講演多数。",
-            "twitter": "https://twitter.com/adamrocker",
-            "englishName": "Masahiko Adachi"
-        },
-        {
-            "name": "荒木 佑一",
-            "position": "Google Japan Developer Program Engineer",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yuichi_araki.png",
-            "profile": "AndroidX の Transition や Room を開発しています。developer.android.com のサンプル コードやコードラボも作っています。\n以前は Material Design ライブラリ (現 Material Components) の開発も行っていました。",
-            "twitter": "https://twitter.com/yuichi_araki",
-            "englishName": "Yuichi Araki"
-        },
-        {
-            "name": "あんざいゆき",
-            "position": "株式会社ウフィカ代表取締役\nGoogle Developers Expert for Android",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/anzai.png",
-            "profile": "株式会社ウフィカ代表取締役社長。\nGoogle Developers Expert for Android。\n「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
-            "twitter": "https://twitter.com/yanzm",
-            "englishName": "Yuki Anzai"
-        },
-        {
-            "name": "稲富 駿",
-            "position": "Google Developers Expert for Angular",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/laco.png",
-            "profile": "オープンコミュニティを愛するフロントエンド開発者。\n2016年よりAngular日本ユーザー会の代表を務める。 \n2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
-            "twitter": "https://twitter.com/laco2net",
-            "englishName": "Suguru Inatomi"
-        },
-        {
-            "name": "上田 哲広",
-            "position": "Google Developers Expert for GCP and Flutter",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/ueda.png",
-            "profile": "ソフトウェアエンジニア。マイケル株式会社CTO。App EngineとFlutterのGoogle Developers Expert。好きな言語はGo。最近はFlutter/Dart。",
-            "twitter": "https://twitter.com/najeira",
-            "englishName": "Tetsuhiro Ueda"
-        },
-        {
-            "name": "太田 満久",
-            "position": "TensorFlow User Group Organizer, Google Developers Expert for ML",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/oota.png",
-            "profile": "1983年東京都生まれ。名古屋育ち。京都大学基礎物理学研究所にて素粒子論を専攻し、2010年に博士号を取得。同年データ分析専業のブレインパッド社に新卒として入社。入社後は数学的なバックグラウンドを生かし、自然言語処理エンジンやレコメンドアルゴリズムの開発を担当。現在は Chief Data Technology Officer として最新技術の調査・検証を担当。 TensorFlow UserGroup Tokyo オーガナイザ。Google Developers Expert (Machine Learning)。 ",
-            "twitter": "https://twitter.com/ohtaman",
-            "englishName": "Mitsuhisa Ohta"
-        },
-        {
-            "name": "坂田 純",
-            "position": "Google Developers Expert for GCP",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/sakata.png",
-            "profile": "Google Developers Expert specialized in cloud technologies. I also work as SWE at Ubie Inc, a healthcare startup in Tokyo. I am responsible for designing, developing and running services on GCP.",
-            "twitter": "https://twitter.com/sakajunquality",
-            "englishName": "Jun Sakata"
-        },
-        {
-            "name": "田中 洋一郎",
-            "position": "Google Developers Expert for Assistant",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka.png",
-            "profile": "Google Developers Expert (Assistant, Web Technologies)",
-            "twitter": "https://twitter.com/yoichiro",
-            "englishName": "Yoichiro Tanaka"
-        },
-        {
-            "name": "降矢 大地",
-            "position": "Google Developers Expert for Android",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/furiya.png",
-            "profile": "Google Developers Expert for Android",
-            "twitter": "https://twitter.com/wasabeef_jp",
-            "englishName": "Daichi Furiya"
-        },
-        {
-            "name": "松館 大輝",
-            "position": "Google Developers Expert for Firebase",
-            "profileImage": "https://storage.googleapis.com/gdg-tokyo-website.appspot.com/devfest19/speaker/d_date.png",
-            "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。\n著者: iOSアプリ設計パターン入門。",
-            "twitter": "https://twitter.com/d_date",
-            "englishName": "Daiki Matsudate"
-        },
-        {
-            "name": "矢倉 眞隆",
-            "position": "Google Developers Expert for Web Technologies",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masataka_yakura.png",
-            "profile": "ウェブ開発者。ブラウザーまわりの技術が好き。",
-            "twitter": "https://twitter.com/myakura",
-            "englishName": "Masataka Yakura"
-        },
-        {
-            "name": "山口 能迪",
-            "position": "Developer Advocate",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoshifumi_yamaguchi.png",
-            "profile": "Google合同会社デベロッパーアドボケイト。クラウド製品の普及と技術支援を担当し、特にオブザーバビリティ領域を担当。またGoコミュニティの支援も活発に行っている。以前はウェブ、Android、Googleアシスタントと各種新規製品・新規機能のリリースと普及に関わり、多くの公開事例の技術支援を担当。好きなプログラミング言語の傾向は、実用指向で標準の必要十分に重きを置くもので、特にPythonとGoを好んでいる。",
-            "twitter": "https://twitter.com/ymotongpoo",
-            "englishName": "Yoshi Yamaguchi"
-        }
-    ]
+    "Speakers": {
+        "keynotes": [
+            {
+                "name": "佐藤 祥子",
+                "position": "GDG Tokyo Organizer, DevRel",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_sato",
+                "profile": "GDG DevFest Tokyo 2019 実行委員長、Organizer of Google Developers Group Tokyo & Women Techmakers Tokyo。現在はエンジニアからDevRelへキャリアチェンジを経て、IT企業でエンジニア組織運営・技術広報・ブランディングや技術カンファレンス運営に携わっています。",
+                "twitter": "https://twitter.com/satoshoco",
+                "englishName": "Shoko Sato"
+            },
+            {
+                "name": "岩尾 エマ はるか",
+                "position": "Developer Advocate",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/emma_haruka_iwao",
+                "profile": "組み込みソフトウェア開発者、Site Reliability Engineerなどを経て2015年より現職。現在はGoogleのシアトルオフィスにて、Google Cloud PlatformのDeveloper Advocateとしてアプリケーション開発者に技術の魅力を伝える仕事をしている。大学では高性能計算および分散ファイルシステムを研究し、その経験を元にクラウド環境上での高性能計算を専門にしている。趣味は旅行とゲーム。",
+                "twitter": "https://twitter.com/Yuryu",
+                "englishName": "Emma Haruka Iwao"
+            }
+        ],
+        "guests": [
+            {
+                "name": "Katie Hockman ",
+                "position": "Senior Software Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/Katie_Hockman",
+                "profile": "Katie Hockman works on the Go team in New York City, where she led the team that built the Go module mirror and checksum database. She's been at Google for 4 years, previously working on an accessibility team with the goal of making Google the best place to work for people with disabilities.",
+                "twitter": "https://twitter.com/katie_hockman",
+                "englishName": ""
+            },
+            {
+                "name": "Coming soon",
+                "position": "Special Guest",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1",
+                "profile": "Coming soon...",
+                "twitter": "",
+                "englishName": ""
+            }
+        ],
+        "sessions": [
+            {
+                "name": "青山 真也",
+                "position": "Infrastructure Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masaya_aoyama",
+                "profile": "OpenStackを使ったプライベートクラウドやGKE互換なコンテナプラットフォームをゼロから構築。国内カンファレンスでの基調講演や海外カンファレンス等、登壇経験多数。世界で2番目にKubernetesの認定資格を取得。著書に『Kubernetes完全ガイド』『みんなのDocker/Kubernetes』。現在はOSSへの Contribute 活動をはじめ、Cloud Native Days Tokyoの共同実行委員長、CNCF公式のCloud Native Meetup TokyoやKubernetes Meetup TokyoのOrganizerなどコミュニティ活動にも従事。",
+                "twitter": "https://twitter.com/amsy810",
+                "englishName": "Masaya Aoyama"
+            },
+            {
+                "name": "足立 昌彦",
+                "position": "Google Developers Expert for ML",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masahiko_adachi",
+                "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを協同設立。Google Developers Expert（ML）に認定され、執筆、講演多数。",
+                "twitter": "https://twitter.com/adamrocker",
+                "englishName": "Masahiko Adachi"
+            },
+            {
+                "name": "荒木 佑一",
+                "position": "Google Japan Developer Program Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yuichi_araki",
+                "profile": "AndroidX の Transition や Room を開発しています。developer.android.com のサンプル コードやコードラボも作っています。\n以前は Material Design ライブラリ (現 Material Components) の開発も行っていました。",
+                "twitter": "https://twitter.com/yuichi_araki",
+                "englishName": "Yuichi Araki"
+            },
+            {
+                "name": "あんざいゆき",
+                "position": "株式会社ウフィカ代表取締役\nGoogle Developers Expert for Android",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yuki_anzai",
+                "profile": "株式会社ウフィカ代表取締役社長。\nGoogle Developers Expert for Android。\n「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
+                "twitter": "https://twitter.com/yanzm",
+                "englishName": "Yuki Anzai"
+            },
+            {
+                "name": "上田 哲広",
+                "position": "Google Developers Expert for GCP and Flutter",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/tetsuhiro_ueda",
+                "profile": "ソフトウェアエンジニア。マイケル株式会社CTO。App EngineとFlutterのGoogle Developers Expert。好きな言語はGo。最近はFlutter/Dart。",
+                "twitter": "https://twitter.com/najeira",
+                "englishName": "Tetsuhiro Ueda"
+            },
+            {
+                "name": "大河内 翔子",
+                "position": "Software Engineer & Community Organizer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_okochi",
+                "profile": "ものづくりと場所づくりが好きなエンジニア。普段はSoftware EngineerとしてGo/Vue.js/TypeScriptで開発してGCP上にデプロイしています。4年ほど前からコミュニティ運営に携わり、現在はGDG Tokyo とWomen Techmakers TokyoのOrganizerをやっています。",
+                "twitter": "https://twitter.com/_okohs",
+                "englishName": "Shoko Okochi"
+            },
+            {
+                "name": "太田 満久",
+                "position": "TensorFlow User Group Organizer, Google Developers Expert for ML",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/mitsuhisa_ohta",
+                "profile": "1983年東京都生まれ。名古屋育ち。京都大学基礎物理学研究所にて素粒子論を専攻し、2010年に博士号を取得。同年データ分析専業のブレインパッド社に新卒として入社。入社後は数学的なバックグラウンドを生かし、自然言語処理エンジンやレコメンドアルゴリズムの開発を担当。現在は Chief Data Technology Officer として最新技術の調査・検証を担当。 TensorFlow UserGroup Tokyo オーガナイザ。Google Developers Expert (Machine Learning)。 ",
+                "twitter": "https://twitter.com/ohtaman",
+                "englishName": "Mitsuhisa Ohta"
+            },
+            {
+                "name": "坂田 純",
+                "position": "Google Developers Expert for GCP",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jun_sakata",
+                "profile": "Google Developers Expert specialized in cloud technologies. I also work as SWE at Ubie Inc, a healthcare startup in Tokyo. I am responsible for designing, developing and running services on GCP.",
+                "twitter": "https://twitter.com/sakajunquality",
+                "englishName": "Jun Sakata"
+            },
+            {
+                "name": "柴田 芳樹",
+                "position": "Software Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/%20Yoshiki_Shibata",
+                "profile": "1959年生まれ。九州工業大学情報工学科で情報工学を学び、1984年同大学大学院で情報工学修士課程を修了。パロアルト研究所を含む米国ゼロックス社での5年間のソフトウェア開発も含め、Unix（Solaris/Linux）、C、Mesa、C++、Java、Goなどを用いたさまざまなソフトウェア開発に従事してきた。長年組み込みシステムの開発に従事してきたが、2018年6月より、株式会社メルペイにてBackendエンジニアとしてGo言語を用いたサービス開発に従事している。",
+                "twitter": "https://twitter.com/yoshiki_shibata",
+                "englishName": "Yoshiki Shibata"
+            },
+            {
+                "name": "田中 洋一郎",
+                "position": "Google Developers Expert for Assistant",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka",
+                "profile": "Google Developers Expert (Assistant, Web Technologies)",
+                "twitter": "https://twitter.com/yoichiro",
+                "englishName": "Yoichiro Tanaka"
+            },
+            {
+                "name": "なかむら さとる",
+                "position": "Google Developers Expert for GCP",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/satoru_nakamura",
+                "profile": "BigQueryで人生が変わった男。\nBigQueryを愛してやまない男。\n普段は前処理とかDWHの構築とかデータを使ったコンサルとかやってます。\nGoogle Developers Expert(GCP)",
+                "twitter": "https://twitter.com/satoluxx",
+                "englishName": "Satoru Nakamura"
+            },
+            {
+                "name": "降矢 大地",
+                "position": "Google Developers Expert for Android",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/daichi_furiya",
+                "profile": "Google Developers Expert for Android",
+                "twitter": "https://twitter.com/wasabeef_jp",
+                "englishName": "Daichi Furiya"
+            },
+            {
+                "name": "松館 大輝",
+                "position": "Google Developers Expert for Firebase",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/daiki_matsudate",
+                "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。\n著者: iOSアプリ設計パターン入門。",
+                "twitter": "https://twitter.com/d_date",
+                "englishName": "Daiki Matsudate"
+            },
+            {
+                "name": "山口 能迪",
+                "position": "Developer Advocate",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoshifumi_yamaguchi",
+                "profile": "Google合同会社デベロッパーアドボケイト。クラウド製品の普及と技術支援を担当し、特にオブザーバビリティ領域を担当。またGoコミュニティの支援も活発に行っている。以前はウェブ、Android、Googleアシスタントと各種新規製品・新規機能のリリースと普及に関わり、多くの公開事例の技術支援を担当。好きなプログラミング言語の傾向は、実用指向で標準の必要十分に重きを置くもので、特にPythonとGoを好んでいる。",
+                "twitter": "https://twitter.com/ymotongpoo",
+                "englishName": "Yoshi Yamaguchi"
+            }
+        ],
+        "chromeDevSummits": [
+            {
+                "name": "稲富 駿",
+                "position": "Google Developers Expert for Angular",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi",
+                "profile": "オープンコミュニティを愛するフロントエンド開発者。\n2016年よりAngular日本ユーザー会の代表を務める。 \n2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
+                "twitter": "https://twitter.com/laco2net",
+                "englishName": "Suguru Inatomi"
+            },
+            {
+                "name": "宍戸 俊哉",
+                "position": "Mobile Solutions Consultant",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shunya_shishido",
+                "profile": "Google合同会社モバイルソリューションズコンサルタント。2018年より現職。主にモバイルWEB領域の技術支援を担当し、PWAやAMPなどの普及を推進。サイトの速度改善が得意。",
+                "twitter": "https://twitter.com/sisidovski",
+                "englishName": "Shunya Shishido"
+            },
+            {
+                "name": "清水 智公",
+                "position": "Developer Advocate",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/noritada_shimizu",
+                "profile": "Google 合同会社 Developer Advocate。Web を中心にフロントエンド周りの技術的な支援やコミュニケーションを担当。推しのWeb技術はWeb AssemblyとWeb Workers、Web GPU、そしてWeb Audio 。",
+                "twitter": "",
+                "englishName": "Chiko Shimizu"
+            },
+            {
+                "name": "Jxck",
+                "position": "Google Developers Expert for Web Technologies",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jxck",
+                "profile": "https://blog.jxck.io https://mozaic.fm",
+                "twitter": "https://twitter.com/jxck_",
+                "englishName": "Jack"
+            },
+            {
+                "name": "矢倉 眞隆",
+                "position": "Google Developers Expert for Web Technologies",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masataka_yakura",
+                "profile": "ウェブ開発者。ブラウザーまわりの技術が好き。",
+                "twitter": "https://twitter.com/myakura",
+                "englishName": "Masataka Yakura"
+            }
+        ]
+    }
 }

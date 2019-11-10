@@ -2,7 +2,7 @@
   <v-container class="pa-0">
     <!-- 協賛 -->
     <v-layout wrap align-center justify-center row fill-height class="my-0">
-      <v-flex xs12 sm6 md6 lg6 class="pt-5 text-xs-center">
+      <v-flex xs10 sm8 md6 lg4 class="pt-5 text-xs-center">
         <p class="google-font display-1">{{ cosponsorship.designation}}</p>
       </v-flex>
     </v-layout>
@@ -16,9 +16,9 @@
         class="my-3"
       >
         <v-layout wrap align-center justify-center row fill-height>
-          <v-flex xs12 sm8 md5 lg4>
+          <v-flex xs10 sm8 md6 lg4>
             <a :href="item.link" target="_blank">
-              <v-img :src="item.logo" :lazy-src="item.logo" :alt="item.name" width="80%" style="margin:0 auto;"></v-img>
+              <v-img :src="getStorageUrl(item.logo)" :lazy-src="getStorageUrl(item.logo)" :alt="item.name" width="80%" style="margin:0 auto;"></v-img>
             </a>
           </v-flex>
         </v-layout>
@@ -34,9 +34,9 @@
         </v-flex>
       </v-layout>
       <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 sm8 md5 lg4>
+        <v-flex xs10 sm8 md6 lg4>
           <a :href="item.link" target="_blank">
-            <v-img :src="item.logo" :lazy-src="item.logo" :alt="item.name" width="80%" style="margin:0 auto;"></v-img>
+            <v-img :src="getStorageUrl(item.logo)" :lazy-src="getStorageUrl(item.logo)" :alt="item.name" width="80%" style="margin:0 auto;"></v-img>
           </a>
         </v-flex>
       </v-layout>
@@ -51,7 +51,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs12 sm8 md5 lg4
+        xs10 sm8 md6 lg4
         v-for="(item, i) in partnership.groups"
         :key="i"
         class="text-xs-center"
@@ -60,8 +60,8 @@
         <div class="text-xs-center ma-1 pa-1 my-0">
           <a :href="item.link" target="_blank">
           <v-img
-            :src="item.logo"
-            :lazy-src="item.logo"
+            :src="getStorageUrl(item.logo)"
+            :lazy-src="getStorageUrl(item.logo)"
             :alt="item.name"
           >
             <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -77,6 +77,7 @@
 
 <script>
 import DevFestInfo from "@/assets/data/devfest2019.json";
+import Mixin from "@/mixin.js";
 export default {
   data() {
     return {
@@ -84,6 +85,7 @@ export default {
       objectivePartner: DevFestInfo.Partners.ObjectivePartner,
       partnership: DevFestInfo.Partners.Partnership
     };
-  }
+  },
+  mixins: [Mixin]
 };
 </script>
