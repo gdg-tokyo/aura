@@ -237,7 +237,7 @@
             },
             {
                 "name": "柴田 芳樹",
-                "position": "ソフトウェアエンジニア",
+                "position": "Software Engineer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/%20Yoshiki_Shibata",
                 "profile": "1959年生まれ。九州工業大学情報工学科で情報工学を学び、1984年同大学大学院で情報工学修士課程を修了。パロアルト研究所を含む米国ゼロックス社での5年間のソフトウェア開発も含め、Unix（Solaris/Linux）、C、Mesa、C++、Java、Goなどを用いたさまざまなソフトウェア開発に従事してきた。長年組み込みシステムの開発に従事してきたが、2018年6月より、株式会社メルペイにてBackendエンジニアとしてGo言語を用いたサービス開発に従事している。",
                 "twitter": "https://twitter.com/yoshiki_shibata",
