@@ -2,8 +2,9 @@
   <!-- <v-container class="pa-0"> -->
   <v-layout wrap align-center justify-center row fill-height class="pb-4">
     <v-img
-      src="/img/devfest2019/kit/image05.gif"
-      lazy-src="/img/devfest2019/kit/image05.gif"
+      :src="getStorageUrl('https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/topimg')"
+      :lazy-src="getStorageUrl('https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/topimg')"
+      alt="GDG DevFest Tokyo 2019"
       width="100%"
     >
       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -37,11 +38,13 @@
 
 <script>
 import DevFestDetails from "@/assets/data/devfest2019.json";
+import Mixin from "@/mixin.js";
 export default {
   data() {
     return {
       devfestDetails: DevFestDetails
     };
-  }
+  },
+  mixins: [Mixin]
 };
 </script>
