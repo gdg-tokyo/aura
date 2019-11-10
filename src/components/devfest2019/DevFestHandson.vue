@@ -21,7 +21,7 @@
         ></v-img>
       </v-flex>
     </v-layout>
-    <v-layout wrap align-center justify-center row fill-height class="my-3">
+    <v-layout wrap align-start justify-center row fill-height class="my-3">
       <v-flex
         xs6
         sm3
