@@ -11,14 +11,31 @@
                 "link": "https://www.uec.ac.jp/"
             }]
         },
+        "MediaPartner": {
+            "designation": "メディアパートナー",
+            "groups": [
+                {
+                    "name": "CodeZine",
+                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/codezine",
+                    "link": "https://codezine.jp/"
+                },
+                {
+                    "name": "Peatix Japan株式会社",
+                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix",
+                    "link": "https://peatix.com/"
+                }
+            ]
+        },
         "ObjectivePartner" : {
             "designation" : "",
-            "groups" : [{
-                "name": "Peatix Japan株式会社",
-                "title": "メディアパートナー",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/peatix",
-                "link": "https://peatix.com/"
-            }]
+            "groups": [
+                {
+                    "name": "",
+                    "title": "",
+                    "logo": "",
+                    "link": ""
+                }
+            ]
         },
         "Partnership" : {
             "designation" : "協力",
@@ -52,6 +69,12 @@
             "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/line",
             "designation": "platinum",
             "link": "https://engineering.linecorp.com/ja/"
+        },
+        {
+            "name": "株式会社サイバーエージェント",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/CyberAgent",
+            "designation": "silver",
+            "link": "https://www.cyberagent.co.jp/"
         },
         {
             "name": "Subroh Nishikori",
