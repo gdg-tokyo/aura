@@ -41,8 +41,8 @@ import Mixin from "@/mixin.js";
 export default {
     created() {
         this.getDetail()
-        const title = detail.name + '- GDG DevFest Tokyo 2019'
-        const description = detail.profile
+        const title = this.detail.name + '- GDG DevFest Tokyo 2019'
+        const description = this.detail.profile
         document.title = title
         document.querySelector("meta[property='og:title']").setAttribute('content', title)
         document.querySelector("meta[name='description']").setAttribute('content', description)
