@@ -80,7 +80,7 @@
       </v-flex>
     </v-layout>
     <!-- Silverスポンサー -->
-    <!-- <v-layout wrap align-center justify-center row fill-height class="my-0">
+    <v-layout wrap align-center justify-center row fill-height class="my-0">
       <v-flex xs12 sm6 md6 lg6 class="pt-5 text-xs-center">
         <p class="google-font display-1">Silver</p>
       </v-flex>
@@ -96,8 +96,8 @@
         <div class="text-xs-center ma-1 pa-1 my-0">
           <a :href="item.link" target="_blank">
           <v-img
-            :src="item.logo"
-            :lazy-src="item.logo"
+            :src="getStorageUrl(item.logo)"
+            :lazy-src="getStorageUrl(item.logo)"
             :alt="item.name"
           >
             <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -107,7 +107,7 @@
           </a>
         </div>
       </v-flex>
-    </v-layout> -->
+    </v-layout>
     <!-- 個人スポンサー -->
     <v-layout wrap align-center justify-center row fill-height class="my-0">
       <v-flex xs12 sm6 md6 lg6 class="pt-5 text-xs-center">
