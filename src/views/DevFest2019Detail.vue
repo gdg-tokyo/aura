@@ -41,17 +41,14 @@ import Mixin from "@/mixin.js";
 export default {
     created() {
         this.getDetail()
-        const title = this.detail.name + '- GDG DevFest Tokyo 2019'
-        const description = this.detail.profile
-        document.title = title
-        document.querySelector("meta[property='og:title']").setAttribute('content', title)
-        document.querySelector("meta[name='description']").setAttribute('content', description)
-        document.querySelector("meta[property='og:description']").setAttribute('content', description)
+        this.setMeta()
     },
     data() {
         return {
             speakerID: '',
-            detail: ''
+            detail: '',
+            speakerName: '',
+            speakerProfile: ''
         }
     },
     mixins: [Mixin],
@@ -61,8 +58,20 @@ export default {
             const baseUrl = 'https://us-central1-gdg-tokyo-website.cloudfunctions.net/api/speaker/'
             axios.get(baseUrl + speakerID).then(response => {
                 this.detail = response.data
+                this.speakerName = this.detail.name
+                this.speakerProfile = response.data.profile
+                this.setMeta()
             })
         },
+        setMeta: function () {
+            var title = this.speakerName + ' | GDG DevFest Tokyo 2019'
+            var description = this.sessionTitle
+            document.title = title
+            document.querySelector("meta[property='og:title']").setAttribute('content', title)
+            document.querySelector("meta[name='description']").setAttribute('content', description)
+            document.querySelector("meta[property='og:description']").setAttribute('content', description)
+            alert('finish set')
+        }
     }
 }
 </script>
