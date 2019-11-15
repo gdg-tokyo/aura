@@ -55,7 +55,7 @@ export default {
     methods: {
         getDetail: function () {
             const speakerID = this.$route.params.id
-            const baseUrl = 'https://us-central1-gdg-tokyo-website.cloudfunctions.net/api/speaker/'
+            const baseUrl = '/api/speaker/'
             axios.get(baseUrl + speakerID).then(response => {
                 this.detail = response.data
                 this.speakerName = this.detail.name

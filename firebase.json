@@ -7,7 +7,7 @@
       "**/node_modules/**"
     ],
     "rewrites": [{
-      "source": "/api",
+      "source": "/api/**",
       "function": "api"
     },{
       "source": "**",
@@ -31,5 +31,8 @@
         } ]
       }
     ]
-  }
+  },
+  "functions": {
+    "source": "rapid/functions/"
+  }  
 }
