@@ -52,6 +52,11 @@ const router = new Router({
       component: () => import('./views/Contact.vue')
     },
     {
+      path: '/devfest2019/session/:id',
+      name: 'devfest_session_detail',
+      component: () => import('./views/DevFest2019Detail.vue'),
+    },
+    {
       path: '/devfest2019',
       name: 'devfest',
       component: () => import('./views/DevFest2019.vue'),

@@ -1,0 +1,3 @@
+[submodule "rapid"]
+	path = rapid
+	url = git@github.com:gdg-tokyo/rapid.git

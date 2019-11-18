@@ -6,7 +6,10 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [ {
+    "rewrites": [{
+      "source": "/api/**",
+      "function": "api"
+    },{
       "source": "**",
       "destination": "/index.html"
     }],
@@ -28,5 +31,8 @@
         } ]
       }
     ]
-  }
+  },
+  "functions": {
+    "source": "rapid/functions/"
+  }  
 }
