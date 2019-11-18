@@ -3,9 +3,11 @@ version: '3'
 services:
   node:
     build: .
+    environment:
+      - FIREBASE_TOKEN
     ports:
       - "8080:8080"
     volumes:
       - ".:/app"
     tty: true
-    command: npm run serve
+    command: ./docker/command.sh

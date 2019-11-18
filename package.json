@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service build --mode develop && firebase serve --port 8080 -o '0.0.0.0' --token ${FIREBASE_TOKEN}",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
