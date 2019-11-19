@@ -5,11 +5,18 @@
     "Partners": {
         "Cosponsorship" : {
             "designation": "協賛",
-            "groups": [{
-                "name": "国立大学法人電気通信大学",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
-                "link": "https://www.uec.ac.jp/"
-            }]
+            "groups": [
+                {
+                    "name": "国立大学法人電気通信大学",
+                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
+                    "link": "https://www.uec.ac.jp/"
+                },
+                {
+                    "name": "レッドインパルス株式会社",
+                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/red-impulz",
+                    "link": "https://redimpulz.com/"
+                }
+            ]
         },
         "MediaPartner": {
             "designation": "メディアパートナー",
@@ -87,6 +94,12 @@
             "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/sho-tokuda",
             "designation": "personal",
             "link": "https://haze-page.tokyo/"
+        },
+        {
+            "name": "株式会社ぐるなび",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/gnavi",
+            "designation": "silver",
+            "link": "https://www.gnavi.co.jp/"
         }
     ],
     "Workshops": [

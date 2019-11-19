@@ -87,7 +87,7 @@
     </v-layout>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex
-        xs8 sm5 md3 lg3
+        xs9 sm6 md4 lg4
         v-for="(item, i) in silverSponsors"
         :key="i"
         class="text-xs-center"
