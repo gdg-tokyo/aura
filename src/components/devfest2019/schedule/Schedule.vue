@@ -22,20 +22,20 @@
                       <p class="google-font mb-0" style="font-size:120%">{{sdata.title}}</p>
                       <p style="font-size:80%" v-if="sdata.speakerName.length>0">{{sdata.speakerName}}</p>
                       <v-chip
+                        class="ml-0"
+                        :color="sdata.tag.color"
+                        flat
+                        v-if="sdata.timeDuration<60"
+                        small
+                      ></v-chip>
+                      {{ sdata.tag.name }}
+                      <v-chip
                         class="white--text ml-0"
-                        color="pink"
+                        color="black"
                         label
                         v-if="sdata.timeDuration<60"
                         small
                       ><v-icon x-small>mdi-av-timer</v-icon> {{ sdata.timeDuration }} min</v-chip>
-                      <v-chip
-                        label
-                        class="white--text ml-0"
-                        color="pink"
-                        v-else
-                        small
-                      > <v-icon x-small>mdi-av-timer</v-icon> {{ sdata.timeDuration/60 }} hour</v-chip>
-
                       <v-chip class="ml-1 mr-1" dark :color="getColor(sdata.place)" small label>
                         <v-icon x-small>mdi-google-maps</v-icon>
                         {{sdata.place}}
@@ -93,7 +93,7 @@ import SessionData from "@/assets/data/devfest2019session.json";
 export default {
   data: () => ({
     speakerData: DevfestInfo.Speakers,
-    scheduleData: ScheduleData,
+    scheduleData: ScheduleData, // FIXME:スピーカー情報をAPIのレスポンスから取り出す
     sessionsData: SessionData
   }),
   methods: {

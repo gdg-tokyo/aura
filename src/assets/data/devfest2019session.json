@@ -2,7 +2,6 @@
     {
         "id":"10",
         "title":"Opening",
-        "description":"",
         "place":"講堂ホール",
         "tag":{
             "name":"misc",
@@ -16,7 +15,6 @@
     {
         "id":"11",
         "title":"Keynote1",
-        "description":"",
         "place":"講堂ホール",
         "tag":{
             "name":"Keynote",
@@ -24,13 +22,12 @@
         },
         "timeDuration": "20",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"鈴木 拓生 / Takuo Suzuki",
+        "speakers":["takuo-suzuki"]
     },
     {
         "id":"12",
-        "title":"Keynote2",
-        "description":"",
+        "title":"Keynote2: 円周率世界記録への道",
         "place":"講堂ホール",
         "tag":{
             "name":"Keynote",
@@ -38,433 +35,77 @@
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"岩尾 エマ はるか / Haruka Emma Iwao",
+        "speakers":["haruka-emma-iwao"]
     },
     {
-        "id":"21",
-        "title":"講堂ホールのセッション",
-        "description":"Lorem Ipsum.",
+        "id":"211",
+        "title":"パネルディスカッション:エンジニアのキャリアについて",
         "place":"講堂ホール",
         "tag":{
             "name":"misc",
             "color":"black"
         },
-        "timeDuration": "40",
+        "timeDuration": "30",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"及川 卓也、田中洋一郎 / Takuya Oikawa, Yoichiro Tanaka",
+        "speakers":["takuya-oikawa", "yoichiro-tanaka"]
     },
     {
-        "id":"22",
-        "title":"B101のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B101",
-        "tag":{
-            "name":"misc",
-            "color":"black"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"23",
-        "title":"B102のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B102",
-        "tag":{
-            "name":"Web",
-            "color":"red"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"24",
-        "title":"B201のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B201",
-        "tag":{
-            "name":"",
-            "color":""
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"251",
-        "title":"B202のセッションその１",
-        "description":"Lorem Ipsum.",
-        "place":"B202",
+        "id":"212",
+        "title":"ハンズオン紹介",
+        "place":"講堂ホール",
         "tag":{
             "name":"misc",
             "color":"black"
         },
         "timeDuration": "20",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"252",
-        "title":"B202のセッションその2",
-        "description":"Lorem Ipsum.",
-        "place":"B202",
-        "tag":{
-            "name":"ML",
-            "color":"brown"
-        },
-        "timeDuration": "10",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"253",
-        "title":"B202のセッションその3",
-        "description":"Lorem Ipsum.",
-        "place":"B202",
-        "tag":{
-            "name":"Go",
-            "color":"aqua"
-        },
-        "timeDuration": "10",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"GDG Tokyo",
+        "speakers":[""]
     },
     {
         "id":"31",
-        "title":"講堂ホールのセッション",
-        "description":"Lorem Ipsum.",
+        "title":"スポンサーセッション（LINE株式会社）",
         "place":"講堂ホール",
         "tag":{
-            "name":"Assistant",
-            "color":"Yellow"
+            "name":"Android",
+            "color":"green"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"LINE株式会社",
+        "speakers":[""]
     },
     {
         "id":"32",
-        "title":"B101のセッション",
-        "description":"Lorem Ipsum.",
+        "title":"（タイトル未定）",
         "place":"B101",
         "tag":{
-            "name":"Cloud",
-            "color":"blue"
+            "name":"Assistant",
+            "color":"yellow"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"田中 洋一郎 / Yoichiro Tanaka",
+        "speakers":["yochiro-tanaka"]
     },
     {
         "id":"33",
-        "title":"B102のセッション",
-        "description":"Lorem Ipsum.",
+        "title":"Machine Learning at Scale with BigQuery, Colab and AI Platform on GCP",
         "place":"B102",
         "tag":{
-            "name":"Firebase",
-            "color":"orange"
+            "name":"Cloud",
+            "color":"blue"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"Polong Lin",
+        "speakers":["polong-lin"]
     },
     {
         "id":"34",
-        "title":"B201のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B201",
-        "tag":{
-            "name":"Android",
-            "color":"limegreen"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"35",
-        "title":"B202のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B202",
-        "tag":{
-            "name":"Go",
-            "color":"aqua"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"41",
-        "title":"講堂ホールのセッション",
-        "description":"Lorem Ipsum.",
-        "place":"講堂ホール",
-        "tag":{
-            "name":"Go",
-            "color":"aqua"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"42",
-        "title":"B101のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B101",
-        "tag":{
-            "name":"misc",
-            "color":"black"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"43",
-        "title":"B102のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B102",
-        "tag":{
-            "name":"Cloud",
-            "color":"blue"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"44",
-        "title":"B201のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B201",
-        "tag":{
-            "name":"Android",
-            "color":"limegreen"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"45",
-        "title":"B202のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B202",
-        "tag":{
-            "name":"Web",
-            "color":"red"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"51",
-        "title":"講堂ホールのセッション",
-        "description":"Lorem Ipsum.",
-        "place":"講堂ホール",
-        "tag":{
-            "name":"Web",
-            "color":"red"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"52",
-        "title":"B101のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B101",
-        "tag":{
-            "name":"misc",
-            "color":"black"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"53",
-        "title":"B102のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B102",
-        "tag":{
-            "name":"Web",
-            "color":"red"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"54",
-        "title":"B201のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B201",
-        "tag":{
-            "name":"Cloud",
-            "color":"blue"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"55",
-        "title":"B202のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B202",
-        "tag":{
-            "name":"Flutter",
-            "color":"lightskyblue"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"61",
-        "title":"講堂ホールのセッション",
-        "description":"Lorem Ipsum.",
-        "place":"講堂ホール",
-        "tag":{
-            "name":"Android",
-            "color":"limegreen"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"62",
-        "title":"B101のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B101",
-        "tag":{
-            "name":"misc",
-            "color":"black"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"63",
-        "title":"B102のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B102",
-        "tag":{
-            "name":"Web",
-            "color":"red"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"64",
-        "title":"B201のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B201",
-        "tag":{
-            "name":"Cloud",
-            "color":"blue"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"65",
-        "title":"B202のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B202",
-        "tag":{
-            "name":"Firebase",
-            "color":"orange"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"71",
-        "title":"講堂ホールのセッション",
-        "description":"Lorem Ipsum.",
-        "place":"講堂ホール",
-        "tag":{
-            "name":"Web",
-            "color":"red"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"72",
-        "title":"B101のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B101",
-        "tag":{
-            "name":"misc",
-            "color":"black"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"73",
-        "title":"B102のセッション",
-        "description":"Lorem Ipsum.",
-        "place":"B102",
-        "tag":{
-            "name":"Cloud",
-            "color":"blue"
-        },
-        "timeDuration": "40",
-        "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
-    },
-    {
-        "id":"74",
-        "title":"B201のセッション",
-        "description":"Lorem Ipsum.",
+        "title":"（仮）TensorFlow の使い方 〜 TF2.x とエコシステム 〜",
         "place":"B201",
         "tag":{
             "name":"ML",
@@ -472,21 +113,293 @@
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"太田 満久 / Mitsuhisa Ohta",
+        "speakers":["mitsuhisa-ohta"]
     },
     {
-        "id":"75",
-        "title":"B202のセッション",
-        "description":"Lorem Ipsum.",
+        "id":"35",
+        "title":"（タイトル未定）",
         "place":"B202",
         "tag":{
-            "name":"Android",
-            "color":"limegreen"
+            "name":"Web",
+            "color":"red"
         },
         "timeDuration": "40",
         "subtype":"Presentation",
-        "speakerName":"Foo Bar",
-        "speakers":[102]
+        "speakerName":"矢倉 眞隆 / Masataka Yakura",
+        "speakers":["masataka-yakura"]
+    },
+    {
+        "id":"41",
+        "title":"（タイトル未定）",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Go",
+            "color":"blue lighten-3"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"山口 能迪 / Yoshi Yamaguchi",
+        "speakers":["yoshi-yamaguchi"]
+    },
+    {
+        "id":"42",
+        "title":"大学発小中高生向けプログラミング教室の紹介と生徒の発表",
+        "place":"B101",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"安部博文、久津川陽汰ほか",
+        "speakers":[""]
+    },
+    {
+        "id":"43",
+        "title":"GCP 101",
+        "place":"B102",
+        "tag":{
+            "name":"Cloud",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"坂田 純 / Jun Sakata",
+        "speakers":["jun-sakata"]
+    },
+    {
+        "id":"44",
+        "title":"ブラウザのメインスレッド以外でできること（仮）",
+        "place":"B201",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"清水 智公 / Chiko Shimizu",
+        "speakers":["chiko-shimizu"]
+    },
+    {
+        "id":"45",
+        "title":"ML Kit の最新情報",
+        "place":"B202",
+        "tag":{
+            "name":"Android",
+            "color":"green"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"あんざいゆき / Yuki Anzai",
+        "speakers":["yuki-anzai"]
+    },
+    {
+        "id":"51",
+        "title":"How to Distribute Your Web App? 「インストール」可能なウェブアプリ",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"宍戸 俊哉 / Shunya Shishido",
+        "speakers":["shunya-shishido"]
+    },
+    {
+        "id":"52",
+        "title":"マイクロサービスの開発とテストファースト/テスト駆動開発",
+        "place":"B101",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"柴田 芳樹 / Yoshiki Shibata",
+        "speakers":["yoshiki-shibata"]
+    },
+    {
+        "id":"53",
+        "title":"（タイトル未定）",
+        "place":"B102",
+        "tag":{
+            "name":"Firebase",
+            "color":"orange"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"調整中",
+        "speakers":[""]
+    },
+    {
+        "id":"54",
+        "title":"（仮）令和元年Google機械学習技術総決算",
+        "place":"B201",
+        "tag":{
+            "name":"ML",
+            "color":"brown"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"足立 昌彦 / Masahiko Adachi",
+        "speakers":["masahiko-adachi"]
+    },
+    {
+        "id":"55",
+        "title":"（タイトル未定）",
+        "place":"B202",
+        "tag":{
+            "name":"Android",
+            "color":"green"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"降矢 大地 / Daichi Furiya",
+        "speakers":["daichi-furiya"]
+    },
+    {
+        "id":"61",
+        "title":"Yearly Web 2019",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"Jxck / Jack",
+        "speakers":["jxck"]
+    },
+    {
+        "id":"62",
+        "title":"（タイトル未定）",
+        "place":"B101",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"調整中",
+        "speakers":[""]
+    },
+    {
+        "id":"631",
+        "title":"（タイトル未定）",
+        "place":"B102",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "20",
+        "subtype":"Presentation",
+        "speakerName":"大河内 翔子 / Shoko Okochi",
+        "speakers":["shoko-okochi"]
+    },
+    {
+        "id":"632",
+        "title":"TensorFlow のドキュメント翻訳を行うコミュニティ活動について",
+        "place":"B102",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "20",
+        "subtype":"Presentation",
+        "speakerName":"杉山 阿聖 / Asei Sugiyama",
+        "speakers":["asei-sugiyama"]
+    },
+    {
+        "id":"64",
+        "title":"CloudNative 時代における GKE/Kubernetes ではじめる開発",
+        "place":"B201",
+        "tag":{
+            "name":"Cloud",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"青山 真也 / Masaya Aoyama",
+        "speakers":["masaya-aoyama"]
+    },
+    {
+        "id":"65",
+        "title":"Firebase Overview 2019",
+        "place":"B202",
+        "tag":{
+            "name":"Firebase",
+            "color":"orange"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"松館 大輝 / Daiki Matsudate",
+        "speakers":["daiki-matsudate"]
+    },
+    {
+        "id":"71",
+        "title":"(仮) AndroidX の最新情報",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Android",
+            "color":"green"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"荒木 佑一 / Yuichi Araki",
+        "speakers":["yuichi-araki"]
+    },
+    {
+        "id":"72",
+        "title":"Perspective of Angular in 2020",
+        "place":"B101",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"稲富 駿 / Suguru Inatomi",
+        "speakers":["suguru-inatomi"]
+    },
+    {
+        "id":"73",
+        "title":"Go Modules made Safer and More Reliable",
+        "place":"B102",
+        "tag":{
+            "name":"Go",
+            "color":"blue lighten-3"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"Katie Hockman",
+        "speakers":["katie-hockman"]
+    },
+    {
+        "id":"74",
+        "title":"BigQueryの今年の多すぎるアップデートを振り返ってみる（仮）",
+        "place":"B201",
+        "tag":{
+            "name":"Cloud",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"なかむらさとる / Satoru Nakamura",
+        "speakers":["satoru-nakamura"]
+    },
+    {
+        "id":"75",
+        "title":"Flutter Overview",
+        "place":"B202",
+        "tag":{
+            "name":"Flutter",
+            "color":"blue accent-1"
+        },
+        "timeDuration": "40",
+        "subtype":"Presentation",
+        "speakerName":"上田 哲広 / Tetsuhiro Ueda",
+        "speakers":["tetsuhiro-ueda"]
     }
 ]

@@ -32,7 +32,7 @@
                         :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)"
                         ></v-img>
                     <v-card flat width="600" class="pa-3">
-                        <p class="google-font">{{item.workshopTime}}</p>
+                        <p class="google-font">{{item.workshopTime}}　会場：{{item.workshopRoom}}</p>
                         <p class="google-font display-1">{{item.workshopTitle}}</p>
                         <p class="google-font">講師： {{item.name}}</p>
                         <p class="google-font">{{item.workshopDescription}}</p>

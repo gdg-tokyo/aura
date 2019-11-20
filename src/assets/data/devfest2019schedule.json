@@ -6,7 +6,7 @@
         "title":"受付 / Registration",
         "timeDuration":"30",
         "place": "Reception",
-        "des":"Register yourself and confirm your participation on the Reception."
+        "des":""
     },
     {
         "startTime":"11:00",
@@ -43,26 +43,17 @@
         "title":"お昼休憩 / Lunch Break",
         "timeDuration":"20",
         "place": "Lunch Area",
-        "des":"(TODO)キッチンカーで好きなランチを選びましょう"
+        "des":""
     },
     {
         "startTime":"12:20",
-        "endTime":"13:00",
+        "endTime":"13:10",
         "sessions":[
             {
-                "item":[21]
+                "item":[211]
             },
             {
-                "item":[22]
-            },
-            {
-                "item":[23]
-            },
-            {
-                "item":[24]
-            },
-            {
-                "item":[251,252,253]
+                "item":[212]
             }
         ]
     },
@@ -178,7 +169,7 @@
         "title":"Closing",
         "timeDuration":"20",
         "place": "講堂ホール",
-        "des":"主催のGDG Tokyoより閉めの挨拶をいたします"
+        "des":""
     },
     {
         "startTime":"18:00",
