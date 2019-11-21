@@ -98,37 +98,35 @@ export default {
   }),
   methods: {
     getBorderColor(data){
-      if(data == '講堂ホール'){
-        return '5px solid #1A73E8'
-      }else if(data == 'B101'){
-        return '5px solid #EA4335'
-      }else if(data == 'B102'){
-        return '5px solid #FBBC04'
-      }else if(data == 'B201'){
-        return '5px solid #34AB53'
-      }else if(data == 'B202'){
-        return '5px solid purple'
-      }else{
-        return '5px solid orange'
+      switch(data){
+        case '講堂ホール':
+          return '5px solid #1A73E8'
+        case 'B101':
+          return '5px solid #EA4335'
+        case 'B102':
+          return '5px solid #FBBC04'
+        case 'B201':
+          return '5px solid #34AB53'
+        case 'B202':
+          return '5px solid purple'
+        default:
+          return '5px solid orange'
       }
     },
     getColor(data){
-      if(data == '講堂ホール'){
-        return '#1A73E8'
-      }
-      else if(data == 'B101'){
-        return '#EA4335'
-      }
-      else if(data == 'B102'){
-        return '#FBBC04'
-      }
-      else if(data == 'B201'){
-        return '#34AB53'
-      }
-      else if(data == 'B202'){
-        return 'purple'
-      }else{
-        return 'orange'
+      switch(data){
+        case '講堂ホール':
+          return '#1A73E8'
+        case 'B101':
+          return '#EA4335'
+        case 'B102':
+          return '#FBBC04'
+        case 'B201':
+          return '#34AB53'
+        case 'B202':
+          return 'purple'
+        default:
+          return 'orange'
       }
     }
   },
