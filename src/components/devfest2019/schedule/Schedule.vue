@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mx-5">
+  <v-container>
     <v-layout
       row
       wrap
@@ -7,20 +7,20 @@
       :key="index"
       style="border-radius: 0px; border:1px solid #E0E0E0;border-left:0px;border-right:0px"
     >
-      <v-flex xs2 md3 class="text-right pa-3">
+      <v-flex xs12 md3 class="text-right pa-3">
         <p style="font-size:150%" class="mb-0">{{item.startTime}}</p>
         <p style="font-size:80%" class="ma-0">{{item.endTime}}</p>
       </v-flex>
-      <v-flex v-if="item.sessions.length" xs10 md9 class="pa-3">
+      <v-flex v-if="item.sessions.length" xs12 md9 class="pa-3">
         <div v-for="(n,index) in item.sessions.length" :key="index" class="white">
           <div v-for="(itemp,index) in item.sessions[index]" :key="index" class="white">
             <div v-for="(obj,x) in itemp" :key="x" class="white">
               <div v-for="(sdata,key) in sessionsData" :key="key">
-                <div v-if="obj == sdata.id" class="py-3 pa-3">
+                <div v-if="obj == sdata.id" class="py-3 pl-3">
                   <v-layout row wrap>
-                    <v-flex xs12 class="px-3" :style="{ 'border-left':  getBorderColor(sdata.place)}" >
-                      <p class="google-font mb-0" style="font-size:120%">{{sdata.title}}</p>
-                      <p style="font-size:80%" v-if="sdata.speakerName.length>0">{{sdata.speakerName}}</p>
+                    <v-flex xs12 class="pl-3" :style="{ 'border-left':  getBorderColor(sdata.place)}" >
+                      <p class="google-font mb-0" style="font-size:130%">{{sdata.title}}</p>
+                      <p style="font-size:100%" v-if="sdata.speakerName.length>0">{{sdata.speakerName}}</p>
                       <v-chip
                         class="ml-0"
                         :color="sdata.tag.color"
@@ -62,7 +62,7 @@
         </div>
       </v-flex>
       <v-flex xs10 md9 v-else class="pa-3" >
-        <div class="px-3" :style="{ 'border-left':  getBorderColor(item.place)}">
+        <div class="pl-3" :style="{ 'border-left':  getBorderColor(item.place)}">
             <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
         <p class="google-font" style="font-size:90%">{{item.des}}</p>
         <v-chip

@@ -38,10 +38,10 @@
     },
     {
         "startTime":"12:00",
-        "endTime":"12:20",
+        "endTime":"13:00",
         "sessions":[],
         "title":"お昼休憩 / Lunch Break",
-        "timeDuration":"20",
+        "timeDuration":"60",
         "place": "Lunch Area",
         "des":""
     },
@@ -131,7 +131,7 @@
                 "item":[62]
             },
             {
-                "item":[63]
+                "item":[631,632]
             },
             {
                 "item":[64]
