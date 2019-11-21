@@ -9,7 +9,9 @@ commands:
     steps:
       - restore_cache:
           name: Restore npm dependencies
-          key: npm-{{ checksum "package-lock.json" }}
+          keys:
+            - npm-{{ checksum "package-lock.json" }}
+            - npm-
   save_npm:
     steps:
       - save_cache:
