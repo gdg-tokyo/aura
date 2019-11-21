@@ -104,11 +104,39 @@
     ],
     "Workshops": [
         {
+            "name": "Women Who Go Tokyo",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt",
+            "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
+            "link": "https://womenwhogotokyo.github.io",
+            "englishName": "",
+            "workshopTime":"13:15-14:10",
+            "workshopRoom":"C103",
+            "workshopTitle":"",
+            "workshopDescription":"",
+            "tutors": [
+                {
+                    "name": "白川 みちる",
+                    "title": "",
+                    "profile":"三度の飯と同じくらい Go が好きです。このすばらしい技術をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営にも携わっています。\nその他、Vim や業務設計、チームビルディング、シニアのキャリアや教育についても語ると長くなります。\n仕事では LINE でプロジェクトマネジメントと Java のエンジニアをしています。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/michiru-shirakawa"
+                },
+                {
+                    "name": "河野 美里",
+                    "title": "",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
+                }
+            ]
+        },
+        {
             "name": "Angular日本ユーザー会",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/ng-japan",
             "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。\nナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
             "link": "https://community.angular.jp",
             "englishName": "Angular Japan User Group",
+            "workshopTime":"13:15-14:10",
+            "workshopRoom":"C203",
+            "workshopTitle":"はじめてのAngularアプリ作成",
+            "workshopDescription":"",
             "tutors": [
                 {
                     "name": "稲富 駿",
@@ -119,17 +147,21 @@
             ]
         },
         {
-            "name": "Women Who Go Tokyo",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wwgt",
-            "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
-            "link": "https://womenwhogotokyo.github.io",
+            "name": "Firebase Japan User Group",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug",
+            "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
+            "link": "https://firebase.asia/",
             "englishName": "",
+            "workshopTime":"14:10-14:50",
+            "workshopRoom":"C203",
+            "workshopTitle":"",
+            "workshopDescription":"",
             "tutors": [
                 {
-                    "name": "白川 みちる",
-                    "title": "",
-                    "profile":"三度の飯と同じくらい Go が好きです。このすばらしい技術をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営にも携わっています。\nその他、Vim や業務設計、チームビルディング、シニアのキャリアや教育についても語ると長くなります。\n仕事では LINE でプロジェクトマネジメントと Java のエンジニアをしています。",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/michiru-shirakawa"
+                    "name": "佐藤 雅幸",
+                    "title": "FJUGハンズオン番長",
+                    "profile": "教育業界で情報技術の普及に務めるHoliday Programmer。Firebaseのコンセプトに感銘し、Firebase Japan User GroupのHands-on会を主導したり、他コミュニティのHands-on活動に協力したり、Firebaseのブログを書いたり、薄くて高い本を書いたり書いてなかったりと暗躍中。ピクセルアートをこよなく愛する。",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
                 }
             ]
         },
@@ -139,6 +171,9 @@
             "profile": "情報工学工房は，電気通信大学の特色である楽力教育を具現化した授業です．ダンボールコミュニケーションロボットチームでは，Raspberry PiとGoogle Cloud を用いたロボットを開発し，学生主体によるサービス開発を行っています．",
             "link": "",
             "englishName": "",
+            "workshopTime":"16:00-17:00",
+            "workshopTitle":"",
+            "workshopDescription":"",
             "tutors": [
                 {
                     "name": "島崎 俊介",
@@ -148,23 +183,9 @@
                 },
                 {
                     "name": "山口 博光",
-                    "title": "学術技師",
+                    "title": "",
+                    "profile": "",
                     "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
-                }
-            ]
-        },
-        {
-            "name": "Firebase Japan User Group",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/fjug",
-            "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
-            "link": "https://firebase.asia/",
-            "englishName": "",
-            "tutors": [
-                {
-                    "name": "佐藤 雅幸",
-                    "title": "FJUGハンズオン番長",
-                    "profile": "教育業界で情報技術の普及に務めるHoliday Programmer。Firebaseのコンセプトに感銘し、Firebase Japan User GroupのHands-on会を主導したり、他コミュニティのHands-on活動に協力したり、Firebaseのブログを書いたり、薄くて高い本を書いたり書いてなかったりと暗躍中。ピクセルアートをこよなく愛する。",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/masayuki-sato"
                 }
             ]
         }
