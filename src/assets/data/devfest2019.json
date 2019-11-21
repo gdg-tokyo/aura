@@ -110,8 +110,8 @@
             "link": "https://womenwhogotokyo.github.io",
             "englishName": "",
             "workshopTime":"13:15-14:10",
-            "workshopRoom":"C103",
-            "workshopTitle":"",
+            "workshopRoom":"新C103",
+            "workshopTitle":"Goの並行処理を体験してみよう",
             "workshopDescription":"",
             "tutors": [
                 {
@@ -134,7 +134,7 @@
             "link": "https://community.angular.jp",
             "englishName": "Angular Japan User Group",
             "workshopTime":"13:15-14:10",
-            "workshopRoom":"C203",
+            "workshopRoom":"新C203",
             "workshopTitle":"はじめてのAngularアプリ作成",
             "workshopDescription":"",
             "tutors": [
@@ -152,9 +152,9 @@
             "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
             "link": "https://firebase.asia/",
             "englishName": "",
-            "workshopTime":"14:10-14:50",
-            "workshopRoom":"C203",
-            "workshopTitle":"",
+            "workshopTime":"14:10-15:05",
+            "workshopRoom":"新C203",
+            "workshopTitle":"Firebase入門(仮)",
             "workshopDescription":"",
             "tutors": [
                 {
@@ -172,6 +172,7 @@
             "link": "",
             "englishName": "",
             "workshopTime":"16:00-17:00",
+            "workshopRoom": "新C203",
             "workshopTitle":"",
             "workshopDescription":"",
             "tutors": [
@@ -186,6 +187,25 @@
                     "title": "",
                     "profile": "",
                     "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
+                }
+            ]
+        },
+        {
+            "name": "Web Platform Study Group",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wpsg",
+            "profile": "最近はフレームワークやライブラリが充実し、Webの標準的な仕様やAPIを知らなくてもアプリ開発が行える環境が整ってきていますが、それは違う側面から見るとあまり良いことでは無いような気がします。私達はWeb標準と呼ばれる技術を幅広く扱い、それらの認知度を高め議論していくコミュニティが必要と考え、Web Platform Study Groupを設立させました。",
+            "link": "https://medium.com/web-platform-study-group",
+            "englishName": "",
+            "workshopTime": "14:10-14:40, 15:10-16:00",
+            "workshopRoom": "新C103(前半), 新C203(後半)",
+            "workshopTitle": "",
+            "workshopDescription": "",
+            "tutors": [
+                {
+                    "name": "川上 和義",
+                    "title": "",
+                    "profile": "",
+                    "profileImage": ""
                 }
             ]
         }

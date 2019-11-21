@@ -20,7 +20,7 @@
             "name":"Keynote",
             "color":"pink"
         },
-        "timeDuration": "20",
+        "timeDuration": "10",
         "subtype":"Presentation",
         "speakerName":"鈴木 拓生 / Takuo Suzuki",
         "speakers":["takuo-suzuki"]
@@ -131,7 +131,7 @@
     },
     {
         "id":"41",
-        "title":"（タイトル未定）",
+        "title":"Goの10年の道のりとその変遷",
         "place":"講堂ホール",
         "tag":{
             "name":"Go",
