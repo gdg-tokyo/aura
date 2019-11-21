@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "concurrently \"vue-cli-service build --mode development --watch\" \"firebase serve --port 8080 -o '0.0.0.0' --token ${FIREBASE_TOKEN}\"",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -26,6 +26,7 @@
     "@vue/cli-service": "^3.8.4",
     "babel-eslint": "^10.0.1",
     "compression-webpack-plugin": "^3.0.0",
+    "concurrently": "^5.0.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "firebase-tools": "^7.6.1",
