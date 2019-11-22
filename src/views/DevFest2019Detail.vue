@@ -1,5 +1,6 @@
 <template>
-    <v-container>
+  <v-container>
+    <v-layout v-if="detail!=''">
       <v-card>
         <v-card-title class="headline grey lighten-2" primary-title>{{detail.name}}</v-card-title>
         <v-card-text>{{detail.position}}</v-card-text>
@@ -31,7 +32,11 @@
           </v-card-text>
         </v-layout>
       </v-card>
-    </v-container>
+    </v-layout>
+    <v-layout v-if="detail==''">
+      <h2>調整中</h2>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -55,13 +60,17 @@ export default {
     methods: {
         getDetail: function () {
             const speakerID = this.$route.params.id
-            const baseUrl = '/api/speaker/'
-            axios.get(baseUrl + speakerID).then(response => {
-                this.detail = response.data
-                this.speakerName = this.detail.name
-                this.speakerProfile = response.data.profile
-                this.setMeta()
-            })
+            if speakerID != null{
+              const baseUrl = '/api/speaker/'
+              axios.get(baseUrl + speakerID).then(response => {
+                  this.detail = response.data
+                  this.speakerName = this.detail.name
+                  this.speakerProfile = response.data.profile
+                  this.setMeta()
+              })
+            } else {
+              this.detail = ''
+            }
         },
         setMeta: function () {
             var title = this.speakerName + ' | GDG DevFest Tokyo 2019'

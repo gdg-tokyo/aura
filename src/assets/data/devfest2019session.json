@@ -9,8 +9,8 @@
         },
         "timeDuration": "10",
         "subtype":"Presentation",
-        "speakerName":"GDG Tokyo",
-        "speakers":[102]
+        "speakerName":"佐藤 祥子 / Shoko Sato",
+        "speakers":["shoko-sato"]
     },
     {
         "id":"11",
