@@ -80,7 +80,16 @@ export default {
                 default:
                 return 'orange'
             }
-        }
+        },
+        getLanguageColor(data) {
+            switch(data) {
+                case 'english':
+                return '#4CAF50'
+                case 'japanese':
+                default:
+                return '#FF5252'
+            }
+        },
     }
 }
 </script>
