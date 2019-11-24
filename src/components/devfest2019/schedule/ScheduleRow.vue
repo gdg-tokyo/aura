@@ -21,6 +21,10 @@
         <v-icon x-small>mdi-google-maps</v-icon>
         {{sdata.place}}
     </v-chip>
+    <v-chip class="ml-1 mr-1" dark :color="getLanguageColor(sdata.language)" small label>
+        <v-icon x-small>language</v-icon>
+        {{sdata.language}}
+    </v-chip>
     <span v-for="sd in sdata.speakers" :key="sd">
         <span v-for="(sp,i) in speakerData" :key="i">
         <v-chip

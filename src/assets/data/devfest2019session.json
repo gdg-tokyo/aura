@@ -9,7 +9,8 @@
         },
         "timeDuration": "10",
         "speakerName":"佐藤 祥子 / Shoko Sato",
-        "speakers":["shoko-sato"]
+        "speakers":["shoko-sato"],
+        "language": "japanese"
     },
     {
         "id":"11",
@@ -21,7 +22,8 @@
         },
         "timeDuration": "10",
         "speakerName":"鈴木 拓生 / Takuo Suzuki",
-        "speakers":[""]
+        "speakers":["takuo-suzuki"],
+        "language": "japanese"
     },
     {
         "id":"12",
@@ -33,7 +35,8 @@
         },
         "timeDuration": "40",
         "speakerName":"岩尾 エマ はるか / Haruka Emma Iwao",
-        "speakers":["haruka-emma-iwao"]
+        "speakers":["haruka-emma-iwao"],
+        "language": "japanese"
     },
     {
         "id":"211",
@@ -45,7 +48,8 @@
         },
         "timeDuration": "30",
         "speakerName":"及川 卓也、田中洋一郎 / Takuya Oikawa, Yoichiro Tanaka",
-        "speakers":["takuya-oikawa", "yoichiro-tanaka"]
+        "speakers":["takuya-oikawa", "yoichiro-tanaka"],
+        "language": "japanese"
     },
     {
         "id":"212",
@@ -57,7 +61,8 @@
         },
         "timeDuration": "20",
         "speakerName":"GDG Tokyo",
-        "speakers":[""]
+        "speakers":[""],
+        "language": "japanese"
     },
     {
         "id":"31",
@@ -69,7 +74,8 @@
         },
         "timeDuration": "40",
         "speakerName":"LINE株式会社",
-        "speakers":[""]
+        "speakers":[""],
+        "language": "japanese"
     },
     {
         "id":"32",
@@ -81,7 +87,8 @@
         },
         "timeDuration": "40",
         "speakerName":"田中 洋一郎 / Yoichiro Tanaka",
-        "speakers":["yochiro-tanaka"]
+        "speakers":["yochiro-tanaka"],
+        "language": "japanese"
     },
     {
         "id":"33",
@@ -93,7 +100,8 @@
         },
         "timeDuration": "40",
         "speakerName":"Polong Lin",
-        "speakers":["polong-lin"]
+        "speakers":["polong-lin"],
+        "language": "english"
     },
     {
         "id":"34",
@@ -105,7 +113,8 @@
         },
         "timeDuration": "40",
         "speakerName":"太田 満久 / Mitsuhisa Ohta",
-        "speakers":["mitsuhisa-ohta"]
+        "speakers":["mitsuhisa-ohta"],
+        "language": "japanese"
     },
     {
         "id":"35",
@@ -117,7 +126,8 @@
         },
         "timeDuration": "40",
         "speakerName":"矢倉 眞隆 / Masataka Yakura",
-        "speakers":["masataka-yakura"]
+        "speakers":["masataka-yakura"],
+        "language": "japanese"
     },
     {
         "id":"41",
@@ -129,7 +139,8 @@
         },
         "timeDuration": "40",
         "speakerName":"山口 能迪 / Yoshi Yamaguchi",
-        "speakers":["yoshi-yamaguchi"]
+        "speakers":["yoshi-yamaguchi"],
+        "language": "japanese"
     },
     {
         "id":"42",
@@ -141,7 +152,8 @@
         },
         "timeDuration": "40",
         "speakerName":"安部博文、久津川陽汰ほか",
-        "speakers":[""]
+        "speakers":[""],
+        "language": "japanese"
     },
     {
         "id":"43",
@@ -153,7 +165,8 @@
         },
         "timeDuration": "40",
         "speakerName":"坂田 純 / Jun Sakata",
-        "speakers":["jun-sakata"]
+        "speakers":["jun-sakata"],
+        "language": "japanese"
     },
     {
         "id":"44",
@@ -165,7 +178,8 @@
         },
         "timeDuration": "40",
         "speakerName":"清水 智公 / Chiko Shimizu",
-        "speakers":["chiko-shimizu"]
+        "speakers":["chiko-shimizu"],
+        "language": "japanese"
     },
     {
         "id":"45",
@@ -177,7 +191,8 @@
         },
         "timeDuration": "40",
         "speakerName":"あんざいゆき / Yuki Anzai",
-        "speakers":["yuki-anzai"]
+        "speakers":["yuki-anzai"],
+        "language": "japanese"
     },
     {
         "id":"51",
@@ -189,7 +204,8 @@
         },
         "timeDuration": "40",
         "speakerName":"宍戸 俊哉 / Shunya Shishido",
-        "speakers":["shunya-shishido"]
+        "speakers":["shunya-shishido"],
+        "language": "japanese"
     },
     {
         "id":"52",
@@ -201,7 +217,8 @@
         },
         "timeDuration": "40",
         "speakerName":"柴田 芳樹 / Yoshiki Shibata",
-        "speakers":["yoshiki-shibata"]
+        "speakers":["yoshiki-shibata"],
+        "language": "japanese"
     },
     {
         "id":"53",
@@ -213,7 +230,8 @@
         },
         "timeDuration": "40",
         "speakerName":"調整中",
-        "speakers":[""]
+        "speakers":[""],
+        "language": "english"
     },
     {
         "id":"54",
@@ -225,7 +243,8 @@
         },
         "timeDuration": "40",
         "speakerName":"足立 昌彦 / Masahiko Adachi",
-        "speakers":["masahiko-adachi"]
+        "speakers":["masahiko-adachi"],
+        "language": "japanese"
     },
     {
         "id":"55",
@@ -237,7 +256,8 @@
         },
         "timeDuration": "40",
         "speakerName":"降矢 大地 / Daichi Furiya",
-        "speakers":["daichi-furiya"]
+        "speakers":["daichi-furiya"],
+        "language": "japanese"
     },
     {
         "id":"61",
@@ -249,7 +269,8 @@
         },
         "timeDuration": "40",
         "speakerName":"Jxck / Jack",
-        "speakers":["jxck"]
+        "speakers":["jxck"],
+        "language": "japanese"
     },
     {
         "id":"62",
@@ -261,7 +282,8 @@
         },
         "timeDuration": "40",
         "speakerName":"調整中",
-        "speakers":[""]
+        "speakers":[""],
+        "language": "japanese"
     },
     {
         "id":"631",
@@ -273,7 +295,8 @@
         },
         "timeDuration": "20",
         "speakerName":"大河内 翔子 / Shoko Okochi",
-        "speakers":["shoko-okochi"]
+        "speakers":["shoko-okochi"],
+        "language": "japanese"
     },
     {
         "id":"632",
@@ -285,7 +308,8 @@
         },
         "timeDuration": "20",
         "speakerName":"杉山 阿聖 / Asei Sugiyama",
-        "speakers":["asei-sugiyama"]
+        "speakers":["asei-sugiyama"],
+        "language": "japanese"
     },
     {
         "id":"64",
@@ -297,7 +321,8 @@
         },
         "timeDuration": "40",
         "speakerName":"青山 真也 / Masaya Aoyama",
-        "speakers":["masaya-aoyama"]
+        "speakers":["masaya-aoyama"],
+        "language": "japanese"
     },
     {
         "id":"65",
@@ -309,7 +334,8 @@
         },
         "timeDuration": "40",
         "speakerName":"松館 大輝 / Daiki Matsudate",
-        "speakers":["daiki-matsudate"]
+        "speakers":["daiki-matsudate"],
+        "language": "japanese"
     },
     {
         "id":"71",
@@ -321,7 +347,8 @@
         },
         "timeDuration": "40",
         "speakerName":"荒木 佑一 / Yuichi Araki",
-        "speakers":["yuichi-araki"]
+        "speakers":["yuichi-araki"],
+        "language": "japanese"
     },
     {
         "id":"72",
@@ -333,7 +360,8 @@
         },
         "timeDuration": "40",
         "speakerName":"稲富 駿 / Suguru Inatomi",
-        "speakers":["suguru-inatomi"]
+        "speakers":["suguru-inatomi"],
+        "language": "japanese"
     },
     {
         "id":"73",
@@ -345,7 +373,8 @@
         },
         "timeDuration": "40",
         "speakerName":"Katie Hockman",
-        "speakers":["katie-hockman"]
+        "speakers":["katie-hockman"],
+        "language": "english"
     },
     {
         "id":"74",
@@ -357,7 +386,8 @@
         },
         "timeDuration": "40",
         "speakerName":"なかむらさとる / Satoru Nakamura",
-        "speakers":["satoru-nakamura"]
+        "speakers":["satoru-nakamura"],
+        "language": "japanese"
     },
     {
         "id":"75",
@@ -369,6 +399,7 @@
         },
         "timeDuration": "40",
         "speakerName":"上田 哲広 / Tetsuhiro Ueda",
-        "speakers":["tetsuhiro-ueda"]
+        "speakers":["tetsuhiro-ueda"],
+        "language": "japanese"
     }
 ]

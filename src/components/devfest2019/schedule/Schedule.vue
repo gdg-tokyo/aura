@@ -7,10 +7,12 @@
       :key="index"
       style="border-radius: 0px; border:1px solid #E0E0E0;border-left:0px;border-right:0px"
     >
+      <!-- 時間部分の表示 -->
       <v-flex xs12 md3 class="text-right pa-3">
         <p style="font-size:150%" class="mb-0">{{item.startTime}}</p>
         <p style="font-size:80%" class="ma-0">{{item.endTime}}</p>
       </v-flex>
+      <!-- セッションの表示 -->
       <v-flex v-if="item.sessions.length" xs12 md9 class="pa-3">
         <div v-for="(n,index) in item.sessions.length" :key="index" class="white">
           <div v-for="(itemp,index) in item.sessions[index]" :key="index" class="white">
@@ -33,6 +35,7 @@
           </div>
         </div>
       </v-flex>
+      <!-- セッション以外の表示 -->
       <v-flex xs10 md9 v-else class="pa-3" >
         <div class="pl-3" :style="{ 'border-left':  getBorderColor(item.place)}">
             <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
@@ -43,15 +46,15 @@
           label
           v-if="item.timeDuration<60"
           small
-        > <v-icon x-small>mdi-av-timer</v-icon> {{ item.timeDuration }} min</v-chip>
+        > <v-icon x-small>av_timer</v-icon> {{ item.timeDuration }} min</v-chip>
         <v-chip
           label
           class="white--text ml-0"
           color="pink"
           v-else
           small
-        ><v-icon x-small>mdi-av-timer</v-icon>  {{ item.timeDuration/60 }} hour</v-chip>
-        <v-chip class="ml-1" :color="getColor(item.place)" dark small label><v-icon x-small>mdi-google-maps</v-icon>{{item.place}}</v-chip>
+        ><v-icon x-small>av_timer</v-icon>  {{ item.timeDuration/60 }} hour</v-chip>
+        <v-chip class="ml-1" :color="getColor(item.place)" dark small label><v-icon x-small>room</v-icon>{{item.place}}</v-chip>
         </div>
       </v-flex>
     </v-layout>
@@ -112,8 +115,19 @@ export default {
         return 'orange'
       }
     },
+<<<<<<< HEAD
     hasInfo(data){
       return data.length > 0
+=======
+    getLanguageColor(data) {
+      switch(data) {
+        case 'english':
+          return '#4CAF50'
+        case 'japanese':
+        default:
+          return '#FF5252'
+      }
+>>>>>>> b0c07a949903e7ae6d52d2be27664045ecb5c04b
     }
   },
   filters: {
