@@ -213,6 +213,7 @@
     "Speakers": {
         "keynotes": [
             {
+                "id": "shoko-sato",
                 "name": "佐藤 祥子",
                 "position": "GDG Tokyo Organizer, DevRel",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_sato",
@@ -221,16 +222,18 @@
                 "englishName": "Shoko Sato"
             },
             {
+                "id": "haruka-emma-iwao",
                 "name": "岩尾 エマ はるか",
                 "position": "Developer Advocate",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/emma_haruka_iwao",
                 "profile": "組み込みソフトウェア開発者、Site Reliability Engineerなどを経て2015年より現職。現在はGoogleのシアトルオフィスにて、Google Cloud PlatformのDeveloper Advocateとしてアプリケーション開発者に技術の魅力を伝える仕事をしている。大学では高性能計算および分散ファイルシステムを研究し、その経験を元にクラウド環境上での高性能計算を専門にしている。趣味は旅行とゲーム。",
                 "twitter": "https://twitter.com/Yuryu",
-                "englishName": "Emma Haruka Iwao"
+                "englishName": "Haruka Emma Iwao"
             }
         ],
         "guests": [
             {
+                "id": "katie-hockman",
                 "name": "Katie Hockman ",
                 "position": "Senior Software Engineer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/Katie_Hockman",
@@ -239,6 +242,7 @@
                 "englishName": ""
             },
             {
+                "id": "",
                 "name": "Coming soon",
                 "position": "Special Guest",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1",
@@ -249,6 +253,7 @@
         ],
         "sessions": [
             {
+                "id": "masaya-aoyama",
                 "name": "青山 真也",
                 "position": "Infrastructure Engineer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masaya_aoyama",
@@ -257,6 +262,7 @@
                 "englishName": "Masaya Aoyama"
             },
             {
+                "id": "masahiko-adachi",
                 "name": "足立 昌彦",
                 "position": "Google Developers Expert for ML",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masahiko_adachi",
@@ -265,6 +271,7 @@
                 "englishName": "Masahiko Adachi"
             },
             {
+                "id": "yuichi-araki",
                 "name": "荒木 佑一",
                 "position": "Google Japan Developer Program Engineer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yuichi_araki",
@@ -273,6 +280,7 @@
                 "englishName": "Yuichi Araki"
             },
             {
+                "id": "yuki-anzai",
                 "name": "あんざいゆき",
                 "position": "株式会社ウフィカ代表取締役\nGoogle Developers Expert for Android",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yuki_anzai",
@@ -281,6 +289,7 @@
                 "englishName": "Yuki Anzai"
             },
             {
+                "id": "tetsuhiro-ueda",
                 "name": "上田 哲広",
                 "position": "Google Developers Expert for GCP and Flutter",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/tetsuhiro_ueda",
@@ -289,6 +298,7 @@
                 "englishName": "Tetsuhiro Ueda"
             },
             {
+                "id": "shoko-okochi",
                 "name": "大河内 翔子",
                 "position": "Software Engineer & Community Organizer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_okochi",
@@ -297,6 +307,7 @@
                 "englishName": "Shoko Okochi"
             },
             {
+                "id": "mitsuhisa-ohta",
                 "name": "太田 満久",
                 "position": "TensorFlow User Group Organizer, Google Developers Expert for ML",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/mitsuhisa_ohta",
@@ -305,6 +316,7 @@
                 "englishName": "Mitsuhisa Ohta"
             },
             {
+                "id": "jun-sakata",
                 "name": "坂田 純",
                 "position": "Google Developers Expert for GCP",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jun_sakata",
@@ -313,6 +325,7 @@
                 "englishName": "Jun Sakata"
             },
             {
+                "id": "yoshiki-shibata",
                 "name": "柴田 芳樹",
                 "position": "Software Engineer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/%20Yoshiki_Shibata",
@@ -321,6 +334,7 @@
                 "englishName": "Yoshiki Shibata"
             },
             {
+                "id": "yoichiro-tanaka",
                 "name": "田中 洋一郎",
                 "position": "Google Developers Expert for Assistant",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka",
@@ -329,6 +343,7 @@
                 "englishName": "Yoichiro Tanaka"
             },
             {
+                "id": "satoru-nakamura",
                 "name": "なかむら さとる",
                 "position": "Google Developers Expert for GCP",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/satoru_nakamura",
@@ -337,6 +352,7 @@
                 "englishName": "Satoru Nakamura"
             },
             {
+                "id": "daichi-furiya",
                 "name": "降矢 大地",
                 "position": "Google Developers Expert for Android",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/daichi_furiya",
@@ -345,6 +361,7 @@
                 "englishName": "Daichi Furiya"
             },
             {
+                "id": "daiki-matsudate",
                 "name": "松館 大輝",
                 "position": "Google Developers Expert for Firebase",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/daiki_matsudate",
@@ -353,6 +370,7 @@
                 "englishName": "Daiki Matsudate"
             },
             {
+                "id": "yoshi-yamaguchi",
                 "name": "山口 能迪",
                 "position": "Developer Advocate",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoshifumi_yamaguchi",
@@ -363,6 +381,7 @@
         ],
         "chromeDevSummits": [
             {
+                "id": "suguru-inatomi",
                 "name": "稲富 駿",
                 "position": "Google Developers Expert for Angular",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi",
@@ -371,6 +390,7 @@
                 "englishName": "Suguru Inatomi"
             },
             {
+                "id": "shunya-shishido",
                 "name": "宍戸 俊哉",
                 "position": "Mobile Solutions Consultant",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shunya_shishido",
@@ -379,6 +399,7 @@
                 "englishName": "Shunya Shishido"
             },
             {
+                "id": "chiko-shimizu",
                 "name": "清水 智公",
                 "position": "Developer Advocate",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/noritada_shimizu",
@@ -387,6 +408,7 @@
                 "englishName": "Chiko Shimizu"
             },
             {
+                "id": "jack",
                 "name": "Jxck",
                 "position": "Google Developers Expert for Web Technologies",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jxck",
@@ -395,6 +417,7 @@
                 "englishName": "Jack"
             },
             {
+                "id": "masataka-yakura",
                 "name": "矢倉 眞隆",
                 "position": "Google Developers Expert for Web Technologies",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/masataka_yakura",

@@ -8,9 +8,8 @@
             "color":"black"
         },
         "timeDuration": "10",
-        "subtype":"Presentation",
-        "speakerName":"GDG Tokyo",
-        "speakers":[102],
+        "speakerName":"佐藤 祥子 / Shoko Sato",
+        "speakers":["shoko-sato"],
         "language": "japanese"
     },
     {
@@ -22,7 +21,6 @@
             "color":"pink"
         },
         "timeDuration": "10",
-        "subtype":"Presentation",
         "speakerName":"鈴木 拓生 / Takuo Suzuki",
         "speakers":["takuo-suzuki"],
         "language": "japanese"
@@ -36,7 +34,6 @@
             "color":"pink"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"岩尾 エマ はるか / Haruka Emma Iwao",
         "speakers":["haruka-emma-iwao"],
         "language": "japanese"
@@ -50,7 +47,6 @@
             "color":"black"
         },
         "timeDuration": "30",
-        "subtype":"Presentation",
         "speakerName":"及川 卓也、田中洋一郎 / Takuya Oikawa, Yoichiro Tanaka",
         "speakers":["takuya-oikawa", "yoichiro-tanaka"],
         "language": "japanese"
@@ -64,7 +60,6 @@
             "color":"black"
         },
         "timeDuration": "20",
-        "subtype":"Presentation",
         "speakerName":"GDG Tokyo",
         "speakers":[""],
         "language": "japanese"
@@ -78,7 +73,6 @@
             "color":"green"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"LINE株式会社",
         "speakers":[""],
         "language": "japanese"
@@ -92,7 +86,6 @@
             "color":"yellow"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"田中 洋一郎 / Yoichiro Tanaka",
         "speakers":["yochiro-tanaka"],
         "language": "japanese"
@@ -106,7 +99,6 @@
             "color":"blue"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"Polong Lin",
         "speakers":["polong-lin"],
         "language": "english"
@@ -120,7 +112,6 @@
             "color":"brown"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"太田 満久 / Mitsuhisa Ohta",
         "speakers":["mitsuhisa-ohta"],
         "language": "japanese"
@@ -134,7 +125,6 @@
             "color":"red"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"矢倉 眞隆 / Masataka Yakura",
         "speakers":["masataka-yakura"],
         "language": "japanese"
@@ -148,7 +138,6 @@
             "color":"blue lighten-3"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"山口 能迪 / Yoshi Yamaguchi",
         "speakers":["yoshi-yamaguchi"],
         "language": "japanese"
@@ -162,7 +151,6 @@
             "color":"black"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"安部博文、久津川陽汰ほか",
         "speakers":[""],
         "language": "japanese"
@@ -176,7 +164,6 @@
             "color":"blue"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"坂田 純 / Jun Sakata",
         "speakers":["jun-sakata"],
         "language": "japanese"
@@ -190,7 +177,6 @@
             "color":"red"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"清水 智公 / Chiko Shimizu",
         "speakers":["chiko-shimizu"],
         "language": "japanese"
@@ -204,7 +190,6 @@
             "color":"green"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"あんざいゆき / Yuki Anzai",
         "speakers":["yuki-anzai"],
         "language": "japanese"
@@ -218,7 +203,6 @@
             "color":"red"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"宍戸 俊哉 / Shunya Shishido",
         "speakers":["shunya-shishido"],
         "language": "japanese"
@@ -232,7 +216,6 @@
             "color":"black"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"柴田 芳樹 / Yoshiki Shibata",
         "speakers":["yoshiki-shibata"],
         "language": "japanese"
@@ -246,7 +229,6 @@
             "color":"orange"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"調整中",
         "speakers":[""],
         "language": "english"
@@ -260,7 +242,6 @@
             "color":"brown"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"足立 昌彦 / Masahiko Adachi",
         "speakers":["masahiko-adachi"],
         "language": "japanese"
@@ -274,7 +255,6 @@
             "color":"green"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"降矢 大地 / Daichi Furiya",
         "speakers":["daichi-furiya"],
         "language": "japanese"
@@ -288,7 +268,6 @@
             "color":"red"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"Jxck / Jack",
         "speakers":["jxck"],
         "language": "japanese"
@@ -302,7 +281,6 @@
             "color":"black"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"調整中",
         "speakers":[""],
         "language": "japanese"
@@ -316,7 +294,6 @@
             "color":"black"
         },
         "timeDuration": "20",
-        "subtype":"Presentation",
         "speakerName":"大河内 翔子 / Shoko Okochi",
         "speakers":["shoko-okochi"],
         "language": "japanese"
@@ -330,7 +307,6 @@
             "color":"black"
         },
         "timeDuration": "20",
-        "subtype":"Presentation",
         "speakerName":"杉山 阿聖 / Asei Sugiyama",
         "speakers":["asei-sugiyama"],
         "language": "japanese"
@@ -344,7 +320,6 @@
             "color":"blue"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"青山 真也 / Masaya Aoyama",
         "speakers":["masaya-aoyama"],
         "language": "japanese"
@@ -358,7 +333,6 @@
             "color":"orange"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"松館 大輝 / Daiki Matsudate",
         "speakers":["daiki-matsudate"],
         "language": "japanese"
@@ -372,7 +346,6 @@
             "color":"green"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"荒木 佑一 / Yuichi Araki",
         "speakers":["yuichi-araki"],
         "language": "japanese"
@@ -386,7 +359,6 @@
             "color":"red"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"稲富 駿 / Suguru Inatomi",
         "speakers":["suguru-inatomi"],
         "language": "japanese"
@@ -400,7 +372,6 @@
             "color":"blue lighten-3"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"Katie Hockman",
         "speakers":["katie-hockman"],
         "language": "english"
@@ -414,7 +385,6 @@
             "color":"blue"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"なかむらさとる / Satoru Nakamura",
         "speakers":["satoru-nakamura"],
         "language": "japanese"
@@ -428,7 +398,6 @@
             "color":"blue accent-1"
         },
         "timeDuration": "40",
-        "subtype":"Presentation",
         "speakerName":"上田 哲広 / Tetsuhiro Ueda",
         "speakers":["tetsuhiro-ueda"],
         "language": "japanese"
