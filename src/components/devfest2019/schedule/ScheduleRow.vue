@@ -16,9 +16,9 @@
         label
         v-if="sdata.timeDuration<60"
         small
-    ><v-icon x-small>mdi-av-timer</v-icon> {{ sdata.timeDuration }} min</v-chip>
+    ><v-icon x-small>av_timer</v-icon> {{ sdata.timeDuration }} min</v-chip>
     <v-chip class="ml-1 mr-1" dark :color="getColor(sdata.place)" small label>
-        <v-icon x-small>mdi-google-maps</v-icon>
+        <v-icon x-small>room</v-icon>
         {{sdata.place}}
     </v-chip>
     <v-chip class="ml-1 mr-1" dark :color="getLanguageColor(sdata.language)" small label>
@@ -34,7 +34,7 @@
             outlined
             v-if="sp.id == sd"
             class="mr-1 my-2"
-        ><v-icon x-small>mdi-account-outline</v-icon>{{ sp.name }}</v-chip>
+        ><v-icon x-small>account_circle</v-icon>{{ sp.name }}</v-chip>
         </span>
     </span>
     </v-flex>
