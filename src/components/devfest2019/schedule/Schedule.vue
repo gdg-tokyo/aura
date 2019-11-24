@@ -115,10 +115,6 @@ export default {
         return 'orange'
       }
     },
-<<<<<<< HEAD
-    hasInfo(data){
-      return data.length > 0
-=======
     getLanguageColor(data) {
       switch(data) {
         case 'english':
@@ -127,7 +123,9 @@ export default {
         default:
           return '#FF5252'
       }
->>>>>>> b0c07a949903e7ae6d52d2be27664045ecb5c04b
+    },
+    hasInfo(data){
+      return data.length > 0
     }
   },
   filters: {
