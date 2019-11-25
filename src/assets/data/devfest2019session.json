@@ -14,7 +14,7 @@
     },
     {
         "id":"11",
-        "title":"Keynote1",
+        "title":"Keynote1: 世界に広がるGDGコミュニティとDevFest",
         "place":"講堂ホール",
         "tag":{
             "name":"Keynote",
@@ -34,8 +34,8 @@
             "color":"pink"
         },
         "timeDuration": "40",
-        "speakerName":"岩尾 エマ はるか / Haruka Emma Iwao",
-        "speakers":["haruka-emma-iwao"],
+        "speakerName":"岩尾 エマ はるか / Emma Haruka Iwao",
+        "speakers":["emma-haruka-iwao"],
         "language": "japanese"
     },
     {
@@ -47,8 +47,8 @@
             "color":"black"
         },
         "timeDuration": "30",
-        "speakerName":"及川 卓也、田中洋一郎 / Takuya Oikawa, Yoichiro Tanaka",
-        "speakers":["takuya-oikawa", "yoichiro-tanaka"],
+        "speakerName":"及川 卓也、えーじ、田中洋一郎 / Takuya Oikawa, Eiji Kitamura, Yoichiro Tanaka",
+        "speakers":["takuya-oikawa", "eiji-kitamura", "yoichiro-tanaka"],
         "language": "japanese"
     },
     {
