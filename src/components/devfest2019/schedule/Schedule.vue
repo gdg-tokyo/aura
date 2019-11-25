@@ -20,7 +20,12 @@
               <div v-for="(sdata,key) in sessionsData" :key="key">
                 <div v-if="obj == sdata.id" class="py-3 pl-3">
                   <v-layout row wrap>
-                    <div v-if="hasInfo(sdata.speakers[0])">
+                    <div v-if="sdata.speakers[0] == 'panel-discussion'">
+                      <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_session_detail_panel_discussion'}">
+                        <ScheduleRow :sdata="sdata" />
+                      </router-link>
+                    </div>
+                    <div v-else-if="hasInfo(sdata.speakers[0])">
                       <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_session_detail', params : { id: sdata.speakers[0] }}">
                         <ScheduleRow :sdata="sdata" />
                       </router-link>
