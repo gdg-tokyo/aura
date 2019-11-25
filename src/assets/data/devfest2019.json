@@ -100,6 +100,30 @@
             "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/gnavi",
             "designation": "silver",
             "link": "https://www.gnavi.co.jp/"
+        },
+        {
+            "name": "Sansan株式会社",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/sansan",
+            "designation": "gold",
+            "link": "https://jp.corp-sansan.com/"
+        },
+        {
+            "name": "株式会社 Looker",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/looker",
+            "designation": "bronze",
+            "link": "https://ja.looker.com/"
+        },
+        {
+            "name": "株式会社ナビタイムジャパン",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/navitime",
+            "designation": "platinum",
+            "link": "https://www.navitime.co.jp/"
+        },
+        {
+            "name": "クラウドエース株式会社",
+            "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/cloud_ace",
+            "designation": "platinum",
+            "link": "https://cloud-ace.jp/"
         }
     ],
     "Workshops": [
