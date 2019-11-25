@@ -339,16 +339,16 @@
     },
     {
         "id":"65",
-        "title":"（タイトル未定）",
+        "title":"（調整中）",
         "place":"B202",
         "tag":{
-            "name":"Firebase",
-            "color":"orange"
+            "name":"misc",
+            "color":"black"
         },
         "timeDuration": "40",
-        "speakerName":"松館 大輝 / Daiki Matsudate",
-        "speakers":["daiki-matsudate"],
-        "language": "japanese"
+        "speakerName":"",
+        "speakers":[""],
+        "language": ""
     },
     {
         "id":"71",
