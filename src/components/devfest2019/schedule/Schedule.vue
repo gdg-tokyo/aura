@@ -20,7 +20,17 @@
               <div v-for="(sdata,key) in sessionsData" :key="key">
                 <div v-if="obj == sdata.id" class="py-3 pl-3">
                   <v-layout row wrap>
-                    <div v-if="hasInfo(sdata.speakers[0])">
+                    <div v-if="sdata.speakers[0] == 'panel-discussion'">
+                      <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_session_detail_panel_discussion'}">
+                        <ScheduleRow :sdata="sdata" />
+                      </router-link>
+                    </div>
+                    <div v-else-if="sdata.speakers[0] == 'hands-on'">
+                      <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_hands_on_detail'}">
+                        <ScheduleRow :sdata="sdata" />
+                      </router-link>
+                    </div>
+                    <div v-else-if="hasInfo(sdata.speakers[0])">
                       <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_session_detail', params : { id: sdata.speakers[0] }}">
                         <ScheduleRow :sdata="sdata" />
                       </router-link>
@@ -42,7 +52,7 @@
         <p class="google-font" style="font-size:90%">{{item.des}}</p>
         <v-chip
           class="white--text ml-0"
-          color="pink"
+          color="black"
           label
           v-if="item.timeDuration<60"
           small
@@ -50,7 +60,7 @@
         <v-chip
           label
           class="white--text ml-0"
-          color="pink"
+          color="black"
           v-else
           small
         ><v-icon x-small>av_timer</v-icon>  {{ item.timeDuration/60 }} hour</v-chip>

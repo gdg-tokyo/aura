@@ -52,6 +52,16 @@ const router = new Router({
       component: () => import('./views/Contact.vue')
     },
     {
+      path: '/devfest2019/hands-on',
+      name: 'devfest_hands_on_detail',
+      component: () => import('./views/DevFest2019HandsOnDetail.vue'),
+    },
+    {
+      path: '/devfest2019/session/panel-discussion',
+      name: 'devfest_session_detail_panel_discussion',
+      component: () => import('./views/DevFest2019PanelDiscussionDetail.vue'),
+    },
+    {
       path: '/devfest2019/session/:id',
       name: 'devfest_session_detail',
       component: () => import('./views/DevFest2019Detail.vue'),

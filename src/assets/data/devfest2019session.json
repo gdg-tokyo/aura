@@ -14,7 +14,7 @@
     },
     {
         "id":"11",
-        "title":"Keynote1",
+        "title":"Keynote1: 世界に広がるGDGコミュニティとDevFest",
         "place":"講堂ホール",
         "tag":{
             "name":"Keynote",
@@ -34,8 +34,8 @@
             "color":"pink"
         },
         "timeDuration": "40",
-        "speakerName":"岩尾 エマ はるか / Haruka Emma Iwao",
-        "speakers":["haruka-emma-iwao"],
+        "speakerName":"岩尾 エマ はるか / Emma Haruka Iwao",
+        "speakers":["emma-haruka-iwao"],
         "language": "japanese"
     },
     {
@@ -47,8 +47,8 @@
             "color":"black"
         },
         "timeDuration": "30",
-        "speakerName":"及川 卓也、田中洋一郎 / Takuya Oikawa, Yoichiro Tanaka",
-        "speakers":["takuya-oikawa", "yoichiro-tanaka"],
+        "speakerName":"及川 卓也、えーじ、田中洋一郎 / Takuya Oikawa, Eiji Kitamura, Yoichiro Tanaka",
+        "speakers":["panel-discussion"],
         "language": "japanese"
     },
     {
@@ -61,33 +61,46 @@
         },
         "timeDuration": "20",
         "speakerName":"GDG Tokyo",
-        "speakers":[""],
+        "speakers":["hands-on"],
         "language": "japanese"
     },
     {
+        "id":"23",
+        "title":"（タイトル未定）",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"ML",
+            "color":"brown"
+        },
+        "timeDuration": "50",
+        "speakerName":"Jess Myra",
+        "speakers":["jess-myra"],
+        "language": "english"
+    },
+    {
         "id":"31",
-        "title":"スポンサーセッション（LINE株式会社）",
+        "title":"Journey of Feature Flag development in LINE Android",
         "place":"講堂ホール",
         "tag":{
             "name":"Android",
             "color":"green"
         },
         "timeDuration": "40",
-        "speakerName":"LINE株式会社",
-        "speakers":[""],
+        "speakerName":"玉木 英嗣",
+        "speakers":["hidetsugu-tamaki"],
         "language": "japanese"
     },
     {
         "id":"32",
-        "title":"（タイトル未定）",
+        "title":"電通大ショートトラック",
         "place":"B101",
         "tag":{
-            "name":"Assistant",
-            "color":"yellow"
+            "name":"misc",
+            "color":"black"
         },
         "timeDuration": "40",
-        "speakerName":"田中 洋一郎 / Yoichiro Tanaka",
-        "speakers":["yochiro-tanaka"],
+        "speakerName":"",
+        "speakers":[""],
         "language": "japanese"
     },
     {
@@ -105,7 +118,7 @@
     },
     {
         "id":"34",
-        "title":"（仮）TensorFlow の使い方 〜 TF2.x とエコシステム 〜",
+        "title":"TensorFlow の使い方 〜 TF2.x とエコシステム 〜",
         "place":"B201",
         "tag":{
             "name":"ML",
@@ -170,7 +183,7 @@
     },
     {
         "id":"44",
-        "title":"ブラウザのメインスレッド以外でできること（仮）",
+        "title":"ネイティブアプリとWebアプリの差を埋めるには：Project Fuguとマルチスレッドプログラミング",
         "place":"B201",
         "tag":{
             "name":"Web",
@@ -229,13 +242,13 @@
             "color":"orange"
         },
         "timeDuration": "40",
-        "speakerName":"調整中",
-        "speakers":[""],
+        "speakerName":"Sumit Chandel",
+        "speakers":["sumit-chandel"],
         "language": "english"
     },
     {
         "id":"54",
-        "title":"（仮）令和元年Google機械学習技術総決算",
+        "title":"令和元年Google機械学習技術総決算",
         "place":"B201",
         "tag":{
             "name":"ML",
@@ -277,21 +290,21 @@
         "title":"（タイトル未定）",
         "place":"B101",
         "tag":{
-            "name":"misc",
-            "color":"black"
+            "name":"Assistant",
+            "color":"yellow"
         },
         "timeDuration": "40",
-        "speakerName":"調整中",
+        "speakerName":"田中洋一郎",
         "speakers":[""],
         "language": "japanese"
     },
     {
         "id":"631",
-        "title":"（タイトル未定）",
+        "title":"イマドキ技術スタックでサクっと立ち上げるWebサービス（Go+Vue.js）",
         "place":"B102",
         "tag":{
-            "name":"misc",
-            "color":"black"
+            "name":"Go",
+            "color":"blue lighten-3"
         },
         "timeDuration": "20",
         "speakerName":"大河内 翔子 / Shoko Okochi",
@@ -303,8 +316,8 @@
         "title":"TensorFlow のドキュメント翻訳を行うコミュニティ活動について",
         "place":"B102",
         "tag":{
-            "name":"misc",
-            "color":"black"
+            "name":"ML",
+            "color":"brown"
         },
         "timeDuration": "20",
         "speakerName":"杉山 阿聖 / Asei Sugiyama",
@@ -326,20 +339,20 @@
     },
     {
         "id":"65",
-        "title":"Firebase Overview 2019",
+        "title":"（調整中）",
         "place":"B202",
         "tag":{
-            "name":"Firebase",
-            "color":"orange"
+            "name":"misc",
+            "color":"black"
         },
         "timeDuration": "40",
-        "speakerName":"松館 大輝 / Daiki Matsudate",
-        "speakers":["daiki-matsudate"],
-        "language": "japanese"
+        "speakerName":"",
+        "speakers":[""],
+        "language": ""
     },
     {
         "id":"71",
-        "title":"(仮) AndroidX の最新情報",
+        "title":"AndroidX の最新情報",
         "place":"講堂ホール",
         "tag":{
             "name":"Android",
@@ -378,7 +391,7 @@
     },
     {
         "id":"74",
-        "title":"BigQueryの今年の多すぎるアップデートを振り返ってみる（仮）",
+        "title":"BigQueryの今年の多すぎるアップデートを振り返ってみる",
         "place":"B201",
         "tag":{
             "name":"Cloud",
