@@ -21,7 +21,7 @@
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
         >参加申込<br />(Registration)</v-btn>
       </div>
-      <br />
+      <!-- <br />
       <div>
         <v-btn
           :href="devfestDetails.SponsorFormUrl"
@@ -30,7 +30,7 @@
           color="#1a73e8"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
         >スポンサーになる<br />(Call for Sponsor)</v-btn>
-      </div>
+      </div> -->
     </v-flex>
   </v-layout>
   <!-- </v-container> -->
