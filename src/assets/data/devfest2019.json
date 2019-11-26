@@ -253,12 +253,21 @@
                 "profile": "組み込みソフトウェア開発者、Site Reliability Engineerなどを経て2015年より現職。現在はGoogleのシアトルオフィスにて、Google Cloud PlatformのDeveloper Advocateとしてアプリケーション開発者に技術の魅力を伝える仕事をしている。大学では高性能計算および分散ファイルシステムを研究し、その経験を元にクラウド環境上での高性能計算を専門にしている。趣味は旅行とゲーム。",
                 "twitter": "https://twitter.com/Yuryu",
                 "englishName": "Haruka Emma Iwao"
+            },
+            {
+                "id": "takuo-suzuki",
+                "name": "鈴木 拓生",
+                "position": "Developer Relations Team Program Manager",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/takuo_suzuki",
+                "profile": "メディア系企業にて、社外のデベロッパーと恊働するプロジェクト等を担当し、 2012 年からはシリコンバレーのスタートアップやインキュベーションに対しての投資も担当。 現在は Google の Developer Relationsチームで主にDesign SprintやMaterial Design周りのコミュニケーションを担当し、デベロッパーやスタートアップのエコシステムの向上を支援",
+                "twitter": "https://twitter.com/taquo",
+                "englishName": "Takuo Suzuki"
             }
         ],
         "guests": [
             {
                 "id": "katie-hockman",
-                "name": "Katie Hockman ",
+                "name": "Katie Hockman",
                 "position": "Senior Software Engineer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/Katie_Hockman",
                 "profile": "Katie Hockman works on the Go team in New York City, where she led the team that built the Go module mirror and checksum database. She's been at Google for 4 years, previously working on an accessibility team with the goal of making Google the best place to work for people with disabilities.",
@@ -266,12 +275,12 @@
                 "englishName": ""
             },
             {
-                "id": "",
-                "name": "Coming soon",
-                "position": "Special Guest",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1",
-                "profile": "Coming soon...",
-                "twitter": "",
+                "id": "polong-lin",
+                "name": "Polong Lin",
+                "position": "Developer Advocate",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/polong_lin",
+                "profile": "Polong is a Developer Advocate at Google, based in London, UK, with a focus on data science and machine learning. Due to his background in psychology, Polong gets particularly excited about data science projects at the intersection of data science and human behaviour. Share with him via Twitter @polonglin. ",
+                "twitter": "https://twitter.com/polonglin",
                 "englishName": ""
             }
         ],
@@ -322,13 +331,22 @@
                 "englishName": "Tetsuhiro Ueda"
             },
             {
-                "id": "shoko-okochi",
-                "name": "大河内 翔子",
-                "position": "Software Engineer & Community Organizer",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_okochi",
-                "profile": "ものづくりと場所づくりが好きなエンジニア。普段はSoftware EngineerとしてGo/Vue.js/TypeScriptで開発してGCP上にデプロイしています。4年ほど前からコミュニティ運営に携わり、現在はGDG Tokyo とWomen Techmakers TokyoのOrganizerをやっています。",
-                "twitter": "https://twitter.com/_okohs",
-                "englishName": "Shoko Okochi"
+                "id": "eiji-kitamura",
+                "name": "えーじ",
+                "position": "Developer Advocate",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/eiji_kitamura",
+                "profile": "Google スタッフ デベロッパー アドボケートとして Web Components や PWA など、様々なオープンウェブ技術の啓蒙を担当する。現在はウェブ上での認証や支払いに関わる技術について研究し、啓蒙活動をリードしている。",
+                "twitter": "https://twitter.com/agektmr",
+                "englishName": "Eiji Kitamura"
+            },
+            {
+                "id": "takuya-oikawa",
+                "name": "及川 卓也",
+                "position": "Technology Enabler",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/takuya_oikawa",
+                "profile": "大学を卒業後、外資系IT企業3社とスタートアップ勤務を経て、2017年6月に独立。2019年1月、テクノロジーにより企業や社会の変革を支援するTably株式会社を設立。尊敬する人は英ヴァージン・グループ総帥のリチャード・ブランソン。彼が好きな言葉、Nothing Ventured, Nothing Gained（挑まなければ得られない）を座右の銘としている。趣味は酩酊。翌日の反省はライフワーク。ワインはジンファンデル。焼酎は天使の誘惑。ビールはレッドフック。ウィスキーはタリスカー。",
+                "twitter": "https://twitter.com/takoratta",
+                "englishName": "Takuya Oikawa"
             },
             {
                 "id": "mitsuhisa-ohta",
@@ -356,6 +374,15 @@
                 "profile": "1959年生まれ。九州工業大学情報工学科で情報工学を学び、1984年同大学大学院で情報工学修士課程を修了。パロアルト研究所を含む米国ゼロックス社での5年間のソフトウェア開発も含め、Unix（Solaris/Linux）、C、Mesa、C++、Java、Goなどを用いたさまざまなソフトウェア開発に従事してきた。長年組み込みシステムの開発に従事してきたが、2018年6月より、株式会社メルペイにてBackendエンジニアとしてGo言語を用いたサービス開発に従事している。",
                 "twitter": "https://twitter.com/yoshiki_shibata",
                 "englishName": "Yoshiki Shibata"
+            },
+            {
+                "id": "asei-sugiyama",
+                "name": "杉山 阿聖",
+                "position": "Software Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/asei_sugiyama",
+                "profile": "TensorFlow docs のコントリビューター & 日本語訳のレビュワー。業務では Repro AI Labs で Software Engineer としてデータサイエンスや機械学習を用いた新規サービスの研究開発業務に従事中。「見て試してわかる機械学習アルゴリズムの仕組み 機械学習図鑑」の共著者のひとり。",
+                "twitter": "https://twitter.com/K_Ryuichirou",
+                "englishName": "Asei Sugiyama"
             },
             {
                 "id": "yoichiro-tanaka",
