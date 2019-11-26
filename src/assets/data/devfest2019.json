@@ -278,11 +278,11 @@
                 "englishName": ""
             },
             {
-                "id": "",
-                "name": "Coming soon",
-                "position": "Special Guest",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1",
-                "profile": "Coming soon...",
+                "id": "sumit-chandel",
+                "name": "Sumit Chandel",
+                "position": "Developer Advocate",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/sumit_chandel",
+                "profile": "Sumit Chandel works as a senior developer advocate on Firebase, focusing on developer outreach both digitally and in-person by presenting at conferences and meetups globally.Previously, Sumit managed the AdWords API advocacy team, worked on Android Wear and Instant Apps, and was a developer programs engineer on the Google Web Toolkit. Prior to joining Google, Sumit was a software engineer at Motorola, Optimal Payments and Westfield Insurance Group.",
                 "twitter": "",
                 "englishName": ""
             }
