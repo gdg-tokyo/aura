@@ -17,7 +17,7 @@
                 <v-card flat class="pa-3">
                   <p class="google-font" style="font-size:150%">{{hero.heading}}</p>
                   <p class="google-font" style="white-space:pre-wrap; word-wrap:break-word;">{{hero.description}}</p>
-                  <p class="google-font gray">{{hero.notice}}</p>
+                  <p class="google-font red--text">{{hero.notice}}</p>
                 </v-card>
               </v-flex>
             </v-layout>
