@@ -184,31 +184,6 @@
             ]
         },
         {
-            "name": "電気通信大学 情報工学工房ダンボールコミュニケーションロボットチーム",
-            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/uec_cardboard",
-            "profile": "情報工学工房は，電気通信大学の特色である楽力教育を具現化した授業です．ダンボールコミュニケーションロボットチームでは，Raspberry PiとGoogle Cloud を用いたロボットを開発し，学生主体によるサービス開発を行っています．",
-            "link": "",
-            "englishName": "",
-            "workshopTime":"16:00-17:00",
-            "workshopRoom": "新C203",
-            "workshopTitle":"",
-            "workshopDescription":"",
-            "tutors": [
-                {
-                    "name": "島崎 俊介",
-                    "title": "学術技師",
-                    "profile": "電気通信大学卒業，現在，電気通信大学学術技師．情報系学科計算機実験室の学修マネジメントを通じて，学生・教職員・ステークホルダーと協働で電気通信大学をより良い大学にしていくことが仕事の目標です．週末は，電通大認定ベンチャーuecサポートのメンバーとして電気通信大学プログラミング教室の運営とプログラミング教室の研究を行っています．",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/toshiyuki-shimazaki"
-                },
-                {
-                    "name": "山口 博光",
-                    "title": "",
-                    "profile": "",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
-                }
-            ]
-        },
-        {
             "name": "Web Platform Study Group",
             "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wpsg",
             "profile": "最近はフレームワークやライブラリが充実し、Webの標準的な仕様やAPIを知らなくてもアプリ開発が行える環境が整ってきていますが、それは違う側面から見るとあまり良いことでは無いような気がします。私達はWeb標準と呼ばれる技術を幅広く扱い、それらの認知度を高め議論していくコミュニティが必要と考え、Web Platform Study Groupを設立させました。",
@@ -224,6 +199,50 @@
                     "title": "",
                     "profile": "",
                     "profileImage": ""
+                }
+            ]
+        },
+        {
+            "name": "droid girls",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/droidgirls",
+            "profile": "droid girls はAndroid開発に興味がある女性のためのコミュニティです。毎月Androidの特定の機能やライブラリを取り上げて実際に使ってみるmeetupを開催していく予定です。業務でAndroid開発をしている方、フリーランスの方、個人でAndroidアプリを開発している方、Android開発について情報共有しましょう。 スタッフも随時募集中です！お気軽にイベントでスタッフにお声がけください。",
+            "link": "https://droidgirls.connpass.com/",
+            "englishName": "",
+            "workshopTime": "16:00-17:00",
+            "workshopRoom": "新C103",
+            "workshopTitle": "CameraX + ML Kit で Object Detection を体験しよう",
+            "workshopDescription": "Android アプリへの Camera 機能実装をサポートする CameraX ライブラリと、機械学習による機能を簡単に実装できる ML Kit を使って物体を認識するアプリを作ります。",
+            "tutors": [
+                {
+                    "name": "あんざいゆき",
+                    "title": "",
+                    "profile": "",
+                    "profileImage": ""
+                }
+            ]
+        },
+        {
+            "name": "電気通信大学 情報工学工房ダンボールコミュニケーションロボットチーム",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/uec_cardboard",
+            "profile": "情報工学工房は，電気通信大学の特色である楽力教育を具現化した授業です．ダンボールコミュニケーションロボットチームでは，Raspberry PiとGoogle Cloud を用いたロボットを開発し，学生主体によるサービス開発を行っています．",
+            "link": "",
+            "englishName": "",
+            "workshopTime": "16:00-17:00",
+            "workshopRoom": "新C203",
+            "workshopTitle": "",
+            "workshopDescription": "",
+            "tutors": [
+                {
+                    "name": "島崎 俊介",
+                    "title": "学術技師",
+                    "profile": "電気通信大学卒業，現在，電気通信大学学術技師．情報系学科計算機実験室の学修マネジメントを通じて，学生・教職員・ステークホルダーと協働で電気通信大学をより良い大学にしていくことが仕事の目標です．週末は，電通大認定ベンチャーuecサポートのメンバーとして電気通信大学プログラミング教室の運営とプログラミング教室の研究を行っています．",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/toshiyuki-shimazaki"
+                },
+                {
+                    "name": "山口 博光",
+                    "title": "",
+                    "profile": "",
+                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
                 }
             ]
         }
