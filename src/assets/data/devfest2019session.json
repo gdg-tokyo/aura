@@ -40,7 +40,7 @@
     },
     {
         "id":"211",
-        "title":"パネルディスカッション:エンジニアのキャリアについて",
+        "title":"パネルディスカッション",
         "place":"講堂ホール",
         "tag":{
             "name":"misc",
@@ -65,19 +65,6 @@
         "language": "japanese"
     },
     {
-        "id":"23",
-        "title":"（タイトル未定）",
-        "place":"講堂ホール",
-        "tag":{
-            "name":"ML",
-            "color":"brown"
-        },
-        "timeDuration": "50",
-        "speakerName":"Jess Myra",
-        "speakers":["jess-myra"],
-        "language": "english"
-    },
-    {
         "id":"31",
         "title":"Journey of Feature Flag development in LINE Android",
         "place":"講堂ホール",
@@ -100,8 +87,8 @@
             "color":"black"
         },
         "timeDuration": "40",
-        "speakerName":"",
-        "speakers":[""],
+        "speakerName":"安部博文、久津川陽汰ほか",
+        "speakers":["uec-short-track"],
         "language": "japanese"
     },
     {
@@ -262,7 +249,7 @@
     },
     {
         "id":"55",
-        "title":"（タイトル未定）",
+        "title":"来年に備えるために Android の知識を網羅する",
         "place":"B202",
         "tag":{
             "name":"Android",
@@ -301,16 +288,16 @@
     },
     {
         "id":"631",
-        "title":"（タイトル未定）",
+        "title":"（タイトル未定 : ML & UI/UX）",
         "place":"B102",
         "tag":{
-            "name":"misc",
-            "color":"black"
+            "name":"ML",
+            "color":"brown"
         },
         "timeDuration": "40",
-        "speakerName":"NAVITIME",
+        "speakerName":"Jess Myra",
         "speakers":[""],
-        "language": "japanese",
+        "language": "english",
         "sponsor": true
     },
     {

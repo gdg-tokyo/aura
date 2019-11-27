@@ -96,36 +96,36 @@ export default {
     getBorderColor(data){
       switch(data){
         case '講堂ホール':
-        return '5px solid #1A73E8'
+          return '5px solid #1A73E8'
         case 'B101':
-        return '5px solid #EA4335'
+          return '5px solid #EA4335'
         case 'B102':
-        return '5px solid #FBBC04'
+          return '5px solid #FBBC04'
         case 'B201':
-        return '5px solid #34AB53'
+          return '5px solid #34AB53'
         case 'B202':
-        return '5px solid purple'
+          return '5px solid purple'
         default:
-        return '5px solid orange'
+          return '5px solid orange'
       }
     },
     getColor(data){
       switch(data){
         case '講堂ホール':
-        return '#1A73E8'
+          return '#1A73E8'
         case 'B101':
-        return '#EA4335'
+          return '#EA4335'
         case 'B102':
-        return '#FBBC04'
+          return '#FBBC04'
         case 'B201':
-        return '#34AB53'
+          return '#34AB53'
         case 'B202':
-        return 'purple'
+          return 'purple'
         default:
-        return 'orange'
+          return 'orange'
       }
     },
-    hasInfo(data){
+    hasInfo(data) {
       return data.length > 0
     }
   },
