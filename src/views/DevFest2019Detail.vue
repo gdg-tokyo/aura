@@ -2,9 +2,9 @@
   <v-container>
     <v-card>
       <v-card-title class="headline grey lighten-2" primary-title>{{detail.name}}</v-card-title>
-      <v-card-text>{{detail.position}}</v-card-text>
+      <v-card-text v-html="detail.position"></v-card-text>
       <v-divider></v-divider>
-      <v-layout wrap row fill-height align-center class="pa-4">
+      <v-layout wrap row fill-height align-center class="pa-4" v-if="(detail.profileImage).length>0">
         <v-flex xs12 sm4 md3 lg2 class="pa-2">
           <v-responsive :aspect-ratio="1/1">
             <v-avatar size="100%">
@@ -19,7 +19,7 @@
         <v-flex xs12 sm8 md9 lg10 class="pa-2">
           <v-card-text>
             <h2>Profile</h2>
-            <p style="white-space:pre-wrap; word-wrap:break-word;">{{detail.profile}}</p>
+            <p style="white-space:pre-wrap; word-wrap:break-word;" v-html="speakerProfile"></p>
           </v-card-text>
         </v-flex>
       </v-layout>
@@ -27,7 +27,7 @@
         <v-card-text>
           <h2>講演概要</h2>
           <h3>{{detail.sessionTitle}}</h3>
-          <p>{{detail.sessionDetail}}</p>
+          <p style="white-space:pre-wrap; word-wrap:break-word;" v-html="detail.sessionDetail"></p>
         </v-card-text>
       </v-layout>
     </v-card>
