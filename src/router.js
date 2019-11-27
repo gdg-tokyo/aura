@@ -52,10 +52,30 @@ const router = new Router({
       component: () => import('./views/Contact.vue')
     },
     {
+      path: '/devfest2019/hands-on',
+      name: 'devfest_hands_on_detail',
+      component: () => import('./views/DevFest2019HandsOnDetail.vue'),
+    },
+    {
+      path: '/devfest2019/session/panel-discussion',
+      name: 'devfest_session_detail_panel_discussion',
+      component: () => import('./views/DevFest2019PanelDiscussionDetail.vue'),
+    },
+    {
+      path: '/devfest2019/session/:id',
+      name: 'devfest_session_detail',
+      component: () => import('./views/DevFest2019Detail.vue'),
+    },
+    {
       path: '/devfest2019',
       name: 'devfest',
       component: () => import('./views/DevFest2019.vue'),
       meta: { title: 'DevFest2019 | GDG Tokyo', description: 'DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。東京では、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを一日で学べるコミュニティイベントとして開催しています。' }
+    },
+    {
+      path: '/devfest2019/schedule',
+      name: 'devfest_schedule',
+      component: () => import('./views/devfest2019/DevFest2019Schedule.vue')
     }
   ]
 })

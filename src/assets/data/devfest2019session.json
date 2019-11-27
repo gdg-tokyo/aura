@@ -1,0 +1,407 @@
+[
+    {
+        "id":"10",
+        "title":"Opening",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "10",
+        "speakerName":"佐藤 祥子 / Shoko Sato",
+        "speakers":["shoko-sato"],
+        "language": "japanese"
+    },
+    {
+        "id":"11",
+        "title":"Keynote1: 世界に広がるGDGコミュニティとDevFest",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Keynote",
+            "color":"pink"
+        },
+        "timeDuration": "10",
+        "speakerName":"鈴木 拓生 / Takuo Suzuki",
+        "speakers":["takuo-suzuki"],
+        "language": "japanese"
+    },
+    {
+        "id":"12",
+        "title":"Keynote2: 円周率世界記録への道",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Keynote",
+            "color":"pink"
+        },
+        "timeDuration": "40",
+        "speakerName":"岩尾 エマ はるか / Emma Haruka Iwao",
+        "speakers":["emma-haruka-iwao"],
+        "language": "japanese"
+    },
+    {
+        "id":"211",
+        "title":"パネルディスカッション",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "30",
+        "speakerName":"及川 卓也、えーじ、田中洋一郎 / Takuya Oikawa, Eiji Kitamura, Yoichiro Tanaka",
+        "speakers":["panel-discussion"],
+        "language": "japanese"
+    },
+    {
+        "id":"212",
+        "title":"ハンズオン紹介",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "20",
+        "speakerName":"GDG Tokyo",
+        "speakers":["hands-on"],
+        "language": "japanese"
+    },
+    {
+        "id":"31",
+        "title":"Journey of Feature Flag development in LINE Android",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Android",
+            "color":"green"
+        },
+        "timeDuration": "40",
+        "speakerName":"玉木 英嗣",
+        "speakers":["hidetsugu-tamaki"],
+        "language": "japanese",
+        "sponsor": true
+    },
+    {
+        "id":"32",
+        "title":"電通大ショートトラック",
+        "place":"B101",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "40",
+        "speakerName":"安部博文、久津川陽汰ほか",
+        "speakers":["uec-short-track"],
+        "language": "japanese"
+    },
+    {
+        "id":"33",
+        "title":"Machine Learning at Scale with BigQuery, Colab and AI Platform on GCP",
+        "place":"B102",
+        "tag":{
+            "name":"Cloud",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "speakerName":"Polong Lin",
+        "speakers":["polong-lin"],
+        "language": "english"
+    },
+    {
+        "id":"34",
+        "title":"TensorFlow の使い方 〜 TF2.x とエコシステム 〜",
+        "place":"B201",
+        "tag":{
+            "name":"ML",
+            "color":"brown"
+        },
+        "timeDuration": "40",
+        "speakerName":"太田 満久 / Mitsuhisa Ohta",
+        "speakers":["mitsuhisa-ohta"],
+        "language": "japanese"
+    },
+    {
+        "id":"35",
+        "title":"（タイトル未定）",
+        "place":"B202",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "speakerName":"矢倉 眞隆 / Masataka Yakura",
+        "speakers":["masataka-yakura"],
+        "language": "japanese"
+    },
+    {
+        "id":"41",
+        "title":"Goの10年の道のりとその変遷",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Go",
+            "color":"blue lighten-3"
+        },
+        "timeDuration": "40",
+        "speakerName":"山口 能迪 / Yoshi Yamaguchi",
+        "speakers":["yoshi-yamaguchi"],
+        "language": "japanese"
+    },
+    {
+        "id":"42",
+        "title":"大学発小中高生向けプログラミング教室の紹介と生徒の発表",
+        "place":"B101",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "40",
+        "speakerName":"安部博文、久津川陽汰ほか",
+        "speakers":[""],
+        "language": "japanese"
+    },
+    {
+        "id":"43",
+        "title":"GCP 101",
+        "place":"B102",
+        "tag":{
+            "name":"Cloud",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "speakerName":"坂田 純 / Jun Sakata",
+        "speakers":["jun-sakata"],
+        "language": "japanese"
+    },
+    {
+        "id":"44",
+        "title":"ネイティブアプリとWebアプリの差を埋めるには：Project Fuguとマルチスレッドプログラミング",
+        "place":"B201",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "speakerName":"清水 智公 / Chiko Shimizu",
+        "speakers":["chiko-shimizu"],
+        "language": "japanese"
+    },
+    {
+        "id":"45",
+        "title":"ML Kit の最新情報",
+        "place":"B202",
+        "tag":{
+            "name":"Android",
+            "color":"green"
+        },
+        "timeDuration": "40",
+        "speakerName":"あんざいゆき / Yuki Anzai",
+        "speakers":["yuki-anzai"],
+        "language": "japanese"
+    },
+    {
+        "id":"51",
+        "title":"How to Distribute Your Web App? 「インストール」可能なウェブアプリ",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "speakerName":"宍戸 俊哉 / Shunya Shishido",
+        "speakers":["shunya-shishido"],
+        "language": "japanese"
+    },
+    {
+        "id":"52",
+        "title":"マイクロサービスの開発とテストファースト/テスト駆動開発",
+        "place":"B101",
+        "tag":{
+            "name":"misc",
+            "color":"black"
+        },
+        "timeDuration": "40",
+        "speakerName":"柴田 芳樹 / Yoshiki Shibata",
+        "speakers":["yoshiki-shibata"],
+        "language": "japanese"
+    },
+    {
+        "id":"53",
+        "title":"Predict and experiment your way to app success with Firebase",
+        "place":"B102",
+        "tag":{
+            "name":"Firebase",
+            "color":"orange"
+        },
+        "timeDuration": "40",
+        "speakerName":"Sumit Chandel",
+        "speakers":["sumit-chandel"],
+        "language": "english"
+    },
+    {
+        "id":"54",
+        "title":"令和元年Google機械学習技術総決算",
+        "place":"B201",
+        "tag":{
+            "name":"ML",
+            "color":"brown"
+        },
+        "timeDuration": "40",
+        "speakerName":"足立 昌彦 / Masahiko Adachi",
+        "speakers":["masahiko-adachi"],
+        "language": "japanese"
+    },
+    {
+        "id":"55",
+        "title":"来年に備えるために Android の知識を網羅する",
+        "place":"B202",
+        "tag":{
+            "name":"Android",
+            "color":"green"
+        },
+        "timeDuration": "40",
+        "speakerName":"降矢 大地 / Daichi Furiya",
+        "speakers":["daichi-furiya"],
+        "language": "japanese"
+    },
+    {
+        "id":"61",
+        "title":"Yearly Web 2019",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "speakerName":"Jxck / Jack",
+        "speakers":["jxck"],
+        "language": "japanese"
+    },
+    {
+        "id":"62",
+        "title":"わいわい！どんな開発者でも参加できちゃうGoogleアシスタントの世界",
+        "place":"B101",
+        "tag":{
+            "name":"Assistant",
+            "color":"yellow"
+        },
+        "timeDuration": "40",
+        "speakerName":"田中 洋一郎 / Yoichiro Tanaka",
+        "speakers":["yoichiro-tanaka"],
+        "language": "japanese"
+    },
+    {
+        "id":"631",
+        "title":"（タイトル未定 : ML & UI/UX）",
+        "place":"B102",
+        "tag":{
+            "name":"ML",
+            "color":"brown"
+        },
+        "timeDuration": "40",
+        "speakerName":"Jess Myra",
+        "speakers":[""],
+        "language": "english",
+        "sponsor": true
+    },
+    {
+        "id":"632",
+        "title":"TensorFlow のドキュメント翻訳を行うコミュニティ活動について",
+        "place":"B102",
+        "tag":{
+            "name":"ML",
+            "color":"brown"
+        },
+        "timeDuration": "20",
+        "speakerName":"杉山 阿聖 / Asei Sugiyama",
+        "speakers":["asei-sugiyama"],
+        "language": "japanese"
+    },
+    {
+        "id":"64",
+        "title":"CloudNative 時代における GKE/Kubernetes ではじめる開発",
+        "place":"B201",
+        "tag":{
+            "name":"Cloud",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "speakerName":"青山 真也 / Masaya Aoyama",
+        "speakers":["masaya-aoyama"],
+        "language": "japanese"
+    },
+    {
+        "id":"65",
+        "title":"Firebase Overview 2019",
+        "place":"B202",
+        "tag":{
+            "name":"Firebase",
+            "color":"orange"
+        },
+        "timeDuration": "40",
+        "speakerName":"松館 大輝 / Daiki Matsudate",
+        "speakers":["daiki-matsudate"],
+        "language": "japanese"
+    },
+    {
+        "id":"71",
+        "title":"AndroidX の歩き方",
+        "place":"講堂ホール",
+        "tag":{
+            "name":"Android",
+            "color":"green"
+        },
+        "timeDuration": "40",
+        "speakerName":"荒木 佑一 / Yuichi Araki",
+        "speakers":["yuichi-araki"],
+        "language": "japanese"
+    },
+    {
+        "id":"72",
+        "title":"Perspective of Angular in 2020",
+        "place":"B101",
+        "tag":{
+            "name":"Web",
+            "color":"red"
+        },
+        "timeDuration": "40",
+        "speakerName":"稲富 駿 / Suguru Inatomi",
+        "speakers":["suguru-inatomi"],
+        "language": "japanese"
+    },
+    {
+        "id":"73",
+        "title":"Go Modules made Safer and More Reliable",
+        "place":"B102",
+        "tag":{
+            "name":"Go",
+            "color":"blue lighten-3"
+        },
+        "timeDuration": "40",
+        "speakerName":"Katie Hockman",
+        "speakers":["katie-hockman"],
+        "language": "english"
+    },
+    {
+        "id":"74",
+        "title":"BigQueryの今年の多すぎるアップデートを振り返ってみる",
+        "place":"B201",
+        "tag":{
+            "name":"Cloud",
+            "color":"blue"
+        },
+        "timeDuration": "40",
+        "speakerName":"なかむらさとる / Satoru Nakamura",
+        "speakers":["satoru-nakamura"],
+        "language": "japanese"
+    },
+    {
+        "id":"75",
+        "title":"Flutter Overview",
+        "place":"B202",
+        "tag":{
+            "name":"Flutter",
+            "color":"blue accent-1"
+        },
+        "timeDuration": "40",
+        "speakerName":"上田 哲広 / Tetsuhiro Ueda",
+        "speakers":["tetsuhiro-ueda"],
+        "language": "japanese"
+    }
+]
