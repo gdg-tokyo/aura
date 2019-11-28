@@ -35,7 +35,7 @@
         class="text-xs-center"
         style="text-align:center"
       >
-        <v-dialog v-model="dialog" width="80%">
+        <v-dialog width="80%">
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
               <v-avatar size="70%" style="cursor: pointer">
@@ -66,7 +66,7 @@
             <v-layout wrap row fill-height class="pa-4">
               <v-flex xs12 sm2 md2 lg2 class="pa-2">
                 <v-avatar size="100%">
-                  <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
+                  <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)">
                     <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                       <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                     </v-layout>
@@ -78,11 +78,6 @@
                   <p>Profile</p>
                   <p style="white-space:pre-wrap; word-wrap:break-word;">{{item.profile}}</p>
                 </v-card-text>
-                <!-- <v-divider></v-divider>
-            <v-card-actions>
-              <v-spacer></v-spacer>
-              <v-btn color="primary" text @click="dialog = false">I accept</v-btn>
-                </v-card-actions>-->
               </v-flex>
             </v-layout>
           </v-card>
@@ -98,7 +93,7 @@ import Mixin from "@/mixin.js";
 export default {
   data() {
     return {
-      workshops: DevFestInfo.Workshops,
+      workshops: DevFestInfo.Workshops
     };
   },
   mixins: [Mixin]

@@ -76,7 +76,7 @@
         "speakerName":"玉木 英嗣",
         "speakers":["hidetsugu-tamaki"],
         "language": "japanese",
-        "sponsor": true
+        "specialNotes": "sponsor"
     },
     {
         "id":"32",
@@ -87,9 +87,10 @@
             "color":"black"
         },
         "timeDuration": "40",
-        "speakerName":"安部博文、久津川陽汰ほか",
-        "speakers":["uec-short-track"],
-        "language": "japanese"
+        "speakerName":"(調整中)",
+        "speakers":[""],
+        "language": "japanese",
+        "specialNotes": "students"
     },
     {
         "id":"33",
@@ -153,8 +154,9 @@
         },
         "timeDuration": "40",
         "speakerName":"安部博文、久津川陽汰ほか",
-        "speakers":[""],
-        "language": "japanese"
+        "speakers":["uec-programing-class"],
+        "language": "japanese",
+        "specialNotes": "students"
     },
     {
         "id":"43",
@@ -297,8 +299,7 @@
         "timeDuration": "40",
         "speakerName":"Jess Myra",
         "speakers":[""],
-        "language": "english",
-        "sponsor": true
+        "language": "english"
     },
     {
         "id":"632",
@@ -328,15 +329,15 @@
     },
     {
         "id":"65",
-        "title":"Firebase Overview 2019",
+        "title":"(タイトル未定)",
         "place":"B202",
         "tag":{
             "name":"Firebase",
             "color":"orange"
         },
         "timeDuration": "40",
-        "speakerName":"松館 大輝 / Daiki Matsudate",
-        "speakers":["daiki-matsudate"],
+        "speakerName":"(調整中)",
+        "speakers":[""],
         "language": "japanese"
     },
     {

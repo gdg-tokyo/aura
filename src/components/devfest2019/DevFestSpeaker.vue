@@ -41,7 +41,7 @@
         style="text-align:center"
       >
         <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-          <router-link tag="speaker" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
+          <router-link tag="div" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
             <v-avatar size="70%" style="cursor: pointer">
               <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)">
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -87,9 +87,9 @@
         style="text-align:center"
       >
         <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-          <router-link tag="speaker" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
+          <router-link tag="div" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
             <v-avatar size="70%" style="cursor: pointer">
-              <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
+              <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)">
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                   <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                 </v-layout>
@@ -133,9 +133,9 @@
         style="text-align:center"
       >
         <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-          <router-link tag="speaker" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
+          <router-link tag="div" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
             <v-avatar size="70%"  style="cursor: pointer">
-              <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
+              <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)">
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                   <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                 </v-layout>
@@ -193,9 +193,9 @@
         style="text-align:center"
       >
         <div class="text-xs-center ma-1 pa-1 py-5 my-0">
-          <router-link tag="speaker" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
+          <router-link tag="div" v-bind:to="{ name : 'devfest_session_detail', params : { id: item.id }}">
             <v-avatar size="70%"  style="cursor: pointer">
-              <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
+              <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)">
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                   <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                 </v-layout>
