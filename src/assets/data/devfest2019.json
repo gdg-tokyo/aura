@@ -434,15 +434,6 @@
                 "englishName": "Daichi Furiya"
             },
             {
-                "id": "daiki-matsudate",
-                "name": "松館 大輝",
-                "position": "Google Developers Expert for Firebase",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/daiki_matsudate",
-                "profile": "iOS Developerとしてアプリを開発しています。GDEとしてFirebaseのお話をしたり、海外のカンファレンスで登壇したり、本を書いたりもしています。\n著者: iOSアプリ設計パターン入門。",
-                "twitter": "https://twitter.com/d_date",
-                "englishName": "Daiki Matsudate"
-            },
-            {
                 "id": "yoshi-yamaguchi",
                 "name": "山口 能迪",
                 "position": "Developer Advocate",
