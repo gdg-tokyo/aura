@@ -88,10 +88,10 @@ router.afterEach((to) => {
   }
   if (to.meta && to.meta.description) {
     document.querySelector("meta[name='description']").setAttribute('content', to.meta.description)
-    document.querySelector("meta[name='og:description']").setAttribute('content', to.meta.description)
+    document.querySelector("meta[property='og:description']").setAttribute('content', to.meta.description)
   } else {
     document.querySelector("meta[name='description']").setAttribute('content', metaDescription)
-    document.querySelector("meta[name='og:description']").setAttribute('content', metaDescription)
+    document.querySelector("meta[property='og:description']").setAttribute('content', metaDescription)
   }
 })
 
