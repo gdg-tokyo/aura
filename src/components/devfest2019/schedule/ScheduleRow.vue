@@ -17,16 +17,16 @@
       {{sdata.language}}
     </v-chip>
     <span v-for="sd in sdata.speakers" :key="sd">
-      <span v-for="(sp,i) in speakerData" :key="i">
+      <span v-for="(sp,i) in sd" :key="i">
         <v-chip color="teal" label small outlined v-if="sp.id == sd" class="mr-1 my-2">
           <v-icon x-small>account_circle</v-icon>
           {{ sp.name }}
         </v-chip>
       </span>
     </span>
-    <v-chip v-if="sdata.sponsor" class="ml-1 mr-1" dark color="orange" small label>
+    <v-chip v-if="sdata.specialNotes" class="ml-1 mr-1" dark color="orange" small label>
       <v-icon x-small>favorite</v-icon>
-      sponsor
+      {{ sdata.specialNotes }}
     </v-chip>
   </v-flex>
 </template>

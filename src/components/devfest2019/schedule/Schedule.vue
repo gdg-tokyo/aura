@@ -21,17 +21,17 @@
                 <div v-if="obj == sdata.id" class="py-3 pl-3">
                   <v-layout row wrap>
                     <div v-if="sdata.speakers[0] == 'panel-discussion'">
-                      <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_session_detail_panel_discussion'}">
+                      <router-link style="cursor: pointer" tag="div" v-bind:to="{ name : 'devfest_session_detail_panel_discussion'}">
                         <ScheduleRow :sdata="sdata" />
                       </router-link>
                     </div>
                     <div v-else-if="sdata.speakers[0] == 'hands-on'">
-                      <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_hands_on_detail'}">
+                      <router-link style="cursor: pointer" tag="div" v-bind:to="{ name : 'devfest_hands_on_detail'}">
                         <ScheduleRow :sdata="sdata" />
                       </router-link>
                     </div>
                     <div v-else-if="hasInfo(sdata.speakers[0])">
-                      <router-link style="cursor: pointer" tag="session" v-bind:to="{ name : 'devfest_session_detail', params : { id: sdata.speakers[0] }}">
+                      <router-link style="cursor: pointer" tag="div" v-bind:to="{ name : 'devfest_session_detail', params : { id: sdata.speakers[0] }}">
                         <ScheduleRow :sdata="sdata" />
                       </router-link>
                     </div>
