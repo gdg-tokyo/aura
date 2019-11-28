@@ -40,29 +40,29 @@
       </div>
       <v-divider></v-divider>
       <v-layout wrap row fill-height align-center class="pa-4">
-          <v-flex xs12 sm4 md3 lg2 class="pa-2">
-            <v-responsive :aspect-ratio="1/1">
-              <v-avatar size="100%">
-                <v-img
-                  :src="getStorageUrl(moderator.profileImage)"
-                  :lazy-src="getStorageUrl(moderator.profileImage)"
-                  v-on="on"
-                >
-                  <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
-                    <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                  </v-layout>
-                </v-img>
-              </v-avatar>
-            </v-responsive>
-          </v-flex>
-          <v-flex xs12 sm8 md9 lg10 class="pa-2">
-            <v-card-text>
-              <h3>Moderator : {{moderator.name}} / {{moderator.englishName}}</h3>
-              <p>{{moderator.position}}</p>
-              <p style="white-space:pre-wrap; word-wrap:break-word;">{{moderator.profile}}</p>
-            </v-card-text>
-          </v-flex>
-        </v-layout>
+        <v-flex xs12 sm4 md3 lg2 class="pa-2">
+          <v-responsive :aspect-ratio="1/1">
+            <v-avatar size="100%">
+              <v-img
+                :src="getStorageUrl(moderator.profileImage)"
+                :lazy-src="getStorageUrl(moderator.profileImage)"
+                v-on="on"
+              >
+                <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                </v-layout>
+              </v-img>
+            </v-avatar>
+          </v-responsive>
+        </v-flex>
+        <v-flex xs12 sm8 md9 lg10 class="pa-2">
+          <v-card-text>
+            <h3>Moderator : {{moderator.name}} / {{moderator.englishName}}</h3>
+            <p>{{moderator.position}}</p>
+            <p style="white-space:pre-wrap; word-wrap:break-word;">{{moderator.profile}}</p>
+          </v-card-text>
+        </v-flex>
+      </v-layout>
     </v-card>
   </v-container>
 </template>
@@ -78,9 +78,10 @@ export default {
   data() {
     return {
       title: "パネルディスカッション",
-      description: "エンジニアのキャリアパス・キャリアチェンジを中心に私たちが歩んできた道と今後についてパネルディスカッションを行います",
+      description:
+        "エンジニアのキャリアパス・キャリアチェンジを中心に私たちが歩んできた道と今後についてパネルディスカッションを行います",
       moderator: DevFestInfo.Speakers.keynotes.find(item => {
-        return (item.id == "takuo-suzuki");
+        return item.id == "takuo-suzuki";
       }),
       speakers: DevFestInfo.Speakers.sessions.filter(item => {
         return (
@@ -107,7 +108,6 @@ export default {
       document
         .querySelector("meta[property='og:description']")
         .setAttribute("content", description);
-      alert("finish set");
     }
   }
 };

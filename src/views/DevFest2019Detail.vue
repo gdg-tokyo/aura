@@ -2,7 +2,7 @@
   <v-container>
     <v-layout wrap row>
       <v-flex xs12 align-center justify-center v-if="showLoader">
-          <v-progress-circular :size="50" color="blue" indeterminate></v-progress-circular>
+        <v-progress-circular :size="50" color="blue" indeterminate></v-progress-circular>
       </v-flex>
       <v-flex v-if="showData">
         <v-card>
@@ -107,7 +107,6 @@ export default {
       document
         .querySelector("meta[property='og:description']")
         .setAttribute("content", description);
-      alert("finish set");
     }
   }
 };
