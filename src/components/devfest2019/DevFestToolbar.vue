@@ -11,7 +11,7 @@
 
     />
     <v-toolbar-title class="ml-0 pl-1 mr-1">
-      <span class="google-font"><a href="#" style="text-decoration:none; color:black;">GDG DevFest Tokyo 2019</a></span>
+      <span class="google-font"><a href="/devfest" style="text-decoration:none; color:black;">GDG DevFest Tokyo 2019</a></span>
     </v-toolbar-title>
     <v-spacer />
     <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2019#speaker">Speakers</v-btn>
