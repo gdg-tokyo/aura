@@ -120,7 +120,7 @@
     },
     {
         "id":"35",
-        "title":"（タイトル未定）",
+        "title":"Chrome Dev Summit 2019: Recap",
         "place":"B202",
         "tag":{
             "name":"Web",
@@ -225,7 +225,7 @@
     },
     {
         "id":"53",
-        "title":"Predict and experiment your way to app success with Firebase",
+        "title":"What's New in Firebase - 2019 Edition",
         "place":"B102",
         "tag":{
             "name":"Firebase",
@@ -278,7 +278,7 @@
     {
         "id":"62",
         "title":"わいわい！どんな開発者でも参加できちゃうGoogleアシスタントの世界",
-        "place":"B101",
+        "place":"B201",
         "tag":{
             "name":"Assistant",
             "color":"yellow"
@@ -289,27 +289,14 @@
         "language": "japanese"
     },
     {
-        "id":"631",
-        "title":"（タイトル未定 : ML & UI/UX）",
-        "place":"B102",
+        "id":"63",
+        "title":"TensorFlow のドキュメント翻訳を行うコミュニティ活動について",
+        "place":"B101",
         "tag":{
             "name":"ML",
             "color":"brown"
         },
         "timeDuration": "40",
-        "speakerName":"Jess Myra",
-        "speakers":[""],
-        "language": "english"
-    },
-    {
-        "id":"632",
-        "title":"TensorFlow のドキュメント翻訳を行うコミュニティ活動について",
-        "place":"B102",
-        "tag":{
-            "name":"ML",
-            "color":"brown"
-        },
-        "timeDuration": "20",
         "speakerName":"杉山 阿聖 / Asei Sugiyama",
         "speakers":["asei-sugiyama"],
         "language": "japanese"
@@ -317,7 +304,7 @@
     {
         "id":"64",
         "title":"CloudNative 時代における GKE/Kubernetes ではじめる開発",
-        "place":"B201",
+        "place":"B202",
         "tag":{
             "name":"Cloud",
             "color":"blue"
@@ -329,16 +316,16 @@
     },
     {
         "id":"65",
-        "title":"(タイトル未定)",
-        "place":"B202",
+        "title":"タイトル未定(ML & UI/UX)",
+        "place":"B102",
         "tag":{
-            "name":"Firebase",
-            "color":"orange"
+            "name":"ML",
+            "color":"brown"
         },
         "timeDuration": "40",
-        "speakerName":"(調整中)",
+        "speakerName":"Jess Myra",
         "speakers":[""],
-        "language": "japanese"
+        "language": "english"
     },
     {
         "id":"71",
