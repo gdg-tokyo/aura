@@ -24,12 +24,12 @@
       <!-- <br />
       <div>
         <v-btn
-          :href="devfestDetails.SponsorFormUrl"
+          :href="devfestDetails.PamphletUrl"
           class="pa-5 ma-0 google-font elevation-1"
           target="_blank"
           color="#1a73e8"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
-        >スポンサーになる<br />(Call for Sponsor)</v-btn>
+        >パンフレット<br />(Pamphlet)</v-btn>
       </div> -->
     </v-flex>
   </v-layout>
