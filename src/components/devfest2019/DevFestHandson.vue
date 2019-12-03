@@ -61,10 +61,9 @@
           </template>
           <v-card>
             <v-card-title class="headline grey lighten-2" primary-title>{{item.name}}</v-card-title>
-            <v-card-text>{{item.position}}</v-card-text>
             <v-divider></v-divider>
-            <v-layout wrap row fill-height class="pa-4">
-              <v-flex xs12 sm2 md2 lg2 class="pa-2">
+            <v-layout wrap row fill-height justify-center class="pa-4">
+              <v-flex xs12 sm10 md4 lg2 class="pa-2">
                 <v-avatar size="100%">
                   <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)">
                     <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -73,10 +72,30 @@
                   </v-img>
                 </v-avatar>
               </v-flex>
-              <v-flex xs12 sm10 md10 lg10 class="pa-2">
+              <v-flex xs12 sm12 md8 lg10 class="pa-2">
                 <v-card-text>
                   <p>Profile</p>
                   <p style="white-space:pre-wrap; word-wrap:break-word;">{{item.profile}}</p>
+                </v-card-text>
+              </v-flex>
+            </v-layout>
+            <v-divider></v-divider>
+            <v-layout v-if="item.tutor" wrap row fill-height justify-center class="pa-4">
+              <v-flex xs12 sm10 md4 lg2 class="pa-2">
+                <v-avatar size="100%">
+                  <v-img :src="getStorageUrl(item.tutor.profileImage)" :lazy-src="getStorageUrl(item.tutor.profileImage)">
+                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                      <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                    </v-layout>
+                  </v-img>
+                </v-avatar>
+              </v-flex>
+              <v-flex xs12 sm12 md8 lg10 class="pa-2">
+                <v-card-text>
+                  <p>講師Profile</p>
+                  <p style="font-size:150%;">{{item.tutor.name}}</p>
+                  <p>{{item.tutor.position}}</p>
+                  <p style="white-space:pre-wrap; word-wrap:break-word;">{{item.tutor.profile}}</p>
                 </v-card-text>
               </v-flex>
             </v-layout>

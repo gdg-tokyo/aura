@@ -12,6 +12,12 @@
               @click="changeToSchedule"
             >Session Schedule</v-btn>
             <v-btn depressed class="white--text" color="#EA4335" @click="changeToHandson">Hands-on</v-btn>
+            <!-- <v-btn
+              :href="pamphletUrl"
+              class="white--text"
+              target="_blank"
+              color="green"
+            >PAMPHLET<v-icon>open_in_new</v-icon></v-btn> -->
           </v-layout>
           <Schedule v-if="isTimeSchedule" />
           <Handson v-else />
@@ -25,6 +31,7 @@
 import ScheduleHeader from "@/components/devfest2019/schedule/Header.vue";
 import Schedule from "@/components/devfest2019/schedule/Schedule.vue";
 import Handson from "@/components/devfest2019/schedule/Handson.vue";
+import DevFestInfo from "@/assets/data/devfest2019.json";
 export default {
   components: {
     ScheduleHeader,
@@ -41,7 +48,8 @@ export default {
   },
   data() {
     return {
-      isTimeSchedule: true
+      isTimeSchedule: true,
+      pamphletUrl: DevFestInfo.PamphletUrl
     };
   }
 };

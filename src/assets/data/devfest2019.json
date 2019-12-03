@@ -2,8 +2,9 @@
     "SponsorFormUrl": "https://forms.gle/HW8Pmr8ptZNnfYw6A",
     "EntryPageUrl": "https://gdg-tokyo.connpass.com/event/137666/",
     "cdsLogoUrl": "https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/cds2019",
+    "PamphletUrl": "https://",
     "Partners": {
-        "Cosponsorship" : {
+        "Cosponsorship": {
             "designation": "協賛",
             "groups": [
                 {
@@ -38,8 +39,8 @@
                 }
             ]
         },
-        "ObjectivePartner" : {
-            "designation" : "",
+        "ObjectivePartner": {
+            "designation": "",
             "groups": [
                 {
                     "name": "",
@@ -49,18 +50,20 @@
                 }
             ]
         },
-        "Partnership" : {
-            "designation" : "協力",
-            "groups" : [{
-                "name": "Google Developers",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers",
-                "link": "https://developers.google.com/"
-            },
-            {
-                "name": "グローブ・エモーションズ株式会社",
-                "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB",
-                "link": "https://www.growb.co.jp/"
-            }]
+        "Partnership": {
+            "designation": "協力",
+            "groups": [
+                {
+                    "name": "Google Developers",
+                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/google_developers",
+                    "link": "https://developers.google.com/"
+                },
+                {
+                    "name": "グローブ・エモーションズ株式会社",
+                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/grouB",
+                    "link": "https://www.growb.co.jp/"
+                }
+            ]
         }
     },
     "Sponsors": [
@@ -132,23 +135,16 @@
             "profile": "Women Who Go は、サンフランシスコ発祥の、女性とジェンダーマイノリティのための Go のコミュニティです。\nWomen Who Go Tokyo は日本で初めての Women Who Go として、2016年に設立しました。\n毎月1回、みんなで集まって Go に触れて楽しんでいます。",
             "link": "https://womenwhogotokyo.github.io",
             "englishName": "",
-            "workshopTime":"13:15-14:10",
-            "workshopRoom":"新C103",
-            "workshopTitle":"Goの並行処理を体験してみよう",
-            "workshopDescription":"",
-            "tutors": [
-                {
-                    "name": "白川 みちる",
-                    "title": "",
-                    "profile":"三度の飯と同じくらい Go が好きです。このすばらしい技術をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営にも携わっています。\nその他、Vim や業務設計、チームビルディング、シニアのキャリアや教育についても語ると長くなります。\n仕事では LINE でプロジェクトマネジメントと Java のエンジニアをしています。",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/michiru-shirakawa"
-                },
-                {
-                    "name": "河野 美里",
-                    "title": "",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
-                }
-            ]
+            "workshopTime": "13:15-14:10",
+            "workshopRoom": "新C103",
+            "workshopTitle": "Goの並行処理を体験してみよう",
+            "workshopDescription": "",
+            "tutor": {
+                "name": "白川 みちる",
+                "position": "",
+                "profile": "三度の飯と同じくらい Go が好きです。このすばらしい技術をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営にも携わっています。\nその他、Vim や業務設計、チームビルディング、シニアのキャリアや教育についても語ると長くなります。\n仕事では LINE でプロジェクトマネジメントと Java のエンジニアをしています。",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/michiru-shirakawa"
+            }
         },
         {
             "name": "Angular日本ユーザー会",
@@ -156,18 +152,16 @@
             "profile": "Angular日本ユーザー会は日本のAngular開発者によるユーザーコミュニティです。\nナレッジの共有やイベントの開催、ドキュメントの翻訳などをおこなっています。",
             "link": "https://community.angular.jp",
             "englishName": "Angular Japan User Group",
-            "workshopTime":"13:15-14:10",
-            "workshopRoom":"新C203",
-            "workshopTitle":"はじめてのAngularアプリ作成",
-            "workshopDescription":"",
-            "tutors": [
-                {
-                    "name": "稲富 駿",
-                    "title": "Angular日本ユーザー会 代表  / Google Developers Expert for Angular",
-                    "profile": "オープンコミュニティを愛するフロントエンド開発者。2016年よりAngular日本ユーザー会の代表を務める。 2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi"
-                }
-            ]
+            "workshopTime": "13:15-14:10",
+            "workshopRoom": "新C203",
+            "workshopTitle": "はじめてのAngularアプリ作成",
+            "workshopDescription": "簡単なWebアプリケーションの作成を通じて、Angularフレームワークの概要と基本的な開発を体験します。",
+            "tutor": {
+                "name": "稲富 駿",
+                "position": "Angular日本ユーザー会 代表  / Google Developers Expert for Angular",
+                "profile": "オープンコミュニティを愛するフロントエンド開発者。2016年よりAngular日本ユーザー会の代表を務める。 2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi"
+            }
         },
         {
             "name": "Firebase Japan User Group",
@@ -175,18 +169,27 @@
             "profile": "Firebaseが広く使われることを目標に、知見共有や技術者同士の交流を行っている日本のUser Groupです。",
             "link": "https://firebase.asia/",
             "englishName": "",
-            "workshopTime":"14:10-15:05",
-            "workshopRoom":"新C203",
-            "workshopTitle":"Firebase入門(仮)",
-            "workshopDescription":"",
-            "tutors": [
-                {
-                    "name": "佐藤 雅幸",
-                    "title": "FJUGハンズオン番長",
-                    "profile": "教育業界で情報技術の普及に務めるHoliday Programmer。Firebaseのコンセプトに感銘し、Firebase Japan User GroupのHands-on会を主導したり、他コミュニティのHands-on活動に協力したり、Firebaseのブログを書いたり、薄くて高い本を書いたり書いてなかったりと暗躍中。ピクセルアートをこよなく愛する。",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
-                }
-            ]
+            "workshopTime": "14:10-15:05",
+            "workshopRoom": "新C203",
+            "workshopTitle": "Ignite the Developer Mind with Firebase",
+            "workshopDescription": "",
+            "tutor": {
+                "name": "佐藤 雅幸",
+                "position": "FJUGハンズオン番長",
+                "profile": "教育業界で情報技術の普及に務めるHoliday Programmer。Firebaseのコンセプトに感銘し、Firebase Japan User GroupのHands-on会を主導したり、他コミュニティのHands-on活動に協力したり、Firebaseのブログを書いたり、薄くて高い本を書いたり書いてなかったりと暗躍中。ピクセルアートをこよなく愛する。",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/masayuki-sato"
+            }
+        },
+        {
+            "name": "株式会社ディー・エヌ・エー",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/DeNA_2",
+            "profile": "",
+            "link": "https://dena.com/",
+            "englishName": "",
+            "workshopTime": "14:50-15:50",
+            "workshopRoom": "新C103",
+            "workshopTitle": "Espressoの知識ゼロでも書ける！Android UIテストはじめの一歩",
+            "workshopDescription": "Espresso Test RecorderとAndroid Studioの機能を駆使して、Espresso APIの知識なしにメンテナンス性の高いテストを書いてみます。UIテストの特徴や注意点についても少し触れます。(Android Studio及びAPI Level19(4.4)以上のエミュレータまたは実機が必要です。実機の場合はUSBケーブルも忘れずにお願いします。）"
         },
         {
             "name": "Web Platform Study Group",
@@ -194,18 +197,16 @@
             "profile": "最近はフレームワークやライブラリが充実し、Webの標準的な仕様やAPIを知らなくてもアプリ開発が行える環境が整ってきていますが、それは違う側面から見るとあまり良いことでは無いような気がします。私達はWeb標準と呼ばれる技術を幅広く扱い、それらの認知度を高め議論していくコミュニティが必要と考え、Web Platform Study Groupを設立させました。",
             "link": "https://medium.com/web-platform-study-group",
             "englishName": "",
-            "workshopTime": "14:10-14:40, 15:10-16:00",
-            "workshopRoom": "新C103(前半), 新C203(後半)",
-            "workshopTitle": "",
+            "workshopTime": "15:10-16:00",
+            "workshopRoom": "新C203",
+            "workshopTitle": "Web Codelab",
             "workshopDescription": "",
-            "tutors": [
-                {
-                    "name": "川上 和義",
-                    "title": "",
-                    "profile": "",
-                    "profileImage": ""
-                }
-            ]
+            "tutor": {
+                "name": "川上 和義",
+                "position": "",
+                "profile": "",
+                "profileImage": ""
+            }
         },
         {
             "name": "droid girls",
@@ -217,14 +218,12 @@
             "workshopRoom": "新C103",
             "workshopTitle": "CameraX + ML Kit で Object Detection を体験しよう",
             "workshopDescription": "Android アプリへの Camera 機能実装をサポートする CameraX ライブラリと、機械学習による機能を簡単に実装できる ML Kit を使って物体を認識するアプリを作ります。",
-            "tutors": [
-                {
-                    "name": "あんざいゆき",
-                    "title": "",
-                    "profile": "",
-                    "profileImage": ""
-                }
-            ]
+            "tutor": {
+                "name": "あんざいゆき",
+                "position": "株式会社ウフィカ代表取締役, Google Developers Expert for Android",
+                "profile": "株式会社ウフィカ代表取締役社長。Google Developers Expert for Android。「Y.A.Mの雑記帳」というブログで Android の tips を多数紹介しています。 「Android Pattern Cookbook」「Master of Dagger」「わかる！ドメイン駆動設計」などの本を執筆しています。",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yuki_anzai"
+            }
         },
         {
             "name": "電気通信大学 情報工学工房ダンボールコミュニケーションロボットチーム",
@@ -236,20 +235,32 @@
             "workshopRoom": "新C203",
             "workshopTitle": "",
             "workshopDescription": "",
-            "tutors": [
-                {
-                    "name": "島崎 俊介",
-                    "title": "学術技師",
-                    "profile": "電気通信大学卒業，現在，電気通信大学学術技師．情報系学科計算機実験室の学修マネジメントを通じて，学生・教職員・ステークホルダーと協働で電気通信大学をより良い大学にしていくことが仕事の目標です．週末は，電通大認定ベンチャーuecサポートのメンバーとして電気通信大学プログラミング教室の運営とプログラミング教室の研究を行っています．",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/toshiyuki-shimazaki"
-                },
-                {
-                    "name": "山口 博光",
-                    "title": "",
-                    "profile": "",
-                    "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/anonymous_1"
-                }
-            ]
+            "tutor": {
+                "name": "島崎 俊介",
+                "position": "学術技師",
+                "profile": "電気通信大学卒業，現在，電気通信大学学術技師．情報系学科計算機実験室の学修マネジメントを通じて，学生・教職員・ステークホルダーと協働で電気通信大学をより良い大学にしていくことが仕事の目標です．週末は，電通大認定ベンチャーuecサポートのメンバーとして電気通信大学プログラミング教室の運営とプログラミング教室の研究を行っています．",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/toshiyuki-shimazaki"
+            }
+        }
+    ],
+    "Codelabs": [
+        {
+            "name": "株式会社ディー・エヌ・エー",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/DeNA_2",
+            "profile": "",
+            "link": "https://dena.com/",
+            "workshopRoom": "新C103",
+            "englishName": "",
+            "workshopDescription": "Goエンジニア向け / Androidエンジニア向けのCodelabをそれぞれ用意します。AndroidのCodelabではAPI Level19(4.4)以上のエミュレータまたは実機が必要になりますので、あらかじめご用意ください。"
+        },
+        {
+            "name": "Web Platform Study Group",
+            "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/community/wpsg",
+            "profile": "最近はフレームワークやライブラリが充実し、Webの標準的な仕様やAPIを知らなくてもアプリ開発が行える環境が整ってきていますが、それは違う側面から見るとあまり良いことでは無いような気がします。私達はWeb標準と呼ばれる技術を幅広く扱い、それらの認知度を高め議論していくコミュニティが必要と考え、Web Platform Study Groupを設立させました。",
+            "link": "https://medium.com/web-platform-study-group",
+            "workshopRoom": "新C203",
+            "englishName": "",
+            "workshopDescription": ""
         }
     ],
     "Speakers": {
