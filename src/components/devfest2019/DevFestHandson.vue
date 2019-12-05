@@ -39,7 +39,11 @@
           <template v-slot:activator="{ on }">
             <div class="text-xs-center ma-1 pa-1 py-5 my-0">
               <v-avatar size="70%" style="cursor: pointer">
-                <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)" v-on="on">
+                <v-img
+                  :src="getStorageUrl(item.profileImage)"
+                  :lazy-src="getStorageUrl(item.profileImage)"
+                  v-on="on"
+                >
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
                   </v-layout>
@@ -47,15 +51,11 @@
               </v-avatar>
               <p class="mt-3 mb-0 google-font" style="font-size:130%">
                 {{item.name}}
-                <v-btn
-                  class="mt-0 mx-0"
-                  icon
-                  :href="item.link"
-                  target="_blank"
-                >
+                <v-btn class="mt-0 mx-0" icon :href="item.link" target="_blank">
                   <v-icon small style="color:#333333">fas fa-link</v-icon>
                 </v-btn>
-                <br>{{item.englishName}}
+                <br />
+                {{item.englishName}}
               </p>
             </div>
           </template>
@@ -64,13 +64,18 @@
             <v-divider></v-divider>
             <v-layout wrap row fill-height justify-center class="pa-4">
               <v-flex xs12 sm10 md4 lg2 class="pa-2">
-                <v-avatar size="100%">
-                  <v-img :src="getStorageUrl(item.profileImage)" :lazy-src="getStorageUrl(item.profileImage)">
-                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
-                      <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                    </v-layout>
-                  </v-img>
-                </v-avatar>
+                <v-responsive :aspect-ratio="1/1">
+                  <v-avatar size="100%">
+                    <v-img
+                      :src="getStorageUrl(item.profileImage)"
+                      :lazy-src="getStorageUrl(item.profileImage)"
+                    >
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                      </v-layout>
+                    </v-img>
+                  </v-avatar>
+                </v-responsive>
               </v-flex>
               <v-flex xs12 sm12 md8 lg10 class="pa-2">
                 <v-card-text>
@@ -82,13 +87,18 @@
             <v-divider></v-divider>
             <v-layout v-if="item.tutor" wrap row fill-height justify-center class="pa-4">
               <v-flex xs12 sm10 md4 lg2 class="pa-2">
-                <v-avatar size="100%">
-                  <v-img :src="getStorageUrl(item.tutor.profileImage)" :lazy-src="getStorageUrl(item.tutor.profileImage)">
-                    <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
-                      <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                    </v-layout>
-                  </v-img>
-                </v-avatar>
+                <v-responsive :aspect-ratio="1/1">
+                  <v-avatar size="100%">
+                    <v-img
+                      :src="getStorageUrl(item.tutor.profileImage)"
+                      :lazy-src="getStorageUrl(item.tutor.profileImage)"
+                    >
+                      <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
+                        <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                      </v-layout>
+                    </v-img>
+                  </v-avatar>
+                </v-responsive>
               </v-flex>
               <v-flex xs12 sm12 md8 lg10 class="pa-2">
                 <v-card-text>
