@@ -12,12 +12,10 @@
               @click="changeToSchedule"
             >Session Schedule</v-btn>
             <v-btn depressed class="white--text" color="#EA4335" @click="changeToHandson">Hands-on</v-btn>
-            <v-btn
-              :href="pamphletUrl"
-              class="white--text"
-              target="_blank"
-              color="green"
-            >PAMPHLET<v-icon>open_in_new</v-icon></v-btn>
+            <v-btn :href="pamphletUrl" class="white--text" target="_blank" color="green">
+              Download
+              <v-icon>open_in_new</v-icon>
+            </v-btn>
           </v-layout>
           <Schedule v-if="isTimeSchedule" />
           <Handson v-else />
