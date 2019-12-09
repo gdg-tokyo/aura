@@ -53,16 +53,17 @@
     },
     {
         "id":"212",
-        "title":"ハンズオン紹介",
-        "place":"講堂ホール",
+        "title":"GKEを本番運用する時に最低限考えるべきこととその方法(ライブデモ有り)",
+        "place":"B101",
         "tag":{
-            "name":"misc",
-            "color":"black"
+            "name":"Cloud",
+            "color":"blue"
         },
-        "timeDuration": "20",
-        "speakerName":"GDG Tokyo",
-        "speakers":["hands-on"],
-        "language": "japanese"
+        "timeDuration": "50",
+        "speakerName":"光の戦士(富永裕貴)",
+        "speakers":[""],
+        "language": "japanese",
+        "specialNotes": "sponsor"
     },
     {
         "id":"31",
@@ -316,15 +317,15 @@
     },
     {
         "id":"65",
-        "title":"タイトル未定(ML & UI/UX)",
+        "title":"Developing in the dark",
         "place":"B102",
         "tag":{
-            "name":"ML",
-            "color":"brown"
+            "name":"Design",
+            "color":"purple"
         },
         "timeDuration": "40",
         "speakerName":"Jess Myra",
-        "speakers":[""],
+        "speakers":["jess-myra"],
         "language": "english"
     },
     {
