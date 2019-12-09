@@ -184,9 +184,6 @@
         sm3
         md3
         lg3
-        offset-sm1
-        offset-md1
-        offset-lg1
         v-for="(item, i) in cds"
         :key="i"
         class="text-xs-center"

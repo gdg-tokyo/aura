@@ -484,6 +484,15 @@
                 "profile": "Google合同会社デベロッパーアドボケイト。クラウド製品の普及と技術支援を担当し、特にオブザーバビリティ領域を担当。またGoコミュニティの支援も活発に行っている。以前はウェブ、Android、Googleアシスタントと各種新規製品・新規機能のリリースと普及に関わり、多くの公開事例の技術支援を担当。好きなプログラミング言語の傾向は、実用指向で標準の必要十分に重きを置くもので、特にPythonとGoを好んでいる。",
                 "twitter": "https://twitter.com/ymotongpoo",
                 "englishName": "Yoshi Yamaguchi"
+            },
+            {
+                "id": "jack",
+                "name": "Jxck",
+                "position": "Google Developers Expert for Web Technologies",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jxck",
+                "profile": "https://blog.jxck.io https://mozaic.fm",
+                "twitter": "https://twitter.com/jxck_",
+                "englishName": "Jack"
             }
         ],
         "chromeDevSummits": [
@@ -513,15 +522,6 @@
                 "profile": "Google 合同会社 Developer Advocate。Web を中心にフロントエンド周りの技術的な支援やコミュニケーションを担当。推しのWeb技術はWeb AssemblyとWeb Workers、Web GPU、そしてWeb Audio 。",
                 "twitter": "",
                 "englishName": "Chiko Shimizu"
-            },
-            {
-                "id": "jack",
-                "name": "Jxck",
-                "position": "Google Developers Expert for Web Technologies",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jxck",
-                "profile": "https://blog.jxck.io https://mozaic.fm",
-                "twitter": "https://twitter.com/jxck_",
-                "englishName": "Jack"
             },
             {
                 "id": "masataka-yakura",
