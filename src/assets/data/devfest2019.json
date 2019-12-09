@@ -441,6 +441,24 @@
                 "englishName": "Yoichiro Tanaka"
             },
             {
+                "id": "hidetsugu-tamaki",
+                "name": "玉木 英嗣",
+                "position": "Software Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/Hidetsug_Tamaki",
+                "profile": "LINE App Dev 3チーム Software Engineer。LINE Androidアプリの開発担当。2018年に新卒で入社。",
+                "twitter": "https://twitter.com/r_ralph_h",
+                "englishName": "Hidetsugu Tamaki"
+            },
+            {
+                "id": "yuki-tominaga",
+                "name": "富永 裕貴",
+                "position": "Lead Engineer",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yuki_tominaga",
+                "profile": "6年のNEETとSES事業会社を経て2017年にクラウドエースへ入社。様々なGCP製品を用いたアプリケーション開発をする傍ら、GoogleCloud認定トレーナーとしてイベントへの登壇などを行う。2018年 TRAINER OF THE YEAR受賞。神奈川県 茅ヶ崎市在住、調布まで2時間かけて行きます!",
+                "twitter": "",
+                "englishName": "Yuki Tominaga"
+            },
+            {
                 "id": "satoru-nakamura",
                 "name": "なかむら さとる",
                 "position": "Google Developers Expert for GCP",
