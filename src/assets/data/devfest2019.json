@@ -8,11 +8,6 @@
             "designation": "協賛",
             "groups": [
                 {
-                    "name": "国立大学法人電気通信大学",
-                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
-                    "link": "https://www.uec.ac.jp/"
-                },
-                {
                     "name": "レッドインパルス株式会社",
                     "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/red-impulz",
                     "link": "https://redimpulz.com/"
@@ -43,10 +38,10 @@
             "designation": "",
             "groups": [
                 {
-                    "name": "",
-                    "title": "",
-                    "logo": "",
-                    "link": ""
+                    "name": "国立大学法人電気通信大学",
+                    "title": "共催",
+                    "logo": "https://storage.googleapis.com/gdgtokyo_img/devfest19/sponsor/uec",
+                    "link": "https://www.uec.ac.jp/"
                 }
             ]
         },
