@@ -47,7 +47,7 @@
             "color":"black"
         },
         "timeDuration": "30",
-        "speakerName":"及川 卓也、えーじ、田中洋一郎 / Takuya Oikawa, Eiji Kitamura, Yoichiro Tanaka",
+        "speakerName":"及川 卓也、えーじ、鈴木 拓生 / Takuya Oikawa, Eiji Kitamura, Takuo Suzuki",
         "speakers":["panel-discussion"],
         "language": "japanese"
     },
@@ -278,7 +278,7 @@
     },
     {
         "id":"62",
-        "title":"わいわい！どんな開発者でも参加できちゃうGoogleアシスタントの世界",
+        "title":"(諸事情により当セッションは中止となりました。)",
         "place":"B201",
         "tag":{
             "name":"Assistant",
@@ -286,7 +286,7 @@
         },
         "timeDuration": "40",
         "speakerName":"田中 洋一郎 / Yoichiro Tanaka",
-        "speakers":["yoichiro-tanaka"],
+        "speakers":[""],
         "language": "japanese"
     },
     {
