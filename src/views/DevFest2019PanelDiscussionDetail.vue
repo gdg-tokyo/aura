@@ -20,7 +20,6 @@
                 <v-img
                   :src="getStorageUrl(speaker.profileImage)"
                   :lazy-src="getStorageUrl(speaker.profileImage)"
-                  v-on="on"
                 >
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -46,7 +45,6 @@
               <v-img
                 :src="getStorageUrl(moderator.profileImage)"
                 :lazy-src="getStorageUrl(moderator.profileImage)"
-                v-on="on"
               >
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                   <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -83,13 +81,15 @@ export default {
       moderator: DevFestInfo.Speakers.keynotes.find(item => {
         return item.id == "shoko-sato";
       }),
-      speakers: DevFestInfo.Speakers.sessions.filter(item => {
-        return (
-          item.id == "eiji-kitamura" ||
-          item.id == "takuo-suzuki" ||
-          item.id == "takuya-oikawa"
-        );
-      })
+      speakers: DevFestInfo.Speakers.sessions
+        .filter(item => {
+          return item.id == "eiji-kitamura" || item.id == "takuya-oikawa";
+        })
+        .concat(
+          DevFestInfo.Speakers.keynotes.find(item => {
+            return item.id == "takuo-suzuki";
+          })
+        )
     };
   },
   mixins: [Mixin],
