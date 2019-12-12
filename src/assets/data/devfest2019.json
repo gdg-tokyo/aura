@@ -364,6 +364,15 @@
                 "englishName": "Yuki Anzai"
             },
             {
+                "id": "suguru-inatomi",
+                "name": "稲富 駿",
+                "position": "Google Developers Expert for Angular",
+                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi",
+                "profile": "オープンコミュニティを愛するフロントエンド開発者。\n2016年よりAngular日本ユーザー会の代表を務める。 \n2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
+                "twitter": "https://twitter.com/laco2net",
+                "englishName": "Suguru Inatomi"
+            },
+            {
                 "id": "tetsuhiro-ueda",
                 "name": "上田 哲広",
                 "position": "Google Developers Expert for GCP and Flutter",
@@ -482,15 +491,6 @@
             }
         ],
         "chromeDevSummits": [
-            {
-                "id": "suguru-inatomi",
-                "name": "稲富 駿",
-                "position": "Google Developers Expert for Angular",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/suguru_inatomi",
-                "profile": "オープンコミュニティを愛するフロントエンド開発者。\n2016年よりAngular日本ユーザー会の代表を務める。 \n2018年に日本で一人目のGoogle Developers Expert for Angularに認定され、日々の仕事の傍ら、AngularをはじめとするOSSへのコントリビューションや翻訳、登壇、イベントの主催などの活動を続けている。",
-                "twitter": "https://twitter.com/laco2net",
-                "englishName": "Suguru Inatomi"
-            },
             {
                 "id": "shunya-shishido",
                 "name": "宍戸 俊哉",
