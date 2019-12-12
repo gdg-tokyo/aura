@@ -321,7 +321,7 @@
                 "name": "Jess Myra",
                 "position": "Designer",
                 "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/jess_myra",
-                "profile": "",
+                "profile": "For the past three years I’ve been on the Next Billion Users team building new experiences and frameworks for users coming online for the first time globally across 5 continents. Currently I lead end user UX efforts for Google Station Wi-Fi. Before that I designed across a spectrum of digital and tangible interactions for Twitter, Nike, Samsung, IDEO, and EA Sports.",
                 "twitter": "https://twitter.com/jessm",
                 "englishName": ""
             }
@@ -425,15 +425,6 @@
                 "profile": "TensorFlow docs のコントリビューター & 日本語訳のレビュワー。業務では Repro AI Labs で Software Engineer としてデータサイエンスや機械学習を用いた新規サービスの研究開発業務に従事中。「見て試してわかる機械学習アルゴリズムの仕組み 機械学習図鑑」の共著者のひとり。",
                 "twitter": "https://twitter.com/K_Ryuichirou",
                 "englishName": "Asei Sugiyama"
-            },
-            {
-                "id": "yoichiro-tanaka",
-                "name": "田中 洋一郎",
-                "position": "Google Developers Expert for Assistant",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/yoichiro_tanaka",
-                "profile": "Google Developers Expert (Assistant, Web Technologies)",
-                "twitter": "https://twitter.com/yoichiro",
-                "englishName": "Yoichiro Tanaka"
             },
             {
                 "id": "hidetsugu-tamaki",
