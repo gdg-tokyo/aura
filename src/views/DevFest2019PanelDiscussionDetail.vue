@@ -81,12 +81,12 @@ export default {
       description:
         "エンジニアのキャリアパス・キャリアチェンジを中心に私たちが歩んできた道と今後についてパネルディスカッションを行います",
       moderator: DevFestInfo.Speakers.keynotes.find(item => {
-        return item.id == "takuo-suzuki";
+        return item.id == "shoko-sato";
       }),
       speakers: DevFestInfo.Speakers.sessions.filter(item => {
         return (
           item.id == "eiji-kitamura" ||
-          item.id == "yoichiro-tanaka" ||
+          item.id == "takuo-suzuki" ||
           item.id == "takuya-oikawa"
         );
       })
@@ -97,7 +97,7 @@ export default {
     setMeta: function() {
       var title = "パネルディスカッション | GDG DevFest Tokyo 2019";
       var description =
-        "及川卓也さん、えーじさん、田中洋一郎さんによるパネルディスカッション";
+        "及川卓也さん、えーじさん、鈴木拓生さんによるパネルディスカッション";
       document.title = title;
       document
         .querySelector("meta[property='og:title']")
