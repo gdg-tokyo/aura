@@ -20,7 +20,6 @@
                 <v-img
                   :src="getStorageUrl(speaker.profileImage)"
                   :lazy-src="getStorageUrl(speaker.profileImage)"
-                  v-on="on"
                 >
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -46,7 +45,6 @@
               <v-img
                 :src="getStorageUrl(moderator.profileImage)"
                 :lazy-src="getStorageUrl(moderator.profileImage)"
-                v-on="on"
               >
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                   <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -81,15 +79,17 @@ export default {
       description:
         "エンジニアのキャリアパス・キャリアチェンジを中心に私たちが歩んできた道と今後についてパネルディスカッションを行います",
       moderator: DevFestInfo.Speakers.keynotes.find(item => {
-        return item.id == "takuo-suzuki";
+        return item.id == "shoko-sato";
       }),
-      speakers: DevFestInfo.Speakers.sessions.filter(item => {
-        return (
-          item.id == "eiji-kitamura" ||
-          item.id == "yoichiro-tanaka" ||
-          item.id == "takuya-oikawa"
-        );
-      })
+      speakers: DevFestInfo.Speakers.sessions
+        .filter(item => {
+          return item.id == "eiji-kitamura" || item.id == "takuya-oikawa";
+        })
+        .concat(
+          DevFestInfo.Speakers.keynotes.find(item => {
+            return item.id == "takuo-suzuki";
+          })
+        )
     };
   },
   mixins: [Mixin],
@@ -97,7 +97,7 @@ export default {
     setMeta: function() {
       var title = "パネルディスカッション | GDG DevFest Tokyo 2019";
       var description =
-        "及川卓也さん、えーじさん、田中洋一郎さんによるパネルディスカッション";
+        "及川卓也さん、えーじさん、鈴木拓生さんによるパネルディスカッション";
       document.title = title;
       document
         .querySelector("meta[property='og:title']")
