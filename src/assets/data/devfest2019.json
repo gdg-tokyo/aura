@@ -299,15 +299,6 @@
                 "englishName": ""
             },
             {
-                "id": "polong-lin",
-                "name": "Polong Lin",
-                "position": "Developer Advocate",
-                "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/polong_lin",
-                "profile": "Polong is a Developer Advocate at Google, based in London, UK, with a focus on data science and machine learning. Due to his background in psychology, Polong gets particularly excited about data science projects at the intersection of data science and human behaviour. Share with him via Twitter @polonglin. ",
-                "twitter": "https://twitter.com/polonglin",
-                "englishName": ""
-            },
-            {
                 "id": "sumit-chandel",
                 "name": "Sumit Chandel",
                 "position": "Developer Advocate",

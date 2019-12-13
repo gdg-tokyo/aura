@@ -95,16 +95,16 @@
     },
     {
         "id":"33",
-        "title":"Machine Learning at Scale with BigQuery, Colab and AI Platform on GCP",
+        "title":"BigQuery + Ask the Speaker",
         "place":"B102",
         "tag":{
             "name":"Cloud",
             "color":"blue"
         },
         "timeDuration": "40",
-        "speakerName":"Polong Lin",
-        "speakers":["polong-lin"],
-        "language": "english"
+        "speakerName":"なかむらさとる / Satoru Nakamura",
+        "speakers":[""],
+        "language": "japanese"
     },
     {
         "id":"34",
