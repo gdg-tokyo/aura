@@ -17,14 +17,14 @@ const router = new Router({
     {
       path: '/',
       name: 'home',
-      redirect: '/devfest2019',
-      // component: Home
+      component: Home
+
     },
     {
       path: '*',
       name: 'home',
-      redirect: '/devfest2019',
-      // component: Home
+      component: Home
+
     },
     {
       path: '/home',
