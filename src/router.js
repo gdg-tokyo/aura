@@ -16,15 +16,11 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      redirect: '/devfest2019',
-      // component: Home
+      name: 'home'
     },
     {
       path: '*',
-      name: 'home',
-      redirect: '/devfest2019',
-      // component: Home
+      name: 'home'
     },
     {
       path: '/home',
