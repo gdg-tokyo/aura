@@ -2,9 +2,9 @@
   <v-container class="pa-0">
     <v-layout wrap align-center justify-center row fill-height>
       <v-flex xs12 sm12 md12 lg12 class="pa-2 text-xs-center">
-        <p class="google-font" style="font-size: 350%; color: white">GDG DevFest Tokyo 2019</p>
+        <p class="google-font" style="font-size: 350%; color: white">GDG DevFest 2020</p>
       </v-flex>
-      <v-flex xs12 sm4 text-xs-center>
+      <!-- <v-flex xs12 sm4 text-xs-center>
         <div>
           <v-btn
             :href="devfestDetails.EntryPageUrl"
@@ -14,7 +14,7 @@
             style="font-size:150%; text-transform: capitalize; border-radius:5px; color:rgb(26, 115, 232)"
           >参加申込<br />(Registration)</v-btn>
         </div>
-      </v-flex>
+      </v-flex> -->
     </v-layout>
   </v-container>
 </template>

@@ -16,8 +16,8 @@ import CoreToolbar from '@/components/common/Toolbar'
 import CoreFooter from '@/components/common/Footer'
 import CoreView from '@/components/common/View'
 import BottomNav from '@/components/common/BottomNav'
-import DevFestToolbar from '@/components/devfest2019/DevFestToolbar'
-import DevFestBottomNav from '@/components/devfest2019/DevFestBottomNav'
+import DevFestToolbar from '@/components/devfest2020/DevFestToolbar'
+import DevFestBottomNav from '@/components/devfest2020/DevFestBottomNav'
 
 export default {
   name: 'App',

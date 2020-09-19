@@ -4,7 +4,7 @@
     <v-img
       :src="getStorageUrl('https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/topimg')"
       :lazy-src="getStorageUrl('https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/topimg')"
-      alt="GDG DevFest Tokyo 2019"
+      alt="GDG DevFest 2020"
       width="100%"
     >
       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
@@ -12,7 +12,7 @@
       </v-layout>
     </v-img>
     <v-flex xs12 sm4 text-xs-center>
-      <div>
+      <!-- <div>
         <v-btn
           :href="devfestDetails.EntryPageUrl"
           class="pa-5 ma-0 google-font elevation-1"
@@ -20,7 +20,7 @@
           color="#34a851"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
         >参加申込<br />(Registration)</v-btn>
-      </div>
+      </div> -->
       <!-- <br />
       <div>
         <v-btn

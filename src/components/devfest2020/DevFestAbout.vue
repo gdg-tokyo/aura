@@ -28,7 +28,7 @@
         <p class="google-font" style="font-size:150%;">名称</p>
       </v-flex>
       <v-flex xs7 sm7 md7 lg7 class="pa-2 text-xs-left">
-        <p class="google-font" style="font-size:200%; font-weight: bold;">GDG DevFest Tokyo 2020</p>
+        <p class="google-font" style="font-size:200%; font-weight: bold;">GDG DevFest 2020</p>
       </v-flex>
     </v-layout>
     <v-divider></v-divider>
@@ -44,7 +44,7 @@
       <v-flex xs7 sm7 md7 lg7 class="pa-2 text-xs-left">
         <p style="font-size:130%; font-weight: bold; color: #537dbf;">Sessions</p>
         <p class="google-font">
-          11:00 開始（開場10:30予定）18:00終了
+          11:00 開始（開場10:30予定）19:00終了
           <br />※終了後、懇親会パーティを開催します。
         </p>
         <p class="google-font">
@@ -65,7 +65,7 @@
       <v-flex xs7 sm7 md7 lg7 class="pa-2 text-xs-left">
         <p style="font-size:130%; font-weight: bold; color: #34a851;">Sessions</p>
         <p class="google-font">
-          11:00 開始（開場10:30予定）18:00終了
+          11:00 開始（開場10:30予定）19:00終了
           <br />※終了後、懇親会パーティを開催します。
         </p>
         <p class="google-font">
