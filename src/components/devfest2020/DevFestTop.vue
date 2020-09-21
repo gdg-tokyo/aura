@@ -2,8 +2,8 @@
   <!-- <v-container class="pa-0"> -->
   <v-layout wrap align-center justify-center row fill-height class="pb-4">
     <v-img
-      :src="getStorageUrl('https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/topimg')"
-      :lazy-src="getStorageUrl('https://storage.googleapis.com/gdgtokyo_img/devfest19/misc/topimg')"
+      src="/img/devfest2020/topimg.jpg"
+      lazy-src="/img/devfest2020/topimg.jpg"
       alt="GDG DevFest 2020"
       width="100%"
     >
