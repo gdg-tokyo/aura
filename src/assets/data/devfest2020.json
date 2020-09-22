@@ -1,14 +1,177 @@
 {
     "Chapters": [
         {
+            "name": "GDG Fukushima",
+            "logo": "/img/devfest2020/chapters/GDG Fukushima.png",
+            "detail": "GDG Fukushimaは、福島エリアでGoogleテクノロジーに興味のあるメンバーが集まっているグループです。ジェンダーやジェネレーション、技術への関わり方の多様性を大切にし、様々な人が気持ちよく集まれるコミュニティづくりを目指しています。",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-fukushima/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://gdg-cloud-fukushima.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                },
+                {
+                    "name": "Twitter",
+                    "link": "https://twitter.com/gdg_fksm",
+                    "icon": "fab fa-twitter",
+                    "color": "#1da1f2"
+                }
+            ]
+        },
+        {
+            "name": "GDG Kyoto",
+            "logo": "/img/devfest2020/chapters/GDG Kyoto.png",
+            "detail": "",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-kyoto/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://gdgkyoto.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "name": "GDG Kyushu",
+            "logo": "/img/devfest2020/chapters/GDG Kyushu.png",
+            "detail": "",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-kyushu/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://gdg.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                }
+            ]
+        },
+        {
+            "name": "GDG Nagoya",
+            "logo": "/img/devfest2020/chapters/GDG Nagoya.png",
+            "detail": "GDG Nagoyaは、Googleのテクノロジーに興味、関心があるメンバーが集うグループです。 2020年から活動を開始し、名古屋や周辺で活動しています。名古屋や周辺のエンジニア同士の交流や技術レベルの向上に少しでも貢献できればと考えております。",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-nagoya/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://gdgnagoya.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                },
+                {
+                    "name": "Twitter",
+                    "link": "https://twitter.com/gdgnagoya",
+                    "icon": "fab fa-twitter",
+                    "color": "#1da1f2"
+                }
+            ]
+        },
+        {
+            "name": "GDG Nara",
+            "logo": "/img/devfest2020/chapters/GDG Nara.png",
+            "detail": "Google Developers Group (GDG) Nara は、主に Google のプロダウトやサービスに興味のある方々が情報を共有するためのグループです。ご興味のある方は気軽にご参加ください。",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-nara/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                }
+            ]
+        },
+        {
+            "name": "GDG Osaka",
+            "logo": "/img/devfest2020/chapters/GDG Osaka.png",
+            "detail": "GDG Osakaは、2019年から7人で活動し始めいくつかのイベントを開催してきました。主に大阪を中心に活動しており、現在はオンラインでのイベントを主に企画運営行なっております。",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-osaka/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://gdgosaka.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                },
+                {
+                    "name": "Twitter",
+                    "link": "https://twitter.com/gdgosaka",
+                    "icon": "fab fa-twitter",
+                    "color": "#1da1f2"
+                }
+            ]
+        },
+        {
+            "name": "GDG Shinshu",
+            "logo": "/img/devfest2020/chapters/GDG Shinshu.png",
+            "detail": "「都会ばかりの勉強会やセミナーをもっと信州地方で！」こちらはAndroid/HTML5/Geo などGoogleTechnologiesを中心とした話題を扱う信州発のIT系コミュニティになります。信州地方（長野県及びその近隣地域）に住む開発者やデザイナーさんなどご興味のある方のご参加をお待ちしています。（住んでいなくても信州の心を持つ信州人（ニン）であれば大歓迎）",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-shinshu/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://gdg-shinshu.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                },
+                {
+                    "name": "Twitter",
+                    "link": "https://twitter.com/GDGShinshu",
+                    "icon": "fab fa-twitter",
+                    "color": "#1da1f2"
+                },
+                {
+                    "name": "Google Site",
+                    "link": "https://sites.google.com/site/gdgshinshu/",
+                    "icon": "fas fa-globe",
+                    "color": "red"
+                }
+            ]
+        },
+        {
             "name": "GDG Tokyo",
             "logo": "/img/devfest2020/chapters/GDG Tokyo.png",
             "detail": "GDG Tokyoは主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。",
             "socialLinks": [
                 {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-tokyo/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
                     "name": "Connpass",
                     "link": "https://gdg-tokyo.connpass.com/",
-                    "icon": "fas fa-globe",
+                    "icon": "fas fa-compass",
                     "color": "red"
                 },
                 {
@@ -16,12 +179,6 @@
                     "link": "https://twitter.com/gdgtokyo",
                     "icon": "fab fa-twitter",
                     "color": "#1da1f2"
-                },
-                {
-                    "name": "Meetup",
-                    "link": "https://www.meetup.com/gdg-tokyo-jp/",
-                    "icon": "fab fa-meetup",
-                    "color": "red"
                 },
                 {
                     "name": "Medium",
@@ -32,188 +189,34 @@
             ]
         },
         {
-            "name": "GDG Tokyo",
-            "logo": "/img/devfest2020/chapters/GDG Tokyo.png",
-            "detail": "GDG Tokyoは主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。",
+            "name": "GDG Yamaguchi",
+            "logo": "/img/devfest2020/chapters/GDG Yamaguchi.png",
+            "detail": "",
             "socialLinks": [
                 {
-                    "name": "Connpass",
-                    "link": "https://gdg-tokyo.connpass.com/",
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-yamaguchi/",
                     "icon": "fas fa-globe",
-                    "color": "red"
-                },
-                {
-                    "name": "Twitter",
-                    "link": "https://twitter.com/gdgtokyo",
-                    "icon": "fab fa-twitter",
-                    "color": "#1da1f2"
-                },
-                {
-                    "name": "Meetup",
-                    "link": "https://www.meetup.com/gdg-tokyo-jp/",
-                    "icon": "fab fa-meetup",
-                    "color": "red"
-                },
-                {
-                    "name": "Medium",
-                    "link": "https://medium.com/gdg-tokyo",
-                    "icon": "fab fa-medium",
-                    "color": "black"
+                    "color": "blue"
                 }
             ]
         },
         {
-            "name": "GDG Tokyo",
-            "logo": "/img/devfest2020/chapters/GDG Tokyo.png",
-            "detail": "GDG Tokyoは主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。",
+            "name": "WTM Tokyo",
+            "logo": "/img/devfest2020/chapters/WTM Tokyo.png",
+            "detail": "",
             "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-tokyo/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
                 {
                     "name": "Connpass",
                     "link": "https://gdg-tokyo.connpass.com/",
-                    "icon": "fas fa-globe",
+                    "icon": "fas fa-compass",
                     "color": "red"
-                },
-                {
-                    "name": "Twitter",
-                    "link": "https://twitter.com/gdgtokyo",
-                    "icon": "fab fa-twitter",
-                    "color": "#1da1f2"
-                },
-                {
-                    "name": "Meetup",
-                    "link": "https://www.meetup.com/gdg-tokyo-jp/",
-                    "icon": "fab fa-meetup",
-                    "color": "red"
-                },
-                {
-                    "name": "Medium",
-                    "link": "https://medium.com/gdg-tokyo",
-                    "icon": "fab fa-medium",
-                    "color": "black"
-                }
-            ]
-        },
-        {
-            "name": "GDG Tokyo",
-            "logo": "/img/devfest2020/chapters/GDG Tokyo.png",
-            "detail": "GDG Tokyoは主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。",
-            "socialLinks": [
-                {
-                    "name": "Connpass",
-                    "link": "https://gdg-tokyo.connpass.com/",
-                    "icon": "fas fa-globe",
-                    "color": "red"
-                },
-                {
-                    "name": "Twitter",
-                    "link": "https://twitter.com/gdgtokyo",
-                    "icon": "fab fa-twitter",
-                    "color": "#1da1f2"
-                },
-                {
-                    "name": "Meetup",
-                    "link": "https://www.meetup.com/gdg-tokyo-jp/",
-                    "icon": "fab fa-meetup",
-                    "color": "red"
-                },
-                {
-                    "name": "Medium",
-                    "link": "https://medium.com/gdg-tokyo",
-                    "icon": "fab fa-medium",
-                    "color": "black"
-                }
-            ]
-        },
-        {
-            "name": "GDG Tokyo",
-            "logo": "/img/devfest2020/chapters/GDG Tokyo.png",
-            "detail": "GDG Tokyoは主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。",
-            "socialLinks": [
-                {
-                    "name": "Connpass",
-                    "link": "https://gdg-tokyo.connpass.com/",
-                    "icon": "fas fa-globe",
-                    "color": "red"
-                },
-                {
-                    "name": "Twitter",
-                    "link": "https://twitter.com/gdgtokyo",
-                    "icon": "fab fa-twitter",
-                    "color": "#1da1f2"
-                },
-                {
-                    "name": "Meetup",
-                    "link": "https://www.meetup.com/gdg-tokyo-jp/",
-                    "icon": "fab fa-meetup",
-                    "color": "red"
-                },
-                {
-                    "name": "Medium",
-                    "link": "https://medium.com/gdg-tokyo",
-                    "icon": "fab fa-medium",
-                    "color": "black"
-                }
-            ]
-        },
-        {
-            "name": "GDG Tokyo",
-            "logo": "/img/devfest2020/chapters/GDG Tokyo.png",
-            "detail": "GDG Tokyoは主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。",
-            "socialLinks": [
-                {
-                    "name": "Connpass",
-                    "link": "https://gdg-tokyo.connpass.com/",
-                    "icon": "fas fa-globe",
-                    "color": "red"
-                },
-                {
-                    "name": "Twitter",
-                    "link": "https://twitter.com/gdgtokyo",
-                    "icon": "fab fa-twitter",
-                    "color": "#1da1f2"
-                },
-                {
-                    "name": "Meetup",
-                    "link": "https://www.meetup.com/gdg-tokyo-jp/",
-                    "icon": "fab fa-meetup",
-                    "color": "red"
-                },
-                {
-                    "name": "Medium",
-                    "link": "https://medium.com/gdg-tokyo",
-                    "icon": "fab fa-medium",
-                    "color": "black"
-                }
-            ]
-        },
-        {
-            "name": "GDG Tokyo",
-            "logo": "/img/devfest2020/chapters/GDG Tokyo.png",
-            "detail": "GDG Tokyoは主にGoogleのテクノロジーに興味のある人たちで情報を共有しあう集いです。平日夜や週末に東京で勉強会等を行っています。",
-            "socialLinks": [
-                {
-                    "name": "Connpass",
-                    "link": "https://gdg-tokyo.connpass.com/",
-                    "icon": "fas fa-globe",
-                    "color": "red"
-                },
-                {
-                    "name": "Twitter",
-                    "link": "https://twitter.com/gdgtokyo",
-                    "icon": "fab fa-twitter",
-                    "color": "#1da1f2"
-                },
-                {
-                    "name": "Meetup",
-                    "link": "https://www.meetup.com/gdg-tokyo-jp/",
-                    "icon": "fab fa-meetup",
-                    "color": "red"
-                },
-                {
-                    "name": "Medium",
-                    "link": "https://medium.com/gdg-tokyo",
-                    "icon": "fab fa-medium",
-                    "color": "black"
                 }
             ]
         }

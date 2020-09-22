@@ -12,7 +12,8 @@
         <p class="google-font">GDG DevFest2020実行委員会 実行委員長 Shoko Sato(GDG Tokyo)<br>副実行委員長 Hayakawa(GDG Nagoya), 副実行委員長 furushin(GDG Osaka)</p>
       </v-flex>
     </v-layout>
-    <v-layout wrap align-center justify-center row fill-height class="my-3">
+    <!-- チャプター紹介 -->
+    <v-layout wrap align-start justify-center row fill-height class="my-3">
       <v-flex
         xs8
         sm5
@@ -36,7 +37,6 @@
             </v-img>
           </a>
         </div>
-        <p class="pa-2 google-font">{{ item.detail }}</p>
         <v-flex xs12>
           <v-btn
             text
@@ -49,6 +49,7 @@
             <v-icon color="white">{{ link.icon }}</v-icon>
           </v-btn>
         </v-flex>
+        <p class="pa-2 google-font">{{ item.detail }}</p>
       </v-flex>
     </v-layout>
   </v-container>
