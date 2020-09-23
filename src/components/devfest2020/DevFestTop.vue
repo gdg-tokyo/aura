@@ -10,6 +10,13 @@
       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
         <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
       </v-layout>
+      <v-btn
+          :href="devfestDetails.EntryPageUrl"
+          class="pa-5 ma-0 google-font elevation-1"
+          target="_blank"
+          color="#34a851"
+          style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
+        >参加申込<br />(Registration)</v-btn>
     </v-img>
     <v-flex xs12 sm4 text-xs-center>
       <!-- <div>
