@@ -54,9 +54,7 @@ jobs:
           command: npm run build
       - run:
           name: Deploy Firebase Hosting
-          command: |
-              firebase use << parameters.env >>
-              firebase deploy --token $FIREBASE_TOKEN
+          command: firebase deploy --project << parameters.env >> --token $FIREBASE_TOKEN
 
 workflows:
   setup_and_build:
