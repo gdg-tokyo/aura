@@ -9,7 +9,7 @@
       <v-flex xs12 md9 lg9 class="pa-2 text-xs-left">
         <p
           class="google-font"
-        >DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。<br>日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。<br>GDG Shinsyu, GDG Fukushima, GDG Tokyo, WTM Tokyo, GDG Kyoto, GDG Osaka, GDG Nagoya, GDG Shikoku, GDG Yamaguchi, GDG Kyusyu</p>
+        >DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。東京では、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを学べるコミュニティイベントとして開催しています。<br>GDG Fukushima, GDG Kyoto, GDG Kyusyu, GDG Nagoya, GDG Nara, GDG Osaka, GDG Shinsyu, GDG Tokyo, GDG Yamaguchi, WTM Tokyo</p>
         <p
           class="google-font"
         >The DevFest, or 'Developer Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious techies.</p>

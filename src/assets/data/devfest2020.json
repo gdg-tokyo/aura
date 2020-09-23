@@ -1,4 +1,5 @@
 {
+    "EntryPageUrl":"https://gdg-tokyo.connpass.com/event/190079/",
     "Chapters": [
         {
             "name": "GDG Fukushima",
@@ -28,7 +29,7 @@
         {
             "name": "GDG Kyoto",
             "logo": "/img/devfest2020/chapters/GDG Kyoto.png",
-            "detail": "",
+            "detail": "GDG Kyotoではオンライン・オフラインを問わず、勉強会やHackathonのようなイベントを開催しています。イベントでは、Googleのテクノロジーだけでなく、UI/UXデザイン等さまざまなテーマを取り上げています。",
             "socialLinks": [
                 {
                     "name": "Global",
@@ -41,13 +42,19 @@
                     "link": "https://gdgkyoto.connpass.com/",
                     "icon": "fas fa-compass",
                     "color": "red"
+                },
+                {
+                    "name": "Twitter",
+                    "link": "https://twitter.com/gdgkyoto/",
+                    "icon": "fab fa-twitter",
+                    "color": "#1da1f2"
                 }
             ]
         },
         {
             "name": "GDG Kyushu",
             "logo": "/img/devfest2020/chapters/GDG Kyushu.png",
-            "detail": "",
+            "detail": "GDG九州は スマートフォン、Web、プログラム、デザイン、熊本、長崎、佐賀、大分、宮崎、福岡、鹿児島、離れた技術、離れた場所を繋いでいきます。",
             "socialLinks": [
                 {
                     "name": "Global",

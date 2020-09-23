@@ -22,7 +22,7 @@
         <p class="google-font">
           開催場所 : オンライン
         </p>
-        <p style="font-size:130%; font-weight: bold; color: #fabb01;">Android, Flutter, ML</p>
+        <p style="font-size:130%; font-weight: bold; color: #fabb01;">Android, Firebase, Flutter, ML, Assistant, Angular</p>
       </v-flex>
     </v-layout>
     <v-divider></v-divider>
@@ -42,7 +42,7 @@
         <p class="google-font">
           開催場所 : オンライン
         </p>
-        <p style="font-size:130%; font-weight: bold; color: #34a851;">Cloud, GoogleAppScript</p>
+        <p style="font-size:130%; font-weight: bold; color: #34a851;">Google Apps Script, Cloud, Web, Android, Firebase</p>
       </v-flex>
     </v-layout>
     <v-divider></v-divider>

@@ -1,7 +1,7 @@
 <template>
   <v-card color="white" height="60px" class="white hidden-sm-and-up" flat>
     <v-bottom-nav :active.sync="bottomNav" :value="true" app color="white" class="elevation-2">
-      <v-btn color="#518FF5" flat value="sponsors" router href="/devfest2020#sponsor">
+      <!-- <v-btn color="#518FF5" flat value="sponsors" router href="/devfest2020#sponsor">
         <span>Sponsors</span>
         <v-icon>rounded_corner</v-icon>
       </v-btn>
@@ -9,9 +9,9 @@
       <v-btn color="#518FF5" flat value="speakers" router href="/devfest2020#speaker">
         <span>Speakers</span>
         <v-icon>group</v-icon>
-      </v-btn>
+      </v-btn> -->
 
-      <v-btn color="#518FF5" flat value="schedule" router to="/devfest2020/schedule">
+      <v-btn color="#518FF5" flat value="schedule" router to="/devfest2020#schedule">
         <span>Schedule</span>
         <v-icon>list</v-icon>
       </v-btn>

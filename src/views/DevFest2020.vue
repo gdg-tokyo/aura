@@ -15,7 +15,7 @@
     <v-container fluid class="my-4">
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
-          <DevFestSchedule />
+          <DevFestSchedule id="schedule" />
         </v-flex>
       </v-layout>
     </v-container>
