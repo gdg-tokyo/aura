@@ -10,24 +10,28 @@
       <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
         <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
       </v-layout>
-      <v-btn
-          :href="devfestDetails.EntryPageUrl"
-          class="pa-5 ma-0 google-font elevation-1"
-          target="_blank"
-          color="#34a851"
-          style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
-        >参加申込<br />(Registration)</v-btn>
+      <v-layout wrap align-end justify-center row fill-height class="pb-4">
+        <div>
+          <v-btn
+            :href="devfestDetails.EntryPageUrl"
+            class="pa-4 ma-4 elevation-0 hidden-sm-and-down"
+            target="_blank"
+            color="#1705df"
+            style="font-size:150%; text-transform: capitalize; border-radius:0px; border: 8px solid white; color:white"
+          >Register now</v-btn>
+        </div>
+      </v-layout>
     </v-img>
     <v-flex xs12 sm4 text-xs-center>
-      <!-- <div>
+      <div>
         <v-btn
           :href="devfestDetails.EntryPageUrl"
-          class="pa-5 ma-0 google-font elevation-1"
+          class="pa-4 ma-4 elevation-0 hidden-md-only hidden-lg-and-up"
           target="_blank"
-          color="#34a851"
-          style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
-        >参加申込<br />(Registration)</v-btn>
-      </div> -->
+          color="#1705df"
+          style="font-size:150%; text-transform: capitalize; border-radius:0px; border: 5px solid white; color:white"
+        >Register now</v-btn>
+      </div>
       <!-- <br />
       <div>
         <v-btn
@@ -37,7 +41,7 @@
           color="#1a73e8"
           style="font-size:150%; text-transform: capitalize; border-radius:5px; color:white"
         >パンフレット<br />(Pamphlet)</v-btn>
-      </div> -->
+      </div>-->
     </v-flex>
   </v-layout>
   <!-- </v-container> -->
@@ -49,9 +53,9 @@ import Mixin from "@/mixin.js";
 export default {
   data() {
     return {
-      devfestDetails: DevFestDetails
+      devfestDetails: DevFestDetails,
     };
   },
-  mixins: [Mixin]
+  mixins: [Mixin],
 };
 </script>
