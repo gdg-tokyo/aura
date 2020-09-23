@@ -209,9 +209,28 @@
             ]
         },
         {
+            "name": "WTM Kyoto",
+            "logo": "/img/devfest2020/chapters/WTM Kyoto.png",
+            "detail": "WTM京都は、京都GTUG 女子会(当時)をベースに世界に合わせ 2017年年3月に誕生したコミュニティです。ベースとなった女子会は、2010年の Girls Hackathonの開催より女性が運営する会として活動しています。",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-kyoto/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://wtmkyoto.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                }
+            ]
+        },
+        {
             "name": "WTM Tokyo",
             "logo": "/img/devfest2020/chapters/WTM Tokyo.png",
-            "detail": "",
+            "detail": "Women Techmakers Tokyoは、テクノロジー業界にいる女性や起業家の方々が技術やキャリアなどについて相談できるためのイベントなどを企画・運営している世界中に広がっているコミュニティの東京支部です。イベント情報や、テクノロジー業界で働く女性に役に立つことを発信しています。",
             "socialLinks": [
                 {
                     "name": "Global",
