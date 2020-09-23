@@ -17,7 +17,7 @@
       </v-flex>
       <v-flex xs7 sm7 md7 lg7 class="pa-2 text-xs-left">
         <p class="google-font">
-          開催時間 : 11:00 - 19:00
+          開催時間 : 11:00 - 18:00
         </p>
         <p class="google-font">
           開催場所 : オンライン
@@ -37,7 +37,7 @@
       </v-flex>
       <v-flex xs7 sm7 md7 lg7 class="pa-2 text-xs-left">
         <p class="google-font">
-          開催時間 : 11:00 - 19:00
+          開催時間 : 11:00 - 18:00
         </p>
         <p class="google-font">
           開催場所 : オンライン
