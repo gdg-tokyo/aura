@@ -9,7 +9,7 @@
     <!-- Staff本体 -->
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex xs12 md6 lg6 class="pa-2 text-xs-left">
-        <p class="google-font">GDG DevFest2020実行委員会<br>実行委員長 Shoko Sato(GDG Tokyo)<br>副実行委員長 sokume / Tsutomu Hayakawa(GDG Nagoya)<br>副実行委員長 furushin(GDG Osaka)</p>
+        <p class="google-font">GDG DevFest2020実行委員会<br>実行委員長 Shoko Sato(GDG Tokyo)<br>副実行委員長 sokume / Tsutomu Hayakawa(GDG Nagoya)<br>副実行委員長 furusin(GDG Osaka)</p>
       </v-flex>
     </v-layout>
     <!-- チャプター紹介 -->
