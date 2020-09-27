@@ -109,6 +109,25 @@
             ]
         },
         {
+            "name": "GDG Okayama",
+            "logo": "/img/devfest2020/chapters/GDG Okayama.png",
+            "detail": "GDG OkayamaはこれまでGDG Chugokuとして活動してきました。幅広いテーマを取り上げて活動しており、初心者から上級者までGoogleの技術に興味がある人はどなたでも参加していただけます。最近は、少人数でのミーティングを主に開催しておりますが、中国地方に住むGoogleの技術に興味がある方の参加をお待ちしております。",
+            "socialLinks": [
+                {
+                    "name": "Global",
+                    "link": "https://gdg.community.dev/gdg-okayama/",
+                    "icon": "fas fa-globe",
+                    "color": "blue"
+                },
+                {
+                    "name": "Connpass",
+                    "link": "https://gdgchugoku.connpass.com/",
+                    "icon": "fas fa-compass",
+                    "color": "red"
+                }
+            ]
+        },
+        {
             "name": "GDG Osaka",
             "logo": "/img/devfest2020/chapters/GDG Osaka.png",
             "detail": "GDG Osakaは、2019年から7人で活動し始めいくつかのイベントを開催してきました。主に大阪を中心に活動しており、現在はオンラインでのイベントを主に企画運営行なっております。",
