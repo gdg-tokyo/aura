@@ -1,5 +1,6 @@
 <template>
   <v-container>
+    <p>Day 2</p>
     <v-layout
       row
       wrap

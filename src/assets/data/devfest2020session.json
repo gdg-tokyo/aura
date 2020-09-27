@@ -2,7 +2,7 @@
     {
         "id":"10",
         "title":"Opening",
-        "place":"講堂ホール",
+        "place":"Channel 1",
         "tag":{
             "name":"misc",
             "color":"black"
@@ -14,8 +14,8 @@
     },
     {
         "id":"11",
-        "title":"Keynote1: 世界に広がるGDGコミュニティとDevFest",
-        "place":"講堂ホール",
+        "title":"Keynote1: ",
+        "place":"Channel 1",
         "tag":{
             "name":"Keynote",
             "color":"pink"
@@ -27,13 +27,13 @@
     },
     {
         "id":"12",
-        "title":"Keynote2: 円周率世界記録への道",
-        "place":"講堂ホール",
+        "title":"Keynote2: ",
+        "place":"Channel 1",
         "tag":{
             "name":"Keynote",
             "color":"pink"
         },
-        "timeDuration": "40",
+        "timeDuration": "20",
         "speakerName":"岩尾 エマ はるか / Emma Haruka Iwao",
         "speakers":["emma-haruka-iwao"],
         "language": "japanese"
