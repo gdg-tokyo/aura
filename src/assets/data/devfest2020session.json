@@ -1,6 +1,6 @@
 [
     {
-        "id":"10",
+        "id":"100",
         "title":"Opening",
         "place":"Channel 1",
         "tag":{
@@ -10,10 +10,13 @@
         "timeDuration": "10",
         "speakerName":"佐藤 祥子 / Shoko Sato",
         "speakers":["shoko-sato"],
-        "language": "japanese"
+        "language": "japanese",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_sato.png",
+        "description": "Opening...",
+        "profile": "GDG Tokyoオーガナイザー"
     },
     {
-        "id":"11",
+        "id":"101",
         "title":"Keynote1: ",
         "place":"Channel 1",
         "tag":{
@@ -26,7 +29,7 @@
         "language": "japanese"
     },
     {
-        "id":"12",
+        "id":"102",
         "title":"Keynote2: ",
         "place":"Channel 1",
         "tag":{
@@ -37,6 +40,42 @@
         "speakerName":"岩尾 エマ はるか / Emma Haruka Iwao",
         "speakers":["emma-haruka-iwao"],
         "language": "japanese"
+    },
+    {
+        "id": "200",
+        "title": "Opening",
+        "place": "Channel 1",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "10",
+        "speakerName": "佐藤 祥子 / Shoko Sato",
+        "speakers": [
+            "shoko-sato"
+        ],
+        "language": "japanese",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_sato.png",
+        "description": "Opening...",
+        "profile": "GDG Tokyoオーガナイザー"
+    },
+    {
+        "id": "201",
+        "title": "Opening",
+        "place": "Channel 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "10",
+        "speakerName": "sokume / Tsutomu Hayakawa",
+        "speakers": [
+            "shoko-sato"
+        ],
+        "language": "japanese",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest19/speaker/shoko_sato.png",
+        "description": "Opening...",
+        "profile": "GDG Tokyoオーガナイザー"
     },
     {
         "id":"211",

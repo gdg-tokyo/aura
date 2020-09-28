@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <p>Day 1</p>
+    <h2>Day 1</h2>
     <v-layout
       row
       wrap
@@ -30,12 +30,12 @@
                       <v-card-title class="headline grey lighten-2" primary-title>{{sdata.title}}</v-card-title>
                       <v-divider></v-divider>
                       <v-layout wrap row fill-height justify-center class="pa-4">
-                        <!-- <v-flex xs12 sm10 md4 lg2 class="pa-2">
+                        <v-flex xs12 sm10 md3 lg2 class="pa-2">
                           <v-responsive :aspect-ratio="1/1">
                             <v-avatar size="100%">
                               <v-img
-                                :src="getStorageUrl(sdata.profileImage)"
-                                :lazy-src="getStorageUrl(sdata.profileImage)"
+                                :src="sdata.profileImage"
+                                :lazy-src="sdata.profileImage"
                               >
                                 <v-layout
                                   slot="placeholder"
@@ -49,47 +49,26 @@
                               </v-img>
                             </v-avatar>
                           </v-responsive>
-                        </v-flex> -->
-                        <v-flex xs12 sm12 md8 lg10 class="pa-2">
+                        </v-flex>
+                        <v-flex xs12 sm12 md9 lg10 class="pa-2">
                           <v-card-text>
-                            <p>Name</p>
                             <p style="white-space:pre-wrap; word-wrap:break-word;">{{sdata.speakerName}}</p>
+                            <p style="white-space:pre-wrap; word-wrap:break-word;">{{sdata.profile}}</p>
                           </v-card-text>
                         </v-flex>
                       </v-layout>
-                      <!-- <v-divider></v-divider>
-                      <v-layout v-if="sdata.tutor" wrap row fill-height justify-center class="pa-4">
-                        <v-flex xs12 sm10 md4 lg2 class="pa-2">
-                          <v-responsive :aspect-ratio="1/1">
-                            <v-avatar size="100%">
-                              <v-img
-                                :src="getStorageUrl(sdata.tutor.profileImage)"
-                                :lazy-src="getStorageUrl(sdata.tutor.profileImage)"
-                              >
-                                <v-layout
-                                  slot="placeholder"
-                                  fill-height
-                                  align-center
-                                  justify-center
-                                  ma-0
-                                >
-                                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                                </v-layout>
-                              </v-img>
-                            </v-avatar>
-                          </v-responsive>
-                        </v-flex>
-                        <v-flex xs12 sm12 md8 lg10 class="pa-2">
+                      <v-divider></v-divider>
+                      <v-layout wrap row fill-height justify-center class="pa-4">
+                        <v-spacer></v-spacer>
+                        <v-flex xs12 sm12 md9 lg10 class="pa-2">
                           <v-card-text>
-                            <p>講師Profile</p>
-                            <p style="font-size:150%;">{{sdata.tutor.name}}</p>
-                            <p>{{sdata.tutor.position}}</p>
+                            <p>セッション概要</p>
                             <p
                               style="white-space:pre-wrap; word-wrap:break-word;"
-                            >{{sdata.tutor.profile}}</p>
+                            >{{sdata.description}}</p>
                           </v-card-text>
                         </v-flex>
-                      </v-layout> -->
+                      </v-layout>
                     </v-card>
                   </v-dialog>
                 </div>
@@ -129,13 +108,11 @@
 
 <script>
 import ScheduleRow from "@/components/devfest2020/schedule/ScheduleRow";
-import DevfestInfo from "@/assets/data/devfest2020.json";
 import ScheduleData from "@/assets/data/devfest2020schedule.json";
 import SessionData from "@/assets/data/devfest2020session.json";
 
 export default {
   data: () => ({
-    speakerData: DevfestInfo.Speakers,
     scheduleData: ScheduleData.day1,
     sessionsData: SessionData,
   }),

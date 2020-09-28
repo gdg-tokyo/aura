@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <p>Day 2</p>
+    <h2>Day 2</h2>
     <v-layout
       row
       wrap
@@ -20,26 +20,57 @@
             <div v-for="(obj,x) in itemp" :key="x" class="white">
               <div v-for="(sdata,key) in sessionsData" :key="key">
                 <div v-if="obj == sdata.id" class="py-3 pl-3">
-                  <v-layout row wrap>
-                    <div v-if="sdata.speakers[0] == 'panel-discussion'">
-                      <router-link style="cursor: pointer" tag="div" v-bind:to="{ name : 'devfest_session_detail_panel_discussion'}">
+                  <v-dialog>
+                    <template v-slot:activator="{ on }">
+                      <div v-on="on">
                         <ScheduleRow :sdata="sdata" />
-                      </router-link>
-                    </div>
-                    <div v-else-if="sdata.speakers[0] == 'hands-on'">
-                      <router-link style="cursor: pointer" tag="div" v-bind:to="{ name : 'devfest_hands_on_detail'}">
-                        <ScheduleRow :sdata="sdata" />
-                      </router-link>
-                    </div>
-                    <div v-else-if="hasInfo(sdata.speakers[0])">
-                      <router-link style="cursor: pointer" tag="div" v-bind:to="{ name : 'devfest_session_detail', params : { id: sdata.speakers[0] }}">
-                        <ScheduleRow :sdata="sdata" />
-                      </router-link>
-                    </div>
-                    <div v-else>
-                      <ScheduleRow :sdata="sdata" />
-                    </div>
-                  </v-layout>
+                      </div>
+                    </template>
+                    <v-card>
+                      <v-card-title class="headline grey lighten-2" primary-title>{{sdata.title}}</v-card-title>
+                      <v-divider></v-divider>
+                      <v-layout wrap row fill-height justify-center class="pa-4">
+                        <v-flex xs12 sm10 md3 lg2 class="pa-2">
+                          <v-responsive :aspect-ratio="1/1">
+                            <v-avatar size="100%">
+                              <v-img
+                                :src="sdata.profileImage"
+                                :lazy-src="sdata.profileImage"
+                              >
+                                <v-layout
+                                  slot="placeholder"
+                                  fill-height
+                                  align-center
+                                  justify-center
+                                  ma-0
+                                >
+                                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
+                                </v-layout>
+                              </v-img>
+                            </v-avatar>
+                          </v-responsive>
+                        </v-flex>
+                        <v-flex xs12 sm12 md9 lg10 class="pa-2">
+                          <v-card-text>
+                            <p style="white-space:pre-wrap; word-wrap:break-word;">{{sdata.speakerName}}</p>
+                            <p style="white-space:pre-wrap; word-wrap:break-word;">{{sdata.profile}}</p>
+                          </v-card-text>
+                        </v-flex>
+                      </v-layout>
+                      <v-divider></v-divider>
+                      <v-layout wrap row fill-height justify-center class="pa-4">
+                        <v-spacer></v-spacer>
+                        <v-flex xs12 sm12 md9 lg10 class="pa-2">
+                          <v-card-text>
+                            <p>セッション概要</p>
+                            <p
+                              style="white-space:pre-wrap; word-wrap:break-word;"
+                            >{{sdata.description}}</p>
+                          </v-card-text>
+                        </v-flex>
+                      </v-layout>
+                    </v-card>
+                  </v-dialog>
                 </div>
               </div>
             </div>
@@ -47,25 +78,22 @@
         </div>
       </v-flex>
       <!-- セッション以外の表示 -->
-      <v-flex xs10 md9 v-else class="pa-3" >
+      <v-flex xs10 md9 v-else class="pa-3">
         <div class="pl-3" :style="{ 'border-left':  getBorderColor(item.place)}">
-            <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
-        <p class="google-font" style="font-size:90%">{{item.des}}</p>
-        <v-chip
-          class="white--text ml-0"
-          color="black"
-          label
-          v-if="item.timeDuration<60"
-          small
-        > <v-icon x-small>av_timer</v-icon> {{ item.timeDuration }} min</v-chip>
-        <v-chip
-          label
-          class="white--text ml-0"
-          color="black"
-          v-else
-          small
-        ><v-icon x-small>av_timer</v-icon>  {{ item.timeDuration/60 }} hour</v-chip>
-        <v-chip class="ml-1" :color="getColor(item.place)" dark small label><v-icon x-small>room</v-icon>{{item.place}}</v-chip>
+          <p class="google-font mb-0" style="font-size:120%">{{item.title}}</p>
+          <p class="google-font" style="font-size:90%">{{item.des}}</p>
+          <v-chip class="white--text ml-0" color="black" label v-if="item.timeDuration<60" small>
+            <v-icon x-small>av_timer</v-icon>
+            {{ item.timeDuration }} min
+          </v-chip>
+          <v-chip label class="white--text ml-0" color="black" v-else small>
+            <v-icon x-small>av_timer</v-icon>
+            {{ item.timeDuration/60 }} hour
+          </v-chip>
+          <v-chip class="ml-1" :color="getColor(item.place)" dark small label>
+            <v-icon x-small>room</v-icon>
+            {{item.place}}
+          </v-chip>
         </div>
       </v-flex>
     </v-layout>
@@ -73,62 +101,60 @@
 </template>
 
 <style>
-.session{
-  text-decoration:none;
+.session {
+  text-decoration: none;
 }
 </style>
 
 <script>
-import ScheduleRow from '@/components/devfest2020/schedule/ScheduleRow'
-import DevfestInfo from "@/assets/data/devfest2020.json";
+import ScheduleRow from "@/components/devfest2020/schedule/ScheduleRow";
 import ScheduleData from "@/assets/data/devfest2020schedule.json";
 import SessionData from "@/assets/data/devfest2020session.json";
 
 export default {
   data: () => ({
-    speakerData: DevfestInfo.Speakers,
-    scheduleData: ScheduleData, // FIXME:スピーカー情報をAPIのレスポンスから取り出す
-    sessionsData: SessionData
+    scheduleData: ScheduleData.day2,
+    sessionsData: SessionData,
   }),
-  components:{
-    ScheduleRow
+  components: {
+    ScheduleRow,
   },
   methods: {
-    getBorderColor(data){
-      switch(data){
-        case '講堂ホール':
-          return '5px solid #1A73E8'
-        case 'B101':
-          return '5px solid #EA4335'
-        case 'B102':
-          return '5px solid #FBBC04'
-        case 'B201':
-          return '5px solid #34AB53'
-        case 'B202':
-          return '5px solid purple'
+    getBorderColor(data) {
+      switch (data) {
+        case "講堂ホール":
+          return "5px solid #1A73E8";
+        case "B101":
+          return "5px solid #EA4335";
+        case "B102":
+          return "5px solid #FBBC04";
+        case "B201":
+          return "5px solid #34AB53";
+        case "B202":
+          return "5px solid purple";
         default:
-          return '5px solid orange'
+          return "5px solid orange";
       }
     },
-    getColor(data){
-      switch(data){
-        case '講堂ホール':
-          return '#1A73E8'
-        case 'B101':
-          return '#EA4335'
-        case 'B102':
-          return '#FBBC04'
-        case 'B201':
-          return '#34AB53'
-        case 'B202':
-          return 'purple'
+    getColor(data) {
+      switch (data) {
+        case "講堂ホール":
+          return "#1A73E8";
+        case "B101":
+          return "#EA4335";
+        case "B102":
+          return "#FBBC04";
+        case "B201":
+          return "#34AB53";
+        case "B202":
+          return "purple";
         default:
-          return 'orange'
+          return "orange";
       }
     },
     hasInfo(data) {
-      return data.length > 0
-    }
+      return data.length > 0;
+    },
   },
   filters: {
     summary: (val, num) => {
@@ -137,7 +163,7 @@ export default {
       } else {
         return val;
       }
-    }
-  }
+    },
+  },
 };
 </script>
