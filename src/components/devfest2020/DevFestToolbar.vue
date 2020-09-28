@@ -16,8 +16,8 @@
     <v-spacer />
     <!-- <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020#speaker">Speakers</v-btn>
     <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020/schedule">Schedule</v-btn>
-    <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020#sponsor">Sponsors</v-btn>
-    <v-btn text class="white--text" color="blue" :href="devfestInfo.EntryPageUrl">受付 / Registration</v-btn> -->
+    <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020#sponsor">Sponsors</v-btn> -->
+    <v-btn text class="white--text" color="blue" :href="devfestInfo.EntryPageUrl">受付 / Registration</v-btn>
   </v-toolbar>
 </template>
 
