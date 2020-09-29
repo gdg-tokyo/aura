@@ -20,7 +20,7 @@
             <div v-for="(obj,x) in itemp" :key="x" class="white">
               <div v-for="(sdata,key) in sessionsData" :key="key">
                 <div v-if="obj == sdata.id" class="py-3 pl-3">
-                  <Schedule :sdata="sdata" />
+                  <Schedule :sdata="sdata" :isDay1="true" />
                 </div>
               </div>
             </div>

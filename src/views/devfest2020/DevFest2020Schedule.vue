@@ -39,10 +39,16 @@ export default {
   },
   methods: {
     changeToDay1() {
-      this.isDay1 = true;
+      if (!this.isDay1) {
+        this.$router.push('/devfest2020/schedule/1');
+        this.isDay1 = true;
+      }
     },
     changeToDay2() {
-      this.isDay1 = false;
+      if (this.isDay1) {
+        this.$router.push('/devfest2020/schedule/2');
+        this.isDay1 = false;
+      }
     }
   },
   data() {
@@ -51,14 +57,19 @@ export default {
     };
   },
   created() {
-    if (this.$route.params.id) {
+    if (this.$route.params.day === '2') {
+      this.isDay1 = false;
+    } else {
+      this.isDay1 = true;
+    }
+    if (this.$route.params.session_id) {
       const existInDay2 = ScheduleData.day2.some(data => {
         return data.sessions.some(session => {
-          return session.item.includes(Number(this.$route.params.id));
+          return session.item.includes(Number(this.$route.params.session_id));
         });
       });
       if (existInDay2) {
-        this.changeToDay2();
+        this.isDay1 = false;
       }
     }
   }
