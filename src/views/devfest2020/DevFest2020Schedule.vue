@@ -30,6 +30,7 @@
 import ScheduleHeader from "@/components/devfest2020/schedule/Header.vue";
 import ScheduleDay1 from "@/components/devfest2020/schedule/ScheduleDay1.vue";
 import ScheduleDay2 from "@/components/devfest2020/schedule/ScheduleDay2.vue";
+import ScheduleData from "@/assets/data/devfest2020schedule.json";
 export default {
   components: {
     ScheduleHeader,
@@ -48,6 +49,18 @@ export default {
     return {
       isDay1: true
     };
+  },
+  created() {
+    if (this.$route.params.id) {
+      const existInDay2 = ScheduleData.day2.some(data => {
+        return data.sessions.some(session => {
+          return session.item.includes(Number(this.$route.params.id));
+        });
+      });
+      if (existInDay2) {
+        this.changeToDay2();
+      }
+    }
   }
 };
 </script>
