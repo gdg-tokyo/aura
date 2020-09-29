@@ -89,7 +89,7 @@ export default {
       this.$router.push(`/devfest2020/schedule/${this.isDay1 ? 1 : 2}/${this.sdata.id}`);
     },
     dialogClosed() {
-      this.$router.push(`/devfest2020/schedule`);
+      this.$router.push(`/devfest2020/schedule/${this.isDay1 ? 1 : 2}`);
     }
   }
 };
