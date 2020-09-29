@@ -3,7 +3,7 @@
     <div v-on:click="handleSessionClick">
       <ScheduleRow :sdata="sdata" />
     </div>
-    <v-dialog v-model="dialog">
+    <v-dialog v-model="dialog" @input="dialogClosed">
       <v-card>
         <v-card-title class="headline grey lighten-2" primary-title>{{sdata.title}}</v-card-title>
         <v-divider></v-divider>
@@ -87,6 +87,9 @@ export default {
     handleSessionClick: function() {
       this.dialog = true;
       this.$router.push(`/devfest2020/schedule/${this.isDay1 ? 1 : 2}/${this.sdata.id}`);
+    },
+    dialogClosed() {
+      this.$router.push(`/devfest2020/schedule`);
     }
   }
 };
