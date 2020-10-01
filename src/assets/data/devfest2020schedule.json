@@ -267,7 +267,7 @@
             "sessions": [],
             "title": "LT大会",
             "timeDuration": "60",
-            "place": "",
+            "place": "Channel 2",
             "des": ""
         },
         {
@@ -276,7 +276,7 @@
             "sessions": [],
             "title": "懇親会",
             "timeDuration": "60",
-            "place": "",
+            "place": "Channel 2",
             "des": ""
         }
     ],

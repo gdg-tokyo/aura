@@ -72,12 +72,12 @@ export default {
   methods: {
     getBorderColor(data) {
       switch (data) {
-        case "講堂ホール":
-          return "5px solid #1A73E8";
-        case "B101":
-          return "5px solid #EA4335";
-        case "B102":
+        case "Channel 1":
           return "5px solid #FBBC04";
+        case "Channel 2":
+          return "5px solid #34AB53";
+        case "ng-japan":
+          return "5px solid red";
         case "B201":
           return "5px solid #34AB53";
         case "B202":
@@ -88,12 +88,12 @@ export default {
     },
     getColor(data) {
       switch (data) {
-        case "講堂ホール":
-          return "#1A73E8";
-        case "B101":
-          return "#EA4335";
-        case "B102":
+        case "Channel 1":
           return "#FBBC04";
+        case "Channel 2":
+          return "#34AB53";
+        case "ng-japan":
+          return "red";
         case "B201":
           return "#34AB53";
         case "B202":

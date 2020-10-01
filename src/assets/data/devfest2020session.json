@@ -568,5 +568,245 @@
         "language": "japanese",
         "profile": "クレスウェア代表、ウェブアプリケーション・デベロッパー。Angular日本ユーザー会副オーガナイザ。クライアントサイド、サーバーサイドを担当し、DDDを用いた大規模アプリケーション設計や大規模チーム運営を得意とする。YouTubeにて技術者向けチャンネル『奥野塾』を運営中。",
         "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "107",
+        "title": "TBD",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "20",
+        "speakerName": "takahirom",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "108",
+        "title": "データサイエンティスト・機械学習エンジニア、ぶっちゃけどうなの？",
+        "description": "データサイエンティスト／機械学習エンジニアのキャリアをテーマに、ML GDE のメンバがざっくばらんに話します。Sli.do を使って質問も受け付ける予定です。\n想定しているテーマ（以下例）\n・キャリアについて\n　・専門性、方向性はどうやって決めてきたか、決めていこうと思っているか\n　・転職／採用\n・データサイエンティスト・機械学習エンジニアの実際\n　・データサイエンティスト・機械学習エンジニアは今後どうなると思う？\n　・データサイエンティスト・機械学習エンジニアの業務範囲\n　・AIバブルについて\n・技術的なテーマ\n　・情報収集の方法\n　・最近面白いと思った技術\n・ML GDEとは？なんでなろうと思ったか",
+        "place": "Channel 2",
+        "tag": {
+            "name": "ML",
+            "color": "brown"
+        },
+        "timeDuration": "20",
+        "speakerName": "栗原理央 / KuriharaRio",
+        "language": "japanese",
+        "profile": "2016年に株式会社ブレインパッドへ入社。入社後は需要予測や自然言語処理、画像認識など複数のプロジェクトを担当。Google Developers Expert (Machine Learning)。",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "109",
+        "title": "Android",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "30",
+        "speakerName": "yanzm",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "119",
+        "title": "Flutter",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Flutter",
+            "color": "cyan"
+        },
+        "timeDuration": "40",
+        "speakerName": "wasabeef",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "123",
+        "title": "Flutter",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Flutter",
+            "color": "cyan"
+        },
+        "timeDuration": "40",
+        "speakerName": "TBD",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "200",
+        "title": "Opening",
+        "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "10",
+        "speakerName": "佐藤祥子 / Shoko Sato",
+        "language": "japanese",
+        "profile": "GDG DevFest2020実行委員会、実行委員長。GDG Tokyo, GDG Yamaguchi, WTM Tokyoのオーガナイザーです。\n普段はIT企業でDevRelとしてTech Branding、PR、イベントの企画・運営をしています。",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "201",
+        "title": "Opening",
+        "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "10",
+        "speakerName": "早川勉（sokume） / Tsutomu Hayakawa",
+        "language": "japanese",
+        "profile": "株式会社スタメンにてAndroid、iOSのエンジニアをおこなっています。Androidの開発はCupcake時代からながながと続けています。GDG Nagoya オーガナイザーをやっています。",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "205",
+        "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
+        "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Flutter",
+            "color": "cyan"
+        },
+        "timeDuration": "120",
+        "speakerName": "兼高理恵 (robo) / Kanetaka Rie",
+        "language": "japanese",
+        "profile": "兼高理恵（ライブコーディング担当）GDG Kyoto、WTM Kyoto、Flutter Osaka のスタッフです。Android 黎明期より、開発者コミュニティでハンドルネーム robo または cch-robo で発表活動をしている、モバイル端末が好きなエンジニア。最近は Flutter 開発に取り組み、アプリの要件定義や設計と実装からライブラリの選定や社内開発標準まで担当しています。TOPGATE, Inc. Specialty Section Tech Club 所属。",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "208",
+        "title": "GCP",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Cloud",
+            "color": "blue"
+        },
+        "timeDuration": "20",
+        "speakerName": "MegumiTakahira",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "213",
+        "title": "career",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "20",
+        "speakerName": "ama_chi",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "215",
+        "title": "Borg",
+        "description": "",
+        "place": "Channel 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "40",
+        "speakerName": "GDG Fukushima",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "219",
+        "title": "Go",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Go",
+            "color": "blue lighten-3"
+        },
+        "timeDuration": "40",
+        "speakerName": "tenten",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "220",
+        "title": "ハッカソン応募作品の紹介と発表",
+        "description": "",
+        "place": "Channel 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "20",
+        "speakerName": "GDG Kyushu",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "221",
+        "title": "Go",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Go",
+            "color": "blue lighten-3"
+        },
+        "timeDuration": "20",
+        "speakerName": "Women Who Go Tokyo",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "222",
+        "title": "Go",
+        "description": "",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Go",
+            "color": "blue lighten-3"
+        },
+        "timeDuration": "20",
+        "speakerName": "Women Who Go Tokyo",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
+    },
+    {
+        "id": "223",
+        "title": "Pannel discussion",
+        "description": "",
+        "place": "Channel 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "40",
+        "speakerName": "Women Techmakers",
+        "language": "japanese",
+        "profile": "",
+        "profileImage": "/img/devfest2020/speakers/avatar.png"
     }
 ]
