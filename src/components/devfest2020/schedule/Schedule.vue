@@ -37,10 +37,13 @@
         </v-layout>
         <v-divider></v-divider>
         <v-layout wrap row fill-height justify-center class="pa-4">
-          <v-spacer></v-spacer>
+          <v-flex xs12 sm12 md3 lg2 class="pa-2">
+            <v-card-text>
+              <h2>セッション概要</h2>
+            </v-card-text>
+          </v-flex>
           <v-flex xs12 sm12 md9 lg10 class="pa-2">
             <v-card-text>
-              <p>セッション概要</p>
               <p
                   style="white-space:pre-wrap; word-wrap:break-word;"
               >{{sdata.description}}</p>
