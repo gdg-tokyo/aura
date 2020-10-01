@@ -30,6 +30,7 @@
 import ScheduleHeader from "@/components/devfest2020/schedule/Header.vue";
 import ScheduleDay1 from "@/components/devfest2020/schedule/ScheduleDay1.vue";
 import ScheduleDay2 from "@/components/devfest2020/schedule/ScheduleDay2.vue";
+import ScheduleData from "@/assets/data/devfest2020schedule.json";
 export default {
   components: {
     ScheduleHeader,
@@ -38,16 +39,39 @@ export default {
   },
   methods: {
     changeToDay1() {
-      this.isDay1 = true;
+      if (!this.isDay1) {
+        this.$router.push('/devfest2020/schedule/1');
+        this.isDay1 = true;
+      }
     },
     changeToDay2() {
-      this.isDay1 = false;
+      if (this.isDay1) {
+        this.$router.push('/devfest2020/schedule/2');
+        this.isDay1 = false;
+      }
     }
   },
   data() {
     return {
       isDay1: true
     };
+  },
+  created() {
+    if (this.$route.params.day === '2') {
+      this.isDay1 = false;
+    } else {
+      this.isDay1 = true;
+    }
+    if (this.$route.params.session_id) {
+      const existInDay2 = ScheduleData.day2.some(data => {
+        return data.sessions.some(session => {
+          return session.item.includes(Number(this.$route.params.session_id));
+        });
+      });
+      if (existInDay2) {
+        this.isDay1 = false;
+      }
+    }
   }
 };
 </script>
