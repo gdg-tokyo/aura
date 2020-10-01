@@ -11,12 +11,12 @@
 
     />
     <v-toolbar-title class="ml-0 pl-1 mr-1">
-      <span class="google-font"><a href="/devfest" style="text-decoration:none; color:black;">GDG DevFest 2020</a></span>
+      <span class="google-font"><a href="/devfest2020" style="text-decoration:none; color:black;">GDG DevFest 2020</a></span>
     </v-toolbar-title>
     <v-spacer />
-    <!-- <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020#speaker">Speakers</v-btn>
+    <!-- <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020#speaker">Speakers</v-btn> -->
     <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020/schedule">Schedule</v-btn>
-    <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020#sponsor">Sponsors</v-btn> -->
+    <!-- <v-btn text flat class="hidden-sm-and-down" color="blue" href="/devfest2020#sponsor">Sponsors</v-btn> -->
     <v-btn text class="white--text" color="blue" :href="devfestInfo.EntryPageUrl">受付 / Registration</v-btn>
   </v-toolbar>
 </template>

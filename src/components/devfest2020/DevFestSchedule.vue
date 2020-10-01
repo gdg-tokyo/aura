@@ -5,6 +5,17 @@
         <p class="google-font" style="font-size:350%;">Schedule</p>
       </v-flex>
     </v-layout>
+    <v-layout wrap align-end justify-center row fill-height class="pb-4">
+        <div>
+          <v-btn
+            href="/devfest2020/schedule"
+            class="pa-4 ma-4 elevation-0"
+            target="_blank"
+            color="#1705df"
+            style="font-size:150%; text-transform: capitalize; border-radius:0px; border: 8px solid white; color:white"
+          >Timetable</v-btn>
+        </div>
+      </v-layout>
     <v-divider></v-divider>
     <v-layout wrap align-center justify-center row fill-height class="my-3">
       <v-flex xs0 sm1 md1 lg1 class="pa-2 text-xs-left"></v-flex>

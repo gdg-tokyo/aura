@@ -11,7 +11,7 @@
         <v-icon>group</v-icon>
       </v-btn> -->
 
-      <v-btn color="#518FF5" flat value="schedule" router to="/devfest2020#schedule">
+      <v-btn color="#518FF5" flat value="schedule" router to="/devfest2020/schedule">
         <span>Schedule</span>
         <v-icon>list</v-icon>
       </v-btn>

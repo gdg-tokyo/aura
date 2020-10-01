@@ -16,7 +16,7 @@
         <v-icon>group</v-icon>
       </v-btn>
 
-      <v-btn color="#518FF5" flat value="devfest" router to="/devfest2019">
+      <v-btn color="#518FF5" flat value="devfest" router to="/devfest2020">
         <span>DevFest</span>
         <v-icon>favorite</v-icon>
       </v-btn>

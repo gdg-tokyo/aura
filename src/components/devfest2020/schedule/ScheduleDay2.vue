@@ -20,57 +20,7 @@
             <div v-for="(obj,x) in itemp" :key="x" class="white">
               <div v-for="(sdata,key) in sessionsData" :key="key">
                 <div v-if="obj == sdata.id" class="py-3 pl-3">
-                  <v-dialog>
-                    <template v-slot:activator="{ on }">
-                      <div v-on="on">
-                        <ScheduleRow :sdata="sdata" />
-                      </div>
-                    </template>
-                    <v-card>
-                      <v-card-title class="headline grey lighten-2" primary-title>{{sdata.title}}</v-card-title>
-                      <v-divider></v-divider>
-                      <v-layout wrap row fill-height justify-center class="pa-4">
-                        <v-flex xs12 sm10 md3 lg2 class="pa-2">
-                          <v-responsive :aspect-ratio="1/1">
-                            <v-avatar size="100%">
-                              <v-img
-                                :src="sdata.profileImage"
-                                :lazy-src="sdata.profileImage"
-                              >
-                                <v-layout
-                                  slot="placeholder"
-                                  fill-height
-                                  align-center
-                                  justify-center
-                                  ma-0
-                                >
-                                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                                </v-layout>
-                              </v-img>
-                            </v-avatar>
-                          </v-responsive>
-                        </v-flex>
-                        <v-flex xs12 sm12 md9 lg10 class="pa-2">
-                          <v-card-text>
-                            <p style="white-space:pre-wrap; word-wrap:break-word;">{{sdata.speakerName}}</p>
-                            <p style="white-space:pre-wrap; word-wrap:break-word;">{{sdata.profile}}</p>
-                          </v-card-text>
-                        </v-flex>
-                      </v-layout>
-                      <v-divider></v-divider>
-                      <v-layout wrap row fill-height justify-center class="pa-4">
-                        <v-spacer></v-spacer>
-                        <v-flex xs12 sm12 md9 lg10 class="pa-2">
-                          <v-card-text>
-                            <p>セッション概要</p>
-                            <p
-                              style="white-space:pre-wrap; word-wrap:break-word;"
-                            >{{sdata.description}}</p>
-                          </v-card-text>
-                        </v-flex>
-                      </v-layout>
-                    </v-card>
-                  </v-dialog>
+                  <Schedule :sdata="sdata" :isDay1="false" />
                 </div>
               </div>
             </div>
@@ -107,9 +57,9 @@
 </style>
 
 <script>
-import ScheduleRow from "@/components/devfest2020/schedule/ScheduleRow";
 import ScheduleData from "@/assets/data/devfest2020schedule.json";
 import SessionData from "@/assets/data/devfest2020session.json";
+import Schedule from "@/components/devfest2020/schedule/Schedule";
 
 export default {
   data: () => ({
@@ -117,17 +67,17 @@ export default {
     sessionsData: SessionData,
   }),
   components: {
-    ScheduleRow,
+    Schedule,
   },
   methods: {
     getBorderColor(data) {
       switch (data) {
-        case "講堂ホール":
-          return "5px solid #1A73E8";
-        case "B101":
-          return "5px solid #EA4335";
-        case "B102":
+        case "Channel 1":
           return "5px solid #FBBC04";
+        case "Channel 2":
+          return "5px solid #34AB53";
+        case "ng-japan":
+          return "5px solid red";
         case "B201":
           return "5px solid #34AB53";
         case "B202":
@@ -138,12 +88,12 @@ export default {
     },
     getColor(data) {
       switch (data) {
-        case "講堂ホール":
-          return "#1A73E8";
-        case "B101":
-          return "#EA4335";
-        case "B102":
+        case "Channel 1":
           return "#FBBC04";
+        case "Channel 2":
+          return "#34AB53";
+        case "ng-japan":
+          return "red";
         case "B201":
           return "#34AB53";
         case "B202":
