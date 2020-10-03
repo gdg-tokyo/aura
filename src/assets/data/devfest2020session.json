@@ -267,10 +267,13 @@
         "speakerName": "兼高理恵 (robo) / Kanetaka Rie",
         "language": "japanese",
         "profile": "兼高理恵（ライブコーディング担当）\nGDG Kyoto、WTM Kyoto、Flutter Osaka のスタッフです。\nAndroid 黎明期より、開発者コミュニティでハンドルネーム robo または cch-robo で発表活動をしている、モバイル端末が好きなエンジニア。\n最近は Flutter 開発に取り組み、アプリの要件定義や設計と実装からライブラリの選定や社内開発標準まで担当しています。\nTOPGATE, Inc. Specialty Section Tech Club 所属。",
-        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Rie_Kanetaka.webp"
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Rie_Kanetaka.webp",
+        "coSpeakers": [
+            "224"
+        ]
     },
     {
-        "id": "205",
+        "id": "224",
         "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
         "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
         "place": "Channel 2",
@@ -601,7 +604,7 @@
     },
     {
         "id": "108",
-        "title": "データサイエンティスト・機械学習エンジニア、ぶっちゃけどうなの？",
+        "title": "【パネルディスカッション】データサイエンティスト・機械学習エンジニア、ぶっちゃけどうなの？",
         "description": "データサイエンティスト／機械学習エンジニアのキャリアをテーマに、ML GDE のメンバがざっくばらんに話します。Sli.do を使って質問も受け付ける予定です。\n\n想定しているテーマ（以下例）\n・キャリアについて\n　・専門性、方向性はどうやって決めてきたか、決めていこうと思っているか\n　・転職／採用\n・データサイエンティスト・機械学習エンジニアの実際\n　・データサイエンティスト・機械学習エンジニアは今後どうなると思う？\n　・データサイエンティスト・機械学習エンジニアの業務範囲\n　・AIバブルについて\n・技術的なテーマ\n　・情報収集の方法\n　・最近面白いと思った技術\n・ML GDEとは？なんでなろうと思ったか",
         "place": "Channel 2",
         "tag": {
@@ -612,7 +615,8 @@
         "speakerName": "栗原理央 / KuriharaRio",
         "language": "japanese",
         "profile": "2016年に株式会社ブレインパッドへ入社。入社後は需要予測や自然言語処理、画像認識など複数のプロジェクトを担当。Google Developers Expert (Machine Learning)。",
-        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/rio_kurihara.webp"
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/rio_kurihara.webp",
+        "coSpeakers": ["110", "106", "104"]
     },
     {
         "id": "107",
@@ -657,7 +661,7 @@
         "speakerName": "山内 沙織（yama_chi） / Yamauchi Saori",
         "language": "japanese",
         "profile": "大学卒業後2年間営業を経験した後、エンジニアに方向転換。以後、AppEngine をはじめとしたGCP上の開発業務に携わる。日本初の女性GoogleCloud認定トレーナー。GCPUG女子会のオーガナイザーとして活動中。みんなでわいわいする時間と1人でもくもくする時間が好き。最近はバター珈琲と週末登山にはまっています。\n",
-        "profileImage": ""
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Saori_Yamauchi.webp"
     },
     {
         "id": "215",
