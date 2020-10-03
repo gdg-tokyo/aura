@@ -271,6 +271,17 @@
             "des": ""
         },
         {
+            "startTime": "17:00",
+            "endTime": "17:10",
+            "sessions": [
+                {
+                    "item": [
+                        127
+                    ]
+                }
+            ]
+        },
+        {
             "startTime": "18:00",
             "endTime": "19:00",
             "sessions": [],
@@ -533,7 +544,7 @@
             "sessions": [],
             "title": "Closing",
             "timeDuration": "10",
-            "place": "",
+            "place": "Channel 1",
             "des": ""
         }
     ]
