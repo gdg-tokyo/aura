@@ -14,6 +14,7 @@
                 <v-img
                     :src="sdata.profileImage"
                     :lazy-src="sdata.profileImage"
+                    :aspect-ratio="1/1"
                 >
                   <v-layout
                       slot="placeholder"

@@ -30,621 +30,6 @@
         "profileImage": "/img/devfest2020/speakers/avatar.png"
     },
     {
-        "id": "202",
-        "title": "Google Apps Script 入門 2020",
-        "description": "Google Apps Script は最近 V8 ランタイム対応、G Suite Marketplace のリリースなど、活発にアップデートが行われています。特に V8 ランタイムのリリースにより、モダンな JavaScript 構文で開発できるようになったので、これから始める方へのメリットは大きいです。\nこのセッションでは、Google Apps Script をこれから始める方、まだ思ったようにプログラムを開発できない方向けに、自分で作りたいプログラムを開発できるようになるまでの手引きとなるようなセッションを行いたいと思います。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Google App Script",
-            "color": "purple"
-        },
-        "timeDuration": "30",
-        "speakerName": "田邉　裕貴（tanabee） / Yuki Tanabe",
-        "language": "japanese",
-        "profile": "RPGテック合同会社で Vice President をやっています。企業の業務自動化（RPA）を進める中で Google Apps Script に興味を持ち、ルーティンワーク改善に活用してきました。最近は Firebase, Google API, React.js などをよく使っています。以下にこれまでの活動内容をまとめています。\nhttps://tanabee.github.io",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "210",
-        "title": "API Gateway",
-        "description": "Google Cloud Next '20: On Airで新しく発表された、API Gatewayの概要をご紹介し、デモを行います。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Cloud",
-            "color": "blue"
-        },
-        "timeDuration": "40",
-        "speakerName": "Kuma Arakawa / Kuma Arakawa",
-        "language": "japanese",
-        "profile": "Google Developers Expert（Cloud & G Suite）。クラウド、特にGCPとG Suiteを使用し、技術的 / 開発的側面とチーム、文化そして組織的側面の両方から大規模アプリケーションを構築する方法を設計する。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "124",
-        "title": "AndroidやWebとGoogleアシスタントとの連携方法",
-        "description": "ユーザの身近に必ずいてくれるGoogleアシスタントからAndroidアプリを操作したり、WebコンテンツをGoogleアシスタント向けに整える話をしてみたいと考えております。Googleアシスタントから、あなたのサービスをより便利に利用していただくヒントを、このセッションから見つけてください。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Assistant",
-            "color": "yellow"
-        },
-        "timeDuration": "40",
-        "speakerName": "田中 洋一郎 / Yoichiro Tanaka",
-        "language": "japanese",
-        "profile": "Tably株式会社所属。業務アプリ向けの開発ツールやフレームワークの設計に携わった後，mixi Platform，LINE Platformの技術統括を行う。日本でのソーシャルアプリケーションの技術的な基礎を確立しただけでなく，メッセージングアプリにおいても世界に先駆けてBOT Platformの立ち上げを主導した。その後もプラットフォームのさらなる進化に日々チャレンジしている。趣味で開発しているChromebook向けアプリは，Google Open Source Programs Officeから評価を得ている。Google Developers Expert（Assistant, Web Technology担当）。著書『OpenSocial入門』，『開発者のためのChromeガイドブック』，『ソーシャルアプリプラットフォーム構築技法』。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "120",
-        "title": "Actions Builderによるアクションのビジュアルプログラミング",
-        "description": "新しい会話構築IDE「Actions Builder」を使ったアクションのビジュアルプログラミングや、Actions SDKによる開発手法の解説いたします。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Assistant",
-            "color": "yellow"
-        },
-        "timeDuration": "40",
-        "speakerName": "小林 大介 / Daisuke Kobayashi",
-        "language": "japanese",
-        "profile": "絵を描いたりプログラミングしたりと、色々作るのが好きです。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "113",
-        "title": "Home Graph を使ったオリジナルのホームデバイス管理 (仮)",
-        "description": "Google Assistant向けアプリやAlexaのスキルを作成したことのある方は多いのではないでしょうか。その反面、Google Homeへ自分で作成したデバイスを追加している方は、デバイスを作成するお仕事をしている方やIoT技術に興味がある方など限定されているイメージが少しあります。\n今回は、そんな敷居を下げるべくHome Graph APIを使って、Google Homeから自分で作ったホームデバイスを呼んでお家時間を楽しくする方法をご紹介したいと思います。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Assistant",
-            "color": "yellow"
-        },
-        "timeDuration": "30",
-        "speakerName": "竹内 結 (otter) / Yui Takeuchi",
-        "language": "japanese",
-        "profile": "2019年にBackend Engineerとして株式会社メルカリに入社。株式会社ディー・エヌ・エー、株式会社ぐるなびでのアプリケーション開発の知見を活かしつつ主に業務ではGCPやGoを扱った開発を行っている。\nその傍ら、Actions on Googleを利用したAssistantアプリの開発、イベントで登壇、チューター、公式ドキュメントの翻訳などの活動をしている。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "105",
-        "title": "AndroidのアニメーションのAPIで悩まないようにしたい",
-        "description": "Androidのアニメーションを実装する際にどのAPIを使えばよいか悩むことはありませんか？ObjectAnimator、ValueAnimator、AndroidXのDynamicAnimationなど、アニメーションのAPIはいくつか用意されていて選択肢は少なくありません。\nこのセッションではアニメーションのAPIを改めて整理して、どのようなアニメーションを作るのに適したものなのかをお話しします。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Android",
-            "color": "green"
-        },
-        "timeDuration": "20",
-        "speakerName": "高島 友里 (takasy) / Yuri Takashima",
-        "language": "japanese",
-        "profile": "ゲームプログラマやSEを経てアプリエンジニアになり2019年からライブ配信アプリのAndroid開発を担当しています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "206",
-        "title": "実践 Cloud Run",
-        "description": "「カウシェ https://kauche.com 」を構想から2ヶ月でリリースした例を題材に、Cloud Runを用いたサービス開発について、Service Account を用いた Cloud Scheduler や Cloud Pub/Sub との連携、Cloud Monitoring や Cloud Trace、Cloud Logging を用いた運用、バックグランド処理の回避や初期リクエストの遅延への対処、といったような実践的なノウハウを紹介します。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Cloud",
-            "color": "blue"
-        },
-        "timeDuration": "20",
-        "speakerName": "伊藤 雄貴 / Ito Yuki",
-        "language": "japanese",
-        "profile": "事業立ち上げ時期の 2018 年 3 月にメルペイに入社し、テックリードとしてマイクロサービスの開発に携わる。その後、2019 年 3 月に現在所属している Architect チームにジョインし、組織横断的な課題を解決するために Kubernetes や Istio、Envoy などの技術動向を追っている。また、副業として株式会社X Asiaに参画し、「カウシェ」のバックエンドの実装及びインフラの構築を担当している。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "103",
-        "title": "これからはじめるAndroid開発",
-        "description": "Androidの開発環境はここ数年で急速に進化・発展しています。\nしかし、初心者にとっては難しく複雑だと感じることがあると思います。\nAndroid開発をこれからはじめようとしてる方や初心者の方に向けて、Android開発で必要なことや知っておくと良いことなどを簡単に紹介します。\n\n（予定内容）\n- 開発環境と言語\n- アプリ構成する要素\n- 設定や権限\n- ライブラリ\n- など",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Android",
-            "color": "green"
-        },
-        "timeDuration": "30",
-        "speakerName": "Kenji Abe（すたぜろ） / Kenji Abe",
-        "language": "japanese",
-        "profile": "Google Developers Expert for Android, Kotlin.\nCookpad Inc.",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "217",
-        "title": "Cloud Runマネージドに適したアプリケーションを考える",
-        "description": "サーバレスで運用できるCloud Runマネージドはとても魅力的です。\nAWSのLambdaやGCPのCloud Functionとは違いコンテナで動作させることができるのでランタイムを自由に決めたり必要なライブラリも自由にインストールすることができます。\n他にも様々な機能があり、その魅力に惹かれてCloud Runマネージドを採用してみた結果、見えてきたCloud Runマネージドの利点/欠点とCloud Runマネージドを採用に適したアプリケーションをご紹介できればと思います。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "",
-            "color": ""
-        },
-        "timeDuration": "20",
-        "speakerName": "田又 利土 / rito",
-        "language": "japanese",
-        "profile": "2017年4月にエイチームライフスタイルへ中途入社、エイチームフィナジーの設立に伴い転籍。全サービスのインフラ基盤設計およびソフトウェアの開発やデータ分析基盤の構築、新アーキテクチャの研究などを担当",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "106",
-        "title": "（仮）AutoMLで始めるエッジML",
-        "description": "（仮）難しいMLの論文や技術を知らなくてもAutoMLを使って簡単で役に立つエッジML技術の今をお伝えします。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "ML",
-            "color": "brown"
-        },
-        "timeDuration": "20",
-        "speakerName": "足立　昌彦 / MASAHIKO Adachi",
-        "language": "japanese",
-        "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを共同創業。Google Developers Expert（ML）に認定され、執筆、講演多数。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "104",
-        "title": "これでバッチリ！BigQuery ML【入門】",
-        "description": "BigQuery MLはBigQueryに格納されている構造化データを用いて、簡単なSQLを書くだけで機械学習のモデルを訓練・推論することができる機能です。機械学習とSQLに関する初歩的な知識さえあれば、初心者でもすぐに機械学習モデルの訓練が行えます。また、様々なモデルがサポートされている上に、独自のTensorFlowのモデルをインポートしたり、訓練時に正則化や早期終了などのオプションも指定したりできるため、実践的なMLモデルをサーバーレスに運用することも可能です。本セッションではまず初心者の方向けにMLの基礎知識を説明した後に、BigQueryMLを使ったデモや、様々な機能や利用する際の注意点などについて解説を行います。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "ML",
-            "color": "brown"
-        },
-        "timeDuration": "40",
-        "speakerName": "新村拓也 / Takuya Shimmura",
-        "language": "japanese",
-        "profile": "1990年生まれ、鹿児島出身。普段は株式会社KUNOという会社でクラウドサービス × MLの分野のプロジェクトの開発およびコンサルティングを行っている。著書「TensorFlowではじめるDeepLeaning実装入門」。日本ディープラーニング協会人材育成員。Google Developer Expert(Machine Learning)。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "212",
-        "title": "まだまだ、いけるぜDialogflow！",
-        "description": "2020年6月17日に行われた、「VOICE Global 」にて新しい会話構築IDE「 Actions Builder 」の公開開始が発表されました。それに伴い、今後Dialogflowがどのような場面で活躍するのだろう？と疑問に思った方もいらっしゃるのではないかと思います。そこで本セッションではDialogflowと電話（Twilio）を組み合わせた、音声チャットボットの作り方をご紹介いたします。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Dialogflow",
-            "color": "yellow"
-        },
-        "timeDuration": "20",
-        "speakerName": "葛　智紀 / Katsu Tomoki",
-        "language": "japanese",
-        "profile": "前職でiOS、Androidのネイティブアプリケーション開発、AngularやLaravelを用いたウェブアプリケーション開発に従事。KDDIウェブコミュニケーションズではTwilioの最新情報の発信やTwilioを用いた地域課題解決を担当。 個人では、Google Developer Group Tokyoのオーガナイザーを務める。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "216",
-        "title": "Block Pong: Web 技術を駆使したゲームアプリの実装舞台裏",
-        "description": "Block Pong は先日 Native アプリとして公開されたカジュアルゲームですが、その舞台裏には Web 技術を駆使して開発されております。\n\n一見単純に見えるゲームですが、リプレイ時に起こる浮動小数点の誤差をどのように吸収しているか、リプレイのシークバーの実装はどうなっているか、オフラインプレイをどのようにサポートしているか、Native の機能を利用する際にどのような通信をしているか等々、普段の Web 開発ではあまり触れる機会のない、ゲーム開発という特殊な Web アプリの裏側を徹底的にご紹介します。\n\n最後に、現在の Web の抱えるマネタイズの問題点と、それが Native アプリでどのように解消されるのかについても軽くお話できればと考えております。基本は技術中心ですが、Web ゲームに興味のある方皆様にとって刺激となるお話しをしたいと思います。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Web",
-            "color": "red"
-        },
-        "timeDuration": "40",
-        "speakerName": "紀平 拓男 / Takuo Kihira",
-        "language": "japanese",
-        "profile": "20 年以上の経験を持つ Web フロントエンドエンジニア。特にブラウザの低レイヤーの技術が好みであり、Canvas や WebAssembly といった技術を好んで使っている。現在はスマートニュース株式会社において WebView 絡みの開発に専念している傍ら、週末を使って趣味の Web ゲーム開発に励んでいる。過去に複数社起業し成功裏に売却した連続起業家の側面も持つ。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "",
-        "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
-        "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Flutter",
-            "color": "cyan"
-        },
-        "timeDuration": "120",
-        "speakerName": "兼高理恵 (robo) / Kanetaka Rie",
-        "language": "japanese",
-        "profile": "兼高理恵（ライブコーディング担当）\nGDG Kyoto、WTM Kyoto、Flutter Osaka のスタッフです。\nAndroid 黎明期より、開発者コミュニティでハンドルネーム robo または cch-robo で発表活動をしている、モバイル端末が好きなエンジニア。\n最近は Flutter 開発に取り組み、アプリの要件定義や設計と実装からライブラリの選定や社内開発標準まで担当しています。\nTOPGATE, Inc. Specialty Section Tech Club 所属。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "",
-        "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
-        "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Flutter",
-            "color": "cyan"
-        },
-        "timeDuration": "120",
-        "speakerName": "K.Inoue / Keiko Inoue",
-        "language": "japanese",
-        "profile": "GDG Kyoto、GDG Shikoku、Flutter Osakaのスタッフです。\n現在フリーランスとしてWebサイトのデザイン、制作全般、WordPressの構築・カスタマイズ等を承っております。\n\nモバイルアプリ開発としてFlutterを勉強中。\n定期的にもくもく会を開催しています。\n\n趣味：バイクツーリング、キャンプ\n来年こそは北海道に行きたい！",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "211",
-        "title": "Firebase Extensions はじめの一歩",
-        "description": "2019 年に発表された Firebase Extensions を使うことで、Firebase で実装しているアプリやサービスに様々な機能を従来よりもはるかに簡単に追加できるようになりました。\nどんな機能が用意されているかや、導入方法などを紹介します。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Firebase",
-            "color": "orange"
-        },
-        "timeDuration": "20",
-        "speakerName": "辰濱健一 / Kenichi Tatsuhama",
-        "language": "japanese",
-        "profile": "GDG Shikoku Organizer / Sansan 株式会社\n徳島県神山町在住、コロナの前からリモートワークをやってます。\nAndroid アプリの開発に関わったり、Firebase & BigQuery & DataPortal を用いたアプリのユーザの行動分析も行っています。\n高松で開催する GDG Shikoku のイベント後の「うどんツアー」が毎度楽しみ。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "218",
-        "title": "GKE と GitLab で快適レビュー環境の構築",
-        "description": "Kubernetes を利用する事で、信頼性・利便性の高いサービスの「運用」の環境が得られた人は多いと思います。\nこの Kubernetes を使って「開発」もさらに効率化したいと考え、GitLab の Review apps を利用しています。Review apps を使うと、Merge Request(GitHubではPull Requestと同等)に対し、そのレビュー対象の環境が自動でKubernetesクラスタにデプロイされます。このため自分でレビュー対象のコードをCheckoutしてレビューできる環境を作る必要がなくなり、コードレビューを快適に実施できるため、たまりがちのコードレビューという課題が解決できます。\nセッションではこの Review apps を中心に、開発の効率化について紹介します。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Cloud",
-            "color": "blue"
-        },
-        "timeDuration": "20",
-        "speakerName": "甲田 勝 / Koda Masaru",
-        "language": "japanese",
-        "profile": "WebやCloud, DevOpsが主戦場の開発者です。\nSCRUMやDevOpsを社内に広げるために、定期勉強会やハンズオンを主催したりしています。\n長野県でのんびりとプログラミングをしつつ温泉、スキー、BBQを楽しむ毎日。\nGDG Shinshuなど、Google系を中心にクラウド系の技術コミュニティに参加してます。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "115",
-        "title": "Google Analytics for Firebaseを使うときに把握しておきたいこと",
-        "description": "Google Analytics for Firebaseの初期設定を済ませると色々な情報が自動的に取得できて便利ですが、カスタムイベントを使うことでアプリのニーズに応じたデータの収集ができます。\n\n本トークではGoogle Analytics for Firebaseの基本的な話とデータを分析するときのTipsを紹介します。\n\n予め把握して、Google Analytics for Firebaseを正しく設定することでソフトウェアエンジニアだけではなくマーケティングや企画職の人にとっても強力なツールとなります。\n\n時間が許せば、プライバシーの話やFirebase Consoleの権限管理などのガバナンスについても紹介する予定です。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Firebase",
-            "color": "orange"
-        },
-        "timeDuration": "30",
-        "speakerName": "コキチーズ / kokicheese",
-        "language": "japanese",
-        "profile": "大学生の時からGCPをこよなく愛している。\n2017年LINE入社、同時期にFirebase Japan User Groupを立ち上げる。\n複業で2年以上Firebaseを使ったアプリ開発に携わっている。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "209",
-        "title": "新しいデータ永続化の方法！Jetpack DataStoreの紹介",
-        "description": "Androidのデータ永続化方法に新たに「Jetpack DataStore」が加わりました。まだAlpha版ではありますが大きな可能性を感じたので、一緒にどんなものなのかを見ていきましょう！",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Android",
-            "color": "green"
-        },
-        "timeDuration": "20",
-        "speakerName": "古川真次(furusin) / Shinji Furukawa",
-        "language": "japanese",
-        "profile": "Androidが大好きなAndroidエンジニア。GDG OsakaやKansai.ktのCoオーガナイザーやってます",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "",
-        "title": "Goでテキストエディタを作った話",
-        "description": "VimやEmacsのようなターミナル上で動くテキストエディタ『mille』をGoで開発した話をします。エディタとしては実用的ではありませんが、1000行以内のコードであること、外部ライブラリを利用しないことをモットーにしたため、どなたでもソースコードを読んでテキストエディタの基本的な構造を学んでもらえるかと思います。発表では、ターミナルでのエスケープシーケンスの話、テキストエディタに適したデータ構造であるGap Buffer など、実装における工夫点をご紹介します。 \n\nGitHub: https://github.com/ad-sho-loko/mille",
-        "place": "",
-        "tag": {
-            "name": "",
-            "color": ""
-        },
-        "timeDuration": "LT",
-        "speakerName": "荒川聖悟 / Shogo Arakawa",
-        "language": "japanese",
-        "profile": "2018年にSansan株式会社に中途入社。当初はサーバサイドエンジニアとして勤務していたが、2019年12月にiOSエンジニアに転向し、SansanのiOSアプリ開発に従事する。仕事とは全く関係ないが、低レイヤの話が好きで、コンパイラやエミュレータなどを作ることに面白みを感じるタイプ。Goが好き。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "110",
-        "title": "(仮) OR-Tools を使って数理最適化に触れてみよう",
-        "description": "(仮) データ活用に有用な技術の1つに数理最適化があります。本セッションでは、Googleの開発する数理最適化用のライブラリ、OR-Tools の概要を紹介しつつ、数理最適化の簡単な例に触れてみようと思います。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "ML",
-            "color": "brown"
-        },
-        "timeDuration": "40",
-        "speakerName": "太田 満久（おおたまん） / Mitsuhisa Ota",
-        "language": "japanese",
-        "profile": "株式会社ブレインパッドで CDTO (Chief Data Techonlogy Officer) をやっています. TensorFlow User Group Tokyo のオーガナイザ. Google Developers Expert (ML).",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "117",
-        "title": "NgRx に今年追加された component と component-store について",
-        "description": "Angular 用のライブラリである NgRx に今年追加された component と component-store についてその概要や使い方を説明",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "笠原 渉 / Wataru Kasahara",
-        "language": "japanese",
-        "profile": "フロントエンドエンジニア。Angular 日本ユーザー会のスタッフ。最近は仕事で Angular を触ることが減っているが代わりに Angular に関するブログを書いたりしている。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "111",
-        "title": "ng-japan 開会のあいさつ / Angularの現在と未来 ver.2020 ",
-        "description": "Angularの最近のアップデートや将来の開発ロードマップについて、最新情報をまとめてお届けします。また、Angular日本コミュニティの取り組みについても紹介させていただきます。",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "40",
-        "speakerName": "稲富 駿（lacolaco） / INATOMI SUGURU",
-        "language": "japanese",
-        "profile": "オープンコミュニティを愛するフロントエンド開発者。Google Developers Expert for Angularとして、Angular日本ユーザー会の代表も務めている。Angular周辺のOSSへのコントリビューションや翻訳、ブログ執筆、登壇、イベントの主催などさまざまな活動をおこなっている。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "116",
-        "title": "Googleアシスタントアプリの事例紹介・音声アプリのエンタテインメントの可能性",
-        "description": "株式会社サイバードで企画開発を行ったGoogleアシスタントアプリの事例紹介と、今後の音声アプリのエンタテインメントの未来予測と可能性についてお話いたします。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Assistant",
-            "color": "yellow"
-        },
-        "timeDuration": "40",
-        "speakerName": "元木理恵（もっきー） / Rie Motoki",
-        "language": "japanese",
-        "profile": "2006年1月株式会社サイバード入社。コンテンツ事業の企画・プロデュースに携わる。2016年2月より、Voice UI事業のR&Dを開始し、Voice UI部の立ち上げに貢献。\n現在、同部でプロデューサー兼Voice UI/UXデザイナーを務める。\nVoice UIの各種勉強会やセミナー等でのLightning Talkなど登壇多数。\nVoice UI/UX Designer Groupや各社と連携してのVoice UI女子会などのコミュニティ運営も行い、社内外に活動の幅を拡げ、Voice UI界の盛り上げに精力的に貢献している。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "207",
-        "title": "新しくなった画面間データ連携について",
-        "description": "Activity間、Fragment間のデータ連携の方法があたらしくなっています。古い実装から新しい実装に切り替えていく必要があるので、対応方法をおさらいしていこうとおもいます。",
-        "place": "Channel 2",
-        "tag": {
-            "name": "Android",
-            "color": "green"
-        },
-        "timeDuration": "20",
-        "speakerName": "早川勉（sokume） / Tsutomu Hayakawa",
-        "language": "japanese",
-        "profile": "株式会社スタメンにてAndroid、iOSのエンジニアをおこなっています。Androidの開発はCupcake時代からながながと続けています。GDG Nagoya オーガナイザーをやっています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "112",
-        "title": "Android の永続化 2020",
-        "description": "ほとんどの Android アプリは何らかの形でデータを端末に保存します。Google もそのためのライブラリをいくつか提供しています。例えばデータベースライブラリの Room や、最近新しくリリースされた DataStore などです。このセッションでは、それらの永続化方法を比較しながら、アプリ全体の構成を考えます。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Android",
-            "color": "green"
-        },
-        "timeDuration": "30",
-        "speakerName": "荒木佑一 / Yuichi Araki",
-        "language": "japanese",
-        "profile": "Android デベロッパー リレーションズ所属。AndroidX のライブラリ (Transition, Room, \nvectordrawable-seekable, Compose) を開発しています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "118",
-        "title": "Introduction of rx-angular",
-        "description": "Angular use zone.js to trigger change detection automatically, but zone.js has some flaw so the developer want to develop zone-less Angular application in some user cases, rx-angular provides an elegant solution to support reactive and zone-less Angular application, so in this talk, I will give a brief introduction about what is rx-angular.",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "JiaLiPassion / LI JIA",
-        "language": "japanese",
-        "profile": "Jia Li is a frontend developer with passion, he is an Angular Collaborator and the code owner of angular/zone.js. He loves Angular and now developer Angular enterprise application.",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "114",
-        "title": "Angularの静的サイトジェネレーター「Scully」の最新情報",
-        "description": "ScullyはAngular用の静的サイトジェネレーターです。Scullyを使うことで比較的簡単にAngularアプリケーションをプリレンダリングを導入することができます。このセッションでは、Scullyの仕組みや導入方法だけでなく、Scullyを使ったブログの作成方法やプラグインの活用法、開発時の工夫やPWA化などのテクニックを紹介します。",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "新福 宜侑 / Noriyuki Shinpuku",
-        "language": "japanese",
-        "profile": "株式会社ベガコーポレーションのフロントエンドエンジニア。福岡のAngularユーザーコミュニティng-fukuokaの代表。最近はフロントエンドカンファレンス福岡の実行委員も行っている。趣味はAngular。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "204",
-        "title": "Building Reliable Microservices on GCP",
-        "description": "マイクロサービス（とまではいかないまでも複数のサービスが連携するような構成）をKubernetesで始めるケースが増えています。その一方で、サービス間の通信の制御や監視など昨今サービスメッシュと呼ばれるレイヤーが必要になったり、イベントベースでのよりサーバレスなランタイムと組み合わるたいなど Kubernetes 単体では物足りない場合もあるかと思います。この辺りの問題が、Traffic DirectorというGCPのプロダクトの新機能を紹介しつつGCP上でどのようなアーキテクチャーが構築可能かご紹介いたします。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Cloud",
-            "color": "blue"
-        },
-        "timeDuration": "40",
-        "speakerName": "坂田　純 / Jun Sakata",
-        "language": "japanese",
-        "profile": "Google Developers Expert (Cloud)。 GKE や Cloud Run などでのGCPのコンテナベースでアプリケーション構築が得意。OSS と GCP のマネージドサービスとのバランスを取りつつプラットフォームの構築を行っている。また最近では Istio を使った ServiceMesh に注力している。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "121",
-        "title": "Angular Elementsを用いたWeb Components製UIライブラリの提供",
-        "description": "クラウド録画サービスを運営するセーフィー株式会社では、映像データをユーザーが手軽に利用できるよう、APIの拡充やWeb Componentsを使ったUIライブラリの提供を行っています。Angular Elementsを使えば、Angularのコンポーネントを手軽にWeb Components化することが可能です。この講演では事例紹介としてAngular Elementsの選定から開発、今後の課題についてご紹介します。",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "近藤昌史 / Kondo Masashi",
-        "language": "japanese",
-        "profile": "通信キャリアにてネットワークエンジニアとしてオンプレミスの設計、構築、運用に5年間従事。2018年からソフトウェアエンジニアへの転向を決意し、クラウド録画サービスを提供するセーフィー株式会社に所属。映像ビューアーのWebアプリケーション開発を担当。顔認証サービスの開発等に携わる。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "125",
-        "title": "Angular Universalのプリレンダリングファイルを管理画面のボタン1つで更新できるようにしてみた",
-        "description": "Angular, React, Vueなど所謂SPAなWebアプリの、SEO・SMO対策としてサーバサイドレンダリングが活用されていますが、データの変更が比較的緩やかなCMS的な用途であれば、より効率の良いHTMLのプリレンダリングが有効です。\n\nCMSの管理画面からコンテンツの編集を行い、編集作業完了後にボタンひとつでプリレンダリングされたファイルの更新ができると便利だなと思いチャレンジしてみたことをまとめてみました。\n\nプリレンダリングしたファイルの公開はFirebase Hosting, CMSのデータはCloud Firestoreで管理し、管理画面からCloud Functionsを呼び出してプリレンダリングからデプロイまでを行います。",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "本田 克己 / Katsumi Honda",
-        "language": "japanese",
-        "profile": "大分県でソフトウェア開発を行っているおじさんです。\nGDG Kyushu, GDG Cloud Oita♨ のオーガナイザーなんかもやっています。\n\nWebアプリの開発には Anguler + Firebase を好んで使っています。\nAndroidやiPhoneアプリ開発、サーバサイド開発など広く浅くやっています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "100",
-        "title": "Opening",
-        "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
-        "place": "Channel 1",
-        "tag": {
-            "name": "misc",
-            "color": "black"
-        },
-        "timeDuration": "10",
-        "speakerName": "佐藤祥子 / Shoko Sato",
-        "language": "japanese",
-        "profile": "GDG DevFest2020実行委員会、実行委員長。GDG Tokyo, GDG Yamaguchi, WTM Tokyoのオーガナイザーです。\n普段はIT企業でDevRelとしてTech Branding、PR、イベントの企画・運営をしています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "214",
-        "title": "アドテックとプライバシーを巡る戦い＜ブラウザの逆襲＞",
-        "description": "多くのアドテックベンダーはこれまでブラウザの機能を自由に活用し、プライバシー的にきわどいデータまで扱ったサービスを展開してきました。そんな課題に対し、法律（GDPRや個人情報保護法）とブラウザ（SafariのITPなど）から様々な規制強化を進めてきており、今後の構想としては、ブラウザがアドテック機能（計測やターゲティング）を包含していく方針になっています。\n本セッションではそのような過去～現在に起きている動きと、cookieを使わない未来のアドテックについて各陣営がどのような考えをもち、未来計画がされているかを解説します。\n",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Web",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "Antoine Bourlon / Antoine Bourlon",
-        "language": "japanese",
-        "profile": "2002年の留学をきっかけに来日。12年間ソフトウェアエンジニアとしてネットワークや自動翻訳、ウェアラブルアプリの研究開発支援に従事。2016年からインターネット広告の舞台裏を知るために、株式会社イルグルム（旧：ロックオン）に入社し、広告効果測定プラットフォームアドエビスのビッグデータ処理基盤の最適化や機械学習を用いた機能の開発を担当。2017年からITPの発表をきっかけに、計測技術とトラッキング防止技術の動向、プライバシー関連の規制、ブラウザの最新仕様を研究し、製品に反映する提案と開発をメインに取り組んでいます。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "203",
-        "title": "Google Apps Script最新事情2020",
-        "description": "V8ランタイムの登場によって大きく変わったGoogle Apps Script\n最新のアップデートとともにこれからのGoogle Apps Scriptについて話します",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Google App Script",
-            "color": "purple"
-        },
-        "timeDuration": "30",
-        "speakerName": "大橋啓介(サントリー) / keisuke oohashi",
-        "language": "japanese",
-        "profile": "Google Cloud Platform、GSuite、GCP、Angular(1&2)、Google Apps Scriptらへんの人 一応Google Developer Expert(GSuite)です。 https://developers.google.com/community/experts/directory/profile/profile-keisuke_oohashi\n\n",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "126",
-        "title": "Angular Universal の歩き方",
-        "description": "SSRやプリレンダリングをAngularでもできるようにするためのパッケージAngular Universalを紹介",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "吉田徹生 / Yoshida Tessei",
-        "language": "japanese",
-        "profile": "株式会社トレタ所属\nAngular Japan User Group スタッフ\n初期Angularから利用し、日々Angularで開発をしています。\nでも、最近はflutterを使って開発をしています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "122",
-        "title": "Service禁止",
-        "description": "Angularでアプリケーションを開発する際、みなさんはUsersServiceといった「なんとかService」を作ってしまっていませんか？これは一体なにをするclassでしょうか？メソッドは日に日に増えていませんか？今回は、Serviceを禁止するとはどういうことか考え直し、実践することで得られるひとつ上の設計整理術についてご紹介します。",
-        "place": "ng-japan",
-        "tag": {
-            "name": "Angular",
-            "color": "red"
-        },
-        "timeDuration": "20",
-        "speakerName": "奥野 賢太郎 / Okuno Kentaro",
-        "language": "japanese",
-        "profile": "クレスウェア代表、ウェブアプリケーション・デベロッパー。Angular日本ユーザー会副オーガナイザ。クライアントサイド、サーバーサイドを担当し、DDDを用いた大規模アプリケーション設計や大規模チーム運営を得意とする。YouTubeにて技術者向けチャンネル『奥野塾』を運営中。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "107",
-        "title": "TBD",
-        "description": "",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Android",
-            "color": "green"
-        },
-        "timeDuration": "20",
-        "speakerName": "takahirom",
-        "language": "japanese",
-        "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "108",
-        "title": "データサイエンティスト・機械学習エンジニア、ぶっちゃけどうなの？",
-        "description": "データサイエンティスト／機械学習エンジニアのキャリアをテーマに、ML GDE のメンバがざっくばらんに話します。Sli.do を使って質問も受け付ける予定です。\n想定しているテーマ（以下例）\n・キャリアについて\n　・専門性、方向性はどうやって決めてきたか、決めていこうと思っているか\n　・転職／採用\n・データサイエンティスト・機械学習エンジニアの実際\n　・データサイエンティスト・機械学習エンジニアは今後どうなると思う？\n　・データサイエンティスト・機械学習エンジニアの業務範囲\n　・AIバブルについて\n・技術的なテーマ\n　・情報収集の方法\n　・最近面白いと思った技術\n・ML GDEとは？なんでなろうと思ったか",
-        "place": "Channel 2",
-        "tag": {
-            "name": "ML",
-            "color": "brown"
-        },
-        "timeDuration": "20",
-        "speakerName": "栗原理央 / KuriharaRio",
-        "language": "japanese",
-        "profile": "2016年に株式会社ブレインパッドへ入社。入社後は需要予測や自然言語処理、画像認識など複数のプロジェクトを担当。Google Developers Expert (Machine Learning)。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "109",
-        "title": "Android",
-        "description": "",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Android",
-            "color": "green"
-        },
-        "timeDuration": "30",
-        "speakerName": "yanzm",
-        "language": "japanese",
-        "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "119",
-        "title": "Flutter",
-        "description": "",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Flutter",
-            "color": "cyan"
-        },
-        "timeDuration": "40",
-        "speakerName": "wasabeef",
-        "language": "japanese",
-        "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
-        "id": "123",
-        "title": "Flutter",
-        "description": "",
-        "place": "Channel 1",
-        "tag": {
-            "name": "Flutter",
-            "color": "cyan"
-        },
-        "timeDuration": "40",
-        "speakerName": "TBD",
-        "language": "japanese",
-        "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
-    },
-    {
         "id": "200",
         "title": "Opening",
         "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
@@ -675,6 +60,201 @@
         "profileImage": "/img/devfest2020/speakers/avatar.png"
     },
     {
+        "id": "202",
+        "title": "Google Apps Script 入門 2020",
+        "description": "Google Apps Script は最近 V8 ランタイム対応、G Suite Marketplace のリリースなど、活発にアップデートが行われています。特に V8 ランタイムのリリースにより、モダンな JavaScript 構文で開発できるようになったので、これから始める方へのメリットは大きいです。\nこのセッションでは、Google Apps Script をこれから始める方、まだ思ったようにプログラムを開発できない方向けに、自分で作りたいプログラムを開発できるようになるまでの手引きとなるようなセッションを行いたいと思います。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Google App Script",
+            "color": "purple"
+        },
+        "timeDuration": "30",
+        "speakerName": "田邉　裕貴（tanabee） / Yuki Tanabe",
+        "language": "japanese",
+        "profile": "RPGテック合同会社で Vice President をやっています。企業の業務自動化（RPA）を進める中で Google Apps Script に興味を持ち、ルーティンワーク改善に活用してきました。最近は Firebase, Google API, React.js などをよく使っています。以下にこれまでの活動内容をまとめています。\nhttps://tanabee.github.io",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yuki_Tanabe.webp"
+    },
+    {
+        "id": "210",
+        "title": "API Gateway",
+        "description": "Google Cloud Next '20: On Airで新しく発表された、API Gatewayの概要をご紹介し、デモを行います。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Cloud",
+            "color": "blue"
+        },
+        "timeDuration": "40",
+        "speakerName": "Kuma Arakawa / Kuma Arakawa",
+        "language": "japanese",
+        "profile": "Google Developers Expert（Cloud & G Suite）。クラウド、特にGCPとG Suiteを使用し、技術的 / 開発的側面とチーム、文化そして組織的側面の両方から大規模アプリケーションを構築する方法を設計する。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kuma_Arakawa.webp"
+    },
+    {
+        "id": "124",
+        "title": "AndroidやWebとGoogleアシスタントとの連携方法",
+        "description": "ユーザの身近に必ずいてくれるGoogleアシスタントからAndroidアプリを操作したり、WebコンテンツをGoogleアシスタント向けに整える話をしてみたいと考えております。Googleアシスタントから、あなたのサービスをより便利に利用していただくヒントを、このセッションから見つけてください。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Assistant",
+            "color": "yellow"
+        },
+        "timeDuration": "40",
+        "speakerName": "田中 洋一郎 / Yoichiro Tanaka",
+        "language": "japanese",
+        "profile": "Tably株式会社所属。業務アプリ向けの開発ツールやフレームワークの設計に携わった後，mixi Platform，LINE Platformの技術統括を行う。日本でのソーシャルアプリケーションの技術的な基礎を確立しただけでなく，メッセージングアプリにおいても世界に先駆けてBOT Platformの立ち上げを主導した。その後もプラットフォームのさらなる進化に日々チャレンジしている。趣味で開発しているChromebook向けアプリは，Google Open Source Programs Officeから評価を得ている。Google Developers Expert（Assistant, Web Technology担当）。著書『OpenSocial入門』，『開発者のためのChromeガイドブック』，『ソーシャルアプリプラットフォーム構築技法』。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yoichiro_Tanaka.webp"
+    },
+    {
+        "id": "120",
+        "title": "Actions Builderによるアクションのビジュアルプログラミング",
+        "description": "新しい会話構築IDE「Actions Builder」を使ったアクションのビジュアルプログラミングや、Actions SDKによる開発手法の解説いたします。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Assistant",
+            "color": "yellow"
+        },
+        "timeDuration": "40",
+        "speakerName": "小林 大介 / Daisuke Kobayashi",
+        "language": "japanese",
+        "profile": "絵を描いたりプログラミングしたりと、色々作るのが好きです。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Daisuke_Kobayashi.webp"
+    },
+    {
+        "id": "113",
+        "title": "Home Graph を使ったオリジナルのホームデバイス管理 (仮)",
+        "description": "Google Assistant向けアプリやAlexaのスキルを作成したことのある方は多いのではないでしょうか。その反面、Google Homeへ自分で作成したデバイスを追加している方は、デバイスを作成するお仕事をしている方やIoT技術に興味がある方など限定されているイメージが少しあります。\n今回は、そんな敷居を下げるべくHome Graph APIを使って、Google Homeから自分で作ったホームデバイスを呼んでお家時間を楽しくする方法をご紹介したいと思います。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Assistant",
+            "color": "yellow"
+        },
+        "timeDuration": "30",
+        "speakerName": "竹内 結 (otter) / Yui Takeuchi",
+        "language": "japanese",
+        "profile": "2019年にBackend Engineerとして株式会社メルカリに入社。株式会社ディー・エヌ・エー、株式会社ぐるなびでのアプリケーション開発の知見を活かしつつ主に業務ではGCPやGoを扱った開発を行っている。\nその傍ら、Actions on Googleを利用したAssistantアプリの開発、イベントで登壇、チューター、公式ドキュメントの翻訳などの活動をしている。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yui_Takeuchi.webp"
+    },
+    {
+        "id": "105",
+        "title": "AndroidのアニメーションのAPIで悩まないようにしたい",
+        "description": "Androidのアニメーションを実装する際にどのAPIを使えばよいか悩むことはありませんか？ObjectAnimator、ValueAnimator、AndroidXのDynamicAnimationなど、アニメーションのAPIはいくつか用意されていて選択肢は少なくありません。\nこのセッションではアニメーションのAPIを改めて整理して、どのようなアニメーションを作るのに適したものなのかをお話しします。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "20",
+        "speakerName": "高島 友里 (takasy) / Yuri Takashima",
+        "language": "japanese",
+        "profile": "ゲームプログラマやSEを経てアプリエンジニアになり2019年からライブ配信アプリのAndroid開発を担当しています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yuri_Takashima.webp"
+    },
+    {
+        "id": "206",
+        "title": "実践 Cloud Run",
+        "description": "「カウシェ https://kauche.com 」を構想から2ヶ月でリリースした例を題材に、Cloud Runを用いたサービス開発について、Service Account を用いた Cloud Scheduler や Cloud Pub/Sub との連携、Cloud Monitoring や Cloud Trace、Cloud Logging を用いた運用、バックグランド処理の回避や初期リクエストの遅延への対処、といったような実践的なノウハウを紹介します。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Cloud",
+            "color": "blue"
+        },
+        "timeDuration": "20",
+        "speakerName": "伊藤 雄貴 / Ito Yuki",
+        "language": "japanese",
+        "profile": "事業立ち上げ時期の 2018 年 3 月にメルペイに入社し、テックリードとしてマイクロサービスの開発に携わる。その後、2019 年 3 月に現在所属している Architect チームにジョインし、組織横断的な課題を解決するために Kubernetes や Istio、Envoy などの技術動向を追っている。また、副業として株式会社X Asiaに参画し、「カウシェ」のバックエンドの実装及びインフラの構築を担当している。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yuki_Ito.webp"
+    },
+    {
+        "id": "103",
+        "title": "これからはじめるAndroid開発",
+        "description": "Androidの開発環境はここ数年で急速に進化・発展しています。\nしかし、初心者にとっては難しく複雑だと感じることがあると思います。\nAndroid開発をこれからはじめようとしてる方や初心者の方に向けて、Android開発で必要なことや知っておくと良いことなどを簡単に紹介します。\n\n（予定内容）\n- 開発環境と言語\n- アプリ構成する要素\n- 設定や権限\n- ライブラリ\n- など",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "30",
+        "speakerName": "Kenji Abe（すたぜろ） / Kenji Abe",
+        "language": "japanese",
+        "profile": "Google Developers Expert for Android, Kotlin.\nCookpad Inc.",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kenji_Abe.webp"
+    },
+    {
+        "id": "217",
+        "title": "Cloud Runマネージドに適したアプリケーションを考える",
+        "description": "サーバレスで運用できるCloud Runマネージドはとても魅力的です。\nAWSのLambdaやGCPのCloud Functionとは違いコンテナで動作させることができるのでランタイムを自由に決めたり必要なライブラリも自由にインストールすることができます。\n他にも様々な機能があり、その魅力に惹かれてCloud Runマネージドを採用してみた結果、見えてきたCloud Runマネージドの利点/欠点とCloud Runマネージドを採用に適したアプリケーションをご紹介できればと思います。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Cloud",
+            "color": "blue"
+        },
+        "timeDuration": "20",
+        "speakerName": "田又 利土 / rito",
+        "language": "japanese",
+        "profile": "2017年4月にエイチームライフスタイルへ中途入社、エイチームフィナジーの設立に伴い転籍。全サービスのインフラ基盤設計およびソフトウェアの開発やデータ分析基盤の構築、新アーキテクチャの研究などを担当",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/chimame.webp"
+    },
+    {
+        "id": "106",
+        "title": "（仮）AutoMLで始めるエッジML",
+        "description": "（仮）難しいMLの論文や技術を知らなくてもAutoMLを使って簡単で役に立つエッジML技術の今をお伝えします。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "ML",
+            "color": "brown"
+        },
+        "timeDuration": "20",
+        "speakerName": "足立　昌彦 / MASAHIKO Adachi",
+        "language": "japanese",
+        "profile": "人工知能やJavaVMの研究に従事し、個人でスマホ向け日本語入力アプリ「Simeji」を開発しバイドゥへ売却し同時に入社。その後、株式会社カブクを共同創業。Google Developers Expert（ML）に認定され、執筆、講演多数。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Masahiko_Adachi.webp"
+    },
+    {
+        "id": "104",
+        "title": "これでバッチリ！BigQuery ML【入門】",
+        "description": "BigQuery MLはBigQueryに格納されている構造化データを用いて、簡単なSQLを書くだけで機械学習のモデルを訓練・推論することができる機能です。機械学習とSQLに関する初歩的な知識さえあれば、初心者でもすぐに機械学習モデルの訓練が行えます。また、様々なモデルがサポートされている上に、独自のTensorFlowのモデルをインポートしたり、訓練時に正則化や早期終了などのオプションも指定したりできるため、実践的なMLモデルをサーバーレスに運用することも可能です。本セッションではまず初心者の方向けにMLの基礎知識を説明した後に、BigQueryMLを使ったデモや、様々な機能や利用する際の注意点などについて解説を行います。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "ML",
+            "color": "brown"
+        },
+        "timeDuration": "40",
+        "speakerName": "新村拓也 / Takuya Shimmura",
+        "language": "japanese",
+        "profile": "1990年生まれ、鹿児島出身。普段は株式会社KUNOという会社でクラウドサービス × MLの分野のプロジェクトの開発およびコンサルティングを行っている。著書「TensorFlowではじめるDeepLeaning実装入門」。日本ディープラーニング協会人材育成員。Google Developer Expert(Machine Learning)。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Takuya_Shimmura.webp"
+    },
+    {
+        "id": "212",
+        "title": "まだまだ、いけるぜDialogflow！",
+        "description": "2020年6月17日に行われた、「VOICE Global 」にて新しい会話構築IDE「 Actions Builder 」の公開開始が発表されました。それに伴い、今後Dialogflowがどのような場面で活躍するのだろう？と疑問に思った方もいらっしゃるのではないかと思います。そこで本セッションではDialogflowと電話（Twilio）を組み合わせた、音声チャットボットの作り方をご紹介いたします。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Dialogflow",
+            "color": "yellow"
+        },
+        "timeDuration": "20",
+        "speakerName": "葛　智紀 / Katsu Tomoki",
+        "language": "japanese",
+        "profile": "前職でiOS、Androidのネイティブアプリケーション開発、AngularやLaravelを用いたウェブアプリケーション開発に従事。KDDIウェブコミュニケーションズではTwilioの最新情報の発信やTwilioを用いた地域課題解決を担当。 個人では、Google Developer Group Tokyoのオーガナイザーを務める。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/tomoki_katsu.webp"
+    },
+    {
+        "id": "216",
+        "title": "Block Pong: Web 技術を駆使したゲームアプリの実装舞台裏",
+        "description": "Block Pong は先日 Native アプリとして公開されたカジュアルゲームですが、その舞台裏には Web 技術を駆使して開発されております。\n\n一見単純に見えるゲームですが、リプレイ時に起こる浮動小数点の誤差をどのように吸収しているか、リプレイのシークバーの実装はどうなっているか、オフラインプレイをどのようにサポートしているか、Native の機能を利用する際にどのような通信をしているか等々、普段の Web 開発ではあまり触れる機会のない、ゲーム開発という特殊な Web アプリの裏側を徹底的にご紹介します。\n\n最後に、現在の Web の抱えるマネタイズの問題点と、それが Native アプリでどのように解消されるのかについても軽くお話できればと考えております。基本は技術中心ですが、Web ゲームに興味のある方皆様にとって刺激となるお話しをしたいと思います。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Web",
+            "color": "red"
+        },
+        "timeDuration": "40",
+        "speakerName": "紀平 拓男 / Takuo Kihira",
+        "language": "japanese",
+        "profile": "20 年以上の経験を持つ Web フロントエンドエンジニア。特にブラウザの低レイヤーの技術が好みであり、Canvas や WebAssembly といった技術を好んで使っている。現在はスマートニュース株式会社において WebView 絡みの開発に専念している傍ら、週末を使って趣味の Web ゲーム開発に励んでいる。過去に複数社起業し成功裏に売却した連続起業家の側面も持つ。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Takuo_Kihira.webp"
+    },
+    {
         "id": "205",
         "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
         "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
@@ -686,44 +266,404 @@
         "timeDuration": "120",
         "speakerName": "兼高理恵 (robo) / Kanetaka Rie",
         "language": "japanese",
-        "profile": "兼高理恵（ライブコーディング担当）GDG Kyoto、WTM Kyoto、Flutter Osaka のスタッフです。Android 黎明期より、開発者コミュニティでハンドルネーム robo または cch-robo で発表活動をしている、モバイル端末が好きなエンジニア。最近は Flutter 開発に取り組み、アプリの要件定義や設計と実装からライブラリの選定や社内開発標準まで担当しています。TOPGATE, Inc. Specialty Section Tech Club 所属。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profile": "兼高理恵（ライブコーディング担当）\nGDG Kyoto、WTM Kyoto、Flutter Osaka のスタッフです。\nAndroid 黎明期より、開発者コミュニティでハンドルネーム robo または cch-robo で発表活動をしている、モバイル端末が好きなエンジニア。\n最近は Flutter 開発に取り組み、アプリの要件定義や設計と実装からライブラリの選定や社内開発標準まで担当しています。\nTOPGATE, Inc. Specialty Section Tech Club 所属。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Rie_Kanetaka.webp"
     },
     {
-        "id": "208",
-        "title": "GCP",
-        "description": "",
-        "place": "Channel 1",
+        "id": "205",
+        "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
+        "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Flutter",
+            "color": "cyan"
+        },
+        "timeDuration": "120",
+        "speakerName": "K.Inoue / Keiko Inoue",
+        "language": "japanese",
+        "profile": "GDG Kyoto、GDG Shikoku、Flutter Osakaのスタッフです。\n現在フリーランスとしてWebサイトのデザイン、制作全般、WordPressの構築・カスタマイズ等を承っております。\n\nモバイルアプリ開発としてFlutterを勉強中。\n定期的にもくもく会を開催しています。\n\n趣味：バイクツーリング、キャンプ\n来年こそは北海道に行きたい！",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Inoue_Keiko.webp"
+    },
+    {
+        "id": "211",
+        "title": "Firebase Extensions はじめの一歩",
+        "description": "2019 年に発表された Firebase Extensions を使うことで、Firebase で実装しているアプリやサービスに様々な機能を従来よりもはるかに簡単に追加できるようになりました。\nどんな機能が用意されているかや、導入方法などを紹介します。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Firebase",
+            "color": "orange"
+        },
+        "timeDuration": "20",
+        "speakerName": "辰濱健一 / Kenichi Tatsuhama",
+        "language": "japanese",
+        "profile": "GDG Shikoku Organizer / Sansan 株式会社\n徳島県神山町在住、コロナの前からリモートワークをやってます。\nAndroid アプリの開発に関わったり、Firebase & BigQuery & DataPortal を用いたアプリのユーザの行動分析も行っています。\n高松で開催する GDG Shikoku のイベント後の「うどんツアー」が毎度楽しみ。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kenichi_Tatsuhama.webp"
+    },
+    {
+        "id": "218",
+        "title": "GKE と GitLab で快適レビュー環境の構築",
+        "description": "Kubernetes を利用する事で、信頼性・利便性の高いサービスの「運用」の環境が得られた人は多いと思います。\nこの Kubernetes を使って「開発」もさらに効率化したいと考え、GitLab の Review apps を利用しています。Review apps を使うと、Merge Request(GitHubではPull Requestと同等)に対し、そのレビュー対象の環境が自動でKubernetesクラスタにデプロイされます。このため自分でレビュー対象のコードをCheckoutしてレビューできる環境を作る必要がなくなり、コードレビューを快適に実施できるため、たまりがちのコードレビューという課題が解決できます。\nセッションではこの Review apps を中心に、開発の効率化について紹介します。",
+        "place": "Channel 2",
         "tag": {
             "name": "Cloud",
             "color": "blue"
         },
         "timeDuration": "20",
-        "speakerName": "MegumiTakahira",
+        "speakerName": "甲田 勝 / Koda Masaru",
         "language": "japanese",
-        "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profile": "WebやCloud, DevOpsが主戦場の開発者です。\nSCRUMやDevOpsを社内に広げるために、定期勉強会やハンズオンを主催したりしています。\n長野県でのんびりとプログラミングをしつつ温泉、スキー、BBQを楽しむ毎日。\nGDG Shinshuなど、Google系を中心にクラウド系の技術コミュニティに参加してます。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Koda_Masaru.webp"
+    },
+    {
+        "id": "115",
+        "title": "Google Analytics for Firebaseを使うときに把握しておきたいこと",
+        "description": "Google Analytics for Firebaseの初期設定を済ませると色々な情報が自動的に取得できて便利ですが、カスタムイベントを使うことでアプリのニーズに応じたデータの収集ができます。\n\n本トークではGoogle Analytics for Firebaseの基本的な話とデータを分析するときのTipsを紹介します。\n\n予め把握して、Google Analytics for Firebaseを正しく設定することでソフトウェアエンジニアだけではなくマーケティングや企画職の人にとっても強力なツールとなります。\n\n時間が許せば、プライバシーの話やFirebase Consoleの権限管理などのガバナンスについても紹介する予定です。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Firebase",
+            "color": "orange"
+        },
+        "timeDuration": "30",
+        "speakerName": "コキチーズ / kokicheese",
+        "language": "japanese",
+        "profile": "大学生の時からGCPをこよなく愛している。\n2017年LINE入社、同時期にFirebase Japan User Groupを立ち上げる。\n複業で2年以上Firebaseを使ったアプリ開発に携わっている。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kazuhiro_Kubota.webp"
+    },
+    {
+        "id": "209",
+        "title": "新しいデータ永続化の方法！Jetpack DataStoreの紹介",
+        "description": "Androidのデータ永続化方法に新たに「Jetpack DataStore」が加わりました。まだAlpha版ではありますが大きな可能性を感じたので、一緒にどんなものなのかを見ていきましょう！",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "20",
+        "speakerName": "古川真次(furusin) / Shinji Furukawa",
+        "language": "japanese",
+        "profile": "Androidが大好きなAndroidエンジニア。GDG OsakaやKansai.ktのCoオーガナイザーやってます",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/oriver_furusin.webp"
+    },
+    {
+        "id": "127",
+        "title": "Goでテキストエディタを作った話",
+        "description": "VimやEmacsのようなターミナル上で動くテキストエディタ『mille』をGoで開発した話をします。エディタとしては実用的ではありませんが、1000行以内のコードであること、外部ライブラリを利用しないことをモットーにしたため、どなたでもソースコードを読んでテキストエディタの基本的な構造を学んでもらえるかと思います。発表では、ターミナルでのエスケープシーケンスの話、テキストエディタに適したデータ構造であるGap Buffer など、実装における工夫点をご紹介します。 \n\nGitHub: https://github.com/ad-sho-loko/mille",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Go",
+            "color": "blue lighten-3"
+        },
+        "timeDuration": "LT",
+        "speakerName": "荒川聖悟 / Shogo Arakawa",
+        "language": "japanese",
+        "profile": "2018年にSansan株式会社に中途入社。当初はサーバサイドエンジニアとして勤務していたが、2019年12月にiOSエンジニアに転向し、SansanのiOSアプリ開発に従事する。仕事とは全く関係ないが、低レイヤの話が好きで、コンパイラやエミュレータなどを作ることに面白みを感じるタイプ。Goが好き。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Shogo_Arakawa.webp"
+    },
+    {
+        "id": "110",
+        "title": "(仮) OR-Tools を使って数理最適化に触れてみよう",
+        "description": "(仮) データ活用に有用な技術の1つに数理最適化があります。本セッションでは、Googleの開発する数理最適化用のライブラリ、OR-Tools の概要を紹介しつつ、数理最適化の簡単な例に触れてみようと思います。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "ML",
+            "color": "brown"
+        },
+        "timeDuration": "40",
+        "speakerName": "太田 満久（おおたまん） / Mitsuhisa Ota",
+        "language": "japanese",
+        "profile": "株式会社ブレインパッドで CDTO (Chief Data Techonlogy Officer) をやっています. TensorFlow User Group Tokyo のオーガナイザ. Google Developers Expert (ML).",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Mitsuhisa_Ohta.webp"
+    },
+    {
+        "id": "117",
+        "title": "NgRx に今年追加された component と component-store について",
+        "description": "Angular 用のライブラリである NgRx に今年追加された component と component-store についてその概要や使い方を説明",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "笠原 渉 / Wataru Kasahara",
+        "language": "japanese",
+        "profile": "フロントエンドエンジニア。Angular 日本ユーザー会のスタッフ。最近は仕事で Angular を触ることが減っているが代わりに Angular に関するブログを書いたりしている。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Wataru_Kasahara.webp"
+    },
+    {
+        "id": "111",
+        "title": "ng-japan 開会のあいさつ / Angularの現在と未来 ver.2020 ",
+        "description": "Angularの最近のアップデートや将来の開発ロードマップについて、最新情報をまとめてお届けします。また、Angular日本コミュニティの取り組みについても紹介させていただきます。",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "40",
+        "speakerName": "稲富 駿（lacolaco） / INATOMI SUGURU",
+        "language": "japanese",
+        "profile": "オープンコミュニティを愛するフロントエンド開発者。Google Developers Expert for Angularとして、Angular日本ユーザー会の代表も務めている。Angular周辺のOSSへのコントリビューションや翻訳、ブログ執筆、登壇、イベントの主催などさまざまな活動をおこなっている。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Suguru_Inatomi.webp"
+    },
+    {
+        "id": "116",
+        "title": "Googleアシスタントアプリの事例紹介・音声アプリのエンタテインメントの可能性",
+        "description": "株式会社サイバードで企画開発を行ったGoogleアシスタントアプリの事例紹介と、今後の音声アプリのエンタテインメントの未来予測と可能性についてお話いたします。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Assistant",
+            "color": "yellow"
+        },
+        "timeDuration": "40",
+        "speakerName": "元木理恵（もっきー） / Rie Motoki",
+        "language": "japanese",
+        "profile": "2006年1月株式会社サイバード入社。コンテンツ事業の企画・プロデュースに携わる。2016年2月より、Voice UI事業のR&Dを開始し、Voice UI部の立ち上げに貢献。\n現在、同部でプロデューサー兼Voice UI/UXデザイナーを務める。\nVoice UIの各種勉強会やセミナー等でのLightning Talkなど登壇多数。\nVoice UI/UX Designer Groupや各社と連携してのVoice UI女子会などのコミュニティ運営も行い、社内外に活動の幅を拡げ、Voice UI界の盛り上げに精力的に貢献している。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Rie_Motoki.webp"
+    },
+    {
+        "id": "207",
+        "title": "新しくなった画面間データ連携について",
+        "description": "Activity間、Fragment間のデータ連携の方法があたらしくなっています。古い実装から新しい実装に切り替えていく必要があるので、対応方法をおさらいしていこうとおもいます。",
+        "place": "Channel 2",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "20",
+        "speakerName": "早川勉（sokume） / Tsutomu Hayakawa",
+        "language": "japanese",
+        "profile": "株式会社スタメンにてAndroid、iOSのエンジニアをおこなっています。Androidの開発はCupcake時代からながながと続けています。GDG Nagoya オーガナイザーをやっています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/tsutomu_hayakawa.webp"
+    },
+    {
+        "id": "112",
+        "title": "Android の永続化 2020",
+        "description": "ほとんどの Android アプリは何らかの形でデータを端末に保存します。Google もそのためのライブラリをいくつか提供しています。例えばデータベースライブラリの Room や、最近新しくリリースされた DataStore などです。このセッションでは、それらの永続化方法を比較しながら、アプリ全体の構成を考えます。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "30",
+        "speakerName": "荒木佑一 / Yuichi Araki",
+        "language": "japanese",
+        "profile": "Android デベロッパー リレーションズ所属。AndroidX のライブラリ (Transition, Room, \nvectordrawable-seekable, Compose) を開発しています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yuichi_Araki.webp"
+    },
+    {
+        "id": "118",
+        "title": "Introduction of rx-angular",
+        "description": "Angular use zone.js to trigger change detection automatically, but zone.js has some flaw so the developer want to develop zone-less Angular application in some user cases, rx-angular provides an elegant solution to support reactive and zone-less Angular application, so in this talk, I will give a brief introduction about what is rx-angular.",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "JiaLiPassion / LI JIA",
+        "language": "japanese",
+        "profile": "Jia Li is a frontend developer with passion, he is an Angular Collaborator and the code owner of angular/zone.js. He loves Angular and now developer Angular enterprise application.",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Jia_Li.webp"
+    },
+    {
+        "id": "114",
+        "title": "Angularの静的サイトジェネレーター「Scully」の最新情報",
+        "description": "ScullyはAngular用の静的サイトジェネレーターです。Scullyを使うことで比較的簡単にAngularアプリケーションをプリレンダリングを導入することができます。このセッションでは、Scullyの仕組みや導入方法だけでなく、Scullyを使ったブログの作成方法やプラグインの活用法、開発時の工夫やPWA化などのテクニックを紹介します。",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "新福 宜侑 / Noriyuki Shinpuku",
+        "language": "japanese",
+        "profile": "株式会社ベガコーポレーションのフロントエンドエンジニア。福岡のAngularユーザーコミュニティng-fukuokaの代表。最近はフロントエンドカンファレンス福岡の実行委員も行っている。趣味はAngular。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Noriyuki_SHIMPUKU.webp"
+    },
+    {
+        "id": "204",
+        "title": "Building Reliable Microservices on GCP",
+        "description": "マイクロサービス（とまではいかないまでも複数のサービスが連携するような構成）をKubernetesで始めるケースが増えています。その一方で、サービス間の通信の制御や監視など昨今サービスメッシュと呼ばれるレイヤーが必要になったり、イベントベースでのよりサーバレスなランタイムと組み合わるたいなど Kubernetes 単体では物足りない場合もあるかと思います。この辺りの問題が、Traffic DirectorというGCPのプロダクトの新機能を紹介しつつGCP上でどのようなアーキテクチャーが構築可能かご紹介いたします。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Cloud",
+            "color": "blue"
+        },
+        "timeDuration": "40",
+        "speakerName": "坂田　純 / Jun Sakata",
+        "language": "japanese",
+        "profile": "Google Developers Expert (Cloud)。 GKE や Cloud Run などでのGCPのコンテナベースでアプリケーション構築が得意。OSS と GCP のマネージドサービスとのバランスを取りつつプラットフォームの構築を行っている。また最近では Istio を使った ServiceMesh に注力している。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/UN_SAKATA.webp"
+    },
+    {
+        "id": "121",
+        "title": "Angular Elementsを用いたWeb Components製UIライブラリの提供",
+        "description": "クラウド録画サービスを運営するセーフィー株式会社では、映像データをユーザーが手軽に利用できるよう、APIの拡充やWeb Componentsを使ったUIライブラリの提供を行っています。Angular Elementsを使えば、Angularのコンポーネントを手軽にWeb Components化することが可能です。この講演では事例紹介としてAngular Elementsの選定から開発、今後の課題についてご紹介します。",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "近藤昌史 / Kondo Masashi",
+        "language": "japanese",
+        "profile": "通信キャリアにてネットワークエンジニアとしてオンプレミスの設計、構築、運用に5年間従事。2018年からソフトウェアエンジニアへの転向を決意し、クラウド録画サービスを提供するセーフィー株式会社に所属。映像ビューアーのWebアプリケーション開発を担当。顔認証サービスの開発等に携わる。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kondo_Masashi.webp"
+    },
+    {
+        "id": "125",
+        "title": "Angular Universalのプリレンダリングファイルを管理画面のボタン1つで更新できるようにしてみた",
+        "description": "Angular, React, Vueなど所謂SPAなWebアプリの、SEO・SMO対策としてサーバサイドレンダリングが活用されていますが、データの変更が比較的緩やかなCMS的な用途であれば、より効率の良いHTMLのプリレンダリングが有効です。\n\nCMSの管理画面からコンテンツの編集を行い、編集作業完了後にボタンひとつでプリレンダリングされたファイルの更新ができると便利だなと思いチャレンジしてみたことをまとめてみました。\n\nプリレンダリングしたファイルの公開はFirebase Hosting, CMSのデータはCloud Firestoreで管理し、管理画面からCloud Functionsを呼び出してプリレンダリングからデプロイまでを行います。",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "本田 克己 / Katsumi Honda",
+        "language": "japanese",
+        "profile": "大分県でソフトウェア開発を行っているおじさんです。\nGDG Kyushu, GDG Cloud Oita♨ のオーガナイザーなんかもやっています。\n\nWebアプリの開発には Anguler + Firebase を好んで使っています。\nAndroidやiPhoneアプリ開発、サーバサイド開発など広く浅くやっています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Katsumi_Honda.webp"
+    },
+    {
+        "id": "100",
+        "title": "Opening",
+        "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "10",
+        "speakerName": "佐藤祥子 / Shoko Sato",
+        "language": "japanese",
+        "profile": "GDG DevFest2020実行委員会、実行委員長。GDG Tokyo, GDG Yamaguchi, WTM Tokyoのオーガナイザーです。\n普段はIT企業でDevRelとしてTech Branding、PR、イベントの企画・運営をしています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Shoko_Sato.webp"
+    },
+    {
+        "id": "214",
+        "title": "アドテックとプライバシーを巡る戦い＜ブラウザの逆襲＞",
+        "description": "多くのアドテックベンダーは、これまでブラウザの機能を活用して、データを自由に取得しサービスを提供していました。一方で、ユーザーのプライバシーに不利益を与えるリスクが課題になっていました。\nこの課題に対して、法律（GDPRや個人情報保護法）とブラウザ（SafariのITPなど）の観点から様々な規制強化を進めており、今後はブラウザがアドテック機能（計測やターゲティング）を包含していく方針を固めています。\n本セッションではそのような過去～現在における動向と、cookieを使わない未来のアドテックについて、各陣営がどのような考えをもち計画を進めているかを解説します。\n",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Web",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "Antoine Bourlon / Antoine Bourlon",
+        "language": "japanese",
+        "profile": "2002年の留学をきっかけに来日。12年間ソフトウェアエンジニアとしてネットワークや自動翻訳、ウェアラブルアプリの研究開発支援に従事。2016年からインターネット広告の舞台裏を知るために、株式会社イルグルム（旧：株式会社ロックオン）に入社し、広告効果測定プラットフォームアドエビスのビッグデータ処理基盤の最適化や機械学習を用いた機能の開発を担当。2017年からITPの発表をきっかけに、計測技術とトラッキング防止技術の動向、プライバシー関連の規制、ブラウザの最新仕様を研究し、製品に反映する提案と開発をメインに取り組んでいます。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Antoine_Bourlon.webp"
+    },
+    {
+        "id": "203",
+        "title": "Google Apps Script最新事情2020",
+        "description": "V8ランタイムの登場によって大きく変わったGoogle Apps Script\n最新のアップデートとともにこれからのGoogle Apps Scriptについて話します",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Google App Script",
+            "color": "purple"
+        },
+        "timeDuration": "30",
+        "speakerName": "大橋啓介(サントリー) / keisuke oohashi",
+        "language": "japanese",
+        "profile": "Google Cloud Platform、GSuite、GCP、Angular(1&2)、Google Apps Scriptらへんの人 一応Google Developer Expert(GSuite)です。 https://developers.google.com/community/experts/directory/profile/profile-keisuke_oohashi\n\n",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Keisuke_Oohashi.webp"
+    },
+    {
+        "id": "126",
+        "title": "Angular Universal の歩き方",
+        "description": "SSRやプリレンダリングをAngularでもできるようにするためのパッケージAngular Universalを紹介",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "吉田徹生 / Yoshida Tessei",
+        "language": "japanese",
+        "profile": "株式会社トレタ所属\nAngular Japan User Group スタッフ\n初期Angularから利用し、日々Angularで開発をしています。\nでも、最近はflutterを使って開発をしています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yoshida_Tessei.webp"
+    },
+    {
+        "id": "122",
+        "title": "Service禁止",
+        "description": "Angularでアプリケーションを開発する際、みなさんはUsersServiceといった「なんとかService」を作ってしまっていませんか？これは一体なにをするclassでしょうか？メソッドは日に日に増えていませんか？今回は、Serviceを禁止するとはどういうことか考え直し、実践することで得られるひとつ上の設計整理術についてご紹介します。",
+        "place": "ng-japan",
+        "tag": {
+            "name": "Angular",
+            "color": "red"
+        },
+        "timeDuration": "20",
+        "speakerName": "奥野 賢太郎 / Okuno Kentaro",
+        "language": "japanese",
+        "profile": "クレスウェア代表、ウェブアプリケーション・デベロッパー。Angular日本ユーザー会副オーガナイザ。クライアントサイド、サーバーサイドを担当し、DDDを用いた大規模アプリケーション設計や大規模チーム運営を得意とする。YouTubeにて技術者向けチャンネル『奥野塾』を運営中。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kentaro_Okuno.webp"
+    },
+    {
+        "id": "108",
+        "title": "データサイエンティスト・機械学習エンジニア、ぶっちゃけどうなの？",
+        "description": "データサイエンティスト／機械学習エンジニアのキャリアをテーマに、ML GDE のメンバがざっくばらんに話します。Sli.do を使って質問も受け付ける予定です。\n\n想定しているテーマ（以下例）\n・キャリアについて\n　・専門性、方向性はどうやって決めてきたか、決めていこうと思っているか\n　・転職／採用\n・データサイエンティスト・機械学習エンジニアの実際\n　・データサイエンティスト・機械学習エンジニアは今後どうなると思う？\n　・データサイエンティスト・機械学習エンジニアの業務範囲\n　・AIバブルについて\n・技術的なテーマ\n　・情報収集の方法\n　・最近面白いと思った技術\n・ML GDEとは？なんでなろうと思ったか",
+        "place": "Channel 2",
+        "tag": {
+            "name": "ML",
+            "color": "brown"
+        },
+        "timeDuration": "30",
+        "speakerName": "栗原理央 / KuriharaRio",
+        "language": "japanese",
+        "profile": "2016年に株式会社ブレインパッドへ入社。入社後は需要予測や自然言語処理、画像認識など複数のプロジェクトを担当。Google Developers Expert (Machine Learning)。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/rio_kurihara.webp"
+    },
+    {
+        "id": "107",
+        "title": "Dagger Hilt",
+        "description": "Dagger Hiltとは新しくGoogleが開発しているDependency Injectionの手間を減らしてくれるDependency Injection(DI)ライブラリです。\nコードの例を見ながら、なぜDependency Injectionが必要なのか、Dagger Hiltの特徴やDagger Hiltを使ったDependency Injectionの方法、現時点で分かっている実践的なプラクティスまで説明していきます。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "30",
+        "speakerName": "毛受崇洋 (takahirom) / Takahiro Menju",
+        "language": "japanese",
+        "profile": "Google Developers Expert for Android\nCyberAgent, Inc, AbemaTV Inc.\nDroidKaigi Conference App Owner",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Menju_Takahiro.webp"
+    },
+    {
+        "id": "109",
+        "title": "Material Design Components カスタマイズ最前線",
+        "description": "Material Design Components for Android の 1.2.0 がリリースされました。この講演では最新の MDC for Android のカスタマイズ方法について解説します。特に AppCompat とは異なる MDC で定義されている色や shape の attribute について取り上げます。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Android",
+            "color": "green"
+        },
+        "timeDuration": "30",
+        "speakerName": "あんざいゆき / Yuki Anzai",
+        "language": "japanese",
+        "profile": "Google Developer Experts for Android、株式会社ウフィカ代表取締役。Y.A.Mの雑記帳というブログを書いています。「Master of Dagger」「わかる！ドメイン駆動設計 」などの本を執筆しています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Yuki_Anzai.webp"
     },
     {
         "id": "213",
-        "title": "career",
-        "description": "",
+        "title": "文系営業が日本初の女性GoogleCloud認定トレーナーになるまで",
+        "description": "文系営業だった私が、バックエンドエンジニアを経てGoogleCloud認定トレーナーになるまでに考えたことや行動したことについてお話しします。",
         "place": "Channel 1",
         "tag": {
             "name": "misc",
             "color": "black"
         },
         "timeDuration": "20",
-        "speakerName": "ama_chi",
+        "speakerName": "山内 沙織（yama_chi） / Yamauchi Saori",
         "language": "japanese",
-        "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profile": "大学卒業後2年間営業を経験した後、エンジニアに方向転換。以後、AppEngine をはじめとしたGCP上の開発業務に携わる。日本初の女性GoogleCloud認定トレーナー。GCPUG女子会のオーガナイザーとして活動中。みんなでわいわいする時間と1人でもくもくする時間が好き。最近はバター珈琲と週末登山にはまっています。\n",
+        "profileImage": ""
     },
     {
         "id": "215",
-        "title": "Borg",
+        "title": "TBD",
         "description": "",
-        "place": "Channel 2",
+        "place": "Channel 1",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -732,11 +672,11 @@
         "speakerName": "GDG Fukushima",
         "language": "japanese",
         "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": ""
     },
     {
         "id": "219",
-        "title": "Go",
+        "title": "TBD",
         "description": "",
         "place": "Channel 1",
         "tag": {
@@ -747,7 +687,7 @@
         "speakerName": "tenten",
         "language": "japanese",
         "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": ""
     },
     {
         "id": "220",
@@ -762,11 +702,11 @@
         "speakerName": "GDG Kyushu",
         "language": "japanese",
         "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": ""
     },
     {
         "id": "221",
-        "title": "Go",
+        "title": "TBD",
         "description": "",
         "place": "Channel 1",
         "tag": {
@@ -777,11 +717,11 @@
         "speakerName": "Women Who Go Tokyo",
         "language": "japanese",
         "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": ""
     },
     {
         "id": "222",
-        "title": "Go",
+        "title": "TBD",
         "description": "",
         "place": "Channel 1",
         "tag": {
@@ -792,11 +732,11 @@
         "speakerName": "Women Who Go Tokyo",
         "language": "japanese",
         "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": ""
     },
     {
         "id": "223",
-        "title": "Pannel discussion",
+        "title": "TBD",
         "description": "",
         "place": "Channel 2",
         "tag": {
@@ -807,6 +747,6 @@
         "speakerName": "Women Techmakers",
         "language": "japanese",
         "profile": "",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": ""
     }
 ]
