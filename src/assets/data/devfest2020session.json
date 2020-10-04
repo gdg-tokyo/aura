@@ -42,7 +42,7 @@
         "speakerName": "佐藤祥子 / Shoko Sato",
         "language": "japanese",
         "profile": "GDG DevFest2020実行委員会、実行委員長。GDG Tokyo, GDG Yamaguchi, WTM Tokyoのオーガナイザーです。\n普段はIT企業でDevRelとしてTech Branding、PR、イベントの企画・運営をしています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Shoko_Sato.webp"
     },
     {
         "id": "201",
@@ -57,7 +57,7 @@
         "speakerName": "早川勉（sokume） / Tsutomu Hayakawa",
         "language": "japanese",
         "profile": "株式会社スタメンにてAndroid、iOSのエンジニアをおこなっています。Androidの開発はCupcake時代からながながと続けています。GDG Nagoya オーガナイザーをやっています。",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/tsutomu_hayakawa.webp"
     },
     {
         "id": "202",
@@ -261,7 +261,7 @@
         "place": "Channel 2",
         "tag": {
             "name": "Flutter",
-            "color": "cyan"
+            "color": "blue lighten-2"
         },
         "timeDuration": "120",
         "speakerName": "兼高理恵 (robo) / Kanetaka Rie",
@@ -279,7 +279,7 @@
         "place": "Channel 2",
         "tag": {
             "name": "Flutter",
-            "color": "cyan"
+            "color": "blue lighten-2"
         },
         "timeDuration": "120",
         "speakerName": "K.Inoue / Keiko Inoue",

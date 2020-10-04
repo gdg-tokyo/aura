@@ -320,6 +320,17 @@
             ]
         },
         {
+            "startTime": "11:10",
+            "endTime": "13:10",
+            "sessions": [
+                {
+                    "item": [
+                        205
+                    ]
+                }
+            ]
+        },
+        {
             "startTime": "11:40",
             "endTime": "12:10",
             "sessions": [
@@ -337,17 +348,6 @@
                 {
                     "item": [
                         204
-                    ]
-                }
-            ]
-        },
-        {
-            "startTime": "11:10",
-            "endTime": "13:10",
-            "sessions": [
-                {
-                    "item": [
-                        205
                     ]
                 }
             ]
