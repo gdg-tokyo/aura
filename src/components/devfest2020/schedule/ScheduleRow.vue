@@ -2,11 +2,15 @@
   <v-flex xs12 class="pl-3" :style="{ 'border-left':  getBorderColor(sdata.place)}">
     <p class="google-font mb-0" style="font-size:130%">{{sdata.title}}</p>
     <p style="font-size:100%" v-if="sdata.speakerName.length>0">{{sdata.speakerName}}</p>
-    <v-chip class="ml-0" :color="sdata.tag.color" flat v-if="sdata.timeDuration<60" small></v-chip>
+    <v-chip class="ml-0" :color="sdata.tag.color" flat small></v-chip>
     {{ sdata.tag.name }}
     <v-chip class="white--text ml-0" color="black" label v-if="sdata.timeDuration<60" small>
       <v-icon x-small>av_timer</v-icon>
       {{ sdata.timeDuration }} min
+    </v-chip>
+    <v-chip label class="white--text ml-0" color="black" v-else small>
+      <v-icon x-small>av_timer</v-icon>
+      {{ sdata.timeDuration/60 }} hour
     </v-chip>
     <v-chip class="ml-1 mr-1" dark :color="getColor(sdata.place)" small label>
       <v-icon x-small>room</v-icon>
