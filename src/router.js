@@ -54,17 +54,17 @@ const router = new Router({
     {
       path: '/devfest2019/hands-on',
       name: 'devfest_hands_on_detail',
-      component: () => import('./views/DevFest2019HandsOnDetail.vue'),
+      component: () => import('./views/devfest2019/DevFest2019HandsOnDetail.vue'),
     },
     {
       path: '/devfest2019/session/panel-discussion',
       name: 'devfest_session_detail_panel_discussion',
-      component: () => import('./views/DevFest2019PanelDiscussionDetail.vue'),
+      component: () => import('./views/devfest2019/DevFest2019PanelDiscussionDetail.vue'),
     },
     {
       path: '/devfest2019/session/:id',
       name: 'devfest_session_detail',
-      component: () => import('./views/DevFest2019Detail.vue'),
+      component: () => import('./views/devfest2019/DevFest2019Detail.vue'),
     },
     {
       path: '/devfest2019',
@@ -81,7 +81,25 @@ const router = new Router({
       path: '/devfest2020',
       name: 'devfest2020',
       component: () => import('./views/DevFest2020.vue'),
-      meta: { title: 'DevFest2020 | GDG Tokyo', description: 'DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。東京では、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを一日で学べるコミュニティイベントとして開催しています。' }
+      meta: { title: 'DevFest2020 | GDG Tokyo', description: 'DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。' }
+    },
+    {
+      path: '/devfest2020/schedule',
+      name: 'devfest2020_session',
+      component: () => import('./views/devfest2020/DevFest2020Schedule.vue'),
+      meta: { title: 'DevFest2020 | GDG Tokyo', description: 'DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。' }
+    },
+    {
+      path: '/devfest2020/schedule/:day',
+      name: 'devfest2020_session',
+      component: () => import('./views/devfest2020/DevFest2020Schedule.vue'),
+      meta: { title: 'DevFest2020 | GDG Tokyo', description: 'DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。' }
+    },
+    {
+      path: '/devfest2020/schedule/:day/:session_id',
+      name: 'devfest2020_session',
+      component: () => import('./views/devfest2020/DevFest2020Schedule.vue'),
+      meta: { title: 'DevFest2020 | GDG Tokyo', description: 'DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。' }
     },
   ]
 })

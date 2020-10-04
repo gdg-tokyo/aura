@@ -2,11 +2,15 @@
   <v-flex xs12 class="pl-3" :style="{ 'border-left':  getBorderColor(sdata.place)}">
     <p class="google-font mb-0" style="font-size:130%">{{sdata.title}}</p>
     <p style="font-size:100%" v-if="sdata.speakerName.length>0">{{sdata.speakerName}}</p>
-    <v-chip class="ml-0" :color="sdata.tag.color" flat v-if="sdata.timeDuration<60" small></v-chip>
+    <v-chip class="ml-0" :color="sdata.tag.color" flat small></v-chip>
     {{ sdata.tag.name }}
     <v-chip class="white--text ml-0" color="black" label v-if="sdata.timeDuration<60" small>
       <v-icon x-small>av_timer</v-icon>
       {{ sdata.timeDuration }} min
+    </v-chip>
+    <v-chip label class="white--text ml-0" color="black" v-else small>
+      <v-icon x-small>av_timer</v-icon>
+      {{ sdata.timeDuration/60 }} hour
     </v-chip>
     <v-chip class="ml-1 mr-1" dark :color="getColor(sdata.place)" small label>
       <v-icon x-small>room</v-icon>
@@ -42,12 +46,12 @@ export default {
   methods: {
     getBorderColor(data) {
       switch (data) {
-        case "講堂ホール":
-          return "5px solid #1A73E8";
-        case "B101":
-          return "5px solid #EA4335";
-        case "B102":
+        case "Channel 1":
           return "5px solid #FBBC04";
+        case "Channel 2":
+          return "5px solid #34AB53";
+        case "ng-japan":
+          return "5px solid red";
         case "B201":
           return "5px solid #34AB53";
         case "B202":
@@ -58,12 +62,12 @@ export default {
     },
     getColor(data) {
       switch (data) {
-        case "講堂ホール":
-          return "#1A73E8";
-        case "B101":
-          return "#EA4335";
-        case "B102":
+        case "Channel 1":
           return "#FBBC04";
+        case "Channel 2":
+          return "#34AB53";
+        case "ng-japan":
+          return "red";
         case "B201":
           return "#34AB53";
         case "B202":
