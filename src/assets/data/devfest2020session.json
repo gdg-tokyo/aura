@@ -121,8 +121,8 @@
     },
     {
         "id": "113",
-        "title": "Home Graph を使ったオリジナルのホームデバイス管理 (仮)",
-        "description": "Google Assistant向けアプリやAlexaのスキルを作成したことのある方は多いのではないでしょうか。その反面、Google Homeへ自分で作成したデバイスを追加している方は、デバイスを作成するお仕事をしている方やIoT技術に興味がある方など限定されているイメージが少しあります。\n今回は、そんな敷居を下げるべくHome Graph APIを使って、Google Homeから自分で作ったホームデバイスを呼んでお家時間を楽しくする方法をご紹介したいと思います。",
+        "title": "Local Home SDK を使った Local Fulfillment とオリジナルホームデバイスの開発について",
+        "description": "Local Home SDK を使い Local Fulfillment アプリケーションを作成することで、自分で作成したオリジナルホームデバイスをActions on Googleにスマートホームアクションとして連携させ、Google Home などから呼び出すことができます。",
         "place": "Channel 2",
         "tag": {
             "name": "Assistant",
