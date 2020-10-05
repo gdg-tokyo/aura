@@ -111,6 +111,16 @@ export default {
   components: {
     ScheduleRow,
   },
+  watch: {
+    $route(to, from) {
+      const fromSessionId = from.params.session_id;
+      const toSessionId = to.params.session_id;
+
+      if (fromSessionId && toSessionId === undefined) {
+        this.dialog = false;
+      }
+    },
+  },
   mounted() {
     if (this.$route.params.session_id) {
       if (this.sdata.id === this.$route.params.session_id) {
@@ -124,7 +134,7 @@ export default {
       this.$router.push(`/devfest2020/schedule/${this.isDay1 ? 1 : 2}/${this.sdata.id}`);
     },
     dialogClosed() {
-      this.$router.push(`/devfest2020/schedule/${this.isDay1 ? 1 : 2}`);
+      this.$router.back();
     },
     getCoSpeakerData(coSpeakers) {
       if (coSpeakers == null) {
