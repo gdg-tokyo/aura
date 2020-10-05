@@ -122,7 +122,7 @@
     {
         "id": "113",
         "title": "Local Home SDK を使った Local Fulfillment とオリジナルホームデバイスの開発について",
-        "description": "Local Home SDK を使い Local Fulfillment アプリケーションを作成することで、自分で作成したオリジナルホームデバイスをActions on Googleにスマートホームアクションとして連携させ、Google Home などから呼び出すことができます。",
+        "description": "Local Home SDK を使い Local Fulfillment アプリケーションを作成することで、自分で作成したオリジナルホームデバイスをActions on Googleにスマートホームアクションとして連携させ、Google Home などから呼び出すことができます。\n今回は、Local Home SDK・Local Fulfillment を使うメリットや実際に使ってみて感じたこと、デバイスとのつなぎ込みの難しさなどをシェアできればと思います。",
         "place": "Channel 2",
         "tag": {
             "name": "Assistant",
