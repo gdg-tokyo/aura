@@ -27,8 +27,8 @@
             <v-responsive :aspect-ratio="1/1">
               <v-avatar size="100%">
                 <v-img
-                    :src="sdata.profileImage"
-                    :lazy-src="sdata.profileImage"
+                    :src="getStorageUrl(sdata.profileImage)"
+                    :lazy-src="getStorageUrl(sdata.profileImage)"
                     :aspect-ratio="1/1"
                 >
                   <v-layout
@@ -56,8 +56,8 @@
             <v-responsive :aspect-ratio="1/1">
               <v-avatar size="100%">
                 <v-img
-                    :src="coSpeaker.profileImage"
-                    :lazy-src="coSpeaker.profileImage"
+                    :src="getStorageUrl(coSpeaker.profileImage)"
+                    :lazy-src="getStorageUrl(coSpeaker.profileImage)"
                     :aspect-ratio="1/1"
                 >
                   <v-layout
@@ -91,6 +91,7 @@
 <script>
 import ScheduleRow from "@/components/devfest2020/schedule/ScheduleRow";
 import SessionData from "@/assets/data/devfest2020session.json";
+import Mixin from "@/mixin.js";
 
 export default {
   data() {
@@ -144,6 +145,7 @@ export default {
         return coSpeakers.includes(data.id);
       })
     }
-  }
+  },
+  mixins: [Mixin]
 };
 </script>
