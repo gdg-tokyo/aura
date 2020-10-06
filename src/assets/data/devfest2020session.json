@@ -106,8 +106,8 @@
     },
     {
         "id": "120",
-        "title": "Actions Builderによるアクションのビジュアルプログラミング",
-        "description": "新しい会話構築IDE「Actions Builder」を使ったアクションのビジュアルプログラミングや、Actions SDKによる開発手法の解説いたします。",
+        "title": "Actions Builder を使った Google アシスタントアクションのビジュアルプログラミングについて",
+        "description": "従来のアクションの作り方から一新された、新しい会話構築IDE「Actions Builder」を使えば、視覚的にプログラミングする事が可能です。\n今回は実際に「Actions Builder」と、それに対応するSDK「Actions SDK」の、基本的な使い方やTipsを、お伝えできればと思います。",
         "place": "Channel 2",
         "tag": {
             "name": "Assistant",
