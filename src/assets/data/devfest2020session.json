@@ -683,18 +683,18 @@
     },
     {
         "id": "219",
-        "title": "TBD",
-        "description": "",
+        "title": "Goでコード生成をはじめよう",
+        "description": "冗長なコードを手動で書くのは手間がかかり、コーディングミスに繋がる可能性があります。コード生成を行うプログラムを作ることで、そのような手間やミスを避けることができます。Goはコード生成コマンドのgo generateや静的解析などを公式で提供されているため非常にコード生成がしやすい言語です。本セッションではGoにおけるコード生成の基礎と便利なライブラリについて紹介します。",
         "place": "Channel 1",
         "tag": {
             "name": "Go",
             "color": "blue lighten-3"
         },
         "timeDuration": "40",
-        "speakerName": "tenten",
+        "speakerName": "上田拓也（tenntenn） / Ueda Takuya",
         "language": "japanese",
-        "profile": "",
-        "profileImage": ""
+        "profile": "メルカリ／メルペイ所属。 バックエンドエンジニアとして日々Goを書いている。 Google Developer Expert (Go)。 Go Conference主催者。golang.tokyo、Goビギナーズ、GCPUG Tokyo運営。 大学時代にGoに出会い、それ以来のめり込む。 社内外で自ら勉強会を開催し、Goの普及に取り組んでいる。 マスコットのGopherの絵を描くのも好き。人類をGopherにしたいと考えている。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Takuya_Ueda"
     },
     {
         "id": "220",
