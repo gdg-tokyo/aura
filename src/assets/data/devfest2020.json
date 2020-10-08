@@ -1,5 +1,21 @@
 {
     "EntryPageUrl":"https://gdg-tokyo.connpass.com/event/190079/",
+    "HandsOn": {
+        "profileImage": "",
+        "workshopTime": "10月17日(土) 15:00-16:00",
+        "workshopTitle": "Cloud AutoMLとTensorFlow.jsを使ってWebアプリを作ってみよう！- ML入門ハンズオン",
+        "name": "adamrocker",
+        "workshopDescription": "Google Developers Expert(Machine Learning)のadamrockerさんを講師にお迎えし、ML入門ハンズオンをオンラインで開催します。トレーニングデータを作ってCloud AutoMLで学習したモデルをTF.js形式でExportしてWebアプリに組み込むまでの一連の流れを試してみるハンズオンです。MLを使ったWebアプリを作ってみたいけど何からすれば良いかわからない、Cloud AutoML使ってみたい、そんな方にオススメのハンズオンです。是非一緒にML入門に挑戦してみましょう。",
+        "link": ""
+    },
+    "Hackathon": {
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/GDG_Kyushu",
+        "workshopTime": "10月17日(土) 11:40 - 10月18日(日) 14:00",
+        "workshopTitle": "GDG DevFest 2020 App Inventor ハッカソン",
+        "name": "GDG Kyushu",
+        "workshopDescription": "App Inventor for Androidを使用してアプリを作ってみませんか？GDG DevFest 2020 開催期間中にApp Inventor for Androidを使用したショートハッカソンを開催します。App Inventor for Androidはクラウド上で利用できる、Android向けのブロックプログラミングツールです。プログラミングをしたことない人も、プログラミングの楽しさを味わってみませんか。",
+        "link": "https://gdg.connpass.com/event/191724/"
+    },
     "Chapters": [
         {
             "name": "GDG Fukushima",
