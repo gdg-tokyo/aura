@@ -225,27 +225,16 @@
         },
         {
             "startTime": "16:10",
-            "endTime": "16:50",
-            "sessions": [
-                {
-                    "item": [
-                        123
-                    ]
-                },
-                {
-                    "item": [
-                        124
-                    ]
-                }
-            ]
-        },
-        {
-            "startTime": "16:10",
             "endTime": "16:30",
             "sessions": [
                 {
                     "item": [
                         125
+                    ]
+                },
+                {
+                    "item": [
+                        124
                     ]
                 }
             ]

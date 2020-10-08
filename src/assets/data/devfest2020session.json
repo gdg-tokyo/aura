@@ -98,7 +98,7 @@
             "name": "Assistant",
             "color": "yellow"
         },
-        "timeDuration": "40",
+        "timeDuration": "20",
         "speakerName": "田中 洋一郎 / Yoichiro Tanaka",
         "language": "japanese",
         "profile": "Tably株式会社所属。業務アプリ向けの開発ツールやフレームワークの設計に携わった後，mixi Platform，LINE Platformの技術統括を行う。日本でのソーシャルアプリケーションの技術的な基礎を確立しただけでなく，メッセージングアプリにおいても世界に先駆けてBOT Platformの立ち上げを主導した。その後もプラットフォームのさらなる進化に日々チャレンジしている。趣味で開発しているChromebook向けアプリは，Google Open Source Programs Officeから評価を得ている。Google Developers Expert（Assistant, Web Technology担当）。著書『OpenSocial入門』，『開発者のためのChromeガイドブック』，『ソーシャルアプリプラットフォーム構築技法』。",
