@@ -678,7 +678,9 @@
         "profile": "2008年イタリア・フィレンツェの絵画修復学校をアジア人として初めて首席として卒業。イタリア・トスカーナ州公認絵画修復技術士（絵画）。専門は絵画修復における化学。\n\n2016年、Hack for Japanの活動を通して出会った盟友浅井渉と株式会社dottを設立。「デザインからDBまで」が担当分野。AngularやGoogle Cloud製品を使い、現在はTensorFlowとGCPのAI Platformを使った開発を行っている。\n",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Shunnosuke_Shimizu",
         "coSpeakers": [
-            "225"
+            "225",
+            "226",
+            "227"
         ]
     },
     {
@@ -785,5 +787,35 @@
         "language": "japanese",
         "profile": "Google Developers Expert for Android. \nWorking at CyberAgent.\n\n#shibuya_apk",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Daichi_Furiya"
-    }
+    },
+    {
+        "id": "226",
+        "title": "　",
+        "description": "　",
+        "place": "Channel 2",
+        "tag": {
+          "name": "Cloud",
+          "color": "blue"
+        },
+        "timeDuration": "40",
+        "speakerName": "中井悦司 / Etsuji Nakai",
+        "language": "japanese",
+        "profile": "Google Cloud Platform を活用するデベロッパーの皆様にさまざまな技術情報・技術支援をお届けしています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Etsuji_Nakai"
+      },
+      {
+        "id": "227",
+        "title": "N/A",
+        "description": "N/A",
+        "place": "Channel 2",
+        "tag": {
+          "name": "Cloud",
+          "color": "blue"
+        },
+        "timeDuration": "40",
+        "speakerName": "佐藤一憲 / Kazunori Sato",
+        "language": "japanese",
+        "profile": "Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud AI等の機械学習プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、NVIDIA GTC等の主要イベントでスピーカーを務め、GCP公式ブログ英語版に多数の記事を寄稿。Googleクラウドの開発者コミュニティを9年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kazunori_Sato"
+      }
 ]
