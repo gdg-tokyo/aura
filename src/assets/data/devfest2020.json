@@ -1,12 +1,12 @@
 {
     "EntryPageUrl":"https://gdg-tokyo.connpass.com/event/190079/",
     "HandsOn": {
-        "profileImage": "",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Cloud_AutoML",
         "workshopTime": "10月17日(土) 15:00-16:00",
         "workshopTitle": "Cloud AutoMLとTensorFlow.jsを使ってWebアプリを作ってみよう！- ML入門ハンズオン",
         "name": "adamrocker",
         "workshopDescription": "Google Developers Expert(Machine Learning)のadamrockerさんを講師にお迎えし、ML入門ハンズオンをオンラインで開催します。トレーニングデータを作ってCloud AutoMLで学習したモデルをTF.js形式でExportしてWebアプリに組み込むまでの一連の流れを試してみるハンズオンです。MLを使ったWebアプリを作ってみたいけど何からすれば良いかわからない、Cloud AutoML使ってみたい、そんな方にオススメのハンズオンです。是非一緒にML入門に挑戦してみましょう。",
-        "link": ""
+        "link": "https://forms.gle/44WeGyuShoPKfToZ6"
     },
     "Hackathon": {
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/GDG_Kyushu",
