@@ -57,7 +57,7 @@
                   depressed
                   class="white--text"
                   color="#EA4335"
-                  :to="handsonData.link"
+                  :href="handsonData.link"
                 >Register Now</v-btn>
               </v-card>
             </v-flex>
@@ -91,7 +91,7 @@
                   depressed
                   class="white--text"
                   color="#EA4335"
-                  :to="hackathonData.link"
+                  :href="hackathonData.link"
                 >Register Now</v-btn>
               </v-card>
             </v-flex>
