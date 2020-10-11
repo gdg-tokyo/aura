@@ -91,8 +91,8 @@
     },
     {
         "id": "124",
-        "title": "AndroidやWebとGoogleアシスタントとの連携方法",
-        "description": "ユーザの身近に必ずいてくれるGoogleアシスタントからAndroidアプリを操作したり、WebコンテンツをGoogleアシスタント向けに整える話をしてみたいと考えております。Googleアシスタントから、あなたのサービスをより便利に利用していただくヒントを、このセッションから見つけてください。",
+        "title": "Assistant Developer Day Latest Update",
+        "description": "先日行われたGoogle Assistant Developer Dayでは、Androidとの連携強化や、E2Eテストのための新しいAPIなど、数多くの新しい発表がありました。このセッションでは、Assistant Developer Dayのキーノートの内容を皆さんにわかりやすく解説いたします。s",
         "place": "Channel 2",
         "tag": {
             "name": "Assistant",
