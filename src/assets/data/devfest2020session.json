@@ -12,7 +12,7 @@
         "speakerName": "鈴木 拓生 / Takuo Suzuki",
         "language": "japanese",
         "profile": "プロフィール",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": "/img/devfest2020/speakers/avatar"
     },
     {
         "id": "102",
@@ -27,7 +27,7 @@
         "speakerName": "TBD",
         "language": "japanese",
         "profile": "プロフィール",
-        "profileImage": "/img/devfest2020/speakers/avatar.png"
+        "profileImage": "/img/devfest2020/speakers/avatar"
     },
     {
         "id": "200",
@@ -700,33 +700,37 @@
     },
     {
         "id": "220",
-        "title": "ハッカソン応募作品の紹介と発表",
-        "description": "",
+        "title": "GDG DevFest 2020 ショートハッカソン",
+        "description": "GDG DevFest 2020 ショートハッカソンにおいて\nApp Inventor for Androidを使用してアプリを作ってみませんか？\n\nGDG DevFest 2020 開催期間中にApp Inventor for Androidを使用したショートハッカソンを開催します。\n\nApp Inventor for Androidはクラウド上で利用できる、Android向けのブロックプログラミングツールです。\n\nプログラミングをしたことない人も、プログラミングの楽しさを味わってみませんか。\n\nGDG DevFest 2020 ショートハッカソンはGDG DevFest2020の一環として行われます。\n\nGDG DevFest 2020の紹介と参加申込は次のリンクを御覧ください。\n\nhttps://gdg-tokyo.connpass.com/event/190079/",
         "place": "Channel 2",
         "tag": {
             "name": "misc",
             "color": "black"
         },
         "timeDuration": "20",
-        "speakerName": "GDG Kyushu",
+        "speakerName": "松岡謙治(Kenz) / Kenji Matsuoka",
         "language": "japanese",
-        "profile": "",
-        "profileImage": ""
+        "profile": "小さなバイクがほしい今日このごろ。GSX-R125とXSR155を迷い続けて150年。ハイパーメディア画伯　Androidアプリを世界中に売って売り上げで買ってくれた人たちの国に行きありがとうを言うのが夢",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kenji_Matsuoka",
+        "coSpeakers": [
+            "228",
+            "125"
+        ]
     },
     {
         "id": "221",
-        "title": "TBD",
-        "description": "",
+        "title": "Goではじめる！アルゴリズムとデータ構造入門",
+        "description": "アルゴリズムは難しそう、C++や数学が必須なのでは、実務に役立たなそうというイメージを持っていませんか？確かにアルゴリズムを極めるのは非常に難しいです。また、エンジニアであってもアルゴリズムを実務で直接的に使う機会は多くはないかもしれません。しかし、有名なアルゴリズムを理解することは文系出身者でも可能ですし、一度入門すれば、エンジニアリングの随所にアルゴリズムが使われていることがわかるでしょう。例えば、配列のソート、DBのインデックス (B木)、LRUキャッシュ等、身近な技術を仕組みから理解することができます。とても楽しいですよ！\nこのセッションでは、有名なアルゴリズムの概要とGoでの実装、またGoを用いてアルゴリズムを勉強する方法についてお話しします。競技プログラミングサービスを用いた勉強方法をご紹介するため、世界的に有名なサービスであるLeetCodeを使用し、実際に問題を解いてみます。",
         "place": "Channel 1",
         "tag": {
             "name": "Go",
             "color": "blue lighten-3"
         },
         "timeDuration": "20",
-        "speakerName": "Women Who Go Tokyo",
+        "speakerName": "富永　良子 / Tominaga Ryoko",
         "language": "japanese",
-        "profile": "",
-        "profileImage": ""
+        "profile": "アラサー証券ウーマンが、一念発起してサーバーサイドエンジニアに転身しました。技術書展9にて、「Goではじめる！アルゴリズムとデータ構造」というタイトルで、Woman Who Go Tokyoより発売中の「Go祭2020」を共著しました。\nhttps://techbookfest.org/product/5410766247165952?productVariantID=6015334293176320",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Ryoko_Tominaga"
     },
     {
         "id": "222",
@@ -741,7 +745,7 @@
         "speakerName": "Women Who Go Tokyo",
         "language": "japanese",
         "profile": "",
-        "profileImage": ""
+        "profileImage": "/img/devfest2020/speakers/avatar"
     },
     {
         "id": "223",
@@ -756,7 +760,7 @@
         "speakerName": "Women Techmakers",
         "language": "japanese",
         "profile": "",
-        "profileImage": ""
+        "profileImage": "/img/devfest2020/speakers/avatar"
     },
     {
         "id": "225",
@@ -817,5 +821,35 @@
         "language": "japanese",
         "profile": "Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud AI等の機械学習プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、NVIDIA GTC等の主要イベントでスピーカーを務め、GCP公式ブログ英語版に多数の記事を寄稿。Googleクラウドの開発者コミュニティを9年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kazunori_Sato"
-      }
+      },
+      {
+        "id": "228",
+        "title": "GDG DevFest 2020 ショートハッカソン",
+        "description": "App Inventor for Androidを使用してアプリを作ってみませんか？\nGDG DevFest 2020 開催期間中にApp Inventor for Androidを使用したショートハッカソンを開催します。\nApp Inventor for Androidはクラウド上で利用できる、Android向けのブロックプログラミングツールです。\nプログラミングをしたことない人も、プログラミングの楽しさを味わってみませんか。\nGDG DevFest 2020 ショートハッカソンはGDG DevFest2020の一環として行われます。\nGDG DevFest 2020の紹介と参加申込は次のリンクを御覧ください。\nhttps://gdg-tokyo.connpass.com/event/190079/",
+        "place": "Channel 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "20",
+        "speakerName": "nako / TOMOKO MATSUMURA",
+        "language": "japanese",
+        "profile": "GDC 九州 オーガナイザーと Women Techmakers Kyushu アンバサダーをやっています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Tomoko_Matsumura"
+    },
+    {
+        "id": "123",
+        "title": "Inside Flutter",
+        "description": "Flutterが複数のプラットフォームでアプリケーションを動作させている仕組みや、Flutterフレームワークの内部について説明します。仕組みを知ることで、他のクロス・プラットフォームSDKとの違いや、Flutterの向き不向きを知ることができます。",
+        "place": "Channel 1",
+        "tag": {
+            "name": "Flutter",
+            "color": "blue lighten-2"
+        },
+        "timeDuration": "40",
+        "speakerName": "上田哲広（najeira） / Tetsuhiro Ueda",
+        "language": "japanese",
+        "profile": "Software developer。モバイルアプリとそのバックエンドの開発などをおこなっている。App EngineとFlutterのGoogle Developers Expert。お気に入り言語はGo。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Tetsuhiro_Ueda"
+    }
 ]
