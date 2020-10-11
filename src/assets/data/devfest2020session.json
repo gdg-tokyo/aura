@@ -3,7 +3,7 @@
         "id": "101",
         "title": "Keynote1",
         "description": "",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Keynote",
             "color": "pink"
@@ -18,7 +18,7 @@
         "id": "102",
         "title": "Keynote2",
         "description": "",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Keynote",
             "color": "pink"
@@ -33,7 +33,7 @@
         "id": "200",
         "title": "Opening",
         "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -48,7 +48,7 @@
         "id": "201",
         "title": "Opening",
         "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -63,7 +63,7 @@
         "id": "202",
         "title": "Google Apps Script 入門 2020",
         "description": "Google Apps Script は最近 V8 ランタイム対応、G Suite Marketplace のリリースなど、活発にアップデートが行われています。特に V8 ランタイムのリリースにより、モダンな JavaScript 構文で開発できるようになったので、これから始める方へのメリットは大きいです。\nこのセッションでは、Google Apps Script をこれから始める方、まだ思ったようにプログラムを開発できない方向けに、自分で作りたいプログラムを開発できるようになるまでの手引きとなるようなセッションを行いたいと思います。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Google App Script",
             "color": "purple"
@@ -78,7 +78,7 @@
         "id": "210",
         "title": "API Gateway",
         "description": "Google Cloud Next '20: On Airで新しく発表された、API Gatewayの概要をご紹介し、デモを行います。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Cloud",
             "color": "blue"
@@ -93,7 +93,7 @@
         "id": "124",
         "title": "Assistant Developer Day Latest Updates",
         "description": "先日行われたGoogle Assistant Developer Dayでは、Androidとの連携強化や、E2Eテストのための新しいAPIなど、数多くの新しい発表がありました。このセッションでは、Assistant Developer Dayのキーノートの内容を皆さんにわかりやすく解説いたします。s",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Assistant",
             "color": "yellow"
@@ -108,7 +108,7 @@
         "id": "120",
         "title": "Actions Builder を使った Google アシスタントアクションのビジュアルプログラミングについて",
         "description": "従来のアクションの作り方から一新された、新しい会話構築IDE「Actions Builder」を使えば、視覚的にプログラミングする事が可能です。\n今回は実際に「Actions Builder」と、それに対応するSDK「Actions SDK」の、基本的な使い方やTipsを、お伝えできればと思います。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Assistant",
             "color": "yellow"
@@ -123,7 +123,7 @@
         "id": "113",
         "title": "Local Home SDK を使った Local Fulfillment とオリジナルホームデバイスの開発について",
         "description": "Local Home SDK を使い Local Fulfillment アプリケーションを作成することで、自分で作成したオリジナルホームデバイスをActions on Googleにスマートホームアクションとして連携させ、Google Home などから呼び出すことができます。\n今回は、Local Home SDK・Local Fulfillment を使うメリットや実際に使ってみて感じたこと、デバイスとのつなぎ込みの難しさなどをシェアできればと思います。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Assistant",
             "color": "yellow"
@@ -138,7 +138,7 @@
         "id": "105",
         "title": "AndroidのアニメーションのAPIで悩まないようにしたい",
         "description": "Androidのアニメーションを実装する際にどのAPIを使えばよいか悩むことはありませんか？ObjectAnimator、ValueAnimator、AndroidXのDynamicAnimationなど、アニメーションのAPIはいくつか用意されていて選択肢は少なくありません。\nこのセッションではアニメーションのAPIを改めて整理して、どのようなアニメーションを作るのに適したものなのかをお話しします。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Android",
             "color": "green"
@@ -153,7 +153,7 @@
         "id": "206",
         "title": "実践 Cloud Run",
         "description": "「カウシェ https://kauche.com 」を構想から2ヶ月でリリースした例を題材に、Cloud Runを用いたサービス開発について、Service Account を用いた Cloud Scheduler や Cloud Pub/Sub との連携、Cloud Monitoring や Cloud Trace、Cloud Logging を用いた運用、バックグランド処理の回避や初期リクエストの遅延への対処、といったような実践的なノウハウを紹介します。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Cloud",
             "color": "blue"
@@ -168,7 +168,7 @@
         "id": "103",
         "title": "これからはじめるAndroid開発",
         "description": "Androidの開発環境はここ数年で急速に進化・発展しています。\nしかし、初心者にとっては難しく複雑だと感じることがあると思います。\nAndroid開発をこれからはじめようとしてる方や初心者の方に向けて、Android開発で必要なことや知っておくと良いことなどを簡単に紹介します。\n\n（予定内容）\n- 開発環境と言語\n- アプリ構成する要素\n- 設定や権限\n- ライブラリ\n- など",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Android",
             "color": "green"
@@ -183,7 +183,7 @@
         "id": "217",
         "title": "Cloud Runマネージドに適したアプリケーションを考える",
         "description": "サーバレスで運用できるCloud Runマネージドはとても魅力的です。\nAWSのLambdaやGCPのCloud Functionとは違いコンテナで動作させることができるのでランタイムを自由に決めたり必要なライブラリも自由にインストールすることができます。\n他にも様々な機能があり、その魅力に惹かれてCloud Runマネージドを採用してみた結果、見えてきたCloud Runマネージドの利点/欠点とCloud Runマネージドを採用に適したアプリケーションをご紹介できればと思います。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Cloud",
             "color": "blue"
@@ -198,7 +198,7 @@
         "id": "106",
         "title": "（仮）AutoMLで始めるエッジML",
         "description": "（仮）難しいMLの論文や技術を知らなくてもAutoMLを使って簡単で役に立つエッジML技術の今をお伝えします。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "ML",
             "color": "brown"
@@ -213,7 +213,7 @@
         "id": "104",
         "title": "これでバッチリ！BigQuery ML【入門】",
         "description": "BigQuery MLはBigQueryに格納されている構造化データを用いて、簡単なSQLを書くだけで機械学習のモデルを訓練・推論することができる機能です。機械学習とSQLに関する初歩的な知識さえあれば、初心者でもすぐに機械学習モデルの訓練が行えます。また、様々なモデルがサポートされている上に、独自のTensorFlowのモデルをインポートしたり、訓練時に正則化や早期終了などのオプションも指定したりできるため、実践的なMLモデルをサーバーレスに運用することも可能です。本セッションではまず初心者の方向けにMLの基礎知識を説明した後に、BigQueryMLを使ったデモや、様々な機能や利用する際の注意点などについて解説を行います。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "ML",
             "color": "brown"
@@ -228,7 +228,7 @@
         "id": "212",
         "title": "まだまだ、いけるぜDialogflow！",
         "description": "2020年6月17日に行われた、「VOICE Global 」にて新しい会話構築IDE「 Actions Builder 」の公開開始が発表されました。それに伴い、今後Dialogflowがどのような場面で活躍するのだろう？と疑問に思った方もいらっしゃるのではないかと思います。そこで本セッションではDialogflowと電話（Twilio）を組み合わせた、音声チャットボットの作り方をご紹介いたします。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Dialogflow",
             "color": "yellow"
@@ -243,7 +243,7 @@
         "id": "216",
         "title": "Block Pong: Web 技術を駆使したゲームアプリの実装舞台裏",
         "description": "Block Pong は先日 Native アプリとして公開されたカジュアルゲームですが、その舞台裏には Web 技術を駆使して開発されております。\n\n一見単純に見えるゲームですが、リプレイ時に起こる浮動小数点の誤差をどのように吸収しているか、リプレイのシークバーの実装はどうなっているか、オフラインプレイをどのようにサポートしているか、Native の機能を利用する際にどのような通信をしているか等々、普段の Web 開発ではあまり触れる機会のない、ゲーム開発という特殊な Web アプリの裏側を徹底的にご紹介します。\n\n最後に、現在の Web の抱えるマネタイズの問題点と、それが Native アプリでどのように解消されるのかについても軽くお話できればと考えております。基本は技術中心ですが、Web ゲームに興味のある方皆様にとって刺激となるお話しをしたいと思います。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Web",
             "color": "red"
@@ -258,7 +258,7 @@
         "id": "205",
         "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
         "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Flutter",
             "color": "blue lighten-2"
@@ -276,7 +276,7 @@
         "id": "224",
         "title": "Flutter初心者向け講座（ミニゲームを作ろう）",
         "description": "ライブコーディング形式で、ステップごとにアプリのコードを追加改修していきながら、画面の部分更新やアニメーションやタイマーの使い方の基本を学ぶ講座です。\nライブラリを使いますが、最終的に簡単なゲームアプリを作ります。\n\n学んだ基本知識を応用すれば、ボタン操作のイベントやタイマーを使った自動処理で、アニメーションを伴ったリアクションを返す画面が作れるようになると思いますよ。\n\n是非動画を見ながら、ステップごとに自分でコードを修正して独習してみてくださいね。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Flutter",
             "color": "blue lighten-2"
@@ -291,7 +291,7 @@
         "id": "211",
         "title": "Firebase Extensions はじめの一歩",
         "description": "2019 年に発表された Firebase Extensions を使うことで、Firebase で実装しているアプリやサービスに様々な機能を従来よりもはるかに簡単に追加できるようになりました。\nどんな機能が用意されているかや、導入方法などを紹介します。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Firebase",
             "color": "orange"
@@ -306,7 +306,7 @@
         "id": "218",
         "title": "GKE と GitLab で快適レビュー環境の構築",
         "description": "Kubernetes を利用する事で、信頼性・利便性の高いサービスの「運用」の環境が得られた人は多いと思います。\nこの Kubernetes を使って「開発」もさらに効率化したいと考え、GitLab の Review apps を利用しています。Review apps を使うと、Merge Request(GitHubではPull Requestと同等)に対し、そのレビュー対象の環境が自動でKubernetesクラスタにデプロイされます。このため自分でレビュー対象のコードをCheckoutしてレビューできる環境を作る必要がなくなり、コードレビューを快適に実施できるため、たまりがちのコードレビューという課題が解決できます。\nセッションではこの Review apps を中心に、開発の効率化について紹介します。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Cloud",
             "color": "blue"
@@ -321,7 +321,7 @@
         "id": "115",
         "title": "Google Analytics for Firebaseを使うときに把握しておきたいこと",
         "description": "Google Analytics for Firebaseの初期設定を済ませると色々な情報が自動的に取得できて便利ですが、カスタムイベントを使うことでアプリのニーズに応じたデータの収集ができます。\n\n本トークではGoogle Analytics for Firebaseの基本的な話とデータを分析するときのTipsを紹介します。\n\n予め把握して、Google Analytics for Firebaseを正しく設定することでソフトウェアエンジニアだけではなくマーケティングや企画職の人にとっても強力なツールとなります。\n\n時間が許せば、プライバシーの話やFirebase Consoleの権限管理などのガバナンスについても紹介する予定です。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Firebase",
             "color": "orange"
@@ -336,7 +336,7 @@
         "id": "209",
         "title": "新しいデータ永続化の方法！Jetpack DataStoreの紹介",
         "description": "Androidのデータ永続化方法に新たに「Jetpack DataStore」が加わりました。まだAlpha版ではありますが大きな可能性を感じたので、一緒にどんなものなのかを見ていきましょう！",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Android",
             "color": "green"
@@ -351,7 +351,7 @@
         "id": "127",
         "title": "Goでテキストエディタを作った話",
         "description": "VimやEmacsのようなターミナル上で動くテキストエディタ『mille』をGoで開発した話をします。エディタとしては実用的ではありませんが、1000行以内のコードであること、外部ライブラリを利用しないことをモットーにしたため、どなたでもソースコードを読んでテキストエディタの基本的な構造を学んでもらえるかと思います。発表では、ターミナルでのエスケープシーケンスの話、テキストエディタに適したデータ構造であるGap Buffer など、実装における工夫点をご紹介します。 \n\nGitHub: https://github.com/ad-sho-loko/mille",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Go",
             "color": "blue lighten-3"
@@ -366,7 +366,7 @@
         "id": "110",
         "title": "(仮) OR-Tools を使って数理最適化に触れてみよう",
         "description": "(仮) データ活用に有用な技術の1つに数理最適化があります。本セッションでは、Googleの開発する数理最適化用のライブラリ、OR-Tools の概要を紹介しつつ、数理最適化の簡単な例に触れてみようと思います。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "ML",
             "color": "brown"
@@ -381,7 +381,7 @@
         "id": "117",
         "title": "NgRx に今年追加された component と component-store について",
         "description": "Angular 用のライブラリである NgRx に今年追加された component と component-store についてその概要や使い方を説明",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -394,9 +394,9 @@
     },
     {
         "id": "111",
-        "title": "ng-japan 開会のあいさつ / Angularの現在と未来 ver.2020 ",
+        "title": "Track 3 ng-japan 開会のあいさつ / Angularの現在と未来 ver.2020 ",
         "description": "Angularの最近のアップデートや将来の開発ロードマップについて、最新情報をまとめてお届けします。また、Angular日本コミュニティの取り組みについても紹介させていただきます。",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -411,7 +411,7 @@
         "id": "116",
         "title": "Googleアシスタントアプリの事例紹介・音声アプリのエンタテインメントの可能性",
         "description": "株式会社サイバードで企画開発を行ったGoogleアシスタントアプリの事例紹介と、今後の音声アプリのエンタテインメントの未来予測と可能性についてお話いたします。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Assistant",
             "color": "yellow"
@@ -426,7 +426,7 @@
         "id": "207",
         "title": "新しくなった画面間データ連携について",
         "description": "Activity間、Fragment間のデータ連携の方法があたらしくなっています。古い実装から新しい実装に切り替えていく必要があるので、対応方法をおさらいしていこうとおもいます。",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Android",
             "color": "green"
@@ -441,7 +441,7 @@
         "id": "112",
         "title": "Android の永続化 2020",
         "description": "ほとんどの Android アプリは何らかの形でデータを端末に保存します。Google もそのためのライブラリをいくつか提供しています。例えばデータベースライブラリの Room や、最近新しくリリースされた DataStore などです。このセッションでは、それらの永続化方法を比較しながら、アプリ全体の構成を考えます。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Android",
             "color": "green"
@@ -456,7 +456,7 @@
         "id": "118",
         "title": "Introduction of rx-angular",
         "description": "Angular use zone.js to trigger change detection automatically, but zone.js has some flaw so the developer want to develop zone-less Angular application in some user cases, rx-angular provides an elegant solution to support reactive and zone-less Angular application, so in this talk, I will give a brief introduction about what is rx-angular.",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -471,7 +471,7 @@
         "id": "114",
         "title": "Angularの静的サイトジェネレーター「Scully」の最新情報",
         "description": "ScullyはAngular用の静的サイトジェネレーターです。Scullyを使うことで比較的簡単にAngularアプリケーションをプリレンダリングを導入することができます。このセッションでは、Scullyの仕組みや導入方法だけでなく、Scullyを使ったブログの作成方法やプラグインの活用法、開発時の工夫やPWA化などのテクニックを紹介します。",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -486,7 +486,7 @@
         "id": "204",
         "title": "Building Reliable Microservices on GCP",
         "description": "マイクロサービス（とまではいかないまでも複数のサービスが連携するような構成）をKubernetesで始めるケースが増えています。その一方で、サービス間の通信の制御や監視など昨今サービスメッシュと呼ばれるレイヤーが必要になったり、イベントベースでのよりサーバレスなランタイムと組み合わるたいなど Kubernetes 単体では物足りない場合もあるかと思います。この辺りの問題が、Traffic DirectorというGCPのプロダクトの新機能を紹介しつつGCP上でどのようなアーキテクチャーが構築可能かご紹介いたします。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Cloud",
             "color": "blue"
@@ -501,7 +501,7 @@
         "id": "121",
         "title": "Angular Elementsを用いたWeb Components製UIライブラリの提供",
         "description": "クラウド録画サービスを運営するセーフィー株式会社では、映像データをユーザーが手軽に利用できるよう、APIの拡充やWeb Componentsを使ったUIライブラリの提供を行っています。Angular Elementsを使えば、Angularのコンポーネントを手軽にWeb Components化することが可能です。この講演では事例紹介としてAngular Elementsの選定から開発、今後の課題についてご紹介します。",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -516,7 +516,7 @@
         "id": "125",
         "title": "Angular Universalのプリレンダリングファイルを管理画面のボタン1つで更新できるようにしてみた",
         "description": "Angular, React, Vueなど所謂SPAなWebアプリの、SEO・SMO対策としてサーバサイドレンダリングが活用されていますが、データの変更が比較的緩やかなCMS的な用途であれば、より効率の良いHTMLのプリレンダリングが有効です。\n\nCMSの管理画面からコンテンツの編集を行い、編集作業完了後にボタンひとつでプリレンダリングされたファイルの更新ができると便利だなと思いチャレンジしてみたことをまとめてみました。\n\nプリレンダリングしたファイルの公開はFirebase Hosting, CMSのデータはCloud Firestoreで管理し、管理画面からCloud Functionsを呼び出してプリレンダリングからデプロイまでを行います。",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -531,7 +531,7 @@
         "id": "100",
         "title": "Opening",
         "description": "DevFest は、Google Developer Group (GDG) コミュニティによって世界各地で開かれるデベロッパー向けイベントです。日本では、9つのGDGチャプターとWTMが共催という形で、Android、Google Cloud Platform（GCP）、Web、Firebase、Machine Learning （ML）、Assistant、Flutter、Goといった様々な技術の最新情報や現場でのノウハウを2日で学べるコミュニティイベントとして開催します。オープニングでは、開催概要について簡単にご紹介します。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -546,7 +546,7 @@
         "id": "214",
         "title": "アドテックとプライバシーを巡る戦い＜ブラウザの逆襲＞",
         "description": "多くのアドテックベンダーは、これまでブラウザの機能を活用して、データを自由に取得しサービスを提供していました。一方で、ユーザーのプライバシーに不利益を与えるリスクが課題になっていました。\nこの課題に対して、法律（GDPRや個人情報保護法）とブラウザ（SafariのITPなど）の観点から様々な規制強化を進めており、今後はブラウザがアドテック機能（計測やターゲティング）を包含していく方針を固めています。\n本セッションではそのような過去～現在における動向と、cookieを使わない未来のアドテックについて、各陣営がどのような考えをもち計画を進めているかを解説します。\n",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Web",
             "color": "red"
@@ -561,7 +561,7 @@
         "id": "203",
         "title": "Google Apps Script最新事情2020",
         "description": "V8ランタイムの登場によって大きく変わったGoogle Apps Script\n最新のアップデートとともにこれからのGoogle Apps Scriptについて話します",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Google App Script",
             "color": "purple"
@@ -576,7 +576,7 @@
         "id": "126",
         "title": "Angular Universal の歩き方",
         "description": "SSRやプリレンダリングをAngularでもできるようにするためのパッケージAngular Universalを紹介",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -591,7 +591,7 @@
         "id": "122",
         "title": "Service禁止",
         "description": "Angularでアプリケーションを開発する際、みなさんはUsersServiceといった「なんとかService」を作ってしまっていませんか？これは一体なにをするclassでしょうか？メソッドは日に日に増えていませんか？今回は、Serviceを禁止するとはどういうことか考え直し、実践することで得られるひとつ上の設計整理術についてご紹介します。",
-        "place": "ng-japan",
+        "place": "Track 3 ng-japan",
         "tag": {
             "name": "Angular",
             "color": "red"
@@ -606,7 +606,7 @@
         "id": "108",
         "title": "【パネルディスカッション】データサイエンティスト・機械学習エンジニア、ぶっちゃけどうなの？",
         "description": "データサイエンティスト／機械学習エンジニアのキャリアをテーマに、ML GDE のメンバがざっくばらんに話します。Sli.do を使って質問も受け付ける予定です。\n\n想定しているテーマ（以下例）\n・キャリアについて\n　・専門性、方向性はどうやって決めてきたか、決めていこうと思っているか\n　・転職／採用\n・データサイエンティスト・機械学習エンジニアの実際\n　・データサイエンティスト・機械学習エンジニアは今後どうなると思う？\n　・データサイエンティスト・機械学習エンジニアの業務範囲\n　・AIバブルについて\n・技術的なテーマ\n　・情報収集の方法\n　・最近面白いと思った技術\n・ML GDEとは？なんでなろうと思ったか",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "ML",
             "color": "brown"
@@ -622,7 +622,7 @@
         "id": "107",
         "title": "Dagger Hilt",
         "description": "Dagger Hiltとは新しくGoogleが開発しているDependency Injectionの手間を減らしてくれるDependency Injection(DI)ライブラリです。\nコードの例を見ながら、なぜDependency Injectionが必要なのか、Dagger Hiltの特徴やDagger Hiltを使ったDependency Injectionの方法、現時点で分かっている実践的なプラクティスまで説明していきます。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Android",
             "color": "green"
@@ -637,7 +637,7 @@
         "id": "109",
         "title": "Material Design Components カスタマイズ最前線",
         "description": "Material Design Components for Android の 1.2.0 がリリースされました。この講演では最新の MDC for Android のカスタマイズ方法について解説します。特に AppCompat とは異なる MDC で定義されている色や shape の attribute について取り上げます。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Android",
             "color": "green"
@@ -652,7 +652,7 @@
         "id": "213",
         "title": "文系営業が日本初の女性GoogleCloud認定トレーナーになるまで",
         "description": "文系営業だった私が、バックエンドエンジニアを経てGoogleCloud認定トレーナーになるまでに考えたことや行動したことについてお話しします。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -667,7 +667,7 @@
         "id": "215",
         "title": "Google Cloudを支えるBorgを語る",
         "description": "Google Cloudのアーキテクチャーを支えるBorg。その名前は有名ですが、実際にどんなものなのかについて話を聞く機会は、日本語ではあまり多くありません。そこで貴重な動画である\"Large-scale cluster management at Google with Borg\"を肴に、日本の第一人者たちの解説を交えながらBorgについて熱く語ります！",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Cloud",
             "color": "blue"
@@ -687,7 +687,7 @@
         "id": "219",
         "title": "Goでコード生成をはじめよう",
         "description": "冗長なコードを手動で書くのは手間がかかり、コーディングミスに繋がる可能性があります。コード生成を行うプログラムを作ることで、そのような手間やミスを避けることができます。Goはコード生成コマンドのgo generateや静的解析などを公式で提供されているため非常にコード生成がしやすい言語です。本セッションではGoにおけるコード生成の基礎と便利なライブラリについて紹介します。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Go",
             "color": "blue lighten-3"
@@ -702,7 +702,7 @@
         "id": "220",
         "title": "GDG DevFest 2020 ショートハッカソン",
         "description": "GDG DevFest 2020 ショートハッカソンにおいて\nApp Inventor for Androidを使用してアプリを作ってみませんか？\n\nGDG DevFest 2020 開催期間中にApp Inventor for Androidを使用したショートハッカソンを開催します。\n\nApp Inventor for Androidはクラウド上で利用できる、Android向けのブロックプログラミングツールです。\n\nプログラミングをしたことない人も、プログラミングの楽しさを味わってみませんか。\n\nGDG DevFest 2020 ショートハッカソンはGDG DevFest2020の一環として行われます。\n\nGDG DevFest 2020の紹介と参加申込は次のリンクを御覧ください。\n\nhttps://gdg-tokyo.connpass.com/event/190079/",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -721,7 +721,7 @@
         "id": "221",
         "title": "Goではじめる！アルゴリズムとデータ構造入門",
         "description": "アルゴリズムは難しそう、C++や数学が必須なのでは、実務に役立たなそうというイメージを持っていませんか？確かにアルゴリズムを極めるのは非常に難しいです。また、エンジニアであってもアルゴリズムを実務で直接的に使う機会は多くはないかもしれません。しかし、有名なアルゴリズムを理解することは文系出身者でも可能ですし、一度入門すれば、エンジニアリングの随所にアルゴリズムが使われていることがわかるでしょう。例えば、配列のソート、DBのインデックス (B木)、LRUキャッシュ等、身近な技術を仕組みから理解することができます。とても楽しいですよ！\nこのセッションでは、有名なアルゴリズムの概要とGoでの実装、またGoを用いてアルゴリズムを勉強する方法についてお話しします。競技プログラミングサービスを用いた勉強方法をご紹介するため、世界的に有名なサービスであるLeetCodeを使用し、実際に問題を解いてみます。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Go",
             "color": "blue lighten-3"
@@ -736,7 +736,7 @@
         "id": "222",
         "title": "TBD",
         "description": "",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Go",
             "color": "blue lighten-3"
@@ -751,7 +751,7 @@
         "id": "223",
         "title": "TBD",
         "description": "",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -766,7 +766,7 @@
         "id": "225",
         "title": "GCPのインフラを支えるBorgについて",
         "description": "GDG福島清水から後ほど提出",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "Cloud",
             "color": "blue"
@@ -781,7 +781,7 @@
         "id": "119",
         "title": "Flutter で本格的にアプリを作る",
         "description": "Flutter で試してみたの域を超えてプロダクトを作るために知っておくべき知識を説明していきたいと思います。\n\n・アーキテクチャ\n・ウィジェット\n・ネットワーク通信\n・Theme/Font\n・CI\n",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Flutter",
             "color": "blue lighten-2"
@@ -796,7 +796,7 @@
         "id": "226",
         "title": "　",
         "description": "　",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
           "name": "Cloud",
           "color": "blue"
@@ -811,7 +811,7 @@
         "id": "227",
         "title": "N/A",
         "description": "N/A",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
           "name": "Cloud",
           "color": "blue"
@@ -826,7 +826,7 @@
         "id": "228",
         "title": "GDG DevFest 2020 ショートハッカソン",
         "description": "App Inventor for Androidを使用してアプリを作ってみませんか？\nGDG DevFest 2020 開催期間中にApp Inventor for Androidを使用したショートハッカソンを開催します。\nApp Inventor for Androidはクラウド上で利用できる、Android向けのブロックプログラミングツールです。\nプログラミングをしたことない人も、プログラミングの楽しさを味わってみませんか。\nGDG DevFest 2020 ショートハッカソンはGDG DevFest2020の一環として行われます。\nGDG DevFest 2020の紹介と参加申込は次のリンクを御覧ください。\nhttps://gdg-tokyo.connpass.com/event/190079/",
-        "place": "Channel 2",
+        "place": "Track 2",
         "tag": {
             "name": "misc",
             "color": "black"
@@ -841,7 +841,7 @@
         "id": "123",
         "title": "Inside Flutter",
         "description": "Flutterが複数のプラットフォームでアプリケーションを動作させている仕組みや、Flutterフレームワークの内部について説明します。仕組みを知ることで、他のクロス・プラットフォームSDKとの違いや、Flutterの向き不向きを知ることができます。",
-        "place": "Channel 1",
+        "place": "Track 1",
         "tag": {
             "name": "Flutter",
             "color": "blue lighten-2"

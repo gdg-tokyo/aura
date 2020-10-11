@@ -46,11 +46,11 @@ export default {
   methods: {
     getBorderColor(data) {
       switch (data) {
-        case "Channel 1":
+        case "Track 1":
           return "5px solid #FBBC04";
-        case "Channel 2":
+        case "Track 2":
           return "5px solid #34AB53";
-        case "ng-japan":
+        case "Track 3 ng-japan":
           return "5px solid red";
         case "B201":
           return "5px solid #34AB53";
@@ -62,11 +62,11 @@ export default {
     },
     getColor(data) {
       switch (data) {
-        case "Channel 1":
+        case "Track 1":
           return "#FBBC04";
-        case "Channel 2":
+        case "Track 2":
           return "#34AB53";
-        case "ng-japan":
+        case "Track 3 ng-japan":
           return "red";
         case "B201":
           return "#34AB53";

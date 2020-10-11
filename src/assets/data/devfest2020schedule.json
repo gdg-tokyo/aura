@@ -267,7 +267,7 @@
             "sessions": [],
             "title": "LT大会",
             "timeDuration": "60",
-            "place": "Channel 2",
+            "place": "Track 2",
             "des": ""
         },
         {
@@ -287,7 +287,7 @@
             "sessions": [],
             "title": "懇親会",
             "timeDuration": "60",
-            "place": "Channel 2",
+            "place": "Track 2",
             "des": ""
         }
     ],
@@ -522,7 +522,7 @@
             "sessions": [],
             "title": "Closing",
             "timeDuration": "10",
-            "place": "Channel 1",
+            "place": "Track 1",
             "des": ""
         }
     ]

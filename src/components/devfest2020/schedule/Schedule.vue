@@ -156,20 +156,20 @@ export default {
       const isDay1 = /^(1[0-9][0-9])$/.test(id)
       if (isDay1) {
         switch (channel) {
-          case 'Channel 1':
+          case 'Track 1':
             return 'https://youtu.be/4tyt-QhqLSU';
-          case 'Channel 2':
+          case 'Track 2':
             return 'https://youtu.be/80Gp6wiunkI'
-          case 'ng-japan':
+          case 'Track 3 ng-japan':
             return 'https://youtu.be/wnkF8R7HBeM'
           default:
             break;
         }
       } else {
         switch (channel) {
-        case 'Channel 1':
+        case 'Track 1':
           return 'https://youtu.be/mlR3p194H08'
-        case 'Channel 2':
+        case 'Track 2':
           return 'https://youtu.be/nEKJ8iFD9Hg'
         default:
           break;
