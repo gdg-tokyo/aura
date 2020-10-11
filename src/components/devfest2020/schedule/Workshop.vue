@@ -58,6 +58,7 @@
                   class="white--text"
                   color="#EA4335"
                   :href="handsonData.link"
+                  target="_blank"
                 >Register Now</v-btn>
               </v-card>
             </v-flex>
@@ -92,6 +93,7 @@
                   class="white--text"
                   color="#EA4335"
                   :href="hackathonData.link"
+                  target="_blank"
                 >Register Now</v-btn>
               </v-card>
             </v-flex>
