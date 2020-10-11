@@ -52,10 +52,6 @@ export default {
           return "5px solid #34AB53";
         case "Track 3 ng-japan":
           return "5px solid red";
-        case "B201":
-          return "5px solid #34AB53";
-        case "B202":
-          return "5px solid purple";
         default:
           return "5px solid orange";
       }
@@ -68,10 +64,6 @@ export default {
           return "#34AB53";
         case "Track 3 ng-japan":
           return "red";
-        case "B201":
-          return "#34AB53";
-        case "B202":
-          return "purple";
         default:
           return "orange";
       }
