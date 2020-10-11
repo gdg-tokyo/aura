@@ -18,6 +18,13 @@
               <p
                   style="white-space:pre-wrap; word-wrap:break-word;"
               >{{sdata.description}}</p>
+              <v-btn
+                  depressed
+                  class="white--text"
+                  color="#EA4335"
+                  target="_blank"
+                  :href="getYoutubeUrl(sdata.id, sdata.place)"
+                >YouTube Live<v-icon>open_in_new</v-icon></v-btn>
             </v-card-text>
           </v-flex>
         </v-layout>
@@ -144,6 +151,30 @@ export default {
       return this.sessionsData.filter(data => {
         return coSpeakers.includes(data.id);
       })
+    },
+    getYoutubeUrl(id, channel) {
+      const isDay1 = /^(1[0-9][0-9])$/.test(id)
+      if (isDay1) {
+        switch (channel) {
+          case 'Track 1':
+            return 'https://youtu.be/4tyt-QhqLSU';
+          case 'Track 2':
+            return 'https://youtu.be/80Gp6wiunkI'
+          case 'Track 3 ng-japan':
+            return 'https://youtu.be/wnkF8R7HBeM'
+          default:
+            break;
+        }
+      } else {
+        switch (channel) {
+        case 'Track 1':
+          return 'https://youtu.be/mlR3p194H08'
+        case 'Track 2':
+          return 'https://youtu.be/nEKJ8iFD9Hg'
+        default:
+          break;
+        }
+      }
     }
   },
   mixins: [Mixin]

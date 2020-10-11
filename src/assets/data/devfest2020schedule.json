@@ -225,6 +225,17 @@
         },
         {
             "startTime": "16:10",
+            "endTime": "16:50",
+            "sessions": [
+                {
+                    "item": [
+                        123
+                    ]
+                }
+            ]
+        },
+        {
+            "startTime": "16:10",
             "endTime": "16:30",
             "sessions": [
                 {
@@ -256,7 +267,7 @@
             "sessions": [],
             "title": "LT大会",
             "timeDuration": "60",
-            "place": "Channel 2",
+            "place": "Track 2",
             "des": ""
         },
         {
@@ -276,7 +287,7 @@
             "sessions": [],
             "title": "懇親会",
             "timeDuration": "60",
-            "place": "Channel 2",
+            "place": "Track 2",
             "des": ""
         }
     ],
@@ -507,33 +518,11 @@
         },
         {
             "startTime": "17:20",
-            "endTime": "17:40",
-            "sessions": [
-                {
-                    "item": [
-                        222
-                    ]
-                }
-            ]
-        },
-        {
-            "startTime": "17:00",
-            "endTime": "17:40",
-            "sessions": [
-                {
-                    "item": [
-                        223
-                    ]
-                }
-            ]
-        },
-        {
-            "startTime": "17:40",
-            "endTime": "17:50",
+            "endTime": "17:30",
             "sessions": [],
             "title": "Closing",
             "timeDuration": "10",
-            "place": "Channel 1",
+            "place": "Track 1",
             "des": ""
         }
     ]
