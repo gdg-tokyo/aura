@@ -616,7 +616,11 @@
         "language": "japanese",
         "profile": "2016年に株式会社ブレインパッドへ入社。入社後は需要予測や自然言語処理、画像認識など複数のプロジェクトを担当。Google Developers Expert (Machine Learning)。",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/rio_kurihara",
-        "coSpeakers": ["110", "106", "104"]
+        "coSpeakers": [
+            "110",
+            "106",
+            "104"
+        ]
     },
     {
         "id": "107",
@@ -798,31 +802,31 @@
         "description": "　",
         "place": "Track 2",
         "tag": {
-          "name": "Cloud",
-          "color": "blue"
+            "name": "Cloud",
+            "color": "blue"
         },
         "timeDuration": "40",
         "speakerName": "中井悦司 / Etsuji Nakai",
         "language": "japanese",
         "profile": "Google Cloud Platform を活用するデベロッパーの皆様にさまざまな技術情報・技術支援をお届けしています。",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Etsuji_Nakai"
-      },
-      {
+    },
+    {
         "id": "227",
         "title": "N/A",
         "description": "N/A",
         "place": "Track 2",
         "tag": {
-          "name": "Cloud",
-          "color": "blue"
+            "name": "Cloud",
+            "color": "blue"
         },
         "timeDuration": "40",
         "speakerName": "佐藤一憲 / Kazunori Sato",
         "language": "japanese",
         "profile": "Google CloudチームのデベロッパーアドボケイトとしてTensorFlow、Cloud AI等の機械学習プロダクトの開発者支援を担当。Google Cloud Next、Google I/O、NVIDIA GTC等の主要イベントでスピーカーを務め、GCP公式ブログ英語版に多数の記事を寄稿。Googleクラウドの開発者コミュニティを9年以上にわたり支援してきたほか、ハードウェアやIoTにも興味を持ちFPGA技術の勉強会を2013年より主宰している。",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kazunori_Sato"
-      },
-      {
+    },
+    {
         "id": "228",
         "title": "GDG DevFest 2020 ショートハッカソン",
         "description": "App Inventor for Androidを使用してアプリを作ってみませんか？\nGDG DevFest 2020 開催期間中にApp Inventor for Androidを使用したショートハッカソンを開催します。\nApp Inventor for Androidはクラウド上で利用できる、Android向けのブロックプログラミングツールです。\nプログラミングをしたことない人も、プログラミングの楽しさを味わってみませんか。\nGDG DevFest 2020 ショートハッカソンはGDG DevFest2020の一環として行われます。\nGDG DevFest 2020の紹介と参加申込は次のリンクを御覧ください。\nhttps://gdg-tokyo.connpass.com/event/190079/",
@@ -851,5 +855,38 @@
         "language": "japanese",
         "profile": "Software developer。モバイルアプリとそのバックエンドの開発などをおこなっている。App EngineとFlutterのGoogle Developers Expert。お気に入り言語はGo。",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Tetsuhiro_Ueda"
+    },
+    {
+        "id": "229",
+        "title": "BigQueryに実装するアクセス制御とか監査ログとか。",
+        "description": "BigQueryに実装するアクセス制御とか監査ログとか。\n※GDEのなかむらさとるさんと一緒にやらせて頂く予定です。",
+        "place": "Track 1",
+        "tag": {
+            "name": "Cloud",
+            "color": "blue"
+        },
+        "timeDuration": "20",
+        "speakerName": "たかひらめぐみ / Megumi Takahira",
+        "language": "japanese",
+        "profile": "駆け出しデータ系コンサルタント。 前職では、ECサイトのシステム部門と事業部門を行ったりきたりしながら、分析基盤を構築・運用したり、可視化・アドホック分析をしたりの何でも屋（データ整備人？） データ活用を通じて社会課題を解決するコンサルタントとなるべく奮闘中。\n\nGCPUG 女子会(Google Cloud Platform User Group Joshikai)運営、BigQueryが好き。一児の母。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Megumi_Takahira"
+    },
+    {
+        "id": "208",
+        "title": "BigQueryに実装するアクセス制御とか監査ログ",
+        "description": "BigQueryでかなり大きなデータでも扱えるのは皆さんご存知のとおりだと思います。しかし、その次に大事なのはセキュリティの部分はどうなの？ってところがあると思います。そのあたりをお話ししていきます。",
+        "place": "Track 1",
+        "tag": {
+            "name": "Cloud",
+            "color": "blue"
+        },
+        "timeDuration": "20",
+        "speakerName": "なかむら　さとる / Satoru Nakamura",
+        "language": "japanese",
+        "profile": "BigQueryが大好きすぎて人生が変わってしまった漢。\nBigQuery関連の#bq_sushiっていうイベントを主催しています。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Satoru_Nakamura",
+        "coSpeakers": [
+            "229"
+        ]
     }
 ]
