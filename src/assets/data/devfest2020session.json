@@ -857,7 +857,7 @@
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Tetsuhiro_Ueda"
     },
     {
-        "id": "228",
+        "id": "229",
         "title": "BigQueryに実装するアクセス制御とか監査ログとか。",
         "description": "BigQueryに実装するアクセス制御とか監査ログとか。\n※GDEのなかむらさとるさんと一緒にやらせて頂く予定です。",
         "place": "Track 1",
@@ -868,7 +868,7 @@
         "timeDuration": "20",
         "speakerName": "たかひらめぐみ / Megumi Takahira",
         "language": "japanese",
-        "profile": "BigQueryに実装するアクセス制御とか監査ログとか。",
+        "profile": "駆け出しデータ系コンサルタント。 前職では、ECサイトのシステム部門と事業部門を行ったりきたりしながら、分析基盤を構築・運用したり、可視化・アドホック分析をしたりの何でも屋（データ整備人？） データ活用を通じて社会課題を解決するコンサルタントとなるべく奮闘中。\n\nGCPUG 女子会(Google Cloud Platform User Group Joshikai)運営、BigQueryが好き。一児の母。",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Megumi_Takahira"
     },
     {
@@ -883,10 +883,10 @@
         "timeDuration": "20",
         "speakerName": "なかむら　さとる / Satoru Nakamura",
         "language": "japanese",
-        "profile": "BigQueryに実装するアクセス制御とか監査ログ",
+        "profile": "BigQueryが大好きすぎて人生が変わってしまった漢。\nBigQuery関連の#bq_sushiっていうイベントを主催しています。",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Satoru_Nakamura",
         "coSpeakers": [
-            "228"
+            "229"
         ]
     }
 ]
