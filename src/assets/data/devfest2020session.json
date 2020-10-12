@@ -880,10 +880,13 @@
             "name": "Cloud",
             "color": "blue"
         },
-        "timeDuration": "",
+        "timeDuration": "20",
         "speakerName": "なかむら　さとる / Satoru Nakamura",
         "language": "japanese",
         "profile": "BigQueryに実装するアクセス制御とか監査ログ",
-        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Satoru_Nakamura"
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Satoru_Nakamura",
+        "coSpeakers": [
+            "228"
+        ]
     }
 ]
