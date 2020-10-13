@@ -264,15 +264,6 @@
         {
             "startTime": "17:00",
             "endTime": "18:00",
-            "sessions": [],
-            "title": "LT大会",
-            "timeDuration": "60",
-            "place": "Track 2",
-            "des": ""
-        },
-        {
-            "startTime": "17:00",
-            "endTime": "17:10",
             "sessions": [
                 {
                     "item": [

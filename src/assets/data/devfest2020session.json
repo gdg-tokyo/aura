@@ -349,18 +349,132 @@
     },
     {
         "id": "127",
-        "title": "Goでテキストエディタを作った話",
-        "description": "VimやEmacsのようなターミナル上で動くテキストエディタ『mille』をGoで開発した話をします。エディタとしては実用的ではありませんが、1000行以内のコードであること、外部ライブラリを利用しないことをモットーにしたため、どなたでもソースコードを読んでテキストエディタの基本的な構造を学んでもらえるかと思います。発表では、ターミナルでのエスケープシーケンスの話、テキストエディタに適したデータ構造であるGap Buffer など、実装における工夫点をご紹介します。 \n\nGitHub: https://github.com/ad-sho-loko/mille",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
         "place": "Track 2",
         "tag": {
-            "name": "Go",
-            "color": "blue lighten-3"
+            "name": "misc",
+            "color": "black"
         },
-        "timeDuration": "LT",
-        "speakerName": "荒川聖悟 / Shogo Arakawa",
+        "timeDuration": "60",
+        "speakerName": "一般公募スピーカー",
         "language": "japanese",
-        "profile": "2018年にSansan株式会社に中途入社。当初はサーバサイドエンジニアとして勤務していたが、2019年12月にiOSエンジニアに転向し、SansanのiOSアプリ開発に従事する。仕事とは全く関係ないが、低レイヤの話が好きで、コンパイラやエミュレータなどを作ることに面白みを感じるタイプ。Goが好き。",
+        "profile": "LTタイトル",
+        "profileImage": "",
+        "coSpeakers": [
+            "134",
+            "128",
+            "129",
+            "130",
+            "131",
+            "132",
+            "133"
+        ]
+    },
+    {
+        "id": "134",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
+        "place": "Track 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "60",
+        "speakerName": "荒川 聖悟 / Shogo Arakawa",
+        "language": "japanese",
+        "profile": "Goでテキストエディタを作った話",
         "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Shogo_Arakawa"
+    },
+    {
+        "id": "128",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
+        "place": "Track 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "60",
+        "speakerName": "岩田 隆治 / Ryuji Iwata",
+        "language": "japanese",
+        "profile": "日本のGoコミュニティ活動状況（2020年10月版）",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Ryuji_Iwata"
+    },
+    {
+        "id": "133",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
+        "place": "Track 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "60",
+        "speakerName": "大木 尊紀 / Takanori Oki",
+        "language": "japanese",
+        "profile": "Polymer Project最新動向2020",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Takanori_Oki"
+    },
+    {
+        "id": "130",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
+        "place": "Track 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "60",
+        "speakerName": "高橋 憲一 / Kenichi Takahashi",
+        "language": "japanese",
+        "profile": "使えるようになったばかりのPersistent Cloud AnchorsでAR空間の共有をしてみる",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Kenichi_Takahashi"
+    },
+    {
+        "id": "129",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
+        "place": "Track 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "60",
+        "speakerName": "林 楚峰 / Fung Lam",
+        "language": "japanese",
+        "profile": "3 easy ways to improve app quality",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Fung_Lam"
+    },
+    {
+        "id": "132",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
+        "place": "Track 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "60",
+        "speakerName": "高見 将則 / Masanori Takami",
+        "language": "japanese",
+        "profile": "Flutterを使った継続的アプリ開発を支えるCI/CDパイプライン",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Masanori_Takami"
+    },
+    {
+        "id": "131",
+        "title": "LT大会",
+        "description": "GDG DevFest 2020 LT大会を開催します。\n一般応募して頂いたスピーカーの方に、Googleの様々な技術を含むLTを実施していただきます。",
+        "place": "Track 2",
+        "tag": {
+            "name": "misc",
+            "color": "black"
+        },
+        "timeDuration": "60",
+        "speakerName": "小林 友樹 / Tomoki Kobayashi",
+        "language": "japanese",
+        "profile": "モバイルアプリエンジニアも簡単にウェブアプリを作れるよ！そう、Flutterならね。",
+        "profileImage": "https://storage.googleapis.com/gdgtokyo_img/devfest20/speaker/Tomoki_Kobayashi"
     },
     {
         "id": "110",

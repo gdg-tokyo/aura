@@ -29,7 +29,7 @@
           </v-flex>
         </v-layout>
         <v-divider></v-divider>
-        <v-layout wrap row fill-height justify-center class="pa-4">
+        <v-layout v-if="sdata.profileImage != ''" wrap row fill-height justify-center class="pa-4">
           <v-flex xs12 sm10 md3 lg2 class="pa-2">
             <v-responsive :aspect-ratio="1/1">
               <v-avatar size="100%">
