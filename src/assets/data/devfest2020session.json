@@ -197,7 +197,7 @@
     {
         "id": "106",
         "title": "AutoMLではじめるTF.js",
-        "description": "難しいMLの論文や技術を知らなくてもAutoMLを使って簡単で役に立つエッジML技術の今をお伝えします。",
+        "description": "難しいMLの論文や技術を知らなくても、機械学習初心者でも大丈夫！AutoMLを使って簡単で実践的なTensorFlow.jsの使い方が学べる入門セッションです。",
         "place": "Track 2",
         "tag": {
             "name": "ML",
